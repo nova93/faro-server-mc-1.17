@@ -5,9 +5,9 @@
 [01:00:14] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
 [01:00:14] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
 [01:00:14] [main/INFO]: Reloading ResourceManager: Default, anti enderman grief v1.1.0.zip, armor statues v2.8.1.zip, coordinates hud v1.2.0.zip, double shulker shells v1.3.0.zip, more mob heads v2.9.1.zip, player head drops v1.1.0.zip, silence mobs v1.1.0.zip, track raw statistics v1.4.0.zip, track statistics v1.1.0.zip, villager workstation highlights v1.1.0.zip, afk display v1.1.0.zip, fast leaf decay v2.0.3.zip, wandering trades v1.5.0.zip, spectator conduit power v1.1.0.zip, spectator night vision v1.1.0.zip
-[01:00:16] [Worker-Main-10/INFO]: Loaded 7 recipes
-[01:00:16] [Worker-Main-10/WARN]: Found validation problem in {minecraft:entities/ender_dragon}.pools[0].entries[0]: Unknown loot table called minecraft:entities/reference/extra/ender_dragon
-[01:00:17] [Worker-Main-10/INFO]: Loaded 1156 advancements
+[01:00:16] [Worker-Main-11/INFO]: Loaded 7 recipes
+[01:00:16] [Worker-Main-11/WARN]: Found validation problem in {minecraft:entities/ender_dragon}.pools[0].entries[0]: Unknown loot table called minecraft:entities/reference/extra/ender_dragon
+[01:00:16] [Worker-Main-11/INFO]: Loaded 1156 advancements
 [01:00:19] [Server thread/INFO]: Starting minecraft server version 1.17.1
 [01:00:19] [Server thread/INFO]: Loading properties
 [01:00:19] [Server thread/INFO]: Default game type: SURVIVAL
@@ -16,77 +16,23 @@
 [01:00:19] [Server thread/INFO]: Using epoll channel type
 [01:00:19] [Server thread/INFO]: Preparing level "faro"
 [01:00:19] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[01:00:20] [Worker-Main-9/INFO]: Preparing spawn area: 0%
-[01:00:20] [Worker-Main-10/INFO]: Preparing spawn area: 0%
 [01:00:20] [Worker-Main-11/INFO]: Preparing spawn area: 0%
-[01:00:21] [Worker-Main-10/INFO]: Preparing spawn area: 0%
-[01:00:22] [Worker-Main-8/INFO]: Preparing spawn area: 0%
-[01:00:22] [Worker-Main-11/INFO]: Preparing spawn area: 0%
-[01:00:23] [Worker-Main-10/INFO]: Preparing spawn area: 1%
-[01:00:23] [Worker-Main-13/INFO]: Preparing spawn area: 4%
-[01:00:24] [Worker-Main-11/INFO]: Preparing spawn area: 11%
-[01:00:24] [Worker-Main-13/INFO]: Preparing spawn area: 23%
-[01:00:24] [Worker-Main-13/INFO]: Preparing spawn area: 29%
-[01:00:25] [Worker-Main-9/INFO]: Preparing spawn area: 37%
-[01:00:25] [Worker-Main-9/INFO]: Preparing spawn area: 41%
-[01:00:26] [Worker-Main-9/INFO]: Preparing spawn area: 47%
-[01:00:26] [Worker-Main-8/INFO]: Preparing spawn area: 76%
-[01:00:27] [Server thread/INFO]: Time elapsed: 7896 ms
-[01:00:27] [Server thread/INFO]: Done (8.176s)! For help, type "help"
+[01:00:20] [Worker-Main-9/INFO]: Preparing spawn area: 0%
+[01:00:20] [Worker-Main-9/INFO]: Preparing spawn area: 0%
+[01:00:21] [Worker-Main-8/INFO]: Preparing spawn area: 0%
+[01:00:21] [Worker-Main-13/INFO]: Preparing spawn area: 0%
+[01:00:22] [Worker-Main-14/INFO]: Preparing spawn area: 0%
+[01:00:23] [Worker-Main-9/INFO]: Preparing spawn area: 0%
+[01:00:23] [Worker-Main-8/INFO]: Preparing spawn area: 3%
+[01:00:23] [Worker-Main-10/INFO]: Preparing spawn area: 4%
+[01:00:24] [Worker-Main-9/INFO]: Preparing spawn area: 13%
+[01:00:24] [Worker-Main-14/INFO]: Preparing spawn area: 25%
+[01:00:25] [Worker-Main-8/INFO]: Preparing spawn area: 32%
+[01:00:25] [Worker-Main-14/INFO]: Preparing spawn area: 43%
+[01:00:26] [Worker-Main-14/INFO]: Preparing spawn area: 62%
+[01:00:26] [Worker-Main-11/INFO]: Preparing spawn area: 88%
+[01:00:27] [Server thread/INFO]: Time elapsed: 7781 ms
+[01:00:27] [Server thread/INFO]: Done (7.955s)! For help, type "help"
 [01:00:27] [Server thread/INFO]: Starting GS4 status listener
 [01:00:27] [Server thread/INFO]: Thread Query Listener started
 [01:00:27] [Query Listener #1/INFO]: Query running on 0.0.0.0:25565
-[01:39:35] [User Authenticator #1/INFO]: UUID of player davehlewis is 3dfd1cd3-4bc2-40bd-8e5e-9c28e9a3b850
-[01:39:35] [Server thread/INFO]: davehlewis[/127.0.0.1:56508] logged in with entity id 102 at (-882.842592385936, 64.5, -1069.787882622028)
-[01:39:36] [Server thread/INFO]: davehlewis joined the game
-[02:17:37] [Server thread/WARN]: Mismatch in destroy block pos: gg{x=-932, y=74, z=-1121} gg{x=-931, y=73, z=-1120}
-[02:31:22] [Server thread/INFO]: davehlewis lost connection: Disconnected
-[02:31:22] [Server thread/INFO]: davehlewis left the game
-[18:28:07] [User Authenticator #2/INFO]: UUID of player sykst is 61b3753f-5686-4956-8020-7b6d9ebbab2c
-[18:28:07] [Server thread/INFO]: sykst[/192.168.1.100:59983] logged in with entity id 9295 at (1500.2142911735573, 69.5625, -1736.2195402545608)
-[18:28:07] [Server thread/INFO]: sykst joined the game
-[19:06:56] [User Authenticator #3/INFO]: UUID of player davehlewis is 3dfd1cd3-4bc2-40bd-8e5e-9c28e9a3b850
-[19:06:56] [Server thread/INFO]: davehlewis[/127.0.0.1:58998] logged in with entity id 17433 at (-892.450174569459, 65.5, -1077.3293818823377)
-[19:06:56] [Server thread/INFO]: davehlewis joined the game
-[19:06:59] [Server thread/INFO]: <sykst> o/
-[19:07:06] [Server thread/INFO]: <davehlewis> \o
-[19:07:44] [Server thread/INFO]: <davehlewis> my kelp farm is mostly done
-[19:07:50] [Server thread/INFO]: <sykst> very nice
-[19:07:56] [Server thread/INFO]: <davehlewis> the farm part anyway. Need to add the processing part
-[19:07:58] [Server thread/INFO]: <sykst> my slime farm is working
-[19:08:01] [Server thread/INFO]: <davehlewis> ooh nice
-[19:08:10] [Server thread/INFO]: <davehlewis> thats one of my next things
-[19:08:18] [Server thread/INFO]: <sykst> or rather, it was working before you logged in :-P
-[19:08:26] [Server thread/INFO]: <davehlewis> whoops
-[19:09:29] [Server thread/INFO]: <davehlewis> finally realised the benefit of smokers
-[19:09:36] [Server thread/INFO]: <davehlewis> man that kelp is flying through
-[19:09:51] [Server thread/INFO]: <sykst> you use kelp to power kelp smoking?
-[19:10:00] [Server thread/INFO]: <davehlewis> yeah
-[19:43:14] [Server thread/INFO]: <davehlewis> where'd you go?
-[19:43:22] [Server thread/INFO]: <sykst> imma hidden
-[19:43:42] [Server thread/INFO]: <davehlewis> want to see it in action?
-[19:44:07] [Server thread/INFO]: <sykst> noice
-[19:44:10] [Server thread/INFO]: <sykst> why the signs?
-[19:44:14] [Server thread/INFO]: <davehlewis> nothing too much
-[19:44:23] [Server thread/INFO]: <sykst> it looks nicer with them
-[19:44:24] [Server thread/INFO]: <davehlewis> signs allow the water to flow on top
-[19:44:36] [Server thread/INFO]: <davehlewis> will only flow 1 block otherwise
-[19:44:44] [Server thread/INFO]: <sykst> you can do that with slabs
-[19:44:50] [Server thread/INFO]: <sykst> but this works and looks ncier
-[19:44:57] [Server thread/INFO]: <davehlewis> yeah this was for looks too
-[19:45:07] [Server thread/INFO]: <davehlewis> this will be my smoker area
-[19:45:28] [Server thread/INFO]: <davehlewis> part of the villiage town thing
-[19:45:42] [Server thread/INFO]: <sykst> did you try litematica?
-[19:45:49] [Server thread/INFO]: <davehlewis> litematica?
-[19:45:57] [Server thread/INFO]: <sykst> a schematic mod
-[19:46:06] [Server thread/INFO]: <davehlewis> ah no, I'm making this up as I go
-[19:46:12] [Server thread/INFO]: <sykst> allows you to build things in creative, and then have a shopping list and an overlay
-[19:46:16] [Server thread/INFO]: <davehlewis> when I get to other stuff maybe
-[20:11:11] [Server thread/INFO]: Villager bjr['Villager'/50239, l='ServerLevel[faro]', x=1528.70, y=65.00, z=-1715.30] died, message: 'Villager was squished too much'
-[20:20:05] [Server thread/INFO]: davehlewis lost connection: Disconnected
-[20:20:05] [Server thread/INFO]: davehlewis left the game
-[20:29:13] [Server thread/INFO]: sykst lost connection: Disconnected
-[20:29:13] [Server thread/INFO]: sykst left the game
-[21:09:45] [User Authenticator #4/INFO]: UUID of player davehlewis is 3dfd1cd3-4bc2-40bd-8e5e-9c28e9a3b850
-[21:09:46] [Server thread/INFO]: davehlewis[/127.0.0.1:59356] logged in with entity id 68812 at (-897.5544866445389, 66.0, -1074.0176401094136)
-[21:09:46] [Server thread/INFO]: davehlewis joined the game
