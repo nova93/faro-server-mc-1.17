@@ -923,6 +923,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/yellow_glazed_terracotta": {
+    "criteria": {
+      "has_yellow_terracotta": "2021-08-02 18:19:58 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/bookshelf": {
     "criteria": {
       "has_book": "2021-06-11 19:48:10 +0000"
@@ -1457,6 +1463,12 @@
   "minecraft:adventure/sniper_duel": {
     "criteria": {
       "killed_skeleton": "2021-06-22 19:37:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_andesite_stairs": {
+    "criteria": {
+      "has_polished_andesite": "2021-08-02 20:20:12 +0000"
     },
     "done": true
   },
@@ -2679,6 +2691,12 @@
   "minecraft:recipes/building_blocks/black_stained_glass": {
     "criteria": {
       "has_glass": "2021-06-11 18:59:32 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_andesite_slab": {
+    "criteria": {
+      "has_polished_andesite": "2021-08-02 20:20:12 +0000"
     },
     "done": true
   },
@@ -4032,6 +4050,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/polished_andesite_slab_from_polished_andesite_stonecutting": {
+    "criteria": {
+      "has_polished_andesite": "2021-08-02 20:20:12 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/orange_dye_from_orange_tulip": {
     "criteria": {
       "has_orange_tulip": "2021-07-24 18:39:27 +0000"
@@ -5192,6 +5216,12 @@
   "minecraft:recipes/decorations/green_candle": {
     "criteria": {
       "has_green_dye": "2021-06-20 14:20:09 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_andesite_stairs_from_polished_andesite_stonecutting": {
+    "criteria": {
+      "has_polished_andesite": "2021-08-02 20:20:12 +0000"
     },
     "done": true
   },
