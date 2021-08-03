@@ -3078,6 +3078,12 @@
     },
     "done": true
   },
+  "vanillatweaks:cauldron_concrete": {
+    "criteria": {
+      "tick": "2021-08-03 20:27:20 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/warped_fence_gate": {
     "criteria": {
       "has_planks": "2021-06-11 17:38:59 +0000"

@@ -59,3 +59,21 @@
 [19:25:16] [Server thread/INFO]: Villager bjr['Villager'/10565, l='ServerLevel[faro]', x=1528.70, y=65.00, z=-1715.30] died, message: 'Villager was squished too much'
 [20:07:34] [Server thread/INFO]: Villager bjr['Villager'/43531, l='ServerLevel[faro]', x=300.30, y=63.00, z=154.30] died, message: 'Villager was squished too much'
 [20:16:47] [Server thread/INFO]: Villager bjr['Villager'/45292, l='ServerLevel[faro]', x=1528.70, y=65.00, z=-1715.30] died, message: 'Villager was squished too much'
+[20:27:17] [Server thread/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[20:27:17] [Server thread/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[20:27:17] [Server thread/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[20:27:17] [Server thread/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[20:27:17] [Server thread/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[20:27:17] [Server thread/INFO]: Reloading ResourceManager: Default, anti enderman grief v1.1.0.zip, armor statues v2.8.1.zip, coordinates hud v1.2.0.zip, double shulker shells v1.3.0.zip, more mob heads v2.9.1.zip, player head drops v1.1.0.zip, silence mobs v1.1.0.zip, track raw statistics v1.4.0.zip, track statistics v1.1.0.zip, villager workstation highlights v1.1.0.zip, afk display v1.1.0.zip, fast leaf decay v2.0.3.zip, wandering trades v1.5.0.zip, spectator conduit power v1.1.0.zip, spectator night vision v1.1.0.zip, cauldron concrete v2.0.3.zip
+[20:27:17] [Server thread/INFO]: Loaded 7 recipes
+[20:27:17] [Server thread/WARN]: Found validation problem in {minecraft:entities/ender_dragon}.pools[0].entries[0]: Unknown loot table called minecraft:entities/reference/extra/ender_dragon
+[20:27:17] [Server thread/INFO]: Loaded 1157 advancements
+[20:27:20] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3063ms or 61 ticks behind
+[20:30:46] [Server thread/INFO]: Villager bjr['Villager'/45294, l='ServerLevel[faro]', x=1528.70, y=65.00, z=-1715.30] died, message: 'Villager was squished too much'
+[20:53:25] [Server thread/INFO]: Villager bjr['Villager'/45293, l='ServerLevel[faro]', x=1528.70, y=65.00, z=-1715.30] died, message: 'Villager was squished too much'
+[21:05:18] [Server thread/INFO]: Villager bjr['Villager'/45299, l='ServerLevel[faro]', x=1528.70, y=65.00, z=-1715.30] died, message: 'Villager was squished too much'
+[21:25:45] [Server thread/INFO]: Villager bjr['Villager'/45297, l='ServerLevel[faro]', x=1528.70, y=65.00, z=-1715.30] died, message: 'Villager was squished too much'
+[21:49:22] [Server thread/INFO]: Villager bjr['Villager'/45295, l='ServerLevel[faro]', x=1528.70, y=65.00, z=-1715.30] died, message: 'Villager was squished too much'
+[22:11:49] [Server thread/INFO]: Villager bjr['Villager'/51155, l='ServerLevel[faro]', x=1528.70, y=65.00, z=-1715.30] died, message: 'Villager was squished too much'
+[22:15:59] [Server thread/INFO]: sykst lost connection: Disconnected
+[22:15:59] [Server thread/INFO]: sykst left the game
