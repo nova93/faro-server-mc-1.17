@@ -5,95 +5,57 @@
 [01:00:14] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
 [01:00:14] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
 [01:00:14] [main/INFO]: Reloading ResourceManager: Default, anti enderman grief v1.1.0.zip, armor statues v2.8.1.zip, coordinates hud v1.2.0.zip, double shulker shells v1.3.0.zip, more mob heads v2.9.1.zip, player head drops v1.1.0.zip, silence mobs v1.1.0.zip, track raw statistics v1.4.0.zip, track statistics v1.1.0.zip, villager workstation highlights v1.1.0.zip, afk display v1.1.0.zip, fast leaf decay v2.0.3.zip, wandering trades v1.5.0.zip, spectator conduit power v1.1.0.zip, spectator night vision v1.1.0.zip
-[01:00:16] [Worker-Main-13/INFO]: Loaded 7 recipes
-[01:00:16] [Worker-Main-13/WARN]: Found validation problem in {minecraft:entities/ender_dragon}.pools[0].entries[0]: Unknown loot table called minecraft:entities/reference/extra/ender_dragon
-[01:00:16] [Worker-Main-13/INFO]: Loaded 1156 advancements
+[01:00:15] [Worker-Main-12/INFO]: Loaded 7 recipes
+[01:00:16] [Worker-Main-12/WARN]: Found validation problem in {minecraft:entities/ender_dragon}.pools[0].entries[0]: Unknown loot table called minecraft:entities/reference/extra/ender_dragon
+[01:00:16] [Worker-Main-12/INFO]: Loaded 1156 advancements
 [01:00:18] [Server thread/INFO]: Starting minecraft server version 1.17.1
 [01:00:18] [Server thread/INFO]: Loading properties
 [01:00:18] [Server thread/INFO]: Default game type: SURVIVAL
 [01:00:18] [Server thread/INFO]: Generating keypair
 [01:00:18] [Server thread/INFO]: Starting Minecraft server on *:25565
 [01:00:18] [Server thread/INFO]: Using epoll channel type
-[01:00:19] [Server thread/INFO]: Preparing level "faro"
+[01:00:18] [Server thread/INFO]: Preparing level "faro"
 [01:00:19] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[01:00:20] [Worker-Main-11/INFO]: Preparing spawn area: 0%
-[01:00:20] [Worker-Main-9/INFO]: Preparing spawn area: 0%
-[01:00:20] [Worker-Main-9/INFO]: Preparing spawn area: 0%
-[01:00:20] [Worker-Main-14/INFO]: Preparing spawn area: 0%
-[01:00:21] [Worker-Main-13/INFO]: Preparing spawn area: 0%
+[01:00:19] [Worker-Main-12/INFO]: Preparing spawn area: 0%
+[01:00:19] [Worker-Main-13/INFO]: Preparing spawn area: 0%
+[01:00:20] [Worker-Main-8/INFO]: Preparing spawn area: 0%
+[01:00:20] [Worker-Main-13/INFO]: Preparing spawn area: 0%
+[01:00:21] [Worker-Main-14/INFO]: Preparing spawn area: 0%
 [01:00:21] [Worker-Main-8/INFO]: Preparing spawn area: 0%
-[01:00:22] [Worker-Main-9/INFO]: Preparing spawn area: 0%
-[01:00:22] [Worker-Main-10/INFO]: Preparing spawn area: 2%
-[01:00:23] [Worker-Main-8/INFO]: Preparing spawn area: 3%
-[01:00:23] [Worker-Main-14/INFO]: Preparing spawn area: 12%
-[01:00:24] [Worker-Main-8/INFO]: Preparing spawn area: 35%
-[01:00:24] [Worker-Main-13/INFO]: Preparing spawn area: 63%
-[01:00:25] [Worker-Main-10/INFO]: Preparing spawn area: 79%
-[01:00:26] [Server thread/INFO]: Time elapsed: 6814 ms
-[01:00:26] [Server thread/INFO]: Done (7.010s)! For help, type "help"
+[01:00:22] [Worker-Main-9/INFO]: Preparing spawn area: 3%
+[01:00:22] [Worker-Main-12/INFO]: Preparing spawn area: 4%
+[01:00:23] [Worker-Main-8/INFO]: Preparing spawn area: 9%
+[01:00:23] [Worker-Main-12/INFO]: Preparing spawn area: 18%
+[01:00:24] [Worker-Main-11/INFO]: Preparing spawn area: 28%
+[01:00:24] [Worker-Main-12/INFO]: Preparing spawn area: 43%
+[01:00:25] [Worker-Main-12/INFO]: Preparing spawn area: 61%
+[01:00:25] [Worker-Main-13/INFO]: Preparing spawn area: 86%
+[01:00:26] [Server thread/INFO]: Time elapsed: 6995 ms
+[01:00:26] [Server thread/INFO]: Done (7.198s)! For help, type "help"
 [01:00:26] [Server thread/INFO]: Starting GS4 status listener
 [01:00:26] [Server thread/INFO]: Thread Query Listener started
 [01:00:26] [Query Listener #1/INFO]: Query running on 0.0.0.0:25565
-[17:07:06] [User Authenticator #1/INFO]: UUID of player sykst is 61b3753f-5686-4956-8020-7b6d9ebbab2c
-[17:07:07] [Server thread/INFO]: sykst[/192.168.1.100:53649] logged in with entity id 99 at (1532.534496476078, 86.0, -1693.6230676150233)
-[17:07:07] [Server thread/INFO]: sykst joined the game
-[17:08:28] [Server thread/INFO]: sykst lost connection: Disconnected
-[17:08:28] [Server thread/INFO]: sykst left the game
-[17:09:19] [User Authenticator #2/INFO]: UUID of player sykst is 61b3753f-5686-4956-8020-7b6d9ebbab2c
-[17:09:20] [Server thread/INFO]: sykst[/192.168.1.100:56601] logged in with entity id 1024 at (1538.9974581853298, 83.0, -1730.2500385247993)
-[17:09:20] [Server thread/INFO]: sykst joined the game
-[17:11:40] [Server thread/INFO]: Villager bjr['Villager'/1044, l='ServerLevel[faro]', x=1528.70, y=65.00, z=-1715.30] died, message: 'Villager was squished too much'
-[17:20:26] [Server thread/WARN]: sykst moved too quickly! -12.927374785702057,-1.8559730638529572,-12.498305977605924
-[18:19:29] [Server thread/WARN]: Mismatch in destroy block pos: gg{x=-1341, y=62, z=-5042} gg{x=-1341, y=63, z=-5042}
-[20:06:39] [Server thread/INFO]: Villager bjr['Villager'/84941, l='ServerLevel[faro]', x=1528.70, y=65.00, z=-1715.30] died, message: 'Villager was squished too much'
-[20:19:27] [User Authenticator #3/INFO]: UUID of player davehlewis is 3dfd1cd3-4bc2-40bd-8e5e-9c28e9a3b850
-[20:19:27] [Server thread/INFO]: davehlewis[/127.0.0.1:40716] logged in with entity id 90059 at (-895.0681402207897, 67.0, -1088.3565978472554)
-[20:19:27] [Server thread/INFO]: davehlewis joined the game
-[20:19:33] [Server thread/INFO]: <sykst> o/
-[20:19:36] [Server thread/INFO]: <davehlewis> \o
-[20:20:17] [Server thread/INFO]: <davehlewis> how are you doing?
-[20:20:25] [Server thread/INFO]: <sykst> im alright
-[20:20:26] [Server thread/WARN]: davehlewis moved too quickly! 14.219508111559753,-1.8090394000954575,10.38918841763423
-[20:20:33] [Server thread/INFO]: <sykst> slightly pissed off
-[20:20:36] [Server thread/INFO]: <sykst> about the covid thing
-[20:20:46] [Server thread/INFO]: <davehlewis> yeah of course, I would be too
-[20:20:58] [Server thread/INFO]: <davehlewis> irresponsible to host oodlefest this year frankly
-[20:21:21] [Server thread/INFO]: <sykst> yea, not sure what came over me to think it's a good idea to go
-[20:21:44] [Server thread/INFO]: <davehlewis> theyre requirements almost
-[20:21:52] [Server thread/INFO]: <davehlewis> not a good team player otherwise
-[20:22:14] [Server thread/INFO]: <sykst> a lot of people who keep the company moving didn't come lol
-[20:22:24] [Server thread/INFO]: <sykst> they are also the people who never get mentioned
-[20:28:10] [Server thread/INFO]: <davehlewis> ah yeah of course
-[20:28:13] [Server thread/INFO]: <davehlewis> typical oodle
-[20:28:23] [Server thread/INFO]: Villager bjr['Villager'/84940, l='ServerLevel[faro]', x=1528.70, y=65.00, z=-1715.30] died, message: 'Villager was squished too much'
-[21:02:49] [Server thread/INFO]: <sykst> i;ve started on my landing pad mk2
-[21:02:54] [Server thread/INFO]: <davehlewis> ooh nice
-[21:03:01] [Server thread/INFO]: <sykst> it's bigger than the whole base....
-[21:04:44] [Server thread/INFO]: <davehlewis> I'm working on another wither
-[21:04:50] [Server thread/INFO]: <davehlewis> 2 out of 3 skulls
-[21:04:53] [Server thread/INFO]: <sykst> noice
-[21:09:56] [Server thread/INFO]: Villager bjr['Villager'/84943, l='ServerLevel[faro]', x=1528.70, y=65.00, z=-1715.30] died, message: 'Villager was squished too much'
-[21:16:23] [Server thread/INFO]: davehlewis withered away
-[21:16:31] [Server thread/INFO]: <sykst> rip
-[21:16:35] [Server thread/INFO]: <davehlewis> well crap
-[21:17:34] [Server thread/INFO]: <davehlewis> I don't know I can get there - mind if I spectate?
-[21:17:39] [Server thread/INFO]: <sykst> go for it
-[21:19:09] [Server thread/INFO]: <davehlewis> def lost a few things
-[21:19:33] [Server thread/INFO]: <sykst> gear/heads
-[21:19:35] [Server thread/INFO]: <sykst> ?
-[21:19:46] [Server thread/INFO]: <davehlewis> thankfully been putting heads in ender chest
-[21:19:50] [Server thread/INFO]: <davehlewis> gear I think
-[21:19:54] [Server thread/INFO]: <davehlewis> I have some spares
-[21:20:09] [Server thread/INFO]: <sykst> feel free to use my villagers
-[21:20:14] [Server thread/INFO]: <davehlewis> thanks
-[21:26:44] [Server thread/INFO]: Villager bjr['Villager'/84946, l='ServerLevel[faro]', x=1528.70, y=65.00, z=-1715.30] died, message: 'Villager was squished too much'
-[21:27:58] [Server thread/INFO]: <davehlewis> ugh last skull is the worst
-[21:28:15] [Server thread/INFO]: <davehlewis> its like the worst sunk cost fallacy
-[21:28:33] [Server thread/INFO]: <sykst> feel free to play with the shulker datapack
-[21:28:41] [Server thread/INFO]: <davehlewis> yeah I need to take a look
-[21:28:42] [Server thread/INFO]: <sykst> might be quicker lol
-[21:38:04] [Server thread/INFO]: <sykst> im off
-[21:38:06] [Server thread/INFO]: <sykst> enjoy
-[21:38:08] [Server thread/INFO]: <davehlewis> cya
-[21:38:09] [Server thread/INFO]: sykst lost connection: Disconnected
-[21:38:09] [Server thread/INFO]: sykst left the game
+[16:31:03] [User Authenticator #1/INFO]: UUID of player davehlewis is 3dfd1cd3-4bc2-40bd-8e5e-9c28e9a3b850
+[16:31:03] [Server thread/INFO]: davehlewis[/127.0.0.1:43676] logged in with entity id 89 at (508.5, 76.5625, 138.5)
+[16:31:03] [Server thread/INFO]: davehlewis joined the game
+[16:35:46] [Server thread/INFO]: davehlewis lost connection: Disconnected
+[16:35:46] [Server thread/INFO]: davehlewis left the game
+[16:37:24] [User Authenticator #2/INFO]: UUID of player davehlewis is 3dfd1cd3-4bc2-40bd-8e5e-9c28e9a3b850
+[16:37:24] [Server thread/INFO]: davehlewis[/127.0.0.1:43694] logged in with entity id 2969 at (-1032.6506171049318, 97.0, -1109.7633494472816)
+[16:37:24] [Server thread/INFO]: davehlewis joined the game
+[16:41:04] [Server thread/WARN]: Mismatch in destroy block pos: gg{x=-988, y=76, z=-1133} gg{x=-989, y=76, z=-1132}
+[16:41:04] [Server thread/WARN]: Mismatch in destroy block pos: gg{x=-988, y=76, z=-1133} gg{x=-989, y=76, z=-1132}
+[16:41:04] [Server thread/WARN]: Mismatch in destroy block pos: gg{x=-988, y=76, z=-1133} gg{x=-989, y=76, z=-1132}
+[16:41:04] [Server thread/WARN]: Mismatch in destroy block pos: gg{x=-988, y=76, z=-1133} gg{x=-989, y=76, z=-1132}
+[16:41:04] [Server thread/WARN]: Mismatch in destroy block pos: gg{x=-988, y=76, z=-1133} gg{x=-989, y=76, z=-1132}
+[16:56:31] [Server thread/INFO]: davehlewis lost connection: Disconnected
+[16:56:31] [Server thread/INFO]: davehlewis left the game
+[18:09:31] [User Authenticator #3/INFO]: UUID of player sykst is 61b3753f-5686-4956-8020-7b6d9ebbab2c
+[18:09:31] [Server thread/INFO]: sykst[/192.168.1.100:58182] logged in with entity id 10385 at (1498.0942795933695, 63.0625, -1788.078856575489)
+[18:09:31] [Server thread/INFO]: sykst joined the game
+[18:18:36] [Server thread/INFO]: Villager bjr['Villager'/10560, l='ServerLevel[faro]', x=1528.70, y=65.00, z=-1715.30] died, message: 'Villager was squished too much'
+[18:38:54] [Server thread/INFO]: Villager bjr['Villager'/10567, l='ServerLevel[faro]', x=1528.70, y=65.00, z=-1715.30] died, message: 'Villager was squished too much'
+[18:59:27] [Server thread/INFO]: Villager bjr['Villager'/10566, l='ServerLevel[faro]', x=1528.70, y=65.00, z=-1715.30] died, message: 'Villager was squished too much'
+[19:25:16] [Server thread/INFO]: Villager bjr['Villager'/10565, l='ServerLevel[faro]', x=1528.70, y=65.00, z=-1715.30] died, message: 'Villager was squished too much'
+[20:07:34] [Server thread/INFO]: Villager bjr['Villager'/43531, l='ServerLevel[faro]', x=300.30, y=63.00, z=154.30] died, message: 'Villager was squished too much'
+[20:16:47] [Server thread/INFO]: Villager bjr['Villager'/45292, l='ServerLevel[faro]', x=1528.70, y=65.00, z=-1715.30] died, message: 'Villager was squished too much'
