@@ -4,76 +4,68 @@
 [01:00:14] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
 [01:00:14] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
 [01:00:14] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[01:00:14] [main/INFO]: Reloading ResourceManager: Default, anti enderman grief v1.1.0.zip, armor statues v2.8.1.zip, coordinates hud v1.2.0.zip, double shulker shells v1.3.0.zip, more mob heads v2.9.1.zip, player head drops v1.1.0.zip, silence mobs v1.1.0.zip, track raw statistics v1.4.0.zip, track statistics v1.1.0.zip, villager workstation highlights v1.1.0.zip, afk display v1.1.0.zip, fast leaf decay v2.0.3.zip, wandering trades v1.5.0.zip, spectator conduit power v1.1.0.zip, spectator night vision v1.1.0.zip
-[01:00:15] [Worker-Main-12/INFO]: Loaded 7 recipes
+[01:00:14] [main/INFO]: Reloading ResourceManager: Default, anti enderman grief v1.1.0.zip, armor statues v2.8.1.zip, coordinates hud v1.2.0.zip, double shulker shells v1.3.0.zip, more mob heads v2.9.1.zip, player head drops v1.1.0.zip, silence mobs v1.1.0.zip, track raw statistics v1.4.0.zip, track statistics v1.1.0.zip, villager workstation highlights v1.1.0.zip, afk display v1.1.0.zip, fast leaf decay v2.0.3.zip, wandering trades v1.5.0.zip, spectator conduit power v1.1.0.zip, spectator night vision v1.1.0.zip, cauldron concrete v2.0.3.zip
+[01:00:16] [Worker-Main-12/INFO]: Loaded 7 recipes
 [01:00:16] [Worker-Main-12/WARN]: Found validation problem in {minecraft:entities/ender_dragon}.pools[0].entries[0]: Unknown loot table called minecraft:entities/reference/extra/ender_dragon
-[01:00:16] [Worker-Main-12/INFO]: Loaded 1156 advancements
+[01:00:16] [Worker-Main-12/INFO]: Loaded 1157 advancements
 [01:00:18] [Server thread/INFO]: Starting minecraft server version 1.17.1
 [01:00:18] [Server thread/INFO]: Loading properties
 [01:00:18] [Server thread/INFO]: Default game type: SURVIVAL
 [01:00:18] [Server thread/INFO]: Generating keypair
 [01:00:18] [Server thread/INFO]: Starting Minecraft server on *:25565
 [01:00:18] [Server thread/INFO]: Using epoll channel type
-[01:00:18] [Server thread/INFO]: Preparing level "faro"
+[01:00:19] [Server thread/INFO]: Preparing level "faro"
 [01:00:19] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[01:00:19] [Worker-Main-12/INFO]: Preparing spawn area: 0%
-[01:00:19] [Worker-Main-13/INFO]: Preparing spawn area: 0%
-[01:00:20] [Worker-Main-8/INFO]: Preparing spawn area: 0%
+[01:00:20] [Worker-Main-11/INFO]: Preparing spawn area: 0%
 [01:00:20] [Worker-Main-13/INFO]: Preparing spawn area: 0%
-[01:00:21] [Worker-Main-14/INFO]: Preparing spawn area: 0%
+[01:00:20] [Worker-Main-13/INFO]: Preparing spawn area: 0%
+[01:00:21] [Worker-Main-13/INFO]: Preparing spawn area: 0%
 [01:00:21] [Worker-Main-8/INFO]: Preparing spawn area: 0%
-[01:00:22] [Worker-Main-9/INFO]: Preparing spawn area: 3%
-[01:00:22] [Worker-Main-12/INFO]: Preparing spawn area: 4%
-[01:00:23] [Worker-Main-8/INFO]: Preparing spawn area: 9%
-[01:00:23] [Worker-Main-12/INFO]: Preparing spawn area: 18%
-[01:00:24] [Worker-Main-11/INFO]: Preparing spawn area: 28%
-[01:00:24] [Worker-Main-12/INFO]: Preparing spawn area: 43%
-[01:00:25] [Worker-Main-12/INFO]: Preparing spawn area: 61%
-[01:00:25] [Worker-Main-13/INFO]: Preparing spawn area: 86%
-[01:00:26] [Server thread/INFO]: Time elapsed: 6995 ms
-[01:00:26] [Server thread/INFO]: Done (7.198s)! For help, type "help"
+[01:00:22] [Worker-Main-13/INFO]: Preparing spawn area: 0%
+[01:00:22] [Worker-Main-12/INFO]: Preparing spawn area: 0%
+[01:00:23] [Worker-Main-13/INFO]: Preparing spawn area: 0%
+[01:00:23] [Worker-Main-13/INFO]: Preparing spawn area: 6%
+[01:00:24] [Worker-Main-12/INFO]: Preparing spawn area: 12%
+[01:00:24] [Worker-Main-8/INFO]: Preparing spawn area: 29%
+[01:00:25] [Worker-Main-8/INFO]: Preparing spawn area: 45%
+[01:00:25] [Worker-Main-8/INFO]: Preparing spawn area: 76%
+[01:00:26] [Server thread/INFO]: Time elapsed: 6924 ms
+[01:00:26] [Server thread/INFO]: Done (7.235s)! For help, type "help"
 [01:00:26] [Server thread/INFO]: Starting GS4 status listener
 [01:00:26] [Server thread/INFO]: Thread Query Listener started
 [01:00:26] [Query Listener #1/INFO]: Query running on 0.0.0.0:25565
-[16:31:03] [User Authenticator #1/INFO]: UUID of player davehlewis is 3dfd1cd3-4bc2-40bd-8e5e-9c28e9a3b850
-[16:31:03] [Server thread/INFO]: davehlewis[/127.0.0.1:43676] logged in with entity id 89 at (508.5, 76.5625, 138.5)
-[16:31:03] [Server thread/INFO]: davehlewis joined the game
-[16:35:46] [Server thread/INFO]: davehlewis lost connection: Disconnected
-[16:35:46] [Server thread/INFO]: davehlewis left the game
-[16:37:24] [User Authenticator #2/INFO]: UUID of player davehlewis is 3dfd1cd3-4bc2-40bd-8e5e-9c28e9a3b850
-[16:37:24] [Server thread/INFO]: davehlewis[/127.0.0.1:43694] logged in with entity id 2969 at (-1032.6506171049318, 97.0, -1109.7633494472816)
-[16:37:24] [Server thread/INFO]: davehlewis joined the game
-[16:41:04] [Server thread/WARN]: Mismatch in destroy block pos: gg{x=-988, y=76, z=-1133} gg{x=-989, y=76, z=-1132}
-[16:41:04] [Server thread/WARN]: Mismatch in destroy block pos: gg{x=-988, y=76, z=-1133} gg{x=-989, y=76, z=-1132}
-[16:41:04] [Server thread/WARN]: Mismatch in destroy block pos: gg{x=-988, y=76, z=-1133} gg{x=-989, y=76, z=-1132}
-[16:41:04] [Server thread/WARN]: Mismatch in destroy block pos: gg{x=-988, y=76, z=-1133} gg{x=-989, y=76, z=-1132}
-[16:41:04] [Server thread/WARN]: Mismatch in destroy block pos: gg{x=-988, y=76, z=-1133} gg{x=-989, y=76, z=-1132}
-[16:56:31] [Server thread/INFO]: davehlewis lost connection: Disconnected
-[16:56:31] [Server thread/INFO]: davehlewis left the game
-[18:09:31] [User Authenticator #3/INFO]: UUID of player sykst is 61b3753f-5686-4956-8020-7b6d9ebbab2c
-[18:09:31] [Server thread/INFO]: sykst[/192.168.1.100:58182] logged in with entity id 10385 at (1498.0942795933695, 63.0625, -1788.078856575489)
-[18:09:31] [Server thread/INFO]: sykst joined the game
-[18:18:36] [Server thread/INFO]: Villager bjr['Villager'/10560, l='ServerLevel[faro]', x=1528.70, y=65.00, z=-1715.30] died, message: 'Villager was squished too much'
-[18:38:54] [Server thread/INFO]: Villager bjr['Villager'/10567, l='ServerLevel[faro]', x=1528.70, y=65.00, z=-1715.30] died, message: 'Villager was squished too much'
-[18:59:27] [Server thread/INFO]: Villager bjr['Villager'/10566, l='ServerLevel[faro]', x=1528.70, y=65.00, z=-1715.30] died, message: 'Villager was squished too much'
-[19:25:16] [Server thread/INFO]: Villager bjr['Villager'/10565, l='ServerLevel[faro]', x=1528.70, y=65.00, z=-1715.30] died, message: 'Villager was squished too much'
-[20:07:34] [Server thread/INFO]: Villager bjr['Villager'/43531, l='ServerLevel[faro]', x=300.30, y=63.00, z=154.30] died, message: 'Villager was squished too much'
-[20:16:47] [Server thread/INFO]: Villager bjr['Villager'/45292, l='ServerLevel[faro]', x=1528.70, y=65.00, z=-1715.30] died, message: 'Villager was squished too much'
-[20:27:17] [Server thread/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[20:27:17] [Server thread/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[20:27:17] [Server thread/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[20:27:17] [Server thread/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[20:27:17] [Server thread/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[20:27:17] [Server thread/INFO]: Reloading ResourceManager: Default, anti enderman grief v1.1.0.zip, armor statues v2.8.1.zip, coordinates hud v1.2.0.zip, double shulker shells v1.3.0.zip, more mob heads v2.9.1.zip, player head drops v1.1.0.zip, silence mobs v1.1.0.zip, track raw statistics v1.4.0.zip, track statistics v1.1.0.zip, villager workstation highlights v1.1.0.zip, afk display v1.1.0.zip, fast leaf decay v2.0.3.zip, wandering trades v1.5.0.zip, spectator conduit power v1.1.0.zip, spectator night vision v1.1.0.zip, cauldron concrete v2.0.3.zip
-[20:27:17] [Server thread/INFO]: Loaded 7 recipes
-[20:27:17] [Server thread/WARN]: Found validation problem in {minecraft:entities/ender_dragon}.pools[0].entries[0]: Unknown loot table called minecraft:entities/reference/extra/ender_dragon
-[20:27:17] [Server thread/INFO]: Loaded 1157 advancements
-[20:27:20] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3063ms or 61 ticks behind
-[20:30:46] [Server thread/INFO]: Villager bjr['Villager'/45294, l='ServerLevel[faro]', x=1528.70, y=65.00, z=-1715.30] died, message: 'Villager was squished too much'
-[20:53:25] [Server thread/INFO]: Villager bjr['Villager'/45293, l='ServerLevel[faro]', x=1528.70, y=65.00, z=-1715.30] died, message: 'Villager was squished too much'
-[21:05:18] [Server thread/INFO]: Villager bjr['Villager'/45299, l='ServerLevel[faro]', x=1528.70, y=65.00, z=-1715.30] died, message: 'Villager was squished too much'
-[21:25:45] [Server thread/INFO]: Villager bjr['Villager'/45297, l='ServerLevel[faro]', x=1528.70, y=65.00, z=-1715.30] died, message: 'Villager was squished too much'
-[21:49:22] [Server thread/INFO]: Villager bjr['Villager'/45295, l='ServerLevel[faro]', x=1528.70, y=65.00, z=-1715.30] died, message: 'Villager was squished too much'
-[22:11:49] [Server thread/INFO]: Villager bjr['Villager'/51155, l='ServerLevel[faro]', x=1528.70, y=65.00, z=-1715.30] died, message: 'Villager was squished too much'
-[22:15:59] [Server thread/INFO]: sykst lost connection: Disconnected
-[22:15:59] [Server thread/INFO]: sykst left the game
+[01:00:34] [Server thread/WARN]: UUID of added entity already exists: bgu['Armor Stand'/98, l='ServerLevel[faro]', x=16562064.50, y=1000.00, z=-22242911.50]
+[18:02:25] [User Authenticator #1/INFO]: UUID of player sykst is 61b3753f-5686-4956-8020-7b6d9ebbab2c
+[18:02:26] [Server thread/INFO]: sykst[/192.168.1.100:56491] logged in with entity id 511 at (1494.050465916928, 63.0625, -1785.356080412366)
+[18:02:26] [Server thread/INFO]: sykst joined the game
+[18:30:41] [Server thread/INFO]: Villager bjr['Villager'/698, l='ServerLevel[faro]', x=1528.30, y=65.00, z=-1715.30] died, message: 'Villager was squished too much'
+[18:41:39] [Server thread/INFO]: Villager bjr['Villager'/707, l='ServerLevel[faro]', x=1528.70, y=65.00, z=-1715.30] died, message: 'Villager was squished too much'
+[18:43:08] [Server thread/WARN]: Mismatch in destroy block pos: gg{x=1534, y=63, z=-1796} gg{x=1538, y=62, z=-1802}
+[18:48:22] [Server thread/INFO]: Villager bjr['Villager'/705, l='ServerLevel[faro]', x=1528.70, y=65.00, z=-1715.30] died, message: 'Villager was squished too much'
+[19:08:21] [Server thread/INFO]: Villager bjr['Villager'/692, l='ServerLevel[faro]', x=1528.70, y=65.00, z=-1715.70] died, message: 'Villager was squished too much'
+[19:30:13] [Server thread/INFO]: Villager bjr['Villager'/702, l='ServerLevel[faro]', x=1528.70, y=65.00, z=-1715.70] died, message: 'Villager was squished too much'
+[19:38:08] [Server thread/INFO]: Villager bjr['Villager'/695, l='ServerLevel[faro]', x=1528.70, y=65.00, z=-1715.70] died, message: 'Villager was squished too much'
+[20:02:08] [Server thread/INFO]: Villager bjr['Villager'/706, l='ServerLevel[faro]', x=1528.70, y=65.00, z=-1715.30] died, message: 'Villager was squished too much'
+[20:20:30] [Server thread/INFO]: Villager bjr['Villager'/699, l='ServerLevel[faro]', x=1528.70, y=65.00, z=-1715.70] died, message: 'Villager was squished too much'
+[20:45:54] [Server thread/INFO]: Villager bjr['Villager'/709, l='ServerLevel[faro]', x=1528.70, y=65.00, z=-1715.30] died, message: 'Villager was squished too much'
+[20:52:05] [Server thread/WARN]: sykst moved wrongly!
+[20:59:29] [Server thread/INFO]: Villager bjr['Villager'/710, l='ServerLevel[faro]', x=1528.70, y=65.00, z=-1715.30] died, message: 'Villager was squished too much'
+[21:10:46] [Server thread/INFO]: Villager bjr['Villager'/713, l='ServerLevel[faro]', x=1528.70, y=65.00, z=-1715.30] died, message: 'Villager was squished too much'
+[21:31:11] [Server thread/INFO]: sykst lost connection: Disconnected
+[21:31:11] [Server thread/INFO]: sykst left the game
+[21:36:03] [User Authenticator #2/INFO]: UUID of player sykst is 61b3753f-5686-4956-8020-7b6d9ebbab2c
+[21:36:04] [Server thread/INFO]: sykst[/192.168.1.100:52490] logged in with entity id 60898 at (1502.2960668144356, 63.0625, -1787.5064089289053)
+[21:36:04] [Server thread/INFO]: sykst joined the game
+[21:39:06] [Server thread/INFO]: Villager bjr['Villager'/61086, l='ServerLevel[faro]', x=1528.70, y=65.00, z=-1715.70] died, message: 'Villager was squished too much'
+[21:40:32] [Server thread/INFO]: sykst lost connection: Disconnected
+[21:40:32] [Server thread/INFO]: sykst left the game
+[21:40:35] [User Authenticator #3/INFO]: UUID of player sykst is 61b3753f-5686-4956-8020-7b6d9ebbab2c
+[21:40:36] [Server thread/INFO]: sykst[/192.168.1.100:60824] logged in with entity id 63497 at (1618.807977937662, 82.64821969593918, -1840.7244066088658)
+[21:40:36] [Server thread/INFO]: sykst joined the game
+[21:40:47] [Server thread/INFO]: sykst lost connection: Disconnected
+[21:40:47] [Server thread/INFO]: sykst left the game
+[21:42:49] [User Authenticator #4/INFO]: UUID of player sykst is 61b3753f-5686-4956-8020-7b6d9ebbab2c
+[21:42:50] [Server thread/INFO]: sykst[/192.168.1.100:62555] logged in with entity id 63877 at (1618.807977937662, 82.64821969593918, -1840.7244066088658)
+[21:42:50] [Server thread/INFO]: sykst joined the game
+[21:56:51] [Server thread/INFO]: sykst lost connection: Disconnected
+[21:56:51] [Server thread/INFO]: sykst left the game

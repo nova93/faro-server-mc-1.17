@@ -2789,6 +2789,12 @@
     },
     "done": true
   },
+  "vanillatweaks:cauldron_concrete": {
+    "criteria": {
+      "tick": "2021-08-04 12:22:07 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/red_dye_from_rose_bush": {
     "criteria": {
       "has_rose_bush": "2021-06-21 21:37:31 +0000"
