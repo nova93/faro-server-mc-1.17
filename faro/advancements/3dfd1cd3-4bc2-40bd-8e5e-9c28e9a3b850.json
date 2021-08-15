@@ -2627,6 +2627,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/redstone_lamp": {
+    "criteria": {
+      "has_glowstone": "2021-08-11 22:32:39 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/mossy_cobblestone_slab_from_mossy_cobblestone_stonecutting": {
     "criteria": {
       "has_mossy_cobblestone": "2021-06-29 16:23:22 +0000"
@@ -4060,6 +4066,7 @@
   },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
+      "cooked_porkchop": "2021-08-10 04:13:19 +0000",
       "cooked_mutton": "2021-06-13 03:05:02 +0000",
       "sweet_berries": "2021-06-12 17:51:50 +0000",
       "cooked_beef": "2021-06-12 18:00:32 +0000",
@@ -4071,6 +4078,7 @@
       "melon_slice": "2021-06-22 16:41:37 +0000",
       "golden_carrot": "2021-06-19 20:25:09 +0000",
       "cooked_chicken": "2021-06-19 16:56:12 +0000",
+      "cod": "2021-08-10 01:49:59 +0000",
       "cooked_salmon": "2021-06-21 03:38:43 +0000"
     },
     "done": false
@@ -4336,6 +4344,12 @@
   "minecraft:recipes/combat/spectral_arrow": {
     "criteria": {
       "has_glowstone_dust": "2021-08-02 21:02:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/white_stained_glass_pane": {
+    "criteria": {
+      "has_glass": "2021-08-07 00:46:44 +0000"
     },
     "done": true
   },
