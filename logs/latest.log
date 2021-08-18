@@ -1,4 +1,4 @@
-[01:00:10] [main/INFO]: Loading for game Minecraft 1.17.1
+[01:00:09] [main/INFO]: Loading for game Minecraft 1.17.1
 [01:00:10] [main/INFO]: [FabricLoader] Loading 49 mods:
 	- fabric@0.37.2+1.17
 	- fabric-api-base@0.3.0+a02b446318
@@ -52,53 +52,80 @@
 [01:00:10] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.2 Source=file:/opt/mscs/server/fabric-server-launch.jar Service=Knot/Fabric Env=SERVER
 [01:00:10] [main/INFO]: Compatibility level set to JAVA_16
 [01:00:10] [main/WARN]: @Mixin target net/minecraft/class_2474$class_5124 is public in fabric-tag-extensions-v0.mixins.json:MixinObjectBuilder and should be specified in value
-[01:00:15] [main/WARN]: @Inject(@At("INVOKE")) Shift.BY=3 on fabric-lifecycle-events-v1.mixins.json:server.WorldChunkMixin::handler$zzh000$onLoadBlockEntity exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
-[01:00:16] [main/INFO]: Applied 0 biome modifications to 0 of 81 new biomes in 3.004 ms
-[01:00:16] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[01:00:17] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[01:00:17] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[01:00:17] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[01:00:17] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[01:00:17] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[01:00:17] [main/INFO]: Reloading ResourceManager: Default, anti enderman grief v1.1.0.zip, armor statues v2.8.1.zip, coordinates hud v1.2.0.zip, double shulker shells v1.3.0.zip, more mob heads v2.9.1.zip, player head drops v1.1.0.zip, silence mobs v1.1.0.zip, track raw statistics v1.4.0.zip, track statistics v1.1.0.zip, villager workstation highlights v1.1.0.zip, afk display v1.1.0.zip, fast leaf decay v2.0.3.zip, wandering trades v1.5.0.zip, spectator conduit power v1.1.0.zip, spectator night vision v1.1.0.zip, cauldron concrete v2.0.3.zip, Fabric Mods (Fabric Tool Attribute API (v1))
-[01:00:18] [Worker-Main-14/INFO]: Loaded 7 recipes
-[01:00:19] [Worker-Main-14/WARN]: Found validation problem in {minecraft:entities/ender_dragon}.pools[0].entries[0]: Unknown loot table called minecraft:entities/reference/extra/ender_dragon
-[01:00:19] [Worker-Main-14/INFO]: Loaded 1157 advancements
-[01:00:21] [Server thread/INFO]: Starting minecraft server version 1.17.1
-[01:00:21] [Server thread/INFO]: Loading properties
-[01:00:21] [Server thread/INFO]: Default game type: SURVIVAL
-[01:00:21] [Server thread/INFO]: Generating keypair
-[01:00:21] [Server thread/INFO]: Starting Minecraft server on *:25565
+[01:00:14] [main/WARN]: @Inject(@At("INVOKE")) Shift.BY=3 on fabric-lifecycle-events-v1.mixins.json:server.WorldChunkMixin::handler$zzh000$onLoadBlockEntity exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
+[01:00:15] [main/INFO]: Applied 0 biome modifications to 0 of 81 new biomes in 2.371 ms
+[01:00:15] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[01:00:16] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[01:00:16] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[01:00:16] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[01:00:16] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[01:00:16] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[01:00:16] [main/INFO]: Reloading ResourceManager: Default, anti enderman grief v1.1.0.zip, armor statues v2.8.1.zip, coordinates hud v1.2.0.zip, double shulker shells v1.3.0.zip, more mob heads v2.9.1.zip, player head drops v1.1.0.zip, silence mobs v1.1.0.zip, track raw statistics v1.4.0.zip, track statistics v1.1.0.zip, villager workstation highlights v1.1.0.zip, afk display v1.1.0.zip, fast leaf decay v2.0.3.zip, wandering trades v1.5.0.zip, spectator conduit power v1.1.0.zip, spectator night vision v1.1.0.zip, cauldron concrete v2.0.3.zip, Fabric Mods (Fabric Tool Attribute API (v1))
+[01:00:17] [Worker-Main-12/INFO]: Loaded 7 recipes
+[01:00:18] [Worker-Main-12/WARN]: Found validation problem in {minecraft:entities/ender_dragon}.pools[0].entries[0]: Unknown loot table called minecraft:entities/reference/extra/ender_dragon
+[01:00:18] [Worker-Main-12/INFO]: Loaded 1157 advancements
+[01:00:20] [Server thread/INFO]: Starting minecraft server version 1.17.1
+[01:00:20] [Server thread/INFO]: Loading properties
+[01:00:20] [Server thread/INFO]: Default game type: SURVIVAL
+[01:00:20] [Server thread/INFO]: Generating keypair
+[01:00:20] [Server thread/INFO]: Starting Minecraft server on *:25565
 [01:00:21] [Server thread/INFO]: Using epoll channel type
 [01:00:21] [Server thread/INFO]: Preparing level "faro"
-[01:00:22] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[01:00:22] [Worker-Main-11/INFO]: Preparing spawn area: 0%
-[01:00:23] [Worker-Main-13/INFO]: Preparing spawn area: 0%
+[01:00:21] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[01:00:22] [Worker-Main-8/INFO]: Preparing spawn area: 0%
+[01:00:22] [Worker-Main-10/INFO]: Preparing spawn area: 0%
+[01:00:22] [Worker-Main-14/INFO]: Preparing spawn area: 0%
 [01:00:23] [Worker-Main-10/INFO]: Preparing spawn area: 0%
-[01:00:23] [Worker-Main-12/INFO]: Preparing spawn area: 0%
-[01:00:24] [Worker-Main-13/INFO]: Preparing spawn area: 0%
-[01:00:24] [Worker-Main-8/INFO]: Preparing spawn area: 0%
-[01:00:25] [Worker-Main-8/INFO]: Preparing spawn area: 4%
-[01:00:25] [Worker-Main-12/INFO]: Preparing spawn area: 4%
-[01:00:26] [Worker-Main-12/INFO]: Preparing spawn area: 6%
-[01:00:26] [Worker-Main-12/INFO]: Preparing spawn area: 16%
-[01:00:27] [Worker-Main-11/INFO]: Preparing spawn area: 27%
-[01:00:27] [Worker-Main-8/INFO]: Preparing spawn area: 40%
-[01:00:28] [Worker-Main-14/INFO]: Preparing spawn area: 56%
-[01:00:28] [Worker-Main-14/INFO]: Preparing spawn area: 82%
-[01:00:29] [Server thread/INFO]: Time elapsed: 7532 ms
-[01:00:29] [Server thread/INFO]: Done (7.859s)! For help, type "help"
+[01:00:23] [Worker-Main-11/INFO]: Preparing spawn area: 0%
+[01:00:24] [Worker-Main-12/INFO]: Preparing spawn area: 0%
+[01:00:24] [Worker-Main-9/INFO]: Preparing spawn area: 4%
+[01:00:25] [Worker-Main-10/INFO]: Preparing spawn area: 11%
+[01:00:25] [Worker-Main-13/INFO]: Preparing spawn area: 14%
+[01:00:26] [Worker-Main-13/INFO]: Preparing spawn area: 16%
+[01:00:26] [Worker-Main-10/INFO]: Preparing spawn area: 21%
+[01:00:27] [Worker-Main-10/INFO]: Preparing spawn area: 41%
+[01:00:27] [Worker-Main-8/INFO]: Preparing spawn area: 67%
+[01:00:28] [Worker-Main-8/INFO]: Preparing spawn area: 87%
+[01:00:29] [Server thread/INFO]: Time elapsed: 7242 ms
+[01:00:29] [Server thread/INFO]: Done (7.582s)! For help, type "help"
 [01:00:29] [Server thread/INFO]: Starting GS4 status listener
 [01:00:29] [Server thread/INFO]: Thread Query Listener started
 [01:00:29] [Query Listener #1/INFO]: Query running on 0.0.0.0:25565
-[01:00:34] [Server thread/WARN]: UUID of added entity already exists: class_1531['Armor Stand'/144, l='ServerLevel[faro]', x=16562064.50, y=1000.00, z=-22242911.50]
-[20:08:00] [User Authenticator #1/INFO]: UUID of player sykst is 61b3753f-5686-4956-8020-7b6d9ebbab2c
-[20:08:00] [Server thread/INFO]: sykst[/192.168.1.100:52660] logged in with entity id 527 at (-26.92004694131523, 75.46753874483016, 44.53980128276819)
-[20:08:00] [Server thread/INFO]: sykst joined the game
-[20:08:21] [Server thread/INFO]: sykst lost connection: Disconnected
-[20:08:21] [Server thread/INFO]: sykst left the game
-[21:09:38] [User Authenticator #2/INFO]: UUID of player sykst is 61b3753f-5686-4956-8020-7b6d9ebbab2c
-[21:09:38] [Server thread/INFO]: sykst[/192.168.1.100:63275] logged in with entity id 660 at (31.173147405966958, 73.58814006394144, 26.62037388098651)
-[21:09:38] [Server thread/INFO]: sykst joined the game
-[21:09:44] [Server thread/INFO]: sykst lost connection: Disconnected
-[21:09:44] [Server thread/INFO]: sykst left the game
+[01:00:34] [Server thread/WARN]: UUID of added entity already exists: class_1531['Armor Stand'/169, l='ServerLevel[faro]', x=16562064.50, y=1000.00, z=-22242911.50]
+[17:40:19] [User Authenticator #1/INFO]: UUID of player sykst is 61b3753f-5686-4956-8020-7b6d9ebbab2c
+[17:40:19] [Server thread/INFO]: sykst[/192.168.1.100:58313] logged in with entity id 491 at (31.173147405966958, 73.58814006394144, 26.62037388098651)
+[17:40:19] [Server thread/INFO]: sykst joined the game
+[17:46:19] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-39, y=69, z=-2} class_2338{x=-40, y=72, z=1}
+[17:46:19] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-39, y=69, z=-2} class_2338{x=-40, y=72, z=1}
+[18:10:42] [Server thread/INFO]: sykst fell while climbing
+[19:46:13] [Server thread/INFO]: Villager class_1646['Villager'/21543, l='ServerLevel[faro]', x=1528.70, y=65.00, z=-1715.30] died, message: 'Villager was squished too much'
+[19:53:53] [Server thread/INFO]: Villager class_1646['Villager'/21538, l='ServerLevel[faro]', x=1528.70, y=65.00, z=-1715.30] died, message: 'Villager was squished too much'
+[20:01:19] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=58, y=121, z=37} class_2338{x=60, y=120, z=38}
+[20:01:19] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=58, y=121, z=37} class_2338{x=60, y=120, z=38}
+[20:01:20] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=58, y=121, z=37} class_2338{x=60, y=120, z=38}
+[20:01:30] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=58, y=121, z=37} class_2338{x=67, y=120, z=40}
+[20:01:30] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=58, y=121, z=37} class_2338{x=67, y=120, z=40}
+[20:01:30] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=58, y=121, z=37} class_2338{x=67, y=120, z=40}
+[20:01:57] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=58, y=121, z=37} class_2338{x=86, y=120, z=39}
+[20:03:22] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=53, y=120, z=37} class_2338{x=46, y=120, z=34}
+[20:03:22] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=53, y=120, z=37} class_2338{x=46, y=120, z=34}
+[20:03:22] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=53, y=120, z=37} class_2338{x=46, y=120, z=34}
+[20:03:22] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=53, y=120, z=37} class_2338{x=46, y=120, z=34}
+[20:03:22] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=53, y=120, z=37} class_2338{x=46, y=120, z=34}
+[20:03:59] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=57, y=122, z=32} class_2338{x=56, y=122, z=31}
+[20:04:04] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=56, y=122, z=29} class_2338{x=56, y=121, z=29}
+[20:04:04] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=56, y=122, z=29} class_2338{x=56, y=121, z=29}
+[20:04:11] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=56, y=122, z=29} class_2338{x=59, y=120, z=28}
+[20:04:46] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=56, y=122, z=29} class_2338{x=67, y=120, z=30}
+[20:04:46] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=56, y=122, z=29} class_2338{x=67, y=120, z=30}
+[20:04:59] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=73, y=122, z=31} class_2338{x=73, y=121, z=31}
+[20:04:59] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=73, y=122, z=31} class_2338{x=73, y=121, z=31}
+[20:04:59] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=73, y=122, z=31} class_2338{x=73, y=121, z=31}
+[20:15:51] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=79, y=119, z=27} class_2338{x=78, y=117, z=27}
+[21:22:20] [Server thread/INFO]: Villager class_1646['Villager'/47495, l='ServerLevel[faro]', x=1528.70, y=65.00, z=-1715.30] died, message: 'Villager was squished too much'
+[21:42:50] [Server thread/INFO]: Villager class_1646['Villager'/47485, l='ServerLevel[faro]', x=1528.70, y=65.00, z=-1715.70] died, message: 'Villager was squished too much'
+[22:02:08] [Server thread/INFO]: Villager class_1646['Villager'/47497, l='ServerLevel[faro]', x=1528.70, y=65.00, z=-1715.30] died, message: 'Villager was squished too much'
+[22:02:53] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1517, y=62, z=-1846} class_2338{x=1523, y=59, z=-1846}
+[22:33:46] [Server thread/INFO]: Villager class_1646['Villager'/47499, l='ServerLevel[faro]', x=1528.70, y=65.00, z=-1715.30] died, message: 'Villager was squished too much'
+[22:53:51] [Server thread/INFO]: sykst lost connection: Disconnected
+[22:53:51] [Server thread/INFO]: sykst left the game
