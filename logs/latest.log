@@ -1,4 +1,4 @@
-[01:00:10] [main/INFO]: Loading for game Minecraft 1.17.1
+[01:00:09] [main/INFO]: Loading for game Minecraft 1.17.1
 [01:00:10] [main/INFO]: [FabricLoader] Loading 49 mods:
 	- fabric@0.37.2+1.17
 	- fabric-api-base@0.3.0+a02b446318
@@ -53,108 +53,84 @@
 [01:00:10] [main/INFO]: Compatibility level set to JAVA_16
 [01:00:10] [main/WARN]: @Mixin target net/minecraft/class_2474$class_5124 is public in fabric-tag-extensions-v0.mixins.json:MixinObjectBuilder and should be specified in value
 [01:00:14] [main/WARN]: @Inject(@At("INVOKE")) Shift.BY=3 on fabric-lifecycle-events-v1.mixins.json:server.WorldChunkMixin::handler$zzh000$onLoadBlockEntity exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
-[01:00:16] [main/INFO]: Applied 0 biome modifications to 0 of 81 new biomes in 3.471 ms
+[01:00:16] [main/INFO]: Applied 0 biome modifications to 0 of 81 new biomes in 7.293 ms
 [01:00:16] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[01:00:17] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[01:00:17] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[01:00:17] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[01:00:17] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[01:00:17] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[01:00:17] [main/INFO]: Reloading ResourceManager: Default, anti enderman grief v1.1.0.zip, armor statues v2.8.1.zip, coordinates hud v1.2.0.zip, double shulker shells v1.3.0.zip, more mob heads v2.9.1.zip, player head drops v1.1.0.zip, silence mobs v1.1.0.zip, track raw statistics v1.4.0.zip, track statistics v1.1.0.zip, villager workstation highlights v1.1.0.zip, afk display v1.1.0.zip, fast leaf decay v2.0.3.zip, wandering trades v1.5.0.zip, spectator conduit power v1.1.0.zip, spectator night vision v1.1.0.zip, cauldron concrete v2.0.3.zip, Fabric Mods (Fabric Tool Attribute API (v1))
-[01:00:18] [Worker-Main-11/INFO]: Loaded 7 recipes
-[01:00:18] [Worker-Main-11/WARN]: Found validation problem in {minecraft:entities/ender_dragon}.pools[0].entries[0]: Unknown loot table called minecraft:entities/reference/extra/ender_dragon
-[01:00:18] [Worker-Main-11/INFO]: Loaded 1157 advancements
+[01:00:16] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[01:00:16] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[01:00:16] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[01:00:16] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[01:00:16] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[01:00:16] [main/INFO]: Reloading ResourceManager: Default, anti enderman grief v1.1.0.zip, armor statues v2.8.1.zip, coordinates hud v1.2.0.zip, double shulker shells v1.3.0.zip, more mob heads v2.9.1.zip, player head drops v1.1.0.zip, silence mobs v1.1.0.zip, track raw statistics v1.4.0.zip, track statistics v1.1.0.zip, villager workstation highlights v1.1.0.zip, afk display v1.1.0.zip, fast leaf decay v2.0.3.zip, wandering trades v1.5.0.zip, spectator conduit power v1.1.0.zip, spectator night vision v1.1.0.zip, cauldron concrete v2.0.3.zip, Fabric Mods (Fabric Tool Attribute API (v1))
+[01:00:17] [Worker-Main-10/INFO]: Loaded 7 recipes
+[01:00:18] [Worker-Main-10/WARN]: Found validation problem in {minecraft:entities/ender_dragon}.pools[0].entries[0]: Unknown loot table called minecraft:entities/reference/extra/ender_dragon
+[01:00:18] [Worker-Main-10/INFO]: Loaded 1157 advancements
 [01:00:20] [Server thread/INFO]: Starting minecraft server version 1.17.1
 [01:00:20] [Server thread/INFO]: Loading properties
 [01:00:20] [Server thread/INFO]: Default game type: SURVIVAL
 [01:00:20] [Server thread/INFO]: Generating keypair
-[01:00:21] [Server thread/INFO]: Starting Minecraft server on *:25565
+[01:00:20] [Server thread/INFO]: Starting Minecraft server on *:25565
 [01:00:21] [Server thread/INFO]: Using epoll channel type
 [01:00:21] [Server thread/INFO]: Preparing level "faro"
-[01:00:22] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[01:00:22] [Worker-Main-9/INFO]: Preparing spawn area: 0%
-[01:00:22] [Worker-Main-13/INFO]: Preparing spawn area: 0%
-[01:00:23] [Worker-Main-8/INFO]: Preparing spawn area: 0%
+[01:00:21] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[01:00:22] [Worker-Main-10/INFO]: Preparing spawn area: 0%
+[01:00:22] [Worker-Main-14/INFO]: Preparing spawn area: 0%
+[01:00:22] [Worker-Main-8/INFO]: Preparing spawn area: 0%
+[01:00:23] [Worker-Main-14/INFO]: Preparing spawn area: 0%
 [01:00:23] [Worker-Main-13/INFO]: Preparing spawn area: 0%
-[01:00:24] [Worker-Main-8/INFO]: Preparing spawn area: 0%
-[01:00:24] [Worker-Main-11/INFO]: Preparing spawn area: 0%
-[01:00:25] [Worker-Main-9/INFO]: Preparing spawn area: 2%
-[01:00:25] [Worker-Main-10/INFO]: Preparing spawn area: 4%
-[01:00:26] [Worker-Main-12/INFO]: Preparing spawn area: 17%
-[01:00:26] [Worker-Main-11/INFO]: Preparing spawn area: 21%
-[01:00:27] [Worker-Main-10/INFO]: Preparing spawn area: 44%
-[01:00:27] [Worker-Main-8/INFO]: Preparing spawn area: 59%
-[01:00:28] [Worker-Main-14/INFO]: Preparing spawn area: 89%
-[01:00:28] [Server thread/INFO]: Time elapsed: 6792 ms
-[01:00:28] [Server thread/INFO]: Done (7.115s)! For help, type "help"
+[01:00:24] [Worker-Main-12/INFO]: Preparing spawn area: 0%
+[01:00:24] [Worker-Main-14/INFO]: Preparing spawn area: 0%
+[01:00:25] [Worker-Main-9/INFO]: Preparing spawn area: 4%
+[01:00:25] [Worker-Main-12/INFO]: Preparing spawn area: 6%
+[01:00:26] [Worker-Main-10/INFO]: Preparing spawn area: 10%
+[01:00:26] [Worker-Main-14/INFO]: Preparing spawn area: 28%
+[01:00:27] [Worker-Main-12/INFO]: Preparing spawn area: 52%
+[01:00:27] [Worker-Main-11/INFO]: Preparing spawn area: 66%
+[01:00:28] [Worker-Main-13/INFO]: Preparing spawn area: 77%
+[01:00:28] [Server thread/INFO]: Time elapsed: 7272 ms
+[01:00:28] [Server thread/INFO]: Done (7.578s)! For help, type "help"
 [01:00:28] [Server thread/INFO]: Starting GS4 status listener
-[01:00:28] [Server thread/INFO]: Thread Query Listener started
-[01:00:28] [Query Listener #1/INFO]: Query running on 0.0.0.0:25565
-[01:00:33] [Server thread/WARN]: UUID of added entity already exists: class_1531['Armor Stand'/147, l='ServerLevel[faro]', x=16562064.50, y=1000.00, z=-22242911.50]
-[11:12:12] [User Authenticator #1/INFO]: UUID of player davehlewis is 3dfd1cd3-4bc2-40bd-8e5e-9c28e9a3b850
-[11:12:13] [Server thread/INFO]: davehlewis[/127.0.0.1:48072] logged in with entity id 368 at (-1009.357718399897, 74.0, -1150.6980430220262)
-[11:12:13] [Server thread/INFO]: davehlewis joined the game
-[11:19:22] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1027, y=74, z=-1146} class_2338{x=-1028, y=73, z=-1145}
-[11:19:22] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1027, y=74, z=-1146} class_2338{x=-1028, y=73, z=-1145}
-[11:19:22] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1027, y=74, z=-1146} class_2338{x=-1028, y=73, z=-1145}
-[11:19:22] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1027, y=74, z=-1146} class_2338{x=-1028, y=73, z=-1145}
-[11:19:23] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1027, y=74, z=-1146} class_2338{x=-1028, y=73, z=-1145}
-[11:19:23] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1027, y=74, z=-1146} class_2338{x=-1028, y=73, z=-1145}
-[11:19:23] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1027, y=74, z=-1146} class_2338{x=-1028, y=73, z=-1145}
-[11:19:23] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1027, y=74, z=-1146} class_2338{x=-1028, y=73, z=-1145}
-[11:19:23] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1027, y=74, z=-1146} class_2338{x=-1028, y=73, z=-1145}
-[11:19:23] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1027, y=74, z=-1146} class_2338{x=-1028, y=73, z=-1145}
-[11:19:23] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1027, y=74, z=-1146} class_2338{x=-1028, y=73, z=-1145}
-[11:19:23] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1027, y=74, z=-1146} class_2338{x=-1028, y=73, z=-1145}
-[11:21:07] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1000, y=73, z=-1164} class_2338{x=-1000, y=72, z=-1165}
-[11:21:07] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1000, y=73, z=-1164} class_2338{x=-1000, y=72, z=-1165}
-[11:21:07] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1000, y=73, z=-1164} class_2338{x=-1000, y=72, z=-1165}
-[11:21:08] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1000, y=73, z=-1164} class_2338{x=-1000, y=72, z=-1165}
-[11:21:27] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1006, y=74, z=-1153} class_2338{x=-1006, y=73, z=-1150}
-[11:21:27] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1006, y=74, z=-1153} class_2338{x=-1006, y=73, z=-1150}
-[11:23:03] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1017, y=73, z=-1155} class_2338{x=-1017, y=72, z=-1156}
-[11:23:03] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1017, y=73, z=-1155} class_2338{x=-1017, y=72, z=-1156}
-[11:23:59] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1009, y=73, z=-1137} class_2338{x=-1010, y=72, z=-1137}
-[11:25:09] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1001, y=72, z=-1153} class_2338{x=-1006, y=72, z=-1153}
-[11:25:09] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1001, y=72, z=-1153} class_2338{x=-1006, y=72, z=-1153}
-[11:25:09] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1001, y=72, z=-1153} class_2338{x=-1006, y=72, z=-1153}
-[11:25:09] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1001, y=72, z=-1153} class_2338{x=-1006, y=72, z=-1153}
-[11:25:09] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1001, y=72, z=-1153} class_2338{x=-1006, y=72, z=-1153}
-[11:25:09] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1001, y=72, z=-1153} class_2338{x=-1006, y=72, z=-1153}
-[11:25:09] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1001, y=72, z=-1153} class_2338{x=-1006, y=72, z=-1153}
-[11:25:09] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1001, y=72, z=-1153} class_2338{x=-1006, y=72, z=-1153}
-[11:25:09] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1001, y=72, z=-1153} class_2338{x=-1006, y=72, z=-1153}
-[12:04:29] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1009, y=68, z=-1142} class_2338{x=-1010, y=67, z=-1142}
-[12:09:35] [Server thread/INFO]: davehlewis lost connection: Disconnected
-[12:09:35] [Server thread/INFO]: davehlewis left the game
-[18:01:55] [User Authenticator #2/INFO]: UUID of player sykst is 61b3753f-5686-4956-8020-7b6d9ebbab2c
-[18:01:56] [Server thread/INFO]: sykst[/192.168.1.100:57864] logged in with entity id 21282 at (393.08576254455437, 66.7842472482024, 126.44911963075384)
-[18:01:56] [Server thread/INFO]: sykst joined the game
-[18:14:46] [User Authenticator #3/INFO]: UUID of player davehlewis is 3dfd1cd3-4bc2-40bd-8e5e-9c28e9a3b850
-[18:14:47] [Server thread/INFO]: davehlewis[/127.0.0.1:49118] logged in with entity id 26506 at (-1013.3140701874976, 76.0, -1175.7159060750018)
-[18:14:47] [Server thread/INFO]: davehlewis joined the game
-[18:24:01] [Server thread/INFO]: Villager class_1646['Villager'/24910, l='ServerLevel[faro]', x=1528.70, y=65.00, z=-1715.30] died, message: 'Villager was squished too much'
-[18:25:59] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1499, y=63, z=-1795} class_2338{x=1650, y=62, z=-1844}
-[18:25:59] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1499, y=63, z=-1795} class_2338{x=1650, y=62, z=-1844}
-[18:25:59] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1499, y=63, z=-1795} class_2338{x=1650, y=62, z=-1844}
-[18:33:05] [Server thread/INFO]: Villager class_1646['Villager'/24907, l='ServerLevel[faro]', x=1528.70, y=65.00, z=-1715.30] died, message: 'Villager was squished too much'
-[18:46:16] [Server thread/INFO]: sykst lost connection: Disconnected
-[18:46:16] [Server thread/INFO]: sykst left the game
-[18:51:12] [Server thread/INFO]: davehlewis lost connection: Disconnected
-[18:51:12] [Server thread/INFO]: davehlewis left the game
-[21:32:39] [User Authenticator #4/INFO]: UUID of player sykst is 61b3753f-5686-4956-8020-7b6d9ebbab2c
-[21:32:40] [Server thread/INFO]: sykst[/192.168.1.100:57625] logged in with entity id 48700 at (1522.476584887009, 74.5, -1826.454725868999)
-[21:32:40] [Server thread/INFO]: sykst joined the game
-[21:42:31] [Server thread/INFO]: Villager class_1646['Villager'/51838, l='ServerLevel[faro]', x=1528.70, y=65.00, z=-1715.30] died, message: 'Villager was squished too much'
-[21:59:41] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1434, y=69, z=-2254} class_2338{x=1434, y=68, z=-2254}
-[21:59:41] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1434, y=69, z=-2254} class_2338{x=1434, y=68, z=-2254}
-[21:59:41] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1434, y=69, z=-2254} class_2338{x=1434, y=68, z=-2254}
-[21:59:41] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1434, y=69, z=-2254} class_2338{x=1434, y=68, z=-2254}
-[21:59:41] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1434, y=69, z=-2254} class_2338{x=1434, y=68, z=-2254}
-[21:59:41] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1434, y=69, z=-2254} class_2338{x=1434, y=68, z=-2254}
-[21:59:41] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1434, y=69, z=-2254} class_2338{x=1434, y=68, z=-2254}
-[22:01:08] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1442, y=69, z=-2249} class_2338{x=1442, y=68, z=-2251}
-[22:02:07] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1457, y=69, z=-2253} class_2338{x=1456, y=68, z=-2252}
-[22:03:31] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1462, y=70, z=-2252} class_2338{x=1462, y=69, z=-2251}
-[22:45:24] [Server thread/INFO]: sykst lost connection: Disconnected
-[22:45:24] [Server thread/INFO]: sykst left the game
+[01:00:29] [Server thread/INFO]: Thread Query Listener started
+[01:00:29] [Query Listener #1/INFO]: Query running on 0.0.0.0:25565
+[01:00:33] [Server thread/WARN]: UUID of added entity already exists: class_1531['Armor Stand'/203, l='ServerLevel[faro]', x=16562064.50, y=1000.00, z=-22242911.50]
+[19:35:12] [User Authenticator #1/INFO]: UUID of player sykst is 61b3753f-5686-4956-8020-7b6d9ebbab2c
+[19:35:13] [Server thread/INFO]: sykst[/192.168.1.100:56043] logged in with entity id 498 at (1509.6125558548158, 64.0, -1784.6778371476337)
+[19:35:13] [Server thread/INFO]: sykst joined the game
+[19:48:24] [Server thread/INFO]: Villager class_1646['Villager'/565, l='ServerLevel[faro]', x=1528.70, y=65.00, z=-1715.70] died, message: 'Villager was squished too much'
+[20:03:24] [Server thread/INFO]: Villager class_1646['Villager'/572, l='ServerLevel[faro]', x=1528.70, y=65.00, z=-1715.30] died, message: 'Villager was squished too much'
+[20:17:56] [Server thread/INFO]: Villager class_1646['Villager'/575, l='ServerLevel[faro]', x=1528.70, y=65.00, z=-1715.30] died, message: 'Villager was squished too much'
+[20:37:50] [Server thread/INFO]: Villager class_1646['Villager'/574, l='ServerLevel[faro]', x=1528.70, y=65.00, z=-1715.30] died, message: 'Villager was squished too much'
+[20:41:06] [Server thread/INFO]: Villager class_1646['Villager'/577, l='ServerLevel[faro]', x=1528.70, y=65.00, z=-1715.30] died, message: 'Villager was squished too much'
+[21:03:50] [Server thread/INFO]: Villager class_1646['Villager'/573, l='ServerLevel[faro]', x=1528.70, y=65.00, z=-1715.30] died, message: 'Villager was squished too much'
+[21:44:11] [Server thread/INFO]: Villager class_1646['Villager'/566, l='ServerLevel[faro]', x=1528.70, y=65.00, z=-1715.70] died, message: 'Villager was squished too much'
+[22:03:46] [Server thread/INFO]: Villager class_1646['Villager'/569, l='ServerLevel[faro]', x=1528.70, y=65.00, z=-1715.70] died, message: 'Villager was squished too much'
+[22:16:28] [Server thread/INFO]: Villager class_1646['Villager'/578, l='ServerLevel[faro]', x=1528.70, y=65.00, z=-1715.30] died, message: 'Villager was squished too much'
+[22:22:26] [Server thread/INFO]: Villager class_1646['Villager'/4967, l='ServerLevel[faro]', x=1528.70, y=65.00, z=-1715.30] died, message: 'Villager was squished too much'
+[22:50:52] [Server thread/INFO]: Villager class_1646['Villager'/581, l='ServerLevel[faro]', x=1528.70, y=65.00, z=-1715.30] died, message: 'Villager was squished too much'
+[23:09:34] [Server thread/INFO]: Villager class_1646['Villager'/13508, l='ServerLevel[faro]', x=1528.70, y=65.00, z=-1715.30] died, message: 'Villager was squished too much'
+[23:16:27] [Server thread/INFO]: Villager class_1646['Villager'/560, l='ServerLevel[faro]', x=1528.30, y=65.00, z=-1715.70] died, message: 'Villager was slain by sykst using [Me Careful]'
+[23:16:52] [Server thread/INFO]: Villager class_1646['Villager'/60226, l='ServerLevel[faro]', x=1521.34, y=67.18, z=-1710.15] died, message: 'Villager was burnt to a crisp whilst fighting sykst'
+[23:16:58] [Server thread/INFO]: Villager class_1646['Villager'/561, l='ServerLevel[faro]', x=1528.30, y=65.00, z=-1715.70] died, message: 'Villager was slain by sykst using [Poke]'
+[23:16:58] [Server thread/INFO]: Villager class_1646['Villager'/562, l='ServerLevel[faro]', x=1528.30, y=65.00, z=-1715.70] died, message: 'Villager was slain by sykst using [Poke]'
+[23:16:58] [Server thread/INFO]: Villager class_1646['Villager'/570, l='ServerLevel[faro]', x=1528.70, y=65.00, z=-1715.70] died, message: 'Villager was slain by sykst using [Poke]'
+[23:16:58] [Server thread/INFO]: Villager class_1646['Villager'/580, l='ServerLevel[faro]', x=1528.70, y=65.00, z=-1715.30] died, message: 'Villager was slain by sykst using [Poke]'
+[23:16:58] [Server thread/INFO]: Villager class_1646['Villager'/583, l='ServerLevel[faro]', x=1528.70, y=65.00, z=-1715.30] died, message: 'Villager was slain by sykst using [Poke]'
+[23:16:58] [Server thread/INFO]: Villager class_1646['Villager'/20945, l='ServerLevel[faro]', x=1528.70, y=65.00, z=-1715.30] died, message: 'Villager was slain by sykst using [Poke]'
+[23:16:59] [Server thread/INFO]: Villager class_1646['Villager'/568, l='ServerLevel[faro]', x=1528.70, y=65.00, z=-1715.70] died, message: 'Villager was slain by sykst using [Poke]'
+[23:16:59] [Server thread/INFO]: Villager class_1646['Villager'/563, l='ServerLevel[faro]', x=1528.30, y=65.00, z=-1715.30] died, message: 'Villager was slain by sykst using [Poke]'
+[23:16:59] [Server thread/INFO]: Villager class_1646['Villager'/564, l='ServerLevel[faro]', x=1528.30, y=65.00, z=-1715.30] died, message: 'Villager was slain by sykst using [Poke]'
+[23:16:59] [Server thread/INFO]: Villager class_1646['Villager'/567, l='ServerLevel[faro]', x=1528.30, y=65.00, z=-1715.30] died, message: 'Villager was slain by sykst using [Poke]'
+[23:16:59] [Server thread/INFO]: Villager class_1646['Villager'/571, l='ServerLevel[faro]', x=1528.30, y=65.00, z=-1715.30] died, message: 'Villager was slain by sykst using [Poke]'
+[23:16:59] [Server thread/INFO]: Villager class_1646['Villager'/576, l='ServerLevel[faro]', x=1528.70, y=65.00, z=-1715.70] died, message: 'Villager was slain by sykst using [Poke]'
+[23:16:59] [Server thread/INFO]: Villager class_1646['Villager'/579, l='ServerLevel[faro]', x=1528.70, y=65.00, z=-1715.30] died, message: 'Villager was slain by sykst using [Poke]'
+[23:16:59] [Server thread/INFO]: Villager class_1646['Villager'/10229, l='ServerLevel[faro]', x=1528.30, y=65.00, z=-1715.30] died, message: 'Villager was slain by sykst using [Poke]'
+[23:16:59] [Server thread/INFO]: Villager class_1646['Villager'/15879, l='ServerLevel[faro]', x=1528.70, y=65.00, z=-1715.30] died, message: 'Villager was slain by sykst using [Poke]'
+[23:16:59] [Server thread/INFO]: Villager class_1646['Villager'/31981, l='ServerLevel[faro]', x=1528.70, y=65.00, z=-1715.30] died, message: 'Villager was slain by sykst using [Poke]'
+[23:16:59] [Server thread/INFO]: Villager class_1646['Villager'/42507, l='ServerLevel[faro]', x=1528.70, y=65.00, z=-1715.30] died, message: 'Villager was slain by sykst using [Poke]'
+[23:16:59] [Server thread/INFO]: Villager class_1646['Villager'/49221, l='ServerLevel[faro]', x=1528.70, y=65.00, z=-1715.30] died, message: 'Villager was slain by sykst using [Poke]'
+[23:17:00] [Server thread/INFO]: Villager class_1646['Villager'/582, l='ServerLevel[faro]', x=1528.70, y=65.00, z=-1715.70] died, message: 'Villager was slain by sykst using [Poke]'
+[23:17:00] [Server thread/INFO]: Villager class_1646['Villager'/2365, l='ServerLevel[faro]', x=1528.70, y=65.00, z=-1715.70] died, message: 'Villager was slain by sykst using [Poke]'
+[23:17:00] [Server thread/INFO]: Villager class_1646['Villager'/35478, l='ServerLevel[faro]', x=1528.70, y=65.00, z=-1715.70] died, message: 'Villager was slain by sykst using [Poke]'
+[23:17:00] [Server thread/INFO]: Villager class_1646['Villager'/40782, l='ServerLevel[faro]', x=1528.70, y=65.00, z=-1715.30] died, message: 'Villager was slain by sykst using [Poke]'
+[23:21:23] [Server thread/INFO]: Villager class_1646['Villager'/63108, l='ServerLevel[faro]', x=1528.59, y=65.77, z=-1715.15] died, message: 'Villager tried to swim in lava'
+[23:29:03] [Server thread/INFO]: sykst lost connection: Disconnected
+[23:29:03] [Server thread/INFO]: sykst left the game
