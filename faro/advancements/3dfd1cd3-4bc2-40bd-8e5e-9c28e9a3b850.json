@@ -1526,6 +1526,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/cut_copper_slab_from_cut_copper_stonecutting": {
+    "criteria": {
+      "has_cut_copper": "2021-08-24 23:14:36 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/gold_nugget": {
     "criteria": {
       "has_gold_ingot": "2021-06-12 19:02:38 +0000"
@@ -1892,6 +1898,12 @@
   "minecraft:recipes/food/baked_potato_from_smoking": {
     "criteria": {
       "has_potato": "2021-06-19 16:19:49 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cut_copper_slab": {
+    "criteria": {
+      "has_cut_copper": "2021-08-24 23:14:36 +0000"
     },
     "done": true
   },
@@ -2357,6 +2369,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/waxed_cut_copper_from_honeycomb": {
+    "criteria": {
+      "has_cut_copper": "2021-08-24 23:14:36 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/nether_brick_stairs": {
     "criteria": {
       "has_nether_bricks": "2021-07-25 21:25:05 +0000"
@@ -2408,6 +2426,12 @@
   "minecraft:recipes/decorations/pink_candle": {
     "criteria": {
       "has_pink_dye": "2021-07-24 19:46:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/gray_carpet_from_white_carpet": {
+    "criteria": {
+      "has_gray_dye": "2021-08-24 22:13:12 +0000"
     },
     "done": true
   },
@@ -3593,6 +3617,7 @@
       "minecraft:snowy_tundra": "2021-06-30 03:36:21 +0000",
       "minecraft:taiga_hills": "2021-06-12 17:49:14 +0000",
       "minecraft:desert": "2021-06-30 03:40:32 +0000",
+      "minecraft:frozen_river": "2021-08-24 22:51:42 +0000",
       "minecraft:deep_frozen_ocean": "2021-06-30 03:37:01 +0000",
       "minecraft:jungle": "2021-06-23 19:43:17 +0000",
       "minecraft:birch_forest": "2021-06-13 01:08:19 +0000",
@@ -4076,6 +4101,7 @@
       "cooked_mutton": "2021-06-13 03:05:02 +0000",
       "sweet_berries": "2021-06-12 17:51:50 +0000",
       "cooked_beef": "2021-06-12 18:00:32 +0000",
+      "baked_potato": "2021-08-24 19:49:46 +0000",
       "apple": "2021-06-13 02:06:16 +0000",
       "potato": "2021-07-02 03:16:21 +0000",
       "cooked_cod": "2021-07-10 16:49:08 +0000",
@@ -4275,6 +4301,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/cut_copper_stairs": {
+    "criteria": {
+      "has_cut_copper": "2021-08-24 23:14:36 +0000"
+    },
+    "done": true
+  },
   "minecraft:husbandry/root": {
     "criteria": {
       "consumed_item": "2021-06-12 17:51:50 +0000"
@@ -4446,6 +4478,12 @@
   "minecraft:story/mine_diamond": {
     "criteria": {
       "diamond": "2021-06-12 18:55:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cut_copper_stairs_from_cut_copper_stonecutting": {
+    "criteria": {
+      "has_cut_copper": "2021-08-24 23:14:36 +0000"
     },
     "done": true
   },
@@ -4842,6 +4880,12 @@
   "minecraft:recipes/redstone/dark_oak_pressure_plate": {
     "criteria": {
       "has_planks": "2021-06-12 18:30:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/gray_candle": {
+    "criteria": {
+      "has_gray_dye": "2021-08-24 22:13:12 +0000"
     },
     "done": true
   },
