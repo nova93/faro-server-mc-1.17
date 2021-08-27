@@ -1,5 +1,5 @@
-[01:00:11] [main/INFO]: Loading for game Minecraft 1.17.1
-[01:00:11] [main/INFO]: [FabricLoader] Loading 49 mods:
+[01:00:09] [main/INFO]: Loading for game Minecraft 1.17.1
+[01:00:10] [main/INFO]: [FabricLoader] Loading 49 mods:
 	- fabric@0.37.2+1.17
 	- fabric-api-base@0.3.0+a02b446318
 	- fabric-api-lookup-api-v1@1.2.0+2b5c62d018
@@ -49,11 +49,11 @@
 	- java@16
 	- minecraft@1.17.1
 	- servux@0.1.0
-[01:00:11] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.2 Source=file:/opt/mscs/server/fabric-server-launch.jar Service=Knot/Fabric Env=SERVER
-[01:00:11] [main/INFO]: Compatibility level set to JAVA_16
-[01:00:11] [main/WARN]: @Mixin target net/minecraft/class_2474$class_5124 is public in fabric-tag-extensions-v0.mixins.json:MixinObjectBuilder and should be specified in value
-[01:00:15] [main/WARN]: @Inject(@At("INVOKE")) Shift.BY=3 on fabric-lifecycle-events-v1.mixins.json:server.WorldChunkMixin::handler$zzh000$onLoadBlockEntity exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
-[01:00:16] [main/INFO]: Applied 0 biome modifications to 0 of 81 new biomes in 4.548 ms
+[01:00:10] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.2 Source=file:/opt/mscs/server/fabric-server-launch.jar Service=Knot/Fabric Env=SERVER
+[01:00:10] [main/INFO]: Compatibility level set to JAVA_16
+[01:00:10] [main/WARN]: @Mixin target net/minecraft/class_2474$class_5124 is public in fabric-tag-extensions-v0.mixins.json:MixinObjectBuilder and should be specified in value
+[01:00:14] [main/WARN]: @Inject(@At("INVOKE")) Shift.BY=3 on fabric-lifecycle-events-v1.mixins.json:server.WorldChunkMixin::handler$zzh000$onLoadBlockEntity exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
+[01:00:16] [main/INFO]: Applied 0 biome modifications to 0 of 81 new biomes in 2.323 ms
 [01:00:16] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
 [01:00:17] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
 [01:00:17] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
@@ -61,46 +61,73 @@
 [01:00:17] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
 [01:00:17] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
 [01:00:17] [main/INFO]: Reloading ResourceManager: Default, anti enderman grief v1.1.0.zip, armor statues v2.8.1.zip, coordinates hud v1.2.0.zip, double shulker shells v1.3.0.zip, more mob heads v2.9.1.zip, player head drops v1.1.0.zip, silence mobs v1.1.0.zip, track raw statistics v1.4.0.zip, track statistics v1.1.0.zip, villager workstation highlights v1.1.0.zip, afk display v1.1.0.zip, fast leaf decay v2.0.3.zip, wandering trades v1.5.0.zip, spectator conduit power v1.1.0.zip, spectator night vision v1.1.0.zip, cauldron concrete v2.0.3.zip, Fabric Mods (Fabric Tool Attribute API (v1))
-[01:00:18] [Worker-Main-10/INFO]: Loaded 7 recipes
-[01:00:19] [Worker-Main-10/WARN]: Found validation problem in {minecraft:entities/ender_dragon}.pools[0].entries[0]: Unknown loot table called minecraft:entities/reference/extra/ender_dragon
-[01:00:19] [Worker-Main-10/INFO]: Loaded 1157 advancements
+[01:00:18] [Worker-Main-12/INFO]: Loaded 7 recipes
+[01:00:18] [Worker-Main-12/WARN]: Found validation problem in {minecraft:entities/ender_dragon}.pools[0].entries[0]: Unknown loot table called minecraft:entities/reference/extra/ender_dragon
+[01:00:19] [Worker-Main-12/INFO]: Loaded 1157 advancements
 [01:00:21] [Server thread/INFO]: Starting minecraft server version 1.17.1
 [01:00:21] [Server thread/INFO]: Loading properties
 [01:00:21] [Server thread/INFO]: Default game type: SURVIVAL
 [01:00:21] [Server thread/INFO]: Generating keypair
-[01:00:22] [Server thread/INFO]: Starting Minecraft server on *:25565
-[01:00:22] [Server thread/INFO]: Using epoll channel type
+[01:00:21] [Server thread/INFO]: Starting Minecraft server on *:25565
+[01:00:21] [Server thread/INFO]: Using epoll channel type
 [01:00:22] [Server thread/INFO]: Preparing level "faro"
 [01:00:22] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[01:00:23] [Worker-Main-12/INFO]: Preparing spawn area: 0%
 [01:00:23] [Worker-Main-10/INFO]: Preparing spawn area: 0%
 [01:00:23] [Worker-Main-8/INFO]: Preparing spawn area: 0%
-[01:00:24] [Worker-Main-10/INFO]: Preparing spawn area: 0%
-[01:00:24] [Worker-Main-9/INFO]: Preparing spawn area: 0%
-[01:00:25] [Worker-Main-12/INFO]: Preparing spawn area: 0%
-[01:00:25] [Worker-Main-8/INFO]: Preparing spawn area: 0%
-[01:00:26] [Worker-Main-11/INFO]: Preparing spawn area: 3%
-[01:00:26] [Worker-Main-14/INFO]: Preparing spawn area: 4%
-[01:00:27] [Worker-Main-11/INFO]: Preparing spawn area: 14%
-[01:00:27] [Worker-Main-14/INFO]: Preparing spawn area: 19%
-[01:00:28] [Worker-Main-9/INFO]: Preparing spawn area: 27%
-[01:00:28] [Worker-Main-9/INFO]: Preparing spawn area: 28%
-[01:00:29] [Worker-Main-12/INFO]: Preparing spawn area: 55%
-[01:00:29] [Worker-Main-11/INFO]: Preparing spawn area: 77%
-[01:00:30] [Server thread/INFO]: Time elapsed: 7933 ms
-[01:00:30] [Server thread/INFO]: Done (8.203s)! For help, type "help"
+[01:00:23] [Worker-Main-11/INFO]: Preparing spawn area: 0%
+[01:00:23] [Worker-Main-8/INFO]: Preparing spawn area: 0%
+[01:00:24] [Worker-Main-12/INFO]: Preparing spawn area: 0%
+[01:00:25] [Worker-Main-14/INFO]: Preparing spawn area: 0%
+[01:00:25] [Worker-Main-13/INFO]: Preparing spawn area: 1%
+[01:00:25] [Worker-Main-9/INFO]: Preparing spawn area: 4%
+[01:00:26] [Worker-Main-13/INFO]: Preparing spawn area: 4%
+[01:00:26] [Worker-Main-10/INFO]: Preparing spawn area: 4%
+[01:00:27] [Worker-Main-12/INFO]: Preparing spawn area: 9%
+[01:00:27] [Worker-Main-8/INFO]: Preparing spawn area: 27%
+[01:00:28] [Worker-Main-13/INFO]: Preparing spawn area: 53%
+[01:00:29] [Worker-Main-8/INFO]: Preparing spawn area: 84%
+[01:00:29] [Worker-Main-9/INFO]: Preparing spawn area: 99%
+[01:00:30] [Server thread/INFO]: Time elapsed: 7566 ms
+[01:00:30] [Server thread/INFO]: Done (7.902s)! For help, type "help"
 [01:00:30] [Server thread/INFO]: Starting GS4 status listener
 [01:00:30] [Server thread/INFO]: Thread Query Listener started
 [01:00:30] [Query Listener #1/INFO]: Query running on 0.0.0.0:25565
-[01:00:33] [Server thread/WARN]: UUID of added entity already exists: class_1531['Armor Stand'/88, l='ServerLevel[faro]', x=16562064.50, y=1000.00, z=-22242911.50]
-[19:40:40] [User Authenticator #1/INFO]: UUID of player sykst is 61b3753f-5686-4956-8020-7b6d9ebbab2c
-[19:40:40] [Server thread/INFO]: sykst[/192.168.1.100:58621] logged in with entity id 541 at (1495.2039550013978, 63.0625, -1786.216398993115)
-[19:40:40] [Server thread/INFO]: sykst joined the game
-[19:41:20] [Server thread/INFO]: Villager class_1646['Villager'/1133, l='ServerLevel[faro]', x=1528.85, y=65.52, z=-1715.15] died, message: 'Villager tried to swim in lava'
-[19:59:19] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=89, y=122, z=-54} class_2338{x=88, y=121, z=-56}
-[20:37:31] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=55, y=118, z=67} class_2338{x=-79, y=118, z=69}
-[21:18:50] [Server thread/INFO]: Villager class_1646['Villager'/36741, l='ServerLevel[faro]', x=1528.83, y=65.77, z=-1715.26] died, message: 'Villager tried to swim in lava'
-[21:23:49] [Server thread/WARN]: sykst moved too quickly! 1411.4197325143687,0.0,-513.881295601685
-[21:39:41] [Server thread/INFO]: Villager class_1646['Villager'/41786, l='ServerLevel[faro]', x=1528.57, y=65.49, z=-1715.21] died, message: 'Villager tried to swim in lava'
-[21:45:07] [Server thread/INFO]: sykst lost connection: Disconnected
-[21:45:07] [Server thread/INFO]: sykst left the game
+[01:00:32] [Server thread/WARN]: UUID of added entity already exists: class_1531['Armor Stand'/110, l='ServerLevel[faro]', x=16562064.50, y=1000.00, z=-22242911.50]
+[16:23:46] [User Authenticator #1/INFO]: UUID of player sykst is 61b3753f-5686-4956-8020-7b6d9ebbab2c
+[16:23:46] [Server thread/INFO]: sykst[/192.168.1.100:51878] logged in with entity id 478 at (1496.0068023173335, 70.0, -1794.0181527855975)
+[16:23:46] [Server thread/INFO]: sykst joined the game
+[16:39:51] [Server thread/INFO]: Villager class_1646['Villager'/4572, l='ServerLevel[faro]', x=1528.85, y=65.77, z=-1715.23] died, message: 'Villager tried to swim in lava'
+[17:00:30] [Server thread/INFO]: Villager class_1646['Villager'/8940, l='ServerLevel[faro]', x=1528.63, y=65.83, z=-1715.15] died, message: 'Villager tried to swim in lava'
+[17:18:59] [Server thread/INFO]: Villager class_1646['Villager'/13906, l='ServerLevel[faro]', x=1528.60, y=65.46, z=-1715.47] died, message: 'Villager tried to swim in lava'
+[17:39:27] [Server thread/INFO]: Villager class_1646['Villager'/19349, l='ServerLevel[faro]', x=1528.58, y=65.34, z=-1715.19] died, message: 'Villager tried to swim in lava'
+[17:49:03] [Server thread/INFO]: Villager class_1646['Villager'/22403, l='ServerLevel[faro]', x=1528.57, y=65.32, z=-1715.41] died, message: 'Villager tried to swim in lava'
+[18:35:23] [User Authenticator #2/INFO]: UUID of player davehlewis is 3dfd1cd3-4bc2-40bd-8e5e-9c28e9a3b850
+[18:35:24] [Server thread/INFO]: davehlewis[/127.0.0.1:46210] logged in with entity id 33864 at (-1005.9171215953554, 76.0, -1176.3555688260299)
+[18:35:24] [Server thread/INFO]: davehlewis joined the game
+[18:40:03] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1624, y=65, z=-1809} class_2338{x=1616, y=65, z=-1816}
+[18:40:28] [Server thread/INFO]: Villager class_1646['Villager'/36864, l='ServerLevel[faro]', x=1528.57, y=65.58, z=-1715.35] died, message: 'Villager tried to swim in lava'
+[18:48:51] [Server thread/INFO]: Villager class_1646['Villager'/35246, l='ServerLevel[faro]', x=-996.43, y=68.90, z=-1180.63] died, message: 'Villager suffocated in a wall'
+[19:02:30] [Server thread/INFO]: Villager class_1646['Villager'/48814, l='ServerLevel[faro]', x=1528.35, y=65.58, z=-1715.15] died, message: 'Villager tried to swim in lava'
+[19:13:28] [Server thread/INFO]: Villager class_1646['Villager'/55757, l='ServerLevel[faro]', x=1528.59, y=65.58, z=-1715.15] died, message: 'Villager tried to swim in lava'
+[19:36:21] [Server thread/INFO]: Villager class_1646['Villager'/64396, l='ServerLevel[faro]', x=1528.71, y=65.55, z=-1715.39] died, message: 'Villager tried to swim in lava'
+[20:18:33] [Server thread/INFO]: Villager class_1646['Villager'/92336, l='ServerLevel[faro]', x=1528.71, y=65.43, z=-1715.45] died, message: 'Villager tried to swim in lava'
+[20:58:47] [Server thread/INFO]: Villager class_1646['Villager'/89890, l='ServerLevel[faro]', x=-1022.25, y=59.00, z=-1166.50] died, message: 'Villager was slain by davehlewis'
+[21:00:30] [Server thread/WARN]: sykst moved too quickly! 17.86994138586965,3.037994156622375,-0.1242618973384566
+[21:04:30] [Server thread/INFO]: Villager class_1646['Nitwit'/130259, l='ServerLevel[faro]', x=-1788.28, y=72.00, z=-1288.37] died, message: 'Nitwit suffocated in a wall'
+[21:05:30] [Server thread/WARN]: sykst moved too quickly! 17.2687213649383,-2.1713220631721555,-0.42241825781138687
+[21:06:09] [Server thread/INFO]: Villager class_1646['Villager'/93077, l='ServerLevel[faro]', x=-1020.30, y=59.00, z=-1158.00] died, message: 'Villager hit the ground too hard whilst trying to escape davehlewis'
+[21:17:22] [Server thread/INFO]: <davehlewis> did you pick up carrots?
+[21:17:24] [Server thread/INFO]: <sykst> nope
+[21:17:28] [Server thread/INFO]: <davehlewis> ok
+[21:17:32] [Server thread/INFO]: <sykst> thought i did, but nothing in the inventory
+[21:17:45] [Server thread/INFO]: <davehlewis> was one of them then
+[21:26:19] [Server thread/INFO]: Villager class_1646['Villager'/160217, l='ServerLevel[faro]', x=1528.85, y=65.75, z=-1715.25] died, message: 'Villager tried to swim in lava'
+[21:27:28] [Server thread/INFO]: Villager class_1646['Villager'/156351, l='ServerLevel[faro]', x=-1019.49, y=59.00, z=-1158.32] died, message: 'Villager hit the ground too hard'
+[21:31:05] [Server thread/INFO]: Villager class_1646['Villager'/151686, l='ServerLevel[faro]', x=-1019.50, y=59.14, z=-1156.16] died, message: 'Villager hit the ground too hard'
+[21:41:39] [Server thread/INFO]: Villager class_1646['Villager'/167415, l='ServerLevel[faro]', x=1528.85, y=65.48, z=-1715.15] died, message: 'Villager tried to swim in lava'
+[22:19:16] [Server thread/INFO]: Villager class_1646['Villager'/186940, l='ServerLevel[faro]', x=1528.85, y=65.46, z=-1715.23] died, message: 'Villager tried to swim in lava'
+[22:32:35] [Server thread/INFO]: Villager class_1646['Villager'/192916, l='ServerLevel[faro]', x=1528.75, y=65.84, z=-1715.35] died, message: 'Villager tried to swim in lava'
+[22:52:34] [Server thread/INFO]: sykst lost connection: Disconnected
+[22:52:34] [Server thread/INFO]: sykst left the game
+[22:53:43] [Server thread/INFO]: davehlewis lost connection: Disconnected
+[22:53:43] [Server thread/INFO]: davehlewis left the game

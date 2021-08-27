@@ -983,6 +983,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/purple_glazed_terracotta": {
+    "criteria": {
+      "has_purple_terracotta": "2021-08-26 22:34:07 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/green_stained_glass": {
     "criteria": {
       "has_glass": "2021-06-11 18:59:32 +0000"
@@ -1166,6 +1172,12 @@
   "minecraft:recipes/decorations/light_blue_bed_from_white_bed": {
     "criteria": {
       "has_bed": "2021-06-12 13:11:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/magenta_glazed_terracotta": {
+    "criteria": {
+      "has_magenta_terracotta": "2021-08-26 22:34:05 +0000"
     },
     "done": true
   },
@@ -2542,6 +2554,12 @@
   "minecraft:recipes/misc/coal": {
     "criteria": {
       "has_coal_block": "2021-06-12 22:06:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/pink_glazed_terracotta": {
+    "criteria": {
+      "has_pink_terracotta": "2021-08-26 22:34:06 +0000"
     },
     "done": true
   },
