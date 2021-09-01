@@ -51,9 +51,9 @@
 	- servux@0.1.0
 [01:00:10] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.2 Source=file:/opt/mscs/server/fabric-server-launch.jar Service=Knot/Fabric Env=SERVER
 [01:00:10] [main/INFO]: Compatibility level set to JAVA_16
-[01:00:11] [main/WARN]: @Mixin target net/minecraft/class_2474$class_5124 is public in fabric-tag-extensions-v0.mixins.json:MixinObjectBuilder and should be specified in value
-[01:00:15] [main/WARN]: @Inject(@At("INVOKE")) Shift.BY=3 on fabric-lifecycle-events-v1.mixins.json:server.WorldChunkMixin::handler$zzh000$onLoadBlockEntity exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
-[01:00:16] [main/INFO]: Applied 0 biome modifications to 0 of 81 new biomes in 6.150 ms
+[01:00:10] [main/WARN]: @Mixin target net/minecraft/class_2474$class_5124 is public in fabric-tag-extensions-v0.mixins.json:MixinObjectBuilder and should be specified in value
+[01:00:14] [main/WARN]: @Inject(@At("INVOKE")) Shift.BY=3 on fabric-lifecycle-events-v1.mixins.json:server.WorldChunkMixin::handler$zzh000$onLoadBlockEntity exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
+[01:00:16] [main/INFO]: Applied 0 biome modifications to 0 of 81 new biomes in 3.115 ms
 [01:00:16] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
 [01:00:17] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
 [01:00:17] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
@@ -61,119 +61,64 @@
 [01:00:17] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
 [01:00:17] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
 [01:00:17] [main/INFO]: Reloading ResourceManager: Default, anti enderman grief v1.1.0.zip, armor statues v2.8.1.zip, coordinates hud v1.2.0.zip, double shulker shells v1.3.0.zip, more mob heads v2.9.1.zip, player head drops v1.1.0.zip, silence mobs v1.1.0.zip, track raw statistics v1.4.0.zip, track statistics v1.1.0.zip, villager workstation highlights v1.1.0.zip, afk display v1.1.0.zip, fast leaf decay v2.0.3.zip, wandering trades v1.5.0.zip, spectator conduit power v1.1.0.zip, spectator night vision v1.1.0.zip, cauldron concrete v2.0.3.zip, Fabric Mods (Fabric Tool Attribute API (v1))
-[01:00:18] [Worker-Main-10/INFO]: Loaded 7 recipes
-[01:00:18] [Worker-Main-10/WARN]: Found validation problem in {minecraft:entities/ender_dragon}.pools[0].entries[0]: Unknown loot table called minecraft:entities/reference/extra/ender_dragon
-[01:00:19] [Worker-Main-10/INFO]: Loaded 1157 advancements
+[01:00:18] [Worker-Main-8/INFO]: Loaded 7 recipes
+[01:00:18] [Worker-Main-8/WARN]: Found validation problem in {minecraft:entities/ender_dragon}.pools[0].entries[0]: Unknown loot table called minecraft:entities/reference/extra/ender_dragon
+[01:00:19] [Worker-Main-8/INFO]: Loaded 1157 advancements
 [01:00:21] [Server thread/INFO]: Starting minecraft server version 1.17.1
 [01:00:21] [Server thread/INFO]: Loading properties
 [01:00:21] [Server thread/INFO]: Default game type: SURVIVAL
 [01:00:21] [Server thread/INFO]: Generating keypair
 [01:00:21] [Server thread/INFO]: Starting Minecraft server on *:25565
 [01:00:21] [Server thread/INFO]: Using epoll channel type
-[01:00:22] [Server thread/INFO]: Preparing level "faro"
+[01:00:21] [Server thread/INFO]: Preparing level "faro"
 [01:00:22] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[01:00:23] [Worker-Main-11/INFO]: Preparing spawn area: 0%
+[01:00:22] [Worker-Main-8/INFO]: Preparing spawn area: 0%
+[01:00:22] [Worker-Main-11/INFO]: Preparing spawn area: 0%
 [01:00:23] [Worker-Main-14/INFO]: Preparing spawn area: 0%
 [01:00:23] [Worker-Main-13/INFO]: Preparing spawn area: 0%
-[01:00:24] [Worker-Main-9/INFO]: Preparing spawn area: 0%
-[01:00:24] [Worker-Main-13/INFO]: Preparing spawn area: 0%
+[01:00:24] [Worker-Main-14/INFO]: Preparing spawn area: 0%
+[01:00:24] [Worker-Main-8/INFO]: Preparing spawn area: 0%
 [01:00:25] [Worker-Main-13/INFO]: Preparing spawn area: 0%
-[01:00:25] [Worker-Main-9/INFO]: Preparing spawn area: 3%
-[01:00:26] [Worker-Main-14/INFO]: Preparing spawn area: 4%
-[01:00:26] [Worker-Main-12/INFO]: Preparing spawn area: 4%
-[01:00:27] [Worker-Main-12/INFO]: Preparing spawn area: 9%
-[01:00:27] [Worker-Main-10/INFO]: Preparing spawn area: 31%
-[01:00:28] [Worker-Main-13/INFO]: Preparing spawn area: 55%
-[01:00:28] [Worker-Main-13/INFO]: Preparing spawn area: 75%
-[01:00:29] [Server thread/INFO]: Time elapsed: 7080 ms
-[01:00:29] [Server thread/INFO]: Done (7.406s)! For help, type "help"
+[01:00:25] [Worker-Main-11/INFO]: Preparing spawn area: 4%
+[01:00:26] [Worker-Main-10/INFO]: Preparing spawn area: 6%
+[01:00:26] [Worker-Main-8/INFO]: Preparing spawn area: 12%
+[01:00:27] [Worker-Main-8/INFO]: Preparing spawn area: 23%
+[01:00:27] [Worker-Main-10/INFO]: Preparing spawn area: 41%
+[01:00:28] [Worker-Main-12/INFO]: Preparing spawn area: 62%
+[01:00:28] [Worker-Main-12/INFO]: Preparing spawn area: 89%
+[01:00:29] [Server thread/INFO]: Time elapsed: 7150 ms
+[01:00:29] [Server thread/INFO]: Done (7.487s)! For help, type "help"
 [01:00:29] [Server thread/INFO]: Starting GS4 status listener
 [01:00:29] [Server thread/INFO]: Thread Query Listener started
 [01:00:29] [Query Listener #1/INFO]: Query running on 0.0.0.0:25565
-[01:00:32] [Server thread/WARN]: UUID of added entity already exists: class_1531['Armor Stand'/183, l='ServerLevel[faro]', x=16562064.50, y=1000.00, z=-22242911.50]
-[09:35:13] [User Authenticator #1/INFO]: UUID of player sykst is 61b3753f-5686-4956-8020-7b6d9ebbab2c
-[09:35:13] [Server thread/INFO]: sykst[/192.168.1.100:57818] logged in with entity id 394 at (-61.58571737745033, 72.875, 4.474141474468148)
-[09:35:13] [Server thread/INFO]: sykst joined the game
-[11:55:58] [Server thread/INFO]: sykst lost connection: Disconnected
-[11:55:58] [Server thread/INFO]: sykst left the game
-[13:48:21] [User Authenticator #2/INFO]: UUID of player sykst is 61b3753f-5686-4956-8020-7b6d9ebbab2c
-[13:48:21] [Server thread/INFO]: sykst[/192.168.1.100:61434] logged in with entity id 30497 at (1511.4073061732531, 63.0, -1791.4935220813663)
-[13:48:21] [Server thread/INFO]: sykst joined the game
-[13:53:46] [Server thread/INFO]: sykst has completed the challenge [Subspace Bubble]
-[13:53:46] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2433ms or 48 ticks behind
-[13:57:21] [User Authenticator #3/INFO]: UUID of player davehlewis is 3dfd1cd3-4bc2-40bd-8e5e-9c28e9a3b850
-[13:57:21] [Server thread/INFO]: davehlewis[/127.0.0.1:59208] logged in with entity id 34395 at (-991.5942439060289, 76.0, -1167.300000011921)
-[13:57:21] [Server thread/INFO]: davehlewis joined the game
-[13:57:24] [Server thread/INFO]: <sykst> o/
-[13:57:30] [Server thread/INFO]: <davehlewis> \o
-[13:57:55] [Server thread/INFO]: <davehlewis> I am here to finish iron farm
-[13:58:00] [Server thread/INFO]: <sykst> uuu nice
-[13:58:45] [Server thread/INFO]: <davehlewis> I might need aid
-[13:58:54] [Server thread/INFO]: <sykst> oh?
-[13:58:54] [Server thread/INFO]: <davehlewis> I'm inside a village
-[13:59:03] [Server thread/INFO]: <davehlewis> villager*
-[13:59:08] [Server thread/INFO]: <davehlewis> a great start...
-[13:59:10] [Server thread/INFO]: <sykst> lol
-[13:59:30] [Server thread/INFO]: <davehlewis> just need some dirt removed
-[13:59:45] [Server thread/INFO]: <davehlewis> or I just kill the villager I guess
-[13:59:48] [Server thread/INFO]: <sykst> omw
-[13:59:52] [Server thread/INFO]: <davehlewis> thanks
-[14:01:17] [Server thread/INFO]: <davehlewis> oh wait I got out
-[14:01:24] [Server thread/WARN]: sykst moved wrongly!
-[14:01:30] [Server thread/INFO]: <davehlewis> or did you do that?
-[14:01:36] [Server thread/INFO]: <sykst> didnt do nothing
-[14:01:38] [Server thread/INFO]: <sykst> just got here
-[14:01:44] [Server thread/INFO]: <davehlewis> I forgot about flying
-[14:01:53] [Server thread/INFO]: <davehlewis> oops
-[14:01:56] [Server thread/INFO]: <davehlewis> sorry
-[14:01:58] [Server thread/INFO]: <sykst> eee i just saw a trident flow through you mob farm system?
-[14:02:07] [Server thread/INFO]: <davehlewis> huh?
-[14:02:09] [Server thread/INFO]: <sykst> hmm
-[14:02:12] [Server thread/INFO]: <sykst> it's not in the chest
-[14:02:23] [Server thread/INFO]: <sykst> was it a bottle and i'm blind?
-[14:02:28] [Server thread/INFO]: <davehlewis> must be
-[14:02:40] [Server thread/INFO]: <sykst> yea
-[14:02:42] [Server thread/INFO]: <davehlewis> no way for drowned to spawn in there I dont think
-[14:03:35] [Server thread/INFO]: <davehlewis> thank you anyway
-[14:03:39] [Server thread/INFO]: <sykst> nw
-[14:03:52] [Server thread/INFO]: <sykst> those villagers really don't like their fence
-[14:04:01] [Server thread/INFO]: <davehlewis> no they dont
-[14:04:17] [Server thread/INFO]: <sykst> is that meant to be a glass block? maybe a top slab would be nicer?
-[14:04:18] [Server thread/INFO]: <davehlewis> they have sea lanterns rather than fence
-[14:04:32] [Server thread/INFO]: <davehlewis> I dunno - the farm had glass
-[14:04:35] [Server thread/INFO]: <sykst> then again, i also encountered some weird redstone on this server
-[14:04:41] [Server thread/INFO]: <sykst> works fine on SP, doesn't work here
-[14:04:42] [Server thread/INFO]: <davehlewis> doesn't matter too much as long as not spawnable
-[14:04:45] [Server thread/INFO]: <davehlewis> oh how come?
-[14:05:02] [Server thread/INFO]: <sykst> it's a block swapper for a bubblevator
-[14:05:12] [Server thread/INFO]: <davehlewis> could be a lag issue?
-[14:05:13] [Server thread/INFO]: <sykst> retraction takes longer here
-[14:05:24] [Server thread/INFO]: <sykst> could be but like, it's basic redstone no?
-[14:05:29] [Server thread/INFO]: <davehlewis> yeah should be
-[14:05:32] [Server thread/INFO]: <sykst> piston retraction is 0 tick
-[14:05:40] [Server thread/INFO]: <davehlewis> but pistons can be a bit funky
-[14:09:15] [Server thread/INFO]: <davehlewis> villgers all in!
-[14:09:25] [Server thread/INFO]: <sykst> noice
-[14:09:42] [Server thread/INFO]: <sykst> platform and killing chamber left?
-[14:09:48] [Server thread/INFO]: <davehlewis> yeah
-[14:09:55] [Server thread/INFO]: <davehlewis> and collection systemm
-[14:10:03] [Server thread/INFO]: <davehlewis> well transport, you know
-[14:10:07] [Server thread/INFO]: <sykst> aye
-[14:14:40] [Server thread/INFO]: <davehlewis> brb
-[14:14:41] [Server thread/INFO]: davehlewis lost connection: Disconnected
-[14:14:41] [Server thread/INFO]: davehlewis left the game
-[14:22:41] [Server thread/INFO]: Villager class_1646['Villager'/45799, l='ServerLevel[faro]', x=1529.15, y=65.02, z=-1715.85] died, message: 'Villager drowned'
-[15:48:17] [Server thread/INFO]: Villager class_1646['Villager'/64788, l='ServerLevel[faro]', x=1529.14, y=65.02, z=-1715.85] died, message: 'Villager drowned'
-[16:03:20] [Server thread/INFO]: sykst lost connection: Disconnected
-[16:03:20] [Server thread/INFO]: sykst left the game
-[17:13:05] [User Authenticator #4/INFO]: UUID of player sykst is 61b3753f-5686-4956-8020-7b6d9ebbab2c
-[17:13:05] [Server thread/INFO]: sykst[/192.168.1.100:50574] logged in with entity id 76516 at (1493.0562055175758, 70.0, -1790.4647816936972)
-[17:13:05] [Server thread/INFO]: sykst joined the game
-[18:17:59] [Server thread/INFO]: sykst lost connection: Disconnected
-[18:17:59] [Server thread/INFO]: sykst left the game
-[18:49:31] [User Authenticator #5/INFO]: UUID of player sykst is 61b3753f-5686-4956-8020-7b6d9ebbab2c
-[18:49:31] [Server thread/INFO]: sykst[/192.168.1.100:60173] logged in with entity id 89378 at (-16.929045447483283, 95.74377371771507, 15.059074380295153)
-[18:49:31] [Server thread/INFO]: sykst joined the game
-[18:55:24] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-10, y=85, z=45} class_2338{x=-9, y=84, z=44}
-[19:07:31] [Server thread/INFO]: sykst lost connection: Disconnected
-[19:07:31] [Server thread/INFO]: sykst left the game
+[01:00:32] [Server thread/WARN]: UUID of added entity already exists: class_1531['Armor Stand'/88, l='ServerLevel[faro]', x=16562064.50, y=1000.00, z=-22242911.50]
+[19:39:11] [User Authenticator #1/INFO]: UUID of player sykst is 61b3753f-5686-4956-8020-7b6d9ebbab2c
+[19:39:11] [Server thread/INFO]: sykst[/192.168.1.100:60523] logged in with entity id 546 at (1509.5, 64.0625, -1801.5)
+[19:39:11] [Server thread/INFO]: sykst joined the game
+[19:56:46] [Server thread/INFO]: Villager class_1646['Villager'/1413, l='ServerLevel[faro]', x=1529.22, y=65.02, z=-1715.85] died, message: 'Villager drowned'
+[20:37:15] [Server thread/INFO]: Villager class_1646['Villager'/893, l='ServerLevel[faro]', x=1529.02, y=64.00, z=-1715.12] died, message: 'Villager went up in flames'
+[20:37:17] [Server thread/INFO]: Villager class_1646['Villager'/899, l='ServerLevel[faro]', x=1529.12, y=64.00, z=-1715.05] died, message: 'Villager went up in flames'
+[20:37:18] [Server thread/INFO]: Villager class_1646['Villager'/905, l='ServerLevel[faro]', x=1528.74, y=64.00, z=-1715.01] died, message: 'Villager went up in flames'
+[20:37:18] [Server thread/INFO]: Villager class_1646['Villager'/897, l='ServerLevel[faro]', x=1529.17, y=64.00, z=-1715.15] died, message: 'Villager went up in flames'
+[20:37:27] [Server thread/INFO]: Villager class_1646['Villager'/904, l='ServerLevel[faro]', x=1529.10, y=64.00, z=-1715.08] died, message: 'Villager went up in flames'
+[20:37:38] [Server thread/INFO]: Villager class_1646['Villager'/901, l='ServerLevel[faro]', x=1529.70, y=64.00, z=-1714.30] died, message: 'Villager burned to death'
+[20:37:41] [Server thread/INFO]: Villager class_1646['Villager'/896, l='ServerLevel[faro]', x=1529.25, y=64.00, z=-1714.74] died, message: 'Villager went up in flames'
+[20:37:47] [Server thread/INFO]: Villager class_1646['Villager'/900, l='ServerLevel[faro]', x=1528.60, y=64.00, z=-1715.08] died, message: 'Villager went up in flames'
+[20:37:50] [Server thread/INFO]: Villager class_1646['Villager'/902, l='ServerLevel[faro]', x=1529.70, y=64.00, z=-1715.27] died, message: 'Villager went up in flames'
+[20:38:02] [Server thread/INFO]: Villager class_1646['Villager'/898, l='ServerLevel[faro]', x=1529.28, y=64.00, z=-1714.46] died, message: 'Villager burned to death'
+[20:38:46] [Server thread/INFO]: Villager class_1646['Villager'/15003, l='ServerLevel[faro]', x=1528.08, y=66.00, z=-1713.69] died, message: 'Villager was slain by sykst using [Poke]'
+[20:55:50] [Server thread/INFO]: sykst lost connection: Disconnected
+[20:55:50] [Server thread/INFO]: sykst left the game
+[21:34:26] [User Authenticator #2/INFO]: UUID of player davehlewis is 3dfd1cd3-4bc2-40bd-8e5e-9c28e9a3b850
+[21:34:26] [Server thread/INFO]: davehlewis[/127.0.0.1:35700] logged in with entity id 25334 at (-1021.4151208138927, 77.0, -1176.7405306419134)
+[21:34:26] [Server thread/INFO]: davehlewis joined the game
+[22:35:06] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1019, y=68, z=-1169} class_2338{x=-1020, y=67, z=-1169}
+[22:35:06] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1019, y=68, z=-1169} class_2338{x=-1020, y=67, z=-1169}
+[22:35:06] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1019, y=68, z=-1169} class_2338{x=-1020, y=67, z=-1169}
+[22:35:06] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1019, y=68, z=-1169} class_2338{x=-1020, y=67, z=-1169}
+[22:35:06] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1019, y=68, z=-1169} class_2338{x=-1020, y=67, z=-1169}
+[23:36:01] [Server thread/INFO]: davehlewis lost connection: Disconnected
+[23:36:01] [Server thread/INFO]: davehlewis left the game
+[23:56:20] [User Authenticator #3/INFO]: UUID of player davehlewis is 3dfd1cd3-4bc2-40bd-8e5e-9c28e9a3b850
+[23:56:20] [Server thread/INFO]: davehlewis[/127.0.0.1:36028] logged in with entity id 51932 at (-1014.4409169348907, 76.0, -1170.7667416382023)
+[23:56:20] [Server thread/INFO]: davehlewis joined the game
