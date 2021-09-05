@@ -41,6 +41,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/brick_wall": {
+    "criteria": {
+      "has_bricks": "2021-09-04 20:53:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/light_blue_dye_from_blue_orchid": {
+    "criteria": {
+      "has_blue_orchid": "2021-09-04 21:11:56 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/stone_bricks": {
     "criteria": {
       "has_stone": "2021-06-11 21:12:32 +0000"
@@ -428,6 +440,12 @@
   "minecraft:recipes/redstone/crimson_button": {
     "criteria": {
       "has_planks": "2021-06-15 17:21:08 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/brick_stairs": {
+    "criteria": {
+      "has_bricks": "2021-09-04 20:53:07 +0000"
     },
     "done": true
   },
@@ -1439,6 +1457,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/brick_slab": {
+    "criteria": {
+      "has_bricks": "2021-09-04 20:53:07 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/iron_ingot_from_smelting_iron_ore": {
     "criteria": {
       "has_iron_ore": "2021-06-30 21:27:40 +0000"
@@ -1602,6 +1626,12 @@
   "minecraft:recipes/building_blocks/magenta_concrete_powder": {
     "criteria": {
       "has_sand": "2021-06-11 18:57:48 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/blue_bed": {
+    "criteria": {
+      "has_blue_wool": "2021-09-04 20:51:27 +0000"
     },
     "done": true
   },
@@ -2390,6 +2420,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/chiseled_sandstone": {
+    "criteria": {
+      "has_sandstone_slab": "2021-09-04 20:43:46 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/bricks": {
     "criteria": {
       "has_brick": "2021-06-12 15:48:52 +0000"
@@ -2567,6 +2603,12 @@
   "minecraft:recipes/building_blocks/smooth_red_sandstone": {
     "criteria": {
       "has_red_sandstone": "2021-08-28 17:37:06 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/brick_slab_from_bricks_stonecutting": {
+    "criteria": {
+      "has_bricks": "2021-09-04 20:53:07 +0000"
     },
     "done": true
   },
@@ -2984,6 +3026,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/brick_stairs_from_bricks_stonecutting": {
+    "criteria": {
+      "has_bricks": "2021-09-04 20:53:07 +0000"
+    },
+    "done": true
+  },
   "minecraft:nether/charge_respawn_anchor": {
     "criteria": {
       "charge_respawn_anchor": "2021-09-03 20:53:06 +0000"
@@ -3191,6 +3239,12 @@
   "minecraft:recipes/redstone/polished_blackstone_button": {
     "criteria": {
       "has_polished_blackstone": "2021-08-07 21:53:02 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/blue_carpet": {
+    "criteria": {
+      "has_blue_wool": "2021-09-04 20:51:27 +0000"
     },
     "done": true
   },
@@ -3741,6 +3795,12 @@
   "minecraft:recipes/decorations/granite_wall_from_granite_stonecutting": {
     "criteria": {
       "has_granite": "2021-06-11 19:15:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/brick_wall_from_bricks_stonecutting": {
+    "criteria": {
+      "has_bricks": "2021-09-04 20:53:07 +0000"
     },
     "done": true
   },
@@ -4366,6 +4426,7 @@
       "minecraft:snowy_taiga": "2021-07-07 17:26:23 +0000",
       "minecraft:birch_forest_hills": "2021-06-11 17:33:42 +0000",
       "minecraft:wooded_mountains": "2021-06-11 17:34:51 +0000",
+      "minecraft:bamboo_jungle_hills": "2021-09-04 21:05:55 +0000",
       "minecraft:wooded_hills": "2021-06-11 17:34:13 +0000",
       "minecraft:stone_shore": "2021-06-12 17:22:42 +0000",
       "minecraft:giant_tree_taiga_hills": "2021-07-07 17:59:53 +0000",
@@ -4376,7 +4437,7 @@
       "minecraft:savanna": "2021-06-20 14:22:35 +0000",
       "minecraft:plains": "2021-06-11 17:30:29 +0000"
     },
-    "done": false
+    "done": true
   },
   "minecraft:recipes/building_blocks/cut_red_sandstone": {
     "criteria": {
@@ -4456,6 +4517,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/red_dye_from_tulip": {
+    "criteria": {
+      "has_red_flower": "2021-09-04 21:07:25 +0000"
+    },
+    "done": true
+  },
   "minecraft:husbandry/axolotl_in_a_bucket": {
     "criteria": {
       "axolotl_bucket": "2021-06-21 14:28:13 +0000"
@@ -4471,6 +4538,12 @@
   "minecraft:recipes/misc/netherite_ingot": {
     "criteria": {
       "has_netherite_scrap": "2021-07-10 15:36:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cut_sandstone_slab": {
+    "criteria": {
+      "has_cut_sandstone": "2021-09-04 20:42:17 +0000"
     },
     "done": true
   },
@@ -4615,6 +4688,12 @@
   "minecraft:recipes/misc/fire_charge": {
     "criteria": {
       "has_blaze_powder": "2021-06-15 19:04:33 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/blue_banner": {
+    "criteria": {
+      "has_blue_wool": "2021-09-04 20:51:27 +0000"
     },
     "done": true
   },
@@ -5169,6 +5248,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/cut_sandstone_slab_from_cut_sandstone_stonecutting": {
+    "criteria": {
+      "has_cut_sandstone": "2021-09-04 20:42:17 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/smooth_stone_slab": {
     "criteria": {
       "has_smooth_stone": "2021-06-11 22:16:53 +0000"
@@ -5547,6 +5632,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/pink_dye_from_peony": {
+    "criteria": {
+      "has_peony": "2021-09-04 21:09:44 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/loom": {
     "criteria": {
       "has_string": "2021-06-11 22:15:19 +0000"
@@ -5664,6 +5755,12 @@
   "minecraft:recipes/redstone/warped_trapdoor": {
     "criteria": {
       "has_planks": "2021-06-11 17:38:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/blue_glazed_terracotta": {
+    "criteria": {
+      "has_blue_terracotta": "2021-09-04 20:47:21 +0000"
     },
     "done": true
   },
