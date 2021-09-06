@@ -593,6 +593,12 @@
     },
     "done": true
   },
+  "minecraft:husbandry/ride_a_boat_with_a_goat": {
+    "criteria": {
+      "ride_a_boat_with_a_goat": "2021-09-05 20:15:25 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/stone_brick_stairs_from_stone_stonecutting": {
     "criteria": {
       "has_stone": "2021-06-11 21:12:32 +0000"
@@ -1869,6 +1875,12 @@
     },
     "done": true
   },
+  "minecraft:adventure/bullseye": {
+    "criteria": {
+      "bullseye": "2021-09-05 19:52:03 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/stone_brick_stairs_from_stone_bricks_stonecutting": {
     "criteria": {
       "has_stone_bricks": "2021-06-12 11:56:38 +0000"
@@ -2261,6 +2273,12 @@
   "minecraft:recipes/decorations/red_glazed_terracotta": {
     "criteria": {
       "has_red_terracotta": "2021-07-18 19:54:02 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/whos_the_pillager_now": {
+    "criteria": {
+      "kill_pillager": "2021-09-05 20:10:48 +0000"
     },
     "done": true
   },
@@ -4251,6 +4269,12 @@
   "minecraft:recipes/combat/crossbow": {
     "criteria": {
       "has_stick": "2021-06-11 17:52:36 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/totem_of_undying": {
+    "criteria": {
+      "used_totem": "2021-09-05 19:55:09 +0000"
     },
     "done": true
   },

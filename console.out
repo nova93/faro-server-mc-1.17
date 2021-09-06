@@ -1,5 +1,5 @@
-[01:01:10] [main/INFO]: Loading for game Minecraft 1.17.1
-[01:01:11] [main/INFO]: [FabricLoader] Loading 49 mods:
+[01:00:09] [main/INFO]: Loading for game Minecraft 1.17.1
+[01:00:09] [main/INFO]: [FabricLoader] Loading 49 mods:
 	- fabric@0.37.2+1.17
 	- fabric-api-base@0.3.0+a02b446318
 	- fabric-api-lookup-api-v1@1.2.0+2b5c62d018
@@ -49,119 +49,297 @@
 	- java@16
 	- minecraft@1.17.1
 	- servux@0.1.0
-[01:01:11] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.2 Source=file:/opt/mscs/server/fabric-server-launch.jar Service=Knot/Fabric Env=SERVER
-[01:01:11] [main/INFO]: Compatibility level set to JAVA_16
-[01:01:11] [main/WARN]: @Mixin target net/minecraft/class_2474$class_5124 is public in fabric-tag-extensions-v0.mixins.json:MixinObjectBuilder and should be specified in value
-[01:01:16] [main/WARN]: @Inject(@At("INVOKE")) Shift.BY=3 on fabric-lifecycle-events-v1.mixins.json:server.WorldChunkMixin::handler$zzh000$onLoadBlockEntity exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
-[01:01:17] [main/INFO]: Applied 0 biome modifications to 0 of 81 new biomes in 6.704 ms
-[01:01:17] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[01:01:18] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[01:01:18] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[01:01:18] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[01:01:18] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[01:01:18] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[01:01:18] [main/INFO]: Reloading ResourceManager: Default, anti enderman grief v1.1.0.zip, armor statues v2.8.1.zip, coordinates hud v1.2.0.zip, double shulker shells v1.3.0.zip, more mob heads v2.9.1.zip, player head drops v1.1.0.zip, silence mobs v1.1.0.zip, track raw statistics v1.4.0.zip, track statistics v1.1.0.zip, villager workstation highlights v1.1.0.zip, afk display v1.1.0.zip, fast leaf decay v2.0.3.zip, wandering trades v1.5.0.zip, spectator conduit power v1.1.0.zip, spectator night vision v1.1.0.zip, cauldron concrete v2.0.3.zip, Fabric Mods (Fabric Tool Attribute API (v1))
-[01:01:19] [Worker-Main-10/INFO]: Loaded 7 recipes
-[01:01:19] [Worker-Main-10/WARN]: Found validation problem in {minecraft:entities/ender_dragon}.pools[0].entries[0]: Unknown loot table called minecraft:entities/reference/extra/ender_dragon
-[01:01:20] [Worker-Main-10/INFO]: Loaded 1157 advancements
-[01:01:22] [Server thread/INFO]: Starting minecraft server version 1.17.1
-[01:01:22] [Server thread/INFO]: Loading properties
-[01:01:22] [Server thread/INFO]: Default game type: SURVIVAL
-[01:01:22] [Server thread/INFO]: Generating keypair
-[01:01:22] [Server thread/INFO]: Starting Minecraft server on *:25565
-[01:01:22] [Server thread/INFO]: Using epoll channel type
-[01:01:23] [Server thread/INFO]: Preparing level "faro"
-[01:01:23] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[01:01:24] [Worker-Main-13/INFO]: Preparing spawn area: 0%
-[01:01:24] [Worker-Main-11/INFO]: Preparing spawn area: 0%
-[01:01:24] [Worker-Main-8/INFO]: Preparing spawn area: 0%
-[01:01:25] [Worker-Main-10/INFO]: Preparing spawn area: 0%
-[01:01:25] [Worker-Main-10/INFO]: Preparing spawn area: 0%
-[01:01:25] [Worker-Main-8/INFO]: Preparing spawn area: 0%
-[01:01:26] [Worker-Main-11/INFO]: Preparing spawn area: 2%
-[01:01:26] [Worker-Main-13/INFO]: Preparing spawn area: 4%
-[01:01:27] [Worker-Main-9/INFO]: Preparing spawn area: 4%
-[01:01:27] [Worker-Main-8/INFO]: Preparing spawn area: 15%
-[01:01:28] [Worker-Main-11/INFO]: Preparing spawn area: 35%
-[01:01:28] [Worker-Main-11/INFO]: Preparing spawn area: 64%
-[01:01:29] [Worker-Main-10/INFO]: Preparing spawn area: 76%
-[01:01:29] [Worker-Main-14/INFO]: Preparing spawn area: 94%
-[01:01:30] [Server thread/INFO]: Time elapsed: 7175 ms
-[01:01:30] [Server thread/INFO]: Done (7.543s)! For help, type "help"
-[01:01:30] [Server thread/INFO]: Starting GS4 status listener
-[01:01:30] [Server thread/INFO]: Thread Query Listener started
-[01:01:30] [Query Listener #1/INFO]: Query running on 0.0.0.0:25565
-[01:01:32] [Server thread/WARN]: UUID of added entity already exists: class_1531['Armor Stand'/87, l='ServerLevel[faro]', x=16562064.50, y=1000.00, z=-22242911.50]
-[01:01:39] [User Authenticator #1/INFO]: UUID of player davehlewis is 3dfd1cd3-4bc2-40bd-8e5e-9c28e9a3b850
-[01:01:40] [Server thread/INFO]: davehlewis[/127.0.0.1:47846] logged in with entity id 90 at (-894.7625932636524, 63.0, -1088.1355997636206)
-[01:01:40] [Server thread/INFO]: davehlewis joined the game
-[01:01:42] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2097ms or 41 ticks behind
-[01:54:21] [Server thread/INFO]: davehlewis lost connection: Disconnected
-[01:54:21] [Server thread/INFO]: davehlewis left the game
-[13:59:22] [User Authenticator #2/INFO]: UUID of player davehlewis is 3dfd1cd3-4bc2-40bd-8e5e-9c28e9a3b850
-[13:59:23] [Server thread/INFO]: davehlewis[/127.0.0.1:49786] logged in with entity id 11848 at (-892.392236656438, 65.5, -1091.9005285024502)
-[13:59:23] [Server thread/INFO]: davehlewis joined the game
-[14:53:18] [Server thread/INFO]: davehlewis lost connection: Disconnected
-[14:53:18] [Server thread/INFO]: davehlewis left the game
-[14:58:28] [User Authenticator #3/INFO]: UUID of player sykst is 61b3753f-5686-4956-8020-7b6d9ebbab2c
-[14:58:28] [Server thread/INFO]: sykst[/192.168.1.100:49818] logged in with entity id 22704 at (1498.050902871936, 63.0, -1793.6235083799693)
-[14:58:28] [Server thread/INFO]: sykst joined the game
-[15:03:20] [Server thread/INFO]: sykst lost connection: Disconnected
-[15:03:20] [Server thread/INFO]: sykst left the game
-[15:12:40] [User Authenticator #4/INFO]: UUID of player davehlewis is 3dfd1cd3-4bc2-40bd-8e5e-9c28e9a3b850
-[15:12:41] [Server thread/INFO]: davehlewis[/127.0.0.1:49946] logged in with entity id 24874 at (-902.3000000119209, 63.0, -1088.7865053724688)
-[15:12:41] [Server thread/INFO]: davehlewis joined the game
-[16:47:16] [Server thread/INFO]: davehlewis lost connection: Disconnected
-[16:47:16] [Server thread/INFO]: davehlewis left the game
-[16:48:01] [User Authenticator #5/INFO]: UUID of player sykst is 61b3753f-5686-4956-8020-7b6d9ebbab2c
-[16:48:01] [Server thread/INFO]: sykst[/192.168.1.100:55928] logged in with entity id 45002 at (1505.4809462214002, 71.0, -1791.5191130705987)
-[16:48:01] [Server thread/INFO]: sykst joined the game
-[16:50:14] [Server thread/INFO]: sykst lost connection: Disconnected
-[16:50:14] [Server thread/INFO]: sykst left the game
-[17:53:54] [User Authenticator #6/INFO]: UUID of player sykst is 61b3753f-5686-4956-8020-7b6d9ebbab2c
-[17:53:54] [Server thread/INFO]: sykst[/192.168.1.100:53652] logged in with entity id 46655 at (1501.0944167295654, 63.0625, -1786.6741068666781)
-[17:53:54] [Server thread/INFO]: sykst joined the game
-[17:54:06] [Server thread/INFO]: Villager class_1646['Villager'/47006, l='ServerLevel[faro]', x=1529.19, y=64.02, z=-1715.85] died, message: 'Villager drowned'
-[18:00:55] [Server thread/INFO]: sykst lost connection: Disconnected
-[18:00:55] [Server thread/INFO]: sykst left the game
-[19:57:33] [User Authenticator #7/INFO]: UUID of player sykst is 61b3753f-5686-4956-8020-7b6d9ebbab2c
-[19:57:33] [Server thread/INFO]: sykst[/192.168.1.100:62567] logged in with entity id 49143 at (1601.0159147711374, 43.5, -1887.820846443667)
-[19:57:33] [Server thread/INFO]: sykst joined the game
-[20:02:36] [Server thread/INFO]: Villager class_1646['Villager'/51321, l='ServerLevel[faro]', x=1529.21, y=64.02, z=-1715.85] died, message: 'Villager drowned'
-[20:11:38] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-81, y=92, z=-29} class_2338{x=-82, y=92, z=-29}
-[20:52:28] [Server thread/INFO]: Villager class_1646['Villager'/65672, l='ServerLevel[faro]', x=1529.16, y=64.02, z=-1715.85] died, message: 'Villager drowned'
-[21:05:55] [Server thread/INFO]: sykst has completed the challenge [Adventuring Time]
-[21:07:36] [User Authenticator #8/INFO]: UUID of player davehlewis is 3dfd1cd3-4bc2-40bd-8e5e-9c28e9a3b850
-[21:07:37] [Server thread/INFO]: davehlewis[/127.0.0.1:50878] logged in with entity id 75371 at (-889.0890247076145, 63.0, -1017.9753560053948)
-[21:07:37] [Server thread/INFO]: davehlewis joined the game
-[21:07:44] [Server thread/INFO]: <sykst> o/
-[21:07:46] [Server thread/INFO]: <davehlewis> \o
-[21:08:55] [Server thread/INFO]: <davehlewis> do we have the silenced thing on this server?
-[21:08:57] [Server thread/INFO]: <sykst> yea
-[21:09:03] [Server thread/INFO]: <davehlewis> these sheep are doing my head in
-[21:09:08] [Server thread/INFO]: <sykst> any idea where i can find peony?
-[21:09:25] [Server thread/INFO]: <davehlewis> flower forest isn't it?
-[21:09:30] [Server thread/INFO]: <sykst> nothing there :-(
-[21:10:09] [Server thread/INFO]: <sykst> oh it is here
-[21:10:13] [Server thread/INFO]: <sykst> im just blind lol
-[21:59:59] [Server thread/INFO]: <sykst> building statues takes a while
-[22:00:11] [Server thread/INFO]: <davehlewis> what statue you building?
-[22:00:15] [Server thread/INFO]: <sykst> spawn
-[22:00:23] [Server thread/INFO]: <sykst> a king on a mountain
-[22:03:42] [Server thread/INFO]: <davehlewis> that's not very sci-fi surely?
-[22:03:50] [Server thread/INFO]: <sykst> nope
-[22:03:58] [Server thread/INFO]: <sykst> it was meant to be zugzug
-[22:04:01] [Server thread/INFO]: <sykst> this is close enough
-[22:04:16] [Server thread/INFO]: <davehlewis> ah I had a statue lined up for that
-[22:04:21] [Server thread/INFO]: <sykst> oh no
-[22:04:26] [Server thread/INFO]: <davehlewis> it's ok
-[22:04:29] [Server thread/INFO]: <sykst> there is another mountain here
-[22:04:32] [Server thread/INFO]: <sykst> we can have two?
-[22:04:56] [Server thread/INFO]: <davehlewis> yeah of course. Had it in creative world was modifying the helmet to be more wolf/hores
-[22:05:15] [Server thread/INFO]: <sykst> very nice
-[22:05:16] [Server thread/INFO]: <davehlewis> deer i mean
-[22:23:34] [Server thread/INFO]: davehlewis lost connection: Disconnected
-[22:23:34] [Server thread/INFO]: davehlewis left the game
-[23:18:01] [Server thread/INFO]: Villager class_1646['Villager'/120066, l='ServerLevel[faro]', x=1529.28, y=64.02, z=-1715.85] died, message: 'Villager drowned'
-[23:33:46] [Server thread/INFO]: sykst lost connection: Disconnected
-[23:33:46] [Server thread/INFO]: sykst left the game
+[01:00:09] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.2 Source=file:/opt/mscs/server/fabric-server-launch.jar Service=Knot/Fabric Env=SERVER
+[01:00:10] [main/INFO]: Compatibility level set to JAVA_16
+[01:00:10] [main/WARN]: @Mixin target net/minecraft/class_2474$class_5124 is public in fabric-tag-extensions-v0.mixins.json:MixinObjectBuilder and should be specified in value
+[01:00:14] [main/WARN]: @Inject(@At("INVOKE")) Shift.BY=3 on fabric-lifecycle-events-v1.mixins.json:server.WorldChunkMixin::handler$zzh000$onLoadBlockEntity exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
+[01:00:15] [main/INFO]: Applied 0 biome modifications to 0 of 81 new biomes in 2.253 ms
+[01:00:16] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[01:00:16] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[01:00:16] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[01:00:16] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[01:00:16] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[01:00:16] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[01:00:17] [main/INFO]: Reloading ResourceManager: Default, anti enderman grief v1.1.0.zip, armor statues v2.8.1.zip, coordinates hud v1.2.0.zip, double shulker shells v1.3.0.zip, more mob heads v2.9.1.zip, player head drops v1.1.0.zip, silence mobs v1.1.0.zip, track raw statistics v1.4.0.zip, track statistics v1.1.0.zip, villager workstation highlights v1.1.0.zip, afk display v1.1.0.zip, fast leaf decay v2.0.3.zip, wandering trades v1.5.0.zip, spectator conduit power v1.1.0.zip, spectator night vision v1.1.0.zip, cauldron concrete v2.0.3.zip, Fabric Mods (Fabric Tool Attribute API (v1))
+[01:00:18] [Worker-Main-9/INFO]: Loaded 7 recipes
+[01:00:18] [Worker-Main-9/WARN]: Found validation problem in {minecraft:entities/ender_dragon}.pools[0].entries[0]: Unknown loot table called minecraft:entities/reference/extra/ender_dragon
+[01:00:18] [Worker-Main-9/INFO]: Loaded 1157 advancements
+[01:00:20] [Server thread/INFO]: Starting minecraft server version 1.17.1
+[01:00:20] [Server thread/INFO]: Loading properties
+[01:00:20] [Server thread/INFO]: Default game type: SURVIVAL
+[01:00:20] [Server thread/INFO]: Generating keypair
+[01:00:20] [Server thread/INFO]: Starting Minecraft server on *:25565
+[01:00:21] [Server thread/INFO]: Using epoll channel type
+[01:00:21] [Server thread/INFO]: Preparing level "faro"
+[01:00:21] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[01:00:22] [Worker-Main-8/INFO]: Preparing spawn area: 0%
+[01:00:22] [Worker-Main-10/INFO]: Preparing spawn area: 0%
+[01:00:22] [Worker-Main-14/INFO]: Preparing spawn area: 0%
+[01:00:23] [Worker-Main-9/INFO]: Preparing spawn area: 0%
+[01:00:23] [Worker-Main-13/INFO]: Preparing spawn area: 0%
+[01:00:24] [Worker-Main-14/INFO]: Preparing spawn area: 0%
+[01:00:24] [Worker-Main-12/INFO]: Preparing spawn area: 2%
+[01:00:25] [Worker-Main-10/INFO]: Preparing spawn area: 6%
+[01:00:25] [Worker-Main-14/INFO]: Preparing spawn area: 10%
+[01:00:26] [Worker-Main-10/INFO]: Preparing spawn area: 17%
+[01:00:26] [Worker-Main-9/INFO]: Preparing spawn area: 32%
+[01:00:27] [Worker-Main-8/INFO]: Preparing spawn area: 32%
+[01:00:27] [Worker-Main-10/INFO]: Preparing spawn area: 79%
+[01:00:28] [Server thread/INFO]: Time elapsed: 6710 ms
+[01:00:28] [Server thread/INFO]: Done (6.951s)! For help, type "help"
+[01:00:28] [Server thread/INFO]: Starting GS4 status listener
+[01:00:28] [Server thread/INFO]: Thread Query Listener started
+[01:00:28] [Query Listener #1/INFO]: Query running on 0.0.0.0:25565
+[01:00:30] [Server thread/WARN]: UUID of added entity already exists: class_1531['Armor Stand'/90, l='ServerLevel[faro]', x=16562064.50, y=1000.00, z=-22242911.50]
+[12:57:10] [User Authenticator #1/INFO]: UUID of player sykst is 61b3753f-5686-4956-8020-7b6d9ebbab2c
+[12:57:10] [Server thread/INFO]: sykst[/192.168.1.100:49781] logged in with entity id 468 at (1493.5305808977541, 63.0, -1788.5658580516751)
+[12:57:10] [Server thread/INFO]: sykst joined the game
+[12:58:01] [Server thread/INFO]: sykst lost connection: Disconnected
+[12:58:01] [Server thread/INFO]: sykst left the game
+[13:53:17] [User Authenticator #2/INFO]: UUID of player davehlewis is 3dfd1cd3-4bc2-40bd-8e5e-9c28e9a3b850
+[13:53:17] [Server thread/INFO]: davehlewis[/127.0.0.1:53326] logged in with entity id 1489 at (-890.5115910850178, 63.0, -1013.9401292449729)
+[13:53:17] [Server thread/INFO]: davehlewis joined the game
+[14:03:58] [Server thread/INFO]: davehlewis lost connection: Disconnected
+[14:03:58] [Server thread/INFO]: davehlewis left the game
+[14:38:02] [User Authenticator #3/INFO]: UUID of player sykst is 61b3753f-5686-4956-8020-7b6d9ebbab2c
+[14:38:02] [Server thread/INFO]: sykst[/192.168.1.100:50585] logged in with entity id 4821 at (1498.2711301659945, 63.0625, -1786.5016597283086)
+[14:38:02] [Server thread/INFO]: sykst joined the game
+[14:38:32] [Server thread/INFO]: sykst lost connection: Disconnected
+[14:38:32] [Server thread/INFO]: sykst left the game
+[14:41:24] [User Authenticator #4/INFO]: UUID of player sykst is 61b3753f-5686-4956-8020-7b6d9ebbab2c
+[14:41:24] [Server thread/INFO]: sykst[/192.168.1.100:51024] logged in with entity id 5465 at (1498.2711301659945, 63.0625, -1786.5016597283086)
+[14:41:24] [Server thread/INFO]: sykst joined the game
+[14:42:14] [Server thread/INFO]: Villager class_1646['Villager'/6091, l='ServerLevel[faro]', x=1529.14, y=64.02, z=-1715.85] died, message: 'Villager drowned'
+[14:44:55] [User Authenticator #5/INFO]: UUID of player davehlewis is 3dfd1cd3-4bc2-40bd-8e5e-9c28e9a3b850
+[14:44:55] [Server thread/INFO]: davehlewis[/127.0.0.1:53442] logged in with entity id 7265 at (-1011.4109017153177, 85.0, -1153.8407045990925)
+[14:44:55] [Server thread/INFO]: davehlewis joined the game
+[14:45:06] [Server thread/INFO]: <sykst> lol sync login
+[14:45:13] [Server thread/INFO]: <davehlewis> haha
+[14:45:30] [Server thread/INFO]: <davehlewis> seems my iron farm has stopped working
+[14:45:42] [Server thread/INFO]: <davehlewis> is there a minimum number of villagers or something?
+[14:45:49] [Server thread/INFO]: <sykst> 3 per cell
+[14:46:15] [Server thread/INFO]: <davehlewis> looks like I lost a couple
+[14:46:24] [Server thread/INFO]: <sykst> falling creepers/skellied?
+[14:46:26] [Server thread/INFO]: <davehlewis> but other cells should work
+[14:46:33] [Server thread/INFO]: <davehlewis> not sure might be skellied
+[14:47:08] [Server thread/INFO]: <davehlewis> still not sure why other cells have issues though
+[14:48:10] [Server thread/INFO]: <davehlewis> so 2 cells on left are only 2
+[14:48:50] [Server thread/INFO]: <sykst> i can see skellies killing them from the mountain frame
+[14:48:58] [Server thread/INFO]: <sykst> but yea, the cells with 3 should be working
+[14:49:25] [Server thread/INFO]: <sykst> they dont look scared
+[14:49:32] [Server thread/INFO]: <davehlewis> they are though
+[14:49:53] [Server thread/INFO]: <sykst> the guys outside the cells, on the bed
+[14:49:59] [Server thread/INFO]: <sykst> should be running like mad
+[14:50:13] [Server thread/INFO]: <davehlewis> nowhere to run though
+[14:50:14] [Server thread/INFO]: <sykst> like the guy im looking at, he doesn't see the pillager
+[14:50:20] [Server thread/INFO]: <sykst> they do have 2 blocks of the bed
+[14:50:40] [Server thread/INFO]: <sykst> their head is on a different level as well
+[14:50:45] [Server thread/INFO]: <davehlewis> but it was all working before
+[14:51:39] [Server thread/INFO]: <sykst> i wonder if there is a way to see the scared status
+[14:51:49] [Server thread/INFO]: <davehlewis> there are mods
+[14:52:28] [Server thread/INFO]: <davehlewis> I really don't want to have to get the villagers again...
+[14:53:12] [Server thread/INFO]: <davehlewis> mind if I spawn 2 in to see if that's the problem?
+[14:53:17] [Server thread/INFO]: <sykst> go for it
+[14:53:20] [Server thread/INFO]: <sykst> this is really weird
+[14:53:52] [Server thread/INFO]: <davehlewis> if it was a different farm I would say being partially loaded breaks it but it shouldn't be a problem
+[14:54:13] [Server thread/INFO]: <sykst> if that was a problem, us being here would kick it into gear
+[14:54:22] [Server thread/INFO]: <sykst> we load 12 chunks in each direction
+[14:54:25] [Server thread/INFO]: <davehlewis> yeah
+[14:57:51] [Server thread/INFO]: <davehlewis> you seem to be right about them not being scared
+[14:58:04] [Server thread/INFO]: <davehlewis> oh wait i turned it off...
+[14:58:15] [Server thread/INFO]: <davehlewis> yep def scared
+[14:58:31] [Server thread/INFO]: <davehlewis> the 1 node is now working
+[14:58:45] [Server thread/INFO]: <sykst> maybe not enough time to fall asleep?
+[14:59:01] [Server thread/INFO]: <davehlewis> the ones I spawn new villager into
+[14:59:09] [Server thread/INFO]: Villager class_1646['Villager'/7271, l='ServerLevel[faro]', x=-1018.33, y=59.00, z=-1160.54] died, message: 'Villager hit the ground too hard'
+[14:59:58] [Server thread/INFO]: <davehlewis> looks like some of them lost their beds or something
+[15:00:23] [Server thread/INFO]: Villager class_1646['Villager'/7267, l='ServerLevel[faro]', x=-1026.50, y=62.00, z=-1142.29] died, message: 'Villager was shot by davehlewis'
+[15:00:52] [Server thread/INFO]: <davehlewis> right everyone has beds now
+[15:01:26] [Server thread/INFO]: <davehlewis> its weirdly theraputic hitting them in
+[15:01:39] [Server thread/INFO]: <sykst> easier with push bow lol
+[15:01:42] [Server thread/INFO]: <davehlewis> yeah
+[15:01:47] [Server thread/INFO]: <sykst> punch*
+[15:02:09] [Server thread/INFO]: <davehlewis> my kelp smelting is finally automated
+[15:02:14] [Server thread/INFO]: <davehlewis> done some more work on village too
+[15:02:36] [Server thread/INFO]: <sykst> fuel too?
+[15:02:50] [Server thread/INFO]: <davehlewis> not fuel yet, need to build storage building first
+[15:03:07] [Server thread/INFO]: <sykst> nice bridge
+[15:03:10] [Server thread/INFO]: <davehlewis> this area had some terraforming
+[15:03:15] [Server thread/INFO]: <sykst> yea i see
+[15:03:18] [Server thread/INFO]: <sykst> looking nice
+[15:03:27] [Server thread/INFO]: <davehlewis> going to build a little house here. Will do some armour stand work too maybe
+[15:03:38] [Server thread/INFO]: <sykst> oh dude, i need to send you the bay download i found
+[15:03:43] [Server thread/INFO]: <sykst> the terraforming there <3
+[15:03:50] [Server thread/INFO]: <davehlewis> and my sheep farm has some space for cow farm
+[15:03:54] [Server thread/INFO]: <davehlewis> ooh nice
+[15:04:20] [Server thread/INFO]: <sykst> noice
+[15:04:25] [Server thread/INFO]: <davehlewis> only a single layer but simple enough
+[15:04:46] [Server thread/INFO]: <davehlewis> rebuilt the roof on this one as looked too odd
+[15:04:46] [Server thread/INFO]: <sykst> i need to figure out a nice way to keep them stocked with shears
+[15:05:04] [Server thread/INFO]: <sykst> adding a hopper to the top makes some wool to get stuck
+[15:05:04] [Server thread/INFO]: <davehlewis> I have a plan for that with a minecart I turn on and off
+[15:05:14] [Server thread/INFO]: <davehlewis> ah
+[15:05:27] [Server thread/INFO]: <sykst> yea... the wool flies everywhere
+[15:05:29] [Server thread/INFO]: <davehlewis> for now I just have it manual
+[15:05:43] [Server thread/INFO]: <sykst> i filled them manually like 2 months ago
+[15:05:47] [Server thread/INFO]: <davehlewis> I managed to forget of the minecarts - was wondering why wool levels low
+[15:05:48] [Server thread/INFO]: <sykst> and it's running out soon
+[15:05:53] [Server thread/INFO]: <sykst> so manual is good enough really
+[15:06:09] [Server thread/INFO]: <davehlewis> yeah it lasts long enough - if this was HC and needed loads I would think about it
+[15:06:14] [Server thread/INFO]: <davehlewis> that is not an exit!
+[15:06:21] [Server thread/INFO]: <sykst> sure it is!
+[15:06:27] [Server thread/INFO]: <davehlewis> ow
+[15:07:03] [Server thread/INFO]: <davehlewis> its slowly coming together at least
+[15:07:09] [Server thread/INFO]: <sykst> this barrel needs a fishing rod
+[15:07:15] [Server thread/INFO]: <davehlewis> yeah
+[15:07:43] [Server thread/INFO]: <sykst> that's a cool boat design
+[15:08:16] [Server thread/INFO]: <davehlewis> thanks, just modified something I found
+[15:08:32] [Server thread/INFO]: <davehlewis> going to make a larger version too - again more armour stanfs
+[15:08:51] [Server thread/INFO]: <sykst> so cool
+[15:09:44] [Server thread/INFO]: <sykst> nice
+[15:09:52] [Server thread/INFO]: <sykst> fishing in every game is so dull
+[15:09:57] [Server thread/INFO]: <sykst> looks very peaceful
+[15:10:02] [Server thread/INFO]: <sykst> but requires so much patience
+[15:10:13] [Server thread/INFO]: <davehlewis> I ahve a vr fishing gme thats good
+[15:10:17] [Server thread/INFO]: <sykst> i have a fully echanted fishing rod lol
+[15:10:22] [Server thread/INFO]: <davehlewis> haha of course
+[15:10:23] [Server thread/INFO]: <sykst> lol
+[15:10:26] [Server thread/INFO]: <sykst> fishing in VR
+[15:10:35] [Server thread/INFO]: <davehlewis> I do spear fishing in this game
+[15:10:36] [Server thread/INFO]: <sykst> that would be quite nice actually
+[15:11:23] [Server thread/INFO]: <sykst> grian head!
+[15:11:31] [Server thread/INFO]: <davehlewis> haha
+[15:13:21] [Server thread/INFO]: <sykst> need to build a trident farm
+[15:13:28] [Server thread/INFO]: <davehlewis> yeah
+[15:13:57] [Server thread/INFO]: <davehlewis> mind if i take some fish heads for armour stands?
+[15:14:03] [Server thread/INFO]: <sykst> go for it
+[15:14:08] [Server thread/INFO]: <sykst> i'm running out of space
+[15:14:16] [Server thread/INFO]: <sykst> so i'm picky now
+[15:14:21] [Server thread/INFO]: <davehlewis> haha
+[15:14:40] [Server thread/INFO]: <davehlewis> I need a supply for stands and a trophy box
+[15:14:42] [Server thread/INFO]: <davehlewis> or room
+[15:14:57] [Server thread/INFO]: <sykst> fairs
+[15:15:01] [Server thread/INFO]: <davehlewis> spot in the castle will be for that
+[15:15:14] [Server thread/INFO]: <sykst> castle full of cods?
+[15:15:23] [Server thread/INFO]: <sykst> or are you going to do some self-murder?
+[15:15:30] [Server thread/INFO]: <davehlewis> possibly
+[15:16:37] [Server thread/INFO]: <davehlewis> right, need to catch up with some work - cya later
+[15:16:40] [Server thread/INFO]: <sykst> cya
+[15:17:10] [Server thread/INFO]: davehlewis lost connection: Disconnected
+[15:17:10] [Server thread/INFO]: davehlewis left the game
+[15:22:15] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=10, y=80, z=54} class_2338{x=10, y=79, z=55}
+[15:22:15] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=10, y=80, z=54} class_2338{x=10, y=79, z=55}
+[15:22:15] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=10, y=80, z=54} class_2338{x=10, y=79, z=55}
+[15:22:15] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=10, y=80, z=54} class_2338{x=10, y=79, z=55}
+[15:23:06] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-13, y=80, z=51} class_2338{x=-15, y=79, z=51}
+[15:23:06] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-13, y=80, z=51} class_2338{x=-15, y=79, z=51}
+[15:23:06] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-13, y=80, z=51} class_2338{x=-15, y=79, z=51}
+[15:32:29] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=81, z=85} class_2338{x=1, y=80, z=87}
+[15:35:10] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-15, y=80, z=102} class_2338{x=-12, y=82, z=106}
+[16:01:01] [Server thread/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[16:01:01] [Server thread/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[16:01:01] [Server thread/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[16:01:01] [Server thread/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[16:01:01] [Server thread/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[16:01:01] [Server thread/INFO]: Reloading ResourceManager: Default, anti enderman grief v1.1.0.zip, armor statues v2.8.1.zip, coordinates hud v1.2.0.zip, double shulker shells v1.3.0.zip, more mob heads v2.9.1.zip, player head drops v1.1.0.zip, silence mobs v1.1.0.zip, track raw statistics v1.4.0.zip, track statistics v1.1.0.zip, villager workstation highlights v1.1.0.zip, afk display v1.1.0.zip, fast leaf decay v2.0.3.zip, wandering trades v1.5.0.zip, spectator conduit power v1.1.0.zip, spectator night vision v1.1.0.zip, cauldron concrete v2.0.3.zip, Fabric Mods (Fabric Tool Attribute API (v1))
+[16:01:01] [Server thread/INFO]: Loaded 7 recipes
+[16:01:01] [Server thread/WARN]: Found validation problem in {minecraft:entities/ender_dragon}.pools[0].entries[0]: Unknown loot table called minecraft:entities/reference/extra/ender_dragon
+[16:01:01] [Server thread/INFO]: Loaded 1157 advancements
+[16:01:03] [Server thread/INFO]: sykst lost connection: Disconnected
+[16:01:03] [Server thread/INFO]: sykst left the game
+[16:01:08] [User Authenticator #6/INFO]: UUID of player sykst is 61b3753f-5686-4956-8020-7b6d9ebbab2c
+[16:01:08] [Server thread/INFO]: sykst[/192.168.1.100:61102] logged in with entity id 34192 at (-2.00500348919288, 80.0, 77.8459743411372)
+[16:01:08] [Server thread/INFO]: sykst joined the game
+[16:09:35] [Server thread/INFO]: sykst lost connection: Disconnected
+[16:09:35] [Server thread/INFO]: sykst left the game
+[18:11:59] [User Authenticator #7/INFO]: UUID of player sykst is 61b3753f-5686-4956-8020-7b6d9ebbab2c
+[18:11:59] [Server thread/INFO]: sykst[/192.168.1.100:55905] logged in with entity id 37758 at (-11.82449392797687, 81.0, 78.2041149251183)
+[18:11:59] [Server thread/INFO]: sykst joined the game
+[18:29:19] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-12, y=84, z=60} class_2338{x=-11, y=93, z=69}
+[19:30:21] [User Authenticator #8/INFO]: UUID of player davehlewis is 3dfd1cd3-4bc2-40bd-8e5e-9c28e9a3b850
+[19:30:21] [Server thread/INFO]: davehlewis[/127.0.0.1:54192] logged in with entity id 46340 at (-888.6252904635472, 64.5, -1058.9124379291657)
+[19:30:21] [Server thread/INFO]: davehlewis joined the game
+[19:30:31] [Server thread/INFO]: <davehlewis> \o
+[19:30:37] [Server thread/INFO]: <sykst> o/
+[19:30:39] [Server thread/INFO]: <sykst> good timiing
+[19:30:43] [Server thread/INFO]: <davehlewis> oh?
+[19:30:43] [Server thread/INFO]: <sykst> just finished the statue
+[19:31:07] [Server thread/INFO]: <davehlewis> omw
+[19:31:44] [Server thread/INFO]: <davehlewis> wow
+[19:31:54] [Server thread/INFO]: <davehlewis> nice one
+[19:31:59] [Server thread/INFO]: <davehlewis> whats down there?
+[19:32:03] [Server thread/INFO]: <sykst> can'[t really claim any credit
+[19:32:06] [Server thread/INFO]: <sykst> nothing
+[19:32:33] [Server thread/INFO]: <davehlewis> this is much more realistic than I was going for
+[19:32:41] [Server thread/INFO]: <sykst> it's so good
+[19:32:43] [Server thread/INFO]: <davehlewis> my one more a statue
+[19:32:51] [Server thread/INFO]: <sykst> on my creative world it looked much smaller
+[19:32:59] [Server thread/INFO]: <davehlewis> it's a good size
+[19:33:10] [Server thread/INFO]: <sykst> the tower/plinth was meant to be taller
+[19:33:11] [Server thread/INFO]: <davehlewis> base looks nice too
+[19:33:16] [Server thread/INFO]: <sykst> but, i wasn't about to move the statue higher
+[19:33:22] [Server thread/INFO]: <sykst> since I built statue yesterday
+[19:33:28] [Server thread/INFO]: <davehlewis> could go down with it?
+[19:33:36] [Server thread/INFO]: <sykst> could do, but it looks alright
+[19:33:42] [Server thread/INFO]: <davehlewis> yeah
+[19:33:47] [Server thread/INFO]: <sykst> gotta do some basic terraforming at the back
+[19:33:55] [Server thread/INFO]: <davehlewis> his eyes kind of burn into your soul
+[19:34:07] [Server thread/INFO]: <sykst> uuu i could put a soul flame in them
+[19:34:15] [Server thread/INFO]: <davehlewis> please don't...
+[19:34:18] [Server thread/INFO]: <sykst> hahahahaha
+[19:34:24] [Server thread/INFO]: <sykst> and novamart
+[19:34:35] [Server thread/INFO]: <sykst> i finally got a block swapper working
+[19:34:39] [Server thread/INFO]: <sykst> had to change the design
+[19:34:45] [Server thread/INFO]: <davehlewis> ah ok
+[19:35:17] [Server thread/INFO]: <davehlewis> didn't work
+[19:35:29] [Server thread/INFO]: <sykst> works perfectly for me
+[19:35:44] [Server thread/INFO]: <sykst> might be a bit too perfect lol
+[19:35:51] [Server thread/INFO]: <davehlewis> yeah needs a little longer
+[19:35:57] [Server thread/INFO]: <davehlewis> few ticks
+[19:36:00] [Server thread/INFO]: <sykst> should be easy to make it longer
+[19:36:08] [Server thread/INFO]: <sykst> it's a basic comparator pulse extender
+[19:36:16] [Server thread/INFO]: <sykst> no idea what goes in here
+[19:36:16] [Server thread/INFO]: <davehlewis> ah ok
+[19:36:26] [Server thread/INFO]: <davehlewis> was wondering the reason for the room
+[19:36:28] [Server thread/INFO]: <sykst> the reference had it, and i liked it
+[19:36:41] [Server thread/INFO]: <davehlewis> it's like an office or something?
+[19:36:47] [Server thread/INFO]: <sykst> not a clue
+[19:36:52] [Server thread/INFO]: <sykst> the reference was only the outside
+[19:36:59] [Server thread/INFO]: <davehlewis> ah
+[19:37:27] [Server thread/INFO]: <davehlewis> how spawn proof is statue?
+[19:37:31] [Server thread/INFO]: <sykst> fully
+[19:38:28] [Server thread/INFO]: <davehlewis> well this is awkward
+[19:38:32] [Server thread/INFO]: <sykst> lol
+[19:39:38] [Server thread/INFO]: <sykst> i think the next project will be a gold farm
+[19:39:43] [Server thread/INFO]: <davehlewis> oh yeah?
+[19:39:55] [Server thread/INFO]: <sykst> maybe
+[19:39:56] [Server thread/INFO]: <sykst> idk
+[19:39:57] [Server thread/INFO]: <davehlewis> I'm not sure what to work on next. Maybe mountain
+[19:40:08] [Server thread/INFO]: <sykst> ouch, that's gonna be a lot of work
+[19:40:14] [Server thread/INFO]: <davehlewis> yeah
+[19:40:19] [Server thread/INFO]: <davehlewis> might do it in chunks
+[19:40:26] [Server thread/INFO]: <sykst> mhmm
+[19:40:29] [Server thread/INFO]: <davehlewis> just doing a normal looking mountaint too
+[19:40:35] [Server thread/INFO]: <davehlewis> nothing special
+[19:41:44] [Server thread/INFO]: <sykst> that was close
+[19:42:02] [Server thread/INFO]: <sykst> uuuu just over
+[19:42:23] [Server thread/INFO]: <davehlewis> haha
+[19:42:30] [Server thread/INFO]: <davehlewis> didnt realise could go so high
+[19:42:35] [Server thread/INFO]: <sykst> had to adjust my fall a bit
+[19:42:41] [Server thread/INFO]: <sykst> nearly ended up on mountain
+[19:42:44] [Server thread/INFO]: <davehlewis> eek
+[19:42:45] [Server thread/INFO]: <sykst> thought i was safe
+[19:42:50] [Server thread/INFO]: <sykst> there was a bit of panic
+[19:42:51] [Server thread/INFO]: <sykst> lol
+[19:43:08] [Server thread/INFO]: <davehlewis> right, back to projects
+[19:43:14] [Server thread/INFO]: <davehlewis> need to finish this farm building
+[19:44:17] [Server thread/INFO]: Villager class_1646['Villager'/50379, l='ServerLevel[faro]', x=1529.21, y=64.02, z=-1715.85] died, message: 'Villager drowned'
+[19:50:23] [Server thread/INFO]: davehlewis lost connection: Disconnected
+[19:50:23] [Server thread/INFO]: davehlewis left the game
+[19:52:03] [Server thread/INFO]: sykst has completed the challenge [Bullseye]
+[19:55:09] [Server thread/INFO]: sykst has reached the goal [Postmortal]
+[20:10:48] [Server thread/INFO]: sykst has made the advancement [Who's the Pillager Now?]
+[20:15:25] [Server thread/INFO]: sykst has made the advancement [Whatever Floats Your Goat!]
+[20:22:43] [Server thread/INFO]: Villager class_1646['Villager'/76995, l='ServerLevel[faro]', x=1529.19, y=64.02, z=-1715.85] died, message: 'Villager drowned'
+[20:25:36] [Server thread/INFO]: sykst lost connection: Disconnected
+[20:25:36] [Server thread/INFO]: sykst left the game
