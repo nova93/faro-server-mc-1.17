@@ -623,6 +623,12 @@
     },
     "done": true
   },
+  "minecraft:adventure/lightning_rod_with_villager_no_fire": {
+    "criteria": {
+      "lightning_rod_with_villager_no_fire": "2021-09-06 20:14:52 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/orange_bed": {
     "criteria": {
       "has_orange_wool": "2021-06-28 20:48:42 +0000"
@@ -2249,6 +2255,12 @@
   "minecraft:recipes/building_blocks/cut_copper_slab": {
     "criteria": {
       "has_cut_copper": "2021-06-15 19:30:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/two_birds_one_arrow": {
+    "criteria": {
+      "two_birds": "2021-09-06 20:55:50 +0000"
     },
     "done": true
   },
@@ -5072,6 +5084,7 @@
       "cookie": "2021-06-14 21:07:32 +0000",
       "suspicious_stew": "2021-06-19 19:13:03 +0000",
       "glow_berries": "2021-06-14 18:40:46 +0000",
+      "dried_kelp": "2021-09-06 20:27:14 +0000",
       "golden_carrot": "2021-06-20 12:09:37 +0000",
       "cooked_rabbit": "2021-07-10 17:35:09 +0000",
       "cooked_chicken": "2021-06-12 13:11:13 +0000",
