@@ -1271,6 +1271,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/honey_bottle": {
+    "criteria": {
+      "has_honey_block": "2021-09-18 04:14:56 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/dried_kelp_block": {
     "criteria": {
       "has_dried_kelp": "2021-07-12 15:36:38 +0000"
@@ -3214,6 +3220,7 @@
       "minecraft:zombified_piglin": "2021-06-17 14:06:01 +0000",
       "minecraft:witch": "2021-06-15 00:25:14 +0000",
       "minecraft:wither_skeleton": "2021-06-23 19:55:03 +0000",
+      "minecraft:husk": "2021-09-18 02:46:29 +0000",
       "minecraft:shulker": "2021-07-24 15:20:15 +0000",
       "minecraft:cave_spider": "2021-06-13 02:28:09 +0000",
       "minecraft:piglin": "2021-07-02 16:51:46 +0000",
@@ -4000,6 +4007,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/sugar_from_honey_bottle": {
+    "criteria": {
+      "has_honey_bottle": "2021-09-18 04:14:51 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/orange_dye_from_orange_tulip": {
     "criteria": {
       "has_orange_tulip": "2021-06-12 18:11:15 +0000"
@@ -4225,6 +4238,12 @@
   "minecraft:recipes/decorations/magenta_bed": {
     "criteria": {
       "has_magenta_wool": "2021-09-04 00:41:55 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/honey_block": {
+    "criteria": {
+      "has_honey_bottle": "2021-09-18 04:14:51 +0000"
     },
     "done": true
   },
@@ -4965,6 +4984,12 @@
   "minecraft:recipes/building_blocks/polished_diorite_stairs_from_diorite_stonecutting": {
     "criteria": {
       "has_diorite": "2021-06-12 18:32:29 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/pink_dye_from_peony": {
+    "criteria": {
+      "has_peony": "2021-09-18 01:27:00 +0000"
     },
     "done": true
   },
