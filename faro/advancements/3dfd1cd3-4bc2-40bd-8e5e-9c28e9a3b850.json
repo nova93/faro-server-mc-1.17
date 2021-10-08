@@ -863,6 +863,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/leather": {
+    "criteria": {
+      "has_rabbit_hide": "2021-10-07 17:48:57 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/crimson_slab": {
     "criteria": {
       "has_planks": "2021-08-02 23:59:29 +0000"
@@ -3081,6 +3087,12 @@
   "minecraft:recipes/building_blocks/exposed_cut_copper_stairs_from_exposed_cut_copper_stonecutting": {
     "criteria": {
       "has_exposed_cut_copper": "2021-08-26 20:09:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/return_to_sender": {
+    "criteria": {
+      "killed_ghast": "2021-10-07 17:12:21 +0000"
     },
     "done": true
   },
