@@ -51,378 +51,200 @@
 	- servux@0.1.0
 [01:00:10] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.2 Source=file:/opt/mscs/server/fabric-server-launch.jar Service=Knot/Fabric Env=SERVER
 [01:00:10] [main/INFO]: Compatibility level set to JAVA_16
-[01:00:11] [main/WARN]: @Mixin target net/minecraft/class_2474$class_5124 is public in fabric-tag-extensions-v0.mixins.json:MixinObjectBuilder and should be specified in value
-[01:00:15] [main/WARN]: @Inject(@At("INVOKE")) Shift.BY=3 on fabric-lifecycle-events-v1.mixins.json:server.WorldChunkMixin::handler$zzh000$onLoadBlockEntity exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
-[01:00:16] [main/INFO]: Applied 0 biome modifications to 0 of 81 new biomes in 25.61 ms
+[01:00:10] [main/WARN]: @Mixin target net/minecraft/class_2474$class_5124 is public in fabric-tag-extensions-v0.mixins.json:MixinObjectBuilder and should be specified in value
+[01:00:14] [main/WARN]: @Inject(@At("INVOKE")) Shift.BY=3 on fabric-lifecycle-events-v1.mixins.json:server.WorldChunkMixin::handler$zzh000$onLoadBlockEntity exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
+[01:00:16] [main/INFO]: Applied 0 biome modifications to 0 of 81 new biomes in 9.967 ms
 [01:00:16] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[01:00:17] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[01:00:17] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[01:00:17] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[01:00:17] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[01:00:17] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[01:00:17] [main/INFO]: Reloading ResourceManager: Default, anti enderman grief v1.1.0.zip, armor statues v2.8.1.zip, coordinates hud v1.2.0.zip, double shulker shells v1.3.0.zip, more mob heads v2.9.1.zip, player head drops v1.1.0.zip, silence mobs v1.1.0.zip, track raw statistics v1.4.0.zip, track statistics v1.1.0.zip, villager workstation highlights v1.1.0.zip, afk display v1.1.0.zip, fast leaf decay v2.0.3.zip, wandering trades v1.5.0.zip, spectator conduit power v1.1.0.zip, spectator night vision v1.1.0.zip, cauldron concrete v2.0.3.zip, Fabric Mods (Fabric Tool Attribute API (v1))
-[01:00:18] [Worker-Main-9/INFO]: Loaded 7 recipes
-[01:00:19] [Worker-Main-9/WARN]: Found validation problem in {minecraft:entities/ender_dragon}.pools[0].entries[0]: Unknown loot table called minecraft:entities/reference/extra/ender_dragon
-[01:00:19] [Worker-Main-9/INFO]: Loaded 1157 advancements
-[01:00:21] [Server thread/INFO]: Starting minecraft server version 1.17.1
-[01:00:21] [Server thread/INFO]: Loading properties
-[01:00:21] [Server thread/INFO]: Default game type: SURVIVAL
-[01:00:21] [Server thread/INFO]: Generating keypair
-[01:00:21] [Server thread/INFO]: Starting Minecraft server on *:25565
-[01:00:22] [Server thread/INFO]: Using epoll channel type
-[01:00:22] [Server thread/INFO]: Preparing level "faro"
-[01:00:23] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[01:00:24] [Worker-Main-11/INFO]: Preparing spawn area: 0%
-[01:00:24] [Worker-Main-13/INFO]: Preparing spawn area: 0%
-[01:00:24] [Worker-Main-12/INFO]: Preparing spawn area: 0%
-[01:00:24] [Worker-Main-11/INFO]: Preparing spawn area: 0%
-[01:00:25] [Worker-Main-11/INFO]: Preparing spawn area: 0%
-[01:00:25] [Worker-Main-12/INFO]: Preparing spawn area: 0%
-[01:00:26] [Worker-Main-11/INFO]: Preparing spawn area: 1%
-[01:00:26] [Worker-Main-9/INFO]: Preparing spawn area: 2%
-[01:00:27] [Worker-Main-12/INFO]: Preparing spawn area: 6%
-[01:00:27] [Worker-Main-12/INFO]: Preparing spawn area: 10%
-[01:00:28] [Worker-Main-10/INFO]: Preparing spawn area: 27%
-[01:00:28] [Worker-Main-14/INFO]: Preparing spawn area: 32%
-[01:00:29] [Worker-Main-9/INFO]: Preparing spawn area: 48%
-[01:00:29] [Worker-Main-9/INFO]: Preparing spawn area: 76%
-[01:00:30] [Worker-Main-9/INFO]: Preparing spawn area: 95%
-[01:00:30] [Server thread/INFO]: Time elapsed: 7657 ms
-[01:00:30] [Server thread/INFO]: Done (8.143s)! For help, type "help"
-[01:00:30] [Server thread/INFO]: Starting GS4 status listener
-[01:00:30] [Server thread/INFO]: Thread Query Listener started
-[01:00:30] [Query Listener #1/INFO]: Query running on 0.0.0.0:25565
-[01:00:32] [Server thread/WARN]: UUID of added entity already exists: class_1531['Armor Stand'/87, l='ServerLevel[faro]', x=16562064.50, y=1000.00, z=-22242911.50]
-[01:03:42] [User Authenticator #1/INFO]: UUID of player davehlewis is 3dfd1cd3-4bc2-40bd-8e5e-9c28e9a3b850
-[01:03:42] [Server thread/INFO]: davehlewis[/127.0.0.1:37662] logged in with entity id 95 at (-1031.9251140902145, 30.0, -902.9276413492735)
-[01:03:42] [Server thread/INFO]: davehlewis joined the game
-[01:10:37] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1011, y=31, z=-879} class_2338{x=-1012, y=30, z=-879}
-[01:10:37] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1011, y=31, z=-879} class_2338{x=-1012, y=30, z=-879}
-[01:58:46] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1005, y=22, z=-873} class_2338{x=-1006, y=21, z=-873}
-[02:17:07] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1005, y=19, z=-875} class_2338{x=-1007, y=18, z=-875}
-[02:23:41] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-998, y=19, z=-878} class_2338{x=-999, y=19, z=-878}
-[02:23:42] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1000, y=21, z=-879} class_2338{x=-1001, y=20, z=-879}
-[02:51:56] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-970, y=13, z=-873} class_2338{x=-972, y=12, z=-873}
-[02:54:34] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1029, y=14, z=-880} class_2338{x=-1029, y=13, z=-881}
-[03:01:49] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1022, y=15, z=-875} class_2338{x=-1021, y=14, z=-875}
-[03:32:05] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1025, y=10, z=-888} class_2338{x=-1025, y=11, z=-888}
-[03:56:30] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1028, y=8, z=-879} class_2338{x=-1028, y=7, z=-880}
-[04:09:11] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-969, y=9, z=-904} class_2338{x=-968, y=8, z=-904}
-[04:31:01] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-974, y=11, z=-891} class_2338{x=-970, y=5, z=-891}
-[04:39:14] [Server thread/INFO]: davehlewis lost connection: Disconnected
-[04:39:14] [Server thread/INFO]: davehlewis left the game
-[08:56:15] [User Authenticator #2/INFO]: UUID of player davehlewis is 3dfd1cd3-4bc2-40bd-8e5e-9c28e9a3b850
-[08:56:16] [Server thread/INFO]: davehlewis[/127.0.0.1:40572] logged in with entity id 79184 at (-1024.0553606344529, 5.5, -887.4567104955914)
-[08:56:16] [Server thread/INFO]: davehlewis joined the game
-[09:08:02] [Server thread/INFO]: davehlewis lost connection: Disconnected
-[09:08:02] [Server thread/INFO]: davehlewis left the game
-[09:09:37] [User Authenticator #3/INFO]: UUID of player davehlewis is 3dfd1cd3-4bc2-40bd-8e5e-9c28e9a3b850
-[09:09:38] [Server thread/INFO]: davehlewis[/127.0.0.1:40594] logged in with entity id 81672 at (-1005.0527327179932, 12.0, -897.9791189347608)
-[09:09:38] [Server thread/INFO]: davehlewis joined the game
-[09:36:54] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-973, y=3, z=-884} class_2338{x=-975, y=5, z=-885}
-[09:36:54] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-973, y=3, z=-884} class_2338{x=-975, y=5, z=-885}
-[09:43:24] [Server thread/INFO]: davehlewis lost connection: Disconnected
-[09:43:24] [Server thread/INFO]: davehlewis left the game
-[11:02:43] [User Authenticator #4/INFO]: UUID of player davehlewis is 3dfd1cd3-4bc2-40bd-8e5e-9c28e9a3b850
-[11:02:43] [Server thread/INFO]: davehlewis[/127.0.0.1:41320] logged in with entity id 90284 at (-1020.5652966516964, 5.5, -891.0037060989656)
-[11:02:43] [Server thread/INFO]: davehlewis joined the game
-[11:06:22] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-998, y=5, z=-878} class_2338{x=-992, y=6, z=-879}
-[11:06:22] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-998, y=5, z=-878} class_2338{x=-992, y=6, z=-879}
-[11:23:53] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1022, y=5, z=-875} class_2338{x=-1022, y=5, z=-874}
-[11:46:13] [Server thread/INFO]: davehlewis lost connection: Disconnected
-[11:46:13] [Server thread/INFO]: davehlewis left the game
-[12:52:40] [User Authenticator #5/INFO]: UUID of player davehlewis is 3dfd1cd3-4bc2-40bd-8e5e-9c28e9a3b850
-[12:52:40] [Server thread/INFO]: davehlewis[/127.0.0.1:41988] logged in with entity id 101106 at (-1032.2884850845603, 5.5, -872.870360695367)
-[12:52:40] [Server thread/INFO]: davehlewis joined the game
-[13:08:38] [Server thread/INFO]: davehlewis lost connection: Disconnected
-[13:08:38] [Server thread/INFO]: davehlewis left the game
-[13:15:29] [User Authenticator #6/INFO]: UUID of player davehlewis is 3dfd1cd3-4bc2-40bd-8e5e-9c28e9a3b850
-[13:15:29] [Server thread/INFO]: davehlewis[/127.0.0.1:42074] logged in with entity id 104478 at (-1032.4711960829216, 53.0, -876.0810938761854)
-[13:15:29] [Server thread/INFO]: davehlewis joined the game
-[13:41:55] [Server thread/INFO]: davehlewis lost connection: Disconnected
-[13:41:55] [Server thread/INFO]: davehlewis left the game
-[13:42:52] [User Authenticator #7/INFO]: UUID of player davehlewis is 3dfd1cd3-4bc2-40bd-8e5e-9c28e9a3b850
-[13:42:52] [Server thread/INFO]: davehlewis[/127.0.0.1:42362] logged in with entity id 111393 at (-1002.7540352320177, 76.0625, -1177.4001135554672)
-[13:42:52] [Server thread/INFO]: davehlewis joined the game
-[13:51:22] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-174, y=32, z=-104} class_2338{x=-164, y=30, z=-103}
-[15:11:05] [Server thread/INFO]: davehlewis lost connection: Disconnected
-[15:11:05] [Server thread/INFO]: davehlewis left the game
-[15:14:50] [User Authenticator #8/INFO]: UUID of player davehlewis is 3dfd1cd3-4bc2-40bd-8e5e-9c28e9a3b850
-[15:14:50] [Server thread/INFO]: davehlewis[/127.0.0.1:42806] logged in with entity id 136754 at (-1021.0503943441415, 7.0, -895.134578064052)
-[15:14:50] [Server thread/INFO]: davehlewis joined the game
-[15:45:43] [Server thread/INFO]: davehlewis lost connection: Disconnected
-[15:45:43] [Server thread/INFO]: davehlewis left the game
-[15:47:15] [User Authenticator #9/INFO]: UUID of player davehlewis is 3dfd1cd3-4bc2-40bd-8e5e-9c28e9a3b850
-[15:47:15] [Server thread/INFO]: davehlewis[/127.0.0.1:43090] logged in with entity id 144099 at (-1025.810664437219, 9.0, -894.8185237507208)
-[15:47:15] [Server thread/INFO]: davehlewis joined the game
-[16:34:20] [User Authenticator #10/INFO]: UUID of player sykst is 61b3753f-5686-4956-8020-7b6d9ebbab2c
-[16:34:20] [Server thread/INFO]: sykst[/127.0.0.1:43438] logged in with entity id 158968 at (-3838.3202616675085, 68.5, -1661.445364777261)
-[16:34:20] [Server thread/INFO]: sykst joined the game
-[16:34:29] [Server thread/INFO]: <davehlewis> \o
-[16:34:30] [Server thread/INFO]: <sykst> o/
-[16:38:06] [Server thread/INFO]: <davehlewis> ugh need ice
-[16:39:53] [Server thread/INFO]: <sykst> im placing a few shulkers worth of sand in this monument....
-[16:40:08] [Server thread/INFO]: <davehlewis> I was thinking of sorting that soon
-[16:40:38] [Server thread/INFO]: <sykst> feel free to join at any time lol
-[16:40:48] [Server thread/INFO]: <sykst> i'm using pistons
-[16:40:57] [Server thread/INFO]: <davehlewis> yeah that's what I was going to do
-[16:41:07] [Server thread/INFO]: <davehlewis> finishing off slime farm atm
-[16:41:52] [Server thread/INFO]: <sykst> i was looking for it yesterday and failed to find it
-[16:41:54] [Server thread/INFO]: <sykst> where is it?
-[16:42:12] [Server thread/INFO]: <davehlewis> directly sout of mountain
-[16:43:52] [Server thread/INFO]: <sykst> brb
-[16:43:54] [Server thread/INFO]: sykst lost connection: Disconnected
-[16:43:54] [Server thread/INFO]: sykst left the game
-[16:48:35] [Server thread/WARN]: davehlewis moved wrongly!
-[16:49:19] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-880, y=58, z=-1066} class_2338{x=-880, y=59, z=-1066}
-[16:52:41] [Server thread/INFO]: davehlewis lost connection: Disconnected
-[16:52:41] [Server thread/INFO]: davehlewis left the game
-[16:52:46] [User Authenticator #11/INFO]: UUID of player davehlewis is 3dfd1cd3-4bc2-40bd-8e5e-9c28e9a3b850
-[16:52:46] [Server thread/INFO]: davehlewis[/127.0.0.1:43464] logged in with entity id 167868 at (-1004.2000442137396, 76.0625, -1180.7506238093517)
-[16:52:46] [Server thread/INFO]: davehlewis joined the game
-[17:15:56] [User Authenticator #12/INFO]: UUID of player sykst is 61b3753f-5686-4956-8020-7b6d9ebbab2c
-[17:15:56] [Server thread/INFO]: sykst[/127.0.0.1:43542] logged in with entity id 174156 at (-3827.5113270094635, 63.0, -1681.7964286335541)
-[17:15:56] [Server thread/INFO]: sykst joined the game
-[17:27:50] [Server thread/INFO]: <davehlewis> well its collecting stuff
-[17:27:59] [Server thread/INFO]: <davehlewis> just need to finish walls, glass, layers and golems
-[17:28:08] [Server thread/INFO]: <sykst> nice
-[17:28:21] [Server thread/INFO]: <davehlewis> right, cya later - I'm off to taco bell
-[17:28:27] [Server thread/INFO]: <sykst> enjoy
-[17:28:36] [Server thread/INFO]: <davehlewis> i hope so
-[17:28:38] [Server thread/INFO]: davehlewis lost connection: Disconnected
-[17:28:38] [Server thread/INFO]: davehlewis left the game
-[17:32:01] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-3828, y=63, z=-1691} class_2338{x=-3831, y=63, z=-1688}
-[17:48:36] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-3839, y=49, z=-1669} class_2338{x=-3839, y=48, z=-1668}
-[19:05:06] [User Authenticator #13/INFO]: UUID of player davehlewis is 3dfd1cd3-4bc2-40bd-8e5e-9c28e9a3b850
-[19:05:06] [Server thread/INFO]: davehlewis[/127.0.0.1:44256] logged in with entity id 224752 at (-1019.3308712783967, 63.0, -904.3085050308965)
-[19:05:06] [Server thread/INFO]: davehlewis joined the game
-[19:05:20] [Server thread/INFO]: <sykst> how was it?
-[19:05:25] [Server thread/INFO]: <davehlewis> it was good
-[19:05:42] [Server thread/INFO]: <davehlewis> meant to be just for me and Nik but girls heard tacos and got so excited
-[19:05:52] [Server thread/INFO]: <sykst> hahahahah
-[19:06:21] [Server thread/INFO]: <davehlewis> olivia was so upset her taco broke - one of the hard shell ones that always break when you take a bite
-[19:06:30] [Server thread/INFO]: <sykst> ah yea
-[19:06:40] [Server thread/INFO]: <sykst> idk who came up with hard shell tacos
-[19:06:49] [Server thread/INFO]: <davehlewis> foolish people
-[19:07:10] [Server thread/INFO]: <davehlewis> finally got to have a crunchwrap supreme which was...ok
-[19:07:18] [Server thread/INFO]: <davehlewis> quesadillas and tacos great though
-[19:07:58] [Server thread/INFO]: <sykst> i tried it a few times
-[19:08:04] [Server thread/INFO]: <sykst> always felt that they are a bit empty
-[19:08:04] [Server thread/INFO]: <davehlewis> oh yeah?
-[19:08:08] [Server thread/INFO]: <sykst> need a bit more filling
-[19:08:10] [Server thread/INFO]: <davehlewis> too much salad
-[19:08:21] [Server thread/INFO]: <davehlewis> do you have your light mod working?
-[19:08:24] [Server thread/INFO]: <sykst> yea
-[19:08:46] [Server thread/INFO]: <sykst> lemme finish the row and i can come over
-[19:08:46] [Server thread/INFO]: <davehlewis> can you check my slime spawning? getting zombies and can't for the liife of me find from where
-[19:08:53] [Server thread/INFO]: <davehlewis> thanks
-[19:13:43] [Server thread/INFO]: <davehlewis> oh hi
-[19:14:02] [Server thread/INFO]: <sykst> there was a spot in the middle
-[19:14:21] [Server thread/INFO]: <davehlewis> ah ok thanks
-[19:14:43] [Server thread/INFO]: <sykst> lol
-[19:14:55] [Server thread/INFO]: <davehlewis> yeha they use the scaffolding
-[19:15:16] [Server thread/INFO]: <sykst> i just realised you are fixing up the sides
-[19:15:20] [Server thread/INFO]: <davehlewis> oh yeah
-[19:15:37] [Server thread/INFO]: <sykst> im guessing it's because you'll be able to look down?
-[19:15:45] [Server thread/INFO]: <davehlewis> yeah
-[19:17:28] [Server thread/INFO]: <davehlewis> overdoing it but wanted one farm at max efficiency etc.
-[19:17:36] [Server thread/INFO]: <sykst> fairs
-[19:35:17] [Server thread/INFO]: <sykst> im gonna remove the icebergs from within the monument area
-[19:35:26] [Server thread/INFO]: <davehlewis> makes sense
-[19:35:46] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-3834, y=39, z=-1724} class_2338{x=-3866, y=83, z=-1681}
-[19:37:10] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-3871, y=78, z=-1684} class_2338{x=-3873, y=74, z=-1673}
-[19:37:10] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-3871, y=78, z=-1684} class_2338{x=-3873, y=74, z=-1673}
-[19:39:57] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-3869, y=70, z=-1677} class_2338{x=-3867, y=69, z=-1675}
-[19:39:57] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-3869, y=70, z=-1677} class_2338{x=-3867, y=69, z=-1675}
-[19:39:58] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-3869, y=70, z=-1677} class_2338{x=-3867, y=69, z=-1675}
-[19:39:58] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-3869, y=70, z=-1677} class_2338{x=-3867, y=69, z=-1675}
-[19:39:58] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-3869, y=70, z=-1677} class_2338{x=-3867, y=69, z=-1675}
-[19:39:58] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-3869, y=70, z=-1677} class_2338{x=-3867, y=69, z=-1675}
-[19:39:58] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-3869, y=70, z=-1677} class_2338{x=-3867, y=69, z=-1675}
-[19:39:58] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-3869, y=70, z=-1677} class_2338{x=-3867, y=69, z=-1675}
-[19:39:58] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-3869, y=70, z=-1677} class_2338{x=-3867, y=69, z=-1675}
-[19:39:58] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-3869, y=70, z=-1677} class_2338{x=-3867, y=69, z=-1675}
-[19:39:58] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-3869, y=70, z=-1677} class_2338{x=-3867, y=69, z=-1675}
-[19:40:04] [Server thread/INFO]: davehlewis has reached the goal [Hired Help]
-[19:40:09] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-3869, y=70, z=-1677} class_2338{x=-3881, y=68, z=-1684}
-[19:40:09] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-3869, y=70, z=-1677} class_2338{x=-3881, y=68, z=-1684}
-[19:40:09] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-3869, y=70, z=-1677} class_2338{x=-3881, y=68, z=-1684}
-[19:40:10] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-3869, y=70, z=-1677} class_2338{x=-3881, y=68, z=-1684}
-[19:41:32] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-3870, y=68, z=-1687} class_2338{x=-3871, y=68, z=-1687}
-[19:41:32] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-3870, y=68, z=-1687} class_2338{x=-3871, y=68, z=-1687}
-[19:41:32] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-3870, y=68, z=-1687} class_2338{x=-3871, y=68, z=-1687}
-[19:41:32] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-3870, y=68, z=-1687} class_2338{x=-3871, y=68, z=-1687}
-[19:41:32] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-3870, y=68, z=-1687} class_2338{x=-3871, y=68, z=-1687}
-[19:41:32] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-3870, y=68, z=-1687} class_2338{x=-3871, y=68, z=-1687}
-[19:41:32] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-3870, y=68, z=-1687} class_2338{x=-3871, y=68, z=-1687}
-[19:41:32] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-3870, y=68, z=-1687} class_2338{x=-3871, y=68, z=-1687}
-[19:41:32] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-3870, y=68, z=-1687} class_2338{x=-3871, y=68, z=-1687}
-[19:41:32] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-3870, y=68, z=-1687} class_2338{x=-3871, y=68, z=-1687}
-[19:41:32] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-3870, y=68, z=-1687} class_2338{x=-3871, y=68, z=-1687}
-[19:41:32] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-3870, y=68, z=-1687} class_2338{x=-3871, y=68, z=-1687}
-[19:41:32] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-3870, y=68, z=-1687} class_2338{x=-3871, y=68, z=-1687}
-[19:42:37] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-3869, y=68, z=-1687} class_2338{x=-3884, y=64, z=-1689}
-[19:42:37] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-3869, y=68, z=-1687} class_2338{x=-3884, y=64, z=-1689}
-[19:43:09] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-3867, y=65, z=-1689} class_2338{x=-3868, y=65, z=-1688}
-[19:43:09] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-3867, y=65, z=-1689} class_2338{x=-3868, y=65, z=-1688}
-[19:43:09] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-3867, y=65, z=-1689} class_2338{x=-3868, y=65, z=-1688}
-[19:43:09] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-3867, y=65, z=-1689} class_2338{x=-3868, y=65, z=-1688}
-[19:43:09] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-3867, y=65, z=-1689} class_2338{x=-3868, y=65, z=-1688}
-[19:43:09] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-3867, y=65, z=-1689} class_2338{x=-3868, y=65, z=-1688}
-[19:51:45] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-3879, y=60, z=-1684} class_2338{x=-3878, y=60, z=-1684}
-[19:51:45] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-3879, y=60, z=-1684} class_2338{x=-3878, y=60, z=-1684}
-[19:51:45] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-3879, y=60, z=-1684} class_2338{x=-3878, y=60, z=-1684}
-[19:51:45] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-3879, y=60, z=-1684} class_2338{x=-3878, y=60, z=-1684}
-[19:52:02] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-3875, y=62, z=-1689} class_2338{x=-3877, y=61, z=-1690}
-[19:52:43] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-3856, y=59, z=-1691} class_2338{x=-3857, y=59, z=-1691}
-[19:52:43] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-3856, y=59, z=-1691} class_2338{x=-3857, y=59, z=-1691}
-[19:54:16] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-3867, y=58, z=-1673} class_2338{x=-3867, y=57, z=-1673}
-[19:54:16] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-3867, y=58, z=-1673} class_2338{x=-3867, y=57, z=-1673}
-[19:54:16] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-3867, y=58, z=-1673} class_2338{x=-3867, y=57, z=-1673}
-[19:54:16] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-3867, y=58, z=-1673} class_2338{x=-3867, y=57, z=-1673}
-[19:54:16] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-3867, y=58, z=-1673} class_2338{x=-3867, y=57, z=-1673}
-[19:54:16] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-3867, y=58, z=-1673} class_2338{x=-3867, y=57, z=-1673}
-[19:54:16] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-3867, y=58, z=-1673} class_2338{x=-3867, y=57, z=-1673}
-[20:02:33] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-3853, y=65, z=-1715} class_2338{x=-3852, y=65, z=-1714}
-[20:05:44] [Server thread/INFO]: sykst was slain by Guardian
-[20:05:48] [Server thread/INFO]: <davehlewis> f
-[20:08:53] [Server thread/INFO]: <davehlewis> you ok?
-[20:09:00] [Server thread/INFO]: <sykst> yea
-[20:09:13] [Server thread/INFO]: <sykst> i wasn#t wearing anything and the invi run out lol
-[20:09:17] [Server thread/INFO]: <davehlewis> ah
-[20:09:22] [Server thread/INFO]: <sykst> i was looking around like, why are there so many bubbles?
-[20:09:48] [Server thread/INFO]: <sykst> oki, all ice is gone
-[20:09:52] [Server thread/INFO]: <davehlewis> nice
-[20:10:18] [Server thread/INFO]: <sykst> it's just beacon and conduit left, but that can be cleaned up as we go
-[20:10:22] [Server thread/INFO]: <davehlewis> yeah
-[20:10:34] [Server thread/INFO]: <sykst> i was actually thinking about using conduits as killing mechanism
-[20:10:40] [Server thread/INFO]: <davehlewis> oh?
-[20:10:43] [Server thread/INFO]: <sykst> but that's super slow
-[20:16:05] [Server thread/INFO]: <sykst> are you in the nether?
-[20:16:11] [Server thread/INFO]: <davehlewis> no
-[20:16:32] [Server thread/INFO]: <sykst> hmmm the farm is a bit slow
-[20:16:39] [Server thread/INFO]: <davehlewis> I'm getting no spawns here
-[20:22:56] [Server thread/INFO]: Villager class_1646['Villager'/267205, l='ServerLevel[faro]', x=1529.15, y=64.02, z=-1715.85] died, message: 'Villager drowned'
-[20:28:34] [Server thread/INFO]: Villager class_1646['Cleric'/265331, l='ServerLevel[faro]', x=1522.50, y=69.06, z=-1847.49] died, message: 'Cleric was slain by silenced'
-[20:28:34] [Server thread/INFO]: Named entity class_1646['Cleric'/265331, l='ServerLevel[faro]', x=1522.50, y=69.06, z=-1847.49] died: Cleric was slain by silenced
-[20:28:38] [Server thread/INFO]: <davehlewis> god I need so much stone
-[20:28:45] [Server thread/INFO]: <davehlewis> each strip long ways is a stack
-[20:28:50] [Server thread/INFO]: <sykst> lol
-[20:29:08] [Server thread/INFO]: Villager class_1646['Cleric'/265329, l='ServerLevel[faro]', x=1524.50, y=69.06, z=-1847.49] died, message: 'Cleric was slain by silenced'
-[20:29:08] [Server thread/INFO]: Named entity class_1646['Cleric'/265329, l='ServerLevel[faro]', x=1524.50, y=69.06, z=-1847.49] died: Cleric was slain by silenced
-[20:35:44] [Server thread/INFO]: <sykst> has there been any trading changes?
-[20:35:50] [Server thread/INFO]: <davehlewis> I don't think soi
-[20:35:54] [Server thread/INFO]: <sykst> my guys seem to reset only once a day
-[20:36:10] [Server thread/INFO]: <davehlewis> I noticed mine were slow
-[21:05:29] [Server thread/INFO]: <sykst> this is not normal
-[21:05:29] [Server thread/INFO]: <davehlewis> thats tall
-[21:05:37] [Server thread/INFO]: <sykst> but i had full inventory
-[21:05:42] [Server thread/INFO]: <sykst> so that was a solution lol
-[21:05:55] [Server thread/INFO]: <sykst> nice!
-[21:06:10] [Server thread/INFO]: <sykst> wanna start from the other side?
-[21:06:17] [Server thread/INFO]: <sykst> or just a delivery?
-[21:06:45] [Server thread/INFO]: <davehlewis> will get some stuff
-[21:07:47] [Server thread/INFO]: <davehlewis> can I borrow some stone?
-[21:07:53] [Server thread/INFO]: <sykst> sure
-[21:10:25] [Server thread/INFO]: <davehlewis> this wasn't quite what I had in mind
-[21:12:23] [Server thread/INFO]: <davehlewis> why won't this work?
-[21:12:50] [Server thread/INFO]: <sykst> what are you trying?
-[21:13:19] [Server thread/INFO]: <davehlewis> want to have it so that when I place a block it pushes piston
-[21:13:41] [Server thread/INFO]: <sykst> you can send power through a block using repeater
-[21:13:51] [Server thread/INFO]: <sykst> or torch underneath, but that's weird with water
-[21:15:42] [Server thread/INFO]: <davehlewis> II was overcomplicating with observers
-[21:22:35] [Server thread/INFO]: <davehlewis> how come not doing grid?
-[21:29:04] [Server thread/INFO]: <davehlewis> I advocate the grid and sponge method
-[21:29:12] [Server thread/INFO]: <sykst> i dont like sponges
-[21:29:20] [Server thread/INFO]: <davehlewis> how come?
-[21:29:24] [Server thread/INFO]: <sykst> but i do recognise it's quicker
-[21:29:29] [Server thread/INFO]: <sykst> it requires more brain power
-[21:29:34] [Server thread/INFO]: <davehlewis> ah
-[21:29:47] [Server thread/INFO]: <sykst> you need to be careful how you place them, and then collect them, go to the nether, and back
-[21:29:49] [Server thread/INFO]: <sykst> bleeeee
-[21:29:58] [Server thread/INFO]: <sykst> i'd rather hold right click and watch youtube
-[21:30:12] [Server thread/INFO]: <davehlewis> fair
-[21:30:35] [Server thread/INFO]: <davehlewis> I will do sponges over here if thats ok?
-[21:30:38] [Server thread/INFO]: <sykst> sure
-[21:30:44] [Server thread/INFO]: <sykst> whatever works
-[21:35:52] [Server thread/INFO]: <davehlewis> do you ahve sponges with you
-[21:35:56] [Server thread/INFO]: <sykst> nope
-[21:36:03] [Server thread/INFO]: <davehlewis> ok if I get them?
-[21:36:06] [Server thread/INFO]: <sykst> sure
-[22:05:32] [Server thread/INFO]: <davehlewis> I am looking forward to slaughtering these bastards
-[22:05:44] [Server thread/INFO]: <sykst> yeaaaaaaaa
-[22:10:03] [Server thread/INFO]: <sykst> those guys are learning how to jump...
-[22:10:08] [Server thread/INFO]: <sykst> they've been watching dolphins
-[22:10:13] [Server thread/INFO]: <davehlewis> they better not
-[22:10:38] [Server thread/INFO]: <sykst> well, i just saw one jump out
-[22:10:46] [Server thread/INFO]: <sykst> out of the monument walls
-[22:11:01] [Server thread/INFO]: <davehlewis> scary
-[22:15:14] [Server thread/INFO]: <davehlewis> ty
-[22:15:21] [Server thread/INFO]: <sykst> took 3 attempts lol
-[22:36:29] [Server thread/INFO]: <davehlewis> not too shabby
-[22:36:42] [Server thread/INFO]: <sykst> its coming along
-[22:36:53] [Server thread/INFO]: <sykst> every row is gonna be worse now :-(
-[22:37:27] [Server thread/INFO]: <sykst> hello there
-[22:37:27] [Server thread/INFO]: <davehlewis> hi
-[22:37:40] [Server thread/INFO]: <davehlewis> had my fdirst one in with me
-[22:37:53] [Server thread/INFO]: <davehlewis> not so scary when flopping about on dry land
-[22:38:22] [Server thread/INFO]: <sykst> they don't suffocate iirc
-[22:38:38] [Server thread/INFO]: <davehlewis> no I dont think so
-[22:43:07] [Server thread/WARN]: sykst moved wrongly!
-[22:45:02] [Server thread/INFO]: <davehlewis> there were 9 in this one little bit
-[22:45:08] [Server thread/INFO]: <davehlewis> this just gets horrible
-[22:47:27] [Server thread/INFO]: <sykst> i keep finding them outside
-[22:47:28] [Server thread/INFO]: <sykst> grrr
-[23:08:55] [Server thread/INFO]: davehlewis was killed by Guardian using magic
-[23:08:59] [Server thread/INFO]: <sykst> ouch
-[23:09:02] [Server thread/INFO]: <davehlewis> ugh
-[23:09:21] [Server thread/INFO]: <sykst> need a hand?
-[23:09:28] [Server thread/INFO]: <davehlewis> please
-[23:09:35] [Server thread/INFO]: <davehlewis> just keep them busy
-[23:09:47] [Server thread/INFO]: sykst has completed the challenge [Serious Dedication]
-[23:09:49] [Server thread/INFO]: davehlewis was slain by Guardian
-[23:10:48] [Server thread/INFO]: davehlewis was slain by Guardian
-[23:12:53] [Server thread/INFO]: <sykst> got everything?
-[23:13:10] [Server thread/INFO]: <sykst> ill set up my potions shulker by the portal
-[23:13:11] [Server thread/INFO]: <davehlewis> I might have
-[23:13:15] [Server thread/INFO]: <sykst> itll have invi pots
-[23:13:18] [Server thread/INFO]: <davehlewis> thanks
-[23:13:28] [Server thread/INFO]: <sykst> it's the pink one
-[23:13:39] [Server thread/INFO]: <sykst> if you wear no armor, they won't see you
-[23:15:17] [Server thread/INFO]: <davehlewis> thanks for the help
-[23:15:21] [Server thread/INFO]: <sykst> nw
-[23:20:43] [Server thread/INFO]: <sykst> im gonna go brew some more pots
-[23:20:48] [Server thread/INFO]: <sykst> i have a feeling we'll need them
-[23:21:01] [Server thread/INFO]: <davehlewis> yeah
-[23:34:50] [Server thread/INFO]: <davehlewis> looking great
-[23:34:59] [Server thread/INFO]: <davehlewis> about 2 thirds done I think
-[23:35:03] [Server thread/INFO]: <sykst> noice
-[23:35:27] [Server thread/INFO]: <sykst> then we gotta build it
-[23:35:31] [Server thread/INFO]: <davehlewis> haha yeah
-[23:35:32] [Server thread/INFO]: <sykst> you have a design in mind?
-[23:35:37] [Server thread/INFO]: <davehlewis> I think iskalls
-[23:35:46] [Server thread/INFO]: <davehlewis> very dependable
-[23:35:50] [Server thread/INFO]: <sykst> and simple
-[23:35:54] [Server thread/INFO]: <davehlewis> there is a crazy nether one
-[23:36:07] [Server thread/INFO]: <sykst> i don't like any farms with nether
-[23:36:14] [Server thread/INFO]: <sykst> because they don't work if anyone else is in the nether
-[23:36:17] [Server thread/INFO]: <davehlewis> pushes them to the nether super quickly and gets crazy numbers
-[23:36:32] [Server thread/INFO]: <davehlewis> this has a keep alive thing built in
-[23:36:39] [Server thread/INFO]: <sykst> hmm
-[23:36:58] [Server thread/INFO]: <sykst> i don't mind either way
-[23:37:04] [Server thread/INFO]: <sykst> i have no plans for it
-[23:37:21] [Server thread/INFO]: <davehlewis> well it's just for us so simple is better
-[23:37:25] [Server thread/INFO]: <sykst> i want to clean up the monument close to my base
-[23:37:31] [Server thread/INFO]: <sykst> and create a secondary base inside of it
-[23:37:46] [Server thread/INFO]: <sykst> so i would drain only the insides
-[23:37:52] [Server thread/INFO]: <sykst> gonna be an interesting project lol
-[23:37:55] [Server thread/INFO]: <davehlewis> yeah
-[23:39:49] [Server thread/INFO]: <sykst> oki orange shulker up here is full of 8min invis
-[23:39:56] [Server thread/INFO]: <davehlewis> nice
-[23:40:19] [Server thread/INFO]: <sykst> i'll be off
-[23:40:27] [Server thread/INFO]: <sykst> enjoy
-[23:40:38] [Server thread/INFO]: sykst lost connection: Disconnected
-[23:40:38] [Server thread/INFO]: sykst left the game
-[23:40:39] [Server thread/INFO]: <davehlewis> Im going too
-[23:44:56] [Server thread/INFO]: davehlewis lost connection: Disconnected
-[23:44:56] [Server thread/INFO]: davehlewis left the game
+[01:00:16] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[01:00:16] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[01:00:16] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[01:00:16] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[01:00:16] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[01:00:16] [main/INFO]: Reloading ResourceManager: Default, anti enderman grief v1.1.0.zip, armor statues v2.8.1.zip, coordinates hud v1.2.0.zip, double shulker shells v1.3.0.zip, more mob heads v2.9.1.zip, player head drops v1.1.0.zip, silence mobs v1.1.0.zip, track raw statistics v1.4.0.zip, track statistics v1.1.0.zip, villager workstation highlights v1.1.0.zip, afk display v1.1.0.zip, fast leaf decay v2.0.3.zip, wandering trades v1.5.0.zip, spectator conduit power v1.1.0.zip, spectator night vision v1.1.0.zip, cauldron concrete v2.0.3.zip, Fabric Mods (Fabric Tool Attribute API (v1))
+[01:00:17] [Worker-Main-12/INFO]: Loaded 7 recipes
+[01:00:18] [Worker-Main-12/WARN]: Found validation problem in {minecraft:entities/ender_dragon}.pools[0].entries[0]: Unknown loot table called minecraft:entities/reference/extra/ender_dragon
+[01:00:18] [Worker-Main-12/INFO]: Loaded 1157 advancements
+[01:00:20] [Server thread/INFO]: Starting minecraft server version 1.17.1
+[01:00:20] [Server thread/INFO]: Loading properties
+[01:00:20] [Server thread/INFO]: Default game type: SURVIVAL
+[01:00:20] [Server thread/INFO]: Generating keypair
+[01:00:20] [Server thread/INFO]: Starting Minecraft server on *:25565
+[01:00:20] [Server thread/INFO]: Using epoll channel type
+[01:00:21] [Server thread/INFO]: Preparing level "faro"
+[01:00:21] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[01:00:22] [Worker-Main-14/INFO]: Preparing spawn area: 0%
+[01:00:22] [Worker-Main-14/INFO]: Preparing spawn area: 0%
+[01:00:22] [Worker-Main-11/INFO]: Preparing spawn area: 0%
+[01:00:22] [Worker-Main-12/INFO]: Preparing spawn area: 0%
+[01:00:23] [Worker-Main-13/INFO]: Preparing spawn area: 0%
+[01:00:23] [Worker-Main-13/INFO]: Preparing spawn area: 0%
+[01:00:24] [Worker-Main-9/INFO]: Preparing spawn area: 0%
+[01:00:24] [Worker-Main-9/INFO]: Preparing spawn area: 3%
+[01:00:25] [Worker-Main-14/INFO]: Preparing spawn area: 4%
+[01:00:25] [Worker-Main-10/INFO]: Preparing spawn area: 8%
+[01:00:26] [Worker-Main-9/INFO]: Preparing spawn area: 20%
+[01:00:26] [Worker-Main-10/INFO]: Preparing spawn area: 24%
+[01:00:27] [Worker-Main-12/INFO]: Preparing spawn area: 42%
+[01:00:27] [Worker-Main-13/INFO]: Preparing spawn area: 57%
+[01:00:28] [Worker-Main-11/INFO]: Preparing spawn area: 79%
+[01:00:28] [Worker-Main-13/INFO]: Preparing spawn area: 97%
+[01:00:29] [Server thread/INFO]: Time elapsed: 8357 ms
+[01:00:29] [Server thread/INFO]: Done (8.695s)! For help, type "help"
+[01:00:29] [Server thread/INFO]: Starting GS4 status listener
+[01:00:29] [Server thread/INFO]: Thread Query Listener started
+[01:00:29] [Query Listener #1/INFO]: Query running on 0.0.0.0:25565
+[01:00:32] [Server thread/WARN]: UUID of added entity already exists: class_1531['Armor Stand'/92, l='ServerLevel[faro]', x=16562064.50, y=1000.00, z=-22242911.50]
+[01:20:42] [User Authenticator #1/INFO]: UUID of player davehlewis is 3dfd1cd3-4bc2-40bd-8e5e-9c28e9a3b850
+[01:20:43] [Server thread/INFO]: davehlewis[/127.0.0.1:46450] logged in with entity id 103 at (-1009.742629376215, 77.0, -1176.5348194975877)
+[01:20:43] [Server thread/INFO]: davehlewis joined the game
+[02:14:45] [Server thread/INFO]: davehlewis was slain by Guardian
+[02:37:00] [Server thread/INFO]: davehlewis lost connection: Disconnected
+[02:37:00] [Server thread/INFO]: davehlewis left the game
+[09:32:57] [User Authenticator #2/INFO]: UUID of player davehlewis is 3dfd1cd3-4bc2-40bd-8e5e-9c28e9a3b850
+[09:32:57] [Server thread/INFO]: davehlewis[/127.0.0.1:49614] logged in with entity id 17773 at (-3841.406524135623, 69.0, -1650.4144792155294)
+[09:32:57] [Server thread/INFO]: davehlewis joined the game
+[10:00:34] [Server thread/INFO]: davehlewis lost connection: Disconnected
+[10:00:34] [Server thread/INFO]: davehlewis left the game
+[11:56:36] [User Authenticator #3/INFO]: UUID of player davehlewis is 3dfd1cd3-4bc2-40bd-8e5e-9c28e9a3b850
+[11:56:37] [Server thread/INFO]: davehlewis[/127.0.0.1:50634] logged in with entity id 23339 at (-3843.081822140798, 69.0, -1650.191766321194)
+[11:56:37] [Server thread/INFO]: davehlewis joined the game
+[11:59:22] [Server thread/INFO]: davehlewis lost connection: Disconnected
+[11:59:22] [Server thread/INFO]: davehlewis left the game
+[12:01:53] [User Authenticator #4/INFO]: UUID of player davehlewis is 3dfd1cd3-4bc2-40bd-8e5e-9c28e9a3b850
+[12:01:54] [Server thread/INFO]: davehlewis[/127.0.0.1:50646] logged in with entity id 23749 at (-3879.7303552435083, 40.0, -1708.9443112445035)
+[12:01:54] [Server thread/INFO]: davehlewis joined the game
+[12:37:01] [Server thread/INFO]: davehlewis lost connection: Disconnected
+[12:37:01] [Server thread/INFO]: davehlewis left the game
+[13:42:50] [User Authenticator #5/INFO]: UUID of player sykst is 61b3753f-5686-4956-8020-7b6d9ebbab2c
+[13:42:51] [Server thread/INFO]: sykst[/127.0.0.1:51084] logged in with entity id 32417 at (-3844.446523202895, 70.0, -1654.3828565588956)
+[13:42:51] [Server thread/INFO]: sykst joined the game
+[15:35:17] [User Authenticator #6/INFO]: UUID of player davehlewis is 3dfd1cd3-4bc2-40bd-8e5e-9c28e9a3b850
+[15:35:18] [Server thread/INFO]: davehlewis[/127.0.0.1:51792] logged in with entity id 78248 at (-479.5, 129.0, -205.23698357538615)
+[15:35:18] [Server thread/INFO]: davehlewis joined the game
+[15:35:32] [Server thread/INFO]: <sykst> welcome to another day of cleaning water lol
+[15:35:36] [Server thread/INFO]: <davehlewis> haha
+[15:35:40] [Server thread/INFO]: <davehlewis> I did some more
+[15:35:44] [Server thread/INFO]: <sykst> i saw
+[15:35:48] [Server thread/INFO]: <sykst> we are so close now
+[15:36:36] [Server thread/INFO]: <sykst> ive made a small change
+[15:36:40] [Server thread/INFO]: <sykst> which made it safer
+[15:36:41] [Server thread/INFO]: <davehlewis> oh?
+[15:36:50] [Server thread/INFO]: <sykst> for some reason, they are attracted to the conduit
+[15:36:54] [Server thread/INFO]: <sykst> so i moved it outside and low
+[15:37:07] [Server thread/INFO]: <sykst> during the night, and most of the time during the day, none of them are on the surface
+[15:37:08] [Server thread/INFO]: <davehlewis> ah yeah the cogregated
+[15:37:18] [Server thread/INFO]: <davehlewis> oh yeah all down that end
+[15:37:18] [Server thread/INFO]: <sykst> poke poke
+[15:43:31] [Server thread/INFO]: <davehlewis> you fight I sleep
+[15:45:40] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-3867, y=54, z=-1691} class_2338{x=-3867, y=58, z=-1691}
+[15:56:24] [Server thread/INFO]: <sykst> woooooo
+[15:56:26] [Server thread/INFO]: <sykst> we are done
+[15:59:02] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-3868, y=40, z=-1706} class_2338{x=-3868, y=39, z=-1706}
+[15:59:02] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-3868, y=40, z=-1706} class_2338{x=-3868, y=39, z=-1706}
+[15:59:02] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-3868, y=40, z=-1705} class_2338{x=-3868, y=39, z=-1705}
+[15:59:02] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-3868, y=40, z=-1705} class_2338{x=-3868, y=39, z=-1705}
+[16:01:26] [Server thread/INFO]: <davehlewis> woo!
+[16:01:34] [Server thread/INFO]: <davehlewis> that damned stone
+[16:02:29] [Server thread/INFO]: <sykst> did you patch up that one hole in the floor?
+[16:02:32] [Server thread/INFO]: <davehlewis> yeah
+[16:02:44] [Server thread/INFO]: <davehlewis> it annoyed me
+[16:03:08] [Server thread/INFO]: <davehlewis> beautiful
+[16:03:11] [Server thread/INFO]: <sykst> this is the 3rd monument i see empty
+[16:03:17] [Server thread/INFO]: <sykst> 2 of them were done solo
+[16:03:27] [Server thread/INFO]: <davehlewis> ah
+[16:03:28] [Server thread/INFO]: <sykst> damn, such a good moment
+[16:03:43] [Server thread/INFO]: <sykst> not on this server, in total minecraft career
+[16:03:51] [Server thread/INFO]: <davehlewis> yeah I guessed
+[16:04:38] [Server thread/INFO]: <davehlewis> theres our starting point
+[16:06:04] [Server thread/INFO]: <davehlewis> marked the middle - what will be the funnelled to area
+[16:06:10] [Server thread/INFO]: <sykst> nice
+[16:06:32] [Server thread/INFO]: <davehlewis> gonna need a poop load of glass now
+[16:06:41] [Server thread/INFO]: <davehlewis> need to build the tanks
+[16:06:42] [Server thread/INFO]: <sykst> we do have like 10 shulkers of sand lol
+[16:06:46] [Server thread/INFO]: <davehlewis> true
+[16:07:03] [Server thread/INFO]: <davehlewis> just need to decide colour scheme
+[16:07:15] [Server thread/INFO]: <sykst> up to you
+[16:07:41] [Server thread/INFO]: <davehlewis> iskall went with black stone and light blue glass
+[16:07:51] [Server thread/INFO]: <davehlewis> which is ok
+[16:08:06] [Server thread/INFO]: <davehlewis> we could go prismarine and clear or white glass
+[16:08:09] [Server thread/INFO]: <davehlewis> keep in theme
+[16:08:28] [Server thread/INFO]: <davehlewis> black stone contrasts though
+[16:08:31] [Server thread/INFO]: <sykst> my original idea here, was to open this side up
+[16:08:38] [Server thread/INFO]: <sykst> where the original entry was
+[16:08:46] [Server thread/INFO]: <sykst> and have a portal in a tunnel
+[16:08:49] [Server thread/INFO]: <sykst> underwater
+[16:08:52] [Server thread/INFO]: <davehlewis> ah cool
+[16:09:02] [Server thread/INFO]: <davehlewis> killing chamber has to be lower down though
+[16:09:06] [Server thread/INFO]: <sykst> and you'd walk in directly into the farm
+[16:09:18] [Server thread/INFO]: <sykst> we can send them higher
+[16:09:19] [Server thread/INFO]: <sykst> but yea
+[16:09:33] [Server thread/INFO]: <sykst> how tall does the fall need to be for auto?
+[16:09:34] [Server thread/INFO]: <davehlewis> if we go for iskall design it doesn't ship them around much
+[16:09:42] [Server thread/INFO]: <davehlewis> 23 or something
+[16:09:54] [Server thread/INFO]: <sykst> 23 is for zombies/skellies
+[16:09:59] [Server thread/INFO]: <sykst> it's like 40 for ender
+[16:10:02] [Server thread/INFO]: <davehlewis> ah ok
+[16:10:12] [Server thread/INFO]: <sykst> it's like 5+their hp
+[16:10:13] [Server thread/INFO]: <davehlewis> make a retractable floor for manual too
+[16:10:19] [Server thread/INFO]: <sykst> do we need manual?
+[16:10:29] [Server thread/INFO]: <davehlewis> I want an xp farm closer
+[16:10:46] [Server thread/INFO]: <sykst> mhmm
+[16:10:47] [Server thread/INFO]: <sykst> fairs
+[16:11:00] [Server thread/INFO]: <sykst> is it closer than end farm?
+[16:11:01] [Server thread/INFO]: <davehlewis> if that's ok
+[16:11:05] [Server thread/INFO]: <davehlewis> yeah
+[16:11:19] [Server thread/INFO]: <sykst> as far as I'm concerned, you are in charge of this project, if you want the job :-)
+[16:11:21] [Server thread/INFO]: <davehlewis> well its more a straight line
+[16:11:24] [Server thread/INFO]: <davehlewis> ok
+[16:11:44] [Server thread/INFO]: <davehlewis> will go finish my slime farm for a few levels and come back
+[16:12:23] [Server thread/INFO]: <sykst> ill put a couple shulkers into the furnaces
+[16:12:27] [Server thread/INFO]: <davehlewis> whats your next plan?
+[16:12:31] [Server thread/INFO]: <sykst> no idea
+[16:13:04] [Server thread/INFO]: <sykst> i think it's back to the grind, need to finish that ship
+[16:13:18] [Server thread/INFO]: <davehlewis> ah yeah
+[16:13:20] [Server thread/INFO]: <davehlewis> brb
+[16:13:21] [Server thread/INFO]: davehlewis lost connection: Disconnected
+[16:13:21] [Server thread/INFO]: davehlewis left the game
+[16:17:38] [Server thread/INFO]: Villager class_1646['Villager'/102635, l='ServerLevel[faro]', x=1529.18, y=64.02, z=-1715.85] died, message: 'Villager drowned'
+[16:20:30] [Server thread/INFO]: Villager class_1646['Villager'/104524, l='ServerLevel[faro]', x=1529.18, y=64.02, z=-1715.85] died, message: 'Villager drowned'
+[16:25:27] [Server thread/INFO]: Villager class_1646['Villager'/105907, l='ServerLevel[faro]', x=1529.16, y=64.02, z=-1715.85] died, message: 'Villager drowned'
+[16:39:48] [Server thread/INFO]: Villager class_1646['Villager'/110969, l='ServerLevel[faro]', x=1529.26, y=64.02, z=-1715.85] died, message: 'Villager drowned'
+[16:40:40] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1480, y=7, z=-1807} class_2338{x=1481, y=6, z=-1807}
+[16:40:40] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1480, y=7, z=-1807} class_2338{x=1481, y=6, z=-1807}
+[16:40:40] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1480, y=7, z=-1807} class_2338{x=1481, y=6, z=-1807}
+[16:40:40] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1480, y=7, z=-1807} class_2338{x=1481, y=6, z=-1807}
+[16:40:40] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1480, y=7, z=-1807} class_2338{x=1481, y=6, z=-1807}
+[16:46:29] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1539, y=13, z=-1792} class_2338{x=1540, y=13, z=-1792}
+[16:46:30] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1539, y=13, z=-1792} class_2338{x=1540, y=13, z=-1792}
+[16:46:30] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1539, y=13, z=-1792} class_2338{x=1540, y=13, z=-1792}
+[17:00:32] [Server thread/INFO]: Villager class_1646['Villager'/118158, l='ServerLevel[faro]', x=1528.15, y=64.02, z=-1714.65] died, message: 'Villager drowned'
+[17:20:47] [User Authenticator #7/INFO]: UUID of player davehlewis is 3dfd1cd3-4bc2-40bd-8e5e-9c28e9a3b850
+[17:20:48] [Server thread/INFO]: davehlewis[/127.0.0.1:52478] logged in with entity id 125950 at (-987.6999999880791, 64.0, -1176.2976901195004)
+[17:20:48] [Server thread/INFO]: davehlewis joined the game
+[17:21:29] [Server thread/INFO]: Villager class_1646['Villager'/124862, l='ServerLevel[faro]', x=1529.18, y=64.02, z=-1715.85] died, message: 'Villager drowned'
+[17:28:58] [Server thread/INFO]: <sykst> im tempted to replace all the mycelium with grass, and build some custom trees
+[17:29:05] [Server thread/INFO]: <davehlewis> oh yeah?
+[17:29:12] [Server thread/INFO]: <davehlewis> I saw the grass on your island
+[17:29:17] [Server thread/INFO]: <davehlewis> it's so bright
+[17:29:19] [Server thread/INFO]: <sykst> yea, a test patch
+[17:29:27] [Server thread/INFO]: <sykst> so vivid
+[17:41:27] [Server thread/INFO]: Villager class_1646['Villager'/139993, l='ServerLevel[faro]', x=1529.14, y=64.02, z=-1715.85] died, message: 'Villager drowned'
+[17:45:43] [Server thread/INFO]: <sykst> ive run out of shulker boxes again....
+[17:45:50] [Server thread/INFO]: <davehlewis> oh no
+[17:45:51] [Server thread/INFO]: <sykst> i've got no idea where they are going lol
+[17:45:55] [Server thread/INFO]: <davehlewis> I have about 20 left
+[17:51:57] [Server thread/INFO]: <sykst> i have 4 shulkers of glass
+[17:52:02] [Server thread/INFO]: <sykst> what colour would you like?
+[17:52:16] [Server thread/INFO]: <davehlewis> not sure - will try in creative in a bit
+[17:52:43] [Server thread/INFO]: <sykst> :+1:
+[17:53:21] [Server thread/INFO]: <sykst> im off
+[17:53:24] [Server thread/INFO]: <sykst> enjoy
+[17:53:30] [Server thread/INFO]: sykst lost connection: Disconnected
+[17:53:30] [Server thread/INFO]: sykst left the game
+[19:01:27] [Server thread/INFO]: davehlewis lost connection: Disconnected
+[19:01:27] [Server thread/INFO]: davehlewis left the game
+[19:16:43] [User Authenticator #8/INFO]: UUID of player davehlewis is 3dfd1cd3-4bc2-40bd-8e5e-9c28e9a3b850
+[19:16:44] [Server thread/INFO]: davehlewis[/127.0.0.1:53078] logged in with entity id 164486 at (-1012.1300549806376, 76.0, -1178.2402222344137)
+[19:16:44] [Server thread/INFO]: davehlewis joined the game
+[21:58:27] [Server thread/INFO]: davehlewis lost connection: Disconnected
+[21:58:27] [Server thread/INFO]: davehlewis left the game
