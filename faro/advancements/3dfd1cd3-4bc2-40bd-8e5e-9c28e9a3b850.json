@@ -29,6 +29,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/magenta_dye_from_lilac": {
+    "criteria": {
+      "has_lilac": "2021-10-16 16:30:04 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/stone_bricks": {
     "criteria": {
       "has_stone": "2021-06-12 19:22:06 +0000"
@@ -1378,9 +1384,10 @@
       "minecraft:crimson_forest": "2021-06-20 00:58:01 +0000",
       "minecraft:nether_wastes": "2021-06-17 13:59:41 +0000",
       "minecraft:soul_sand_valley": "2021-06-24 17:37:29 +0000",
-      "minecraft:warped_forest": "2021-07-03 15:26:21 +0000"
+      "minecraft:warped_forest": "2021-07-03 15:26:21 +0000",
+      "minecraft:basalt_deltas": "2021-10-17 00:28:37 +0000"
     },
-    "done": false
+    "done": true
   },
   "minecraft:recipes/building_blocks/prismarine": {
     "criteria": {
@@ -1610,6 +1617,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/cyan_stained_glass_pane": {
+    "criteria": {
+      "has_glass": "2021-10-16 12:59:00 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/blue_stained_glass": {
     "criteria": {
       "has_glass": "2021-06-12 18:27:57 +0000"
@@ -1751,6 +1764,12 @@
   "minecraft:recipes/decorations/granite_wall": {
     "criteria": {
       "has_granite": "2021-06-12 18:41:01 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/orange_stained_glass_pane": {
+    "criteria": {
+      "has_glass": "2021-10-16 12:53:23 +0000"
     },
     "done": true
   },
@@ -3846,6 +3865,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/warped_planks": {
+    "criteria": {
+      "has_logs": "2021-10-16 12:06:51 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/nether_brick_slab_from_nether_bricks_stonecutting": {
     "criteria": {
       "has_nether_bricks": "2021-07-25 21:25:05 +0000"
@@ -4559,6 +4584,12 @@
   "minecraft:recipes/building_blocks/oxidized_cut_copper_slab_from_oxidized_copper_stonecutting": {
     "criteria": {
       "has_oxidized_copper": "2021-08-26 22:47:20 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/warped_hyphae": {
+    "criteria": {
+      "has_log": "2021-10-16 12:06:51 +0000"
     },
     "done": true
   },
