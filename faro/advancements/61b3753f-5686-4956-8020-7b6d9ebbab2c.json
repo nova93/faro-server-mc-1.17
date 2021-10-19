@@ -215,6 +215,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/smooth_sandstone_stairs_from_smooth_sandstone_stonecutting": {
+    "criteria": {
+      "has_smooth_sandstone": "2021-10-18 19:40:56 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/lime_terracotta": {
     "criteria": {
       "has_terracotta": "2021-07-18 19:49:58 +0000"
@@ -842,6 +848,12 @@
   "vanillatweaks:track_raw_stats": {
     "criteria": {
       "tick": "2021-06-12 11:49:23 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/blue_stained_glass_pane": {
+    "criteria": {
+      "has_glass": "2021-10-18 19:31:44 +0000"
     },
     "done": true
   },
@@ -1863,6 +1875,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/smooth_sandstone_slab_from_smooth_sandstone_stonecutting": {
+    "criteria": {
+      "has_smooth_sandstone": "2021-10-18 19:40:56 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/respawn_anchor": {
     "criteria": {
       "has_obsidian": "2021-06-12 11:57:14 +0000"
@@ -2297,6 +2315,12 @@
   "minecraft:recipes/food/baked_potato": {
     "criteria": {
       "has_potato": "2021-06-11 18:14:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_sandstone_stairs": {
+    "criteria": {
+      "has_smooth_sandstone": "2021-10-18 19:40:56 +0000"
     },
     "done": true
   },
@@ -2777,6 +2801,12 @@
   "minecraft:recipes/building_blocks/polished_blackstone_slab_from_polished_blackstone_stonecutting": {
     "criteria": {
       "has_polished_blackstone": "2021-08-07 21:53:02 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/lime_glazed_terracotta": {
+    "criteria": {
+      "has_lime_terracotta": "2021-10-18 18:30:01 +0000"
     },
     "done": true
   },
@@ -4371,6 +4401,12 @@
   "minecraft:recipes/decorations/polished_deepslate_wall_from_cobbled_deepslate_stonecutting": {
     "criteria": {
       "has_cobbled_deepslate": "2021-06-11 21:31:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_sandstone_slab": {
+    "criteria": {
+      "has_smooth_sandstone": "2021-10-18 19:40:56 +0000"
     },
     "done": true
   },

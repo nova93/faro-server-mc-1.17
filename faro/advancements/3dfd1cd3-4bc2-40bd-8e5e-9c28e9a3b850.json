@@ -4713,6 +4713,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/black_stained_glass_pane": {
+    "criteria": {
+      "has_glass": "2021-10-18 19:37:51 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/granite": {
     "criteria": {
       "has_quartz": "2021-06-18 12:57:51 +0000"
