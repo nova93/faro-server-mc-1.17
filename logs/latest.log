@@ -1,5 +1,5 @@
-[01:00:10] [main/INFO]: Loading for game Minecraft 1.17.1
-[01:00:10] [main/INFO]: [FabricLoader] Loading 49 mods:
+[01:00:09] [main/INFO]: Loading for game Minecraft 1.17.1
+[01:00:09] [main/INFO]: [FabricLoader] Loading 49 mods:
 	- fabric@0.37.2+1.17
 	- fabric-api-base@0.3.0+a02b446318
 	- fabric-api-lookup-api-v1@1.2.0+2b5c62d018
@@ -49,122 +49,76 @@
 	- java@16
 	- minecraft@1.17.1
 	- servux@0.1.0
-[01:00:10] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.2 Source=file:/opt/mscs/server/fabric-server-launch.jar Service=Knot/Fabric Env=SERVER
+[01:00:09] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.2 Source=file:/opt/mscs/server/fabric-server-launch.jar Service=Knot/Fabric Env=SERVER
 [01:00:10] [main/INFO]: Compatibility level set to JAVA_16
 [01:00:10] [main/WARN]: @Mixin target net/minecraft/class_2474$class_5124 is public in fabric-tag-extensions-v0.mixins.json:MixinObjectBuilder and should be specified in value
 [01:00:14] [main/WARN]: @Inject(@At("INVOKE")) Shift.BY=3 on fabric-lifecycle-events-v1.mixins.json:server.WorldChunkMixin::handler$zzh000$onLoadBlockEntity exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
-[01:00:16] [main/INFO]: Applied 0 biome modifications to 0 of 81 new biomes in 2.243 ms
-[01:00:16] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[01:00:17] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[01:00:17] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[01:00:17] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[01:00:17] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[01:00:17] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[01:00:17] [main/INFO]: Reloading ResourceManager: Default, anti enderman grief v1.1.0.zip, armor statues v2.8.1.zip, coordinates hud v1.2.0.zip, double shulker shells v1.3.0.zip, more mob heads v2.9.1.zip, player head drops v1.1.0.zip, silence mobs v1.1.0.zip, track raw statistics v1.4.0.zip, track statistics v1.1.0.zip, villager workstation highlights v1.1.0.zip, afk display v1.1.0.zip, fast leaf decay v2.0.3.zip, wandering trades v1.5.0.zip, spectator conduit power v1.1.0.zip, spectator night vision v1.1.0.zip, cauldron concrete v2.0.3.zip, Fabric Mods (Fabric Tool Attribute API (v1)), charcoal-to-coal-e3510.zip
-[01:00:18] [Worker-Main-10/INFO]: Loaded 7 recipes
-[01:00:18] [Worker-Main-10/WARN]: Found validation problem in {minecraft:entities/ender_dragon}.pools[0].entries[0]: Unknown loot table called minecraft:entities/reference/extra/ender_dragon
-[01:00:18] [Worker-Main-10/INFO]: Loaded 1157 advancements
+[01:00:15] [main/INFO]: Applied 0 biome modifications to 0 of 81 new biomes in 3.197 ms
+[01:00:15] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[01:00:16] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[01:00:16] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[01:00:16] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[01:00:16] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[01:00:16] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[01:00:16] [main/INFO]: Reloading ResourceManager: Default, anti enderman grief v1.1.0.zip, armor statues v2.8.1.zip, coordinates hud v1.2.0.zip, double shulker shells v1.3.0.zip, more mob heads v2.9.1.zip, player head drops v1.1.0.zip, silence mobs v1.1.0.zip, track raw statistics v1.4.0.zip, track statistics v1.1.0.zip, villager workstation highlights v1.1.0.zip, afk display v1.1.0.zip, fast leaf decay v2.0.3.zip, wandering trades v1.5.0.zip, spectator conduit power v1.1.0.zip, spectator night vision v1.1.0.zip, cauldron concrete v2.0.3.zip, Fabric Mods (Fabric Tool Attribute API (v1)), charcoal-to-coal-e3510.zip
+[01:00:17] [Worker-Main-12/INFO]: Loaded 7 recipes
+[01:00:17] [Worker-Main-12/WARN]: Found validation problem in {minecraft:entities/ender_dragon}.pools[0].entries[0]: Unknown loot table called minecraft:entities/reference/extra/ender_dragon
+[01:00:17] [Worker-Main-12/INFO]: Loaded 1157 advancements
 [01:00:20] [Server thread/INFO]: Starting minecraft server version 1.17.1
 [01:00:20] [Server thread/INFO]: Loading properties
 [01:00:20] [Server thread/INFO]: Default game type: SURVIVAL
 [01:00:20] [Server thread/INFO]: Generating keypair
-[01:00:21] [Server thread/INFO]: Starting Minecraft server on *:25565
-[01:00:21] [Server thread/INFO]: Using epoll channel type
+[01:00:20] [Server thread/INFO]: Starting Minecraft server on *:25565
+[01:00:20] [Server thread/INFO]: Using epoll channel type
 [01:00:21] [Server thread/INFO]: Preparing level "faro"
-[01:00:22] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[01:00:23] [Worker-Main-11/INFO]: Preparing spawn area: 0%
-[01:00:23] [Worker-Main-8/INFO]: Preparing spawn area: 0%
-[01:00:23] [Worker-Main-12/INFO]: Preparing spawn area: 0%
+[01:00:21] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[01:00:22] [Worker-Main-9/INFO]: Preparing spawn area: 0%
+[01:00:22] [Worker-Main-10/INFO]: Preparing spawn area: 0%
+[01:00:22] [Worker-Main-11/INFO]: Preparing spawn area: 0%
+[01:00:22] [Worker-Main-13/INFO]: Preparing spawn area: 0%
+[01:00:23] [Worker-Main-13/INFO]: Preparing spawn area: 0%
 [01:00:23] [Worker-Main-10/INFO]: Preparing spawn area: 0%
-[01:00:24] [Worker-Main-11/INFO]: Preparing spawn area: 0%
-[01:00:24] [Worker-Main-13/INFO]: Preparing spawn area: 0%
-[01:00:25] [Worker-Main-14/INFO]: Preparing spawn area: 0%
-[01:00:25] [Worker-Main-10/INFO]: Preparing spawn area: 0%
-[01:00:26] [Worker-Main-14/INFO]: Preparing spawn area: 0%
-[01:00:26] [Worker-Main-13/INFO]: Preparing spawn area: 0%
-[01:00:27] [Worker-Main-13/INFO]: Preparing spawn area: 5%
-[01:00:27] [Worker-Main-9/INFO]: Preparing spawn area: 22%
-[01:00:28] [Worker-Main-13/INFO]: Preparing spawn area: 37%
-[01:00:28] [Worker-Main-14/INFO]: Preparing spawn area: 72%
-[01:00:29] [Worker-Main-14/INFO]: Preparing spawn area: 99%
-[01:00:29] [Server thread/INFO]: Time elapsed: 7397 ms
-[01:00:29] [Server thread/INFO]: Done (7.715s)! For help, type "help"
-[01:00:29] [Server thread/INFO]: Starting GS4 status listener
-[01:00:29] [Server thread/INFO]: Thread Query Listener started
-[01:00:29] [Query Listener #1/INFO]: Query running on 0.0.0.0:25565
-[01:00:32] [Server thread/WARN]: UUID of added entity already exists: class_1531['Armor Stand'/95, l='ServerLevel[faro]', x=16562064.50, y=1000.00, z=-22242911.50]
-[14:58:48] [User Authenticator #1/INFO]: UUID of player davehlewis is 3dfd1cd3-4bc2-40bd-8e5e-9c28e9a3b850
-[14:58:49] [Server thread/INFO]: davehlewis[/127.0.0.1:56662] logged in with entity id 546 at (-899.0541650805998, 70.5, -1089.951090790707)
-[14:58:49] [Server thread/INFO]: davehlewis joined the game
-[15:12:16] [Server thread/INFO]: davehlewis lost connection: Disconnected
-[15:12:16] [Server thread/INFO]: davehlewis left the game
-[16:40:19] [User Authenticator #2/INFO]: UUID of player davehlewis is 3dfd1cd3-4bc2-40bd-8e5e-9c28e9a3b850
-[16:40:20] [Server thread/INFO]: davehlewis[/127.0.0.1:57218] logged in with entity id 3689 at (-895.7702473624031, 65.5, -1034.8967423333131)
-[16:40:20] [Server thread/INFO]: davehlewis joined the game
-[18:08:36] [Server thread/INFO]: davehlewis lost connection: Disconnected
-[18:08:36] [Server thread/INFO]: davehlewis left the game
-[18:30:57] [User Authenticator #3/INFO]: UUID of player sykst is 61b3753f-5686-4956-8020-7b6d9ebbab2c
-[18:30:58] [Server thread/INFO]: sykst[/[2a01:4b00:8e19:3b00:85e:27d9:b2c8:36cf%0]:49750] logged in with entity id 26206 at (1493.8728903431777, 63.0625, -1786.259062884026)
-[18:30:58] [Server thread/INFO]: sykst joined the game
-[18:33:40] [Server thread/INFO]: sykst blew up
-[19:03:16] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=93, y=108, z=97} class_2338{x=66, y=109, z=124}
-[19:19:53] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-4, y=110, z=42} class_2338{x=-7, y=110, z=58}
-[19:19:53] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-4, y=110, z=42} class_2338{x=-7, y=110, z=58}
-[19:36:23] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-157, y=110, z=27} class_2338{x=-156, y=110, z=25}
-[19:36:23] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-157, y=110, z=27} class_2338{x=-156, y=110, z=25}
-[19:36:54] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-161, y=112, z=32} class_2338{x=-161, y=112, z=31}
-[19:36:54] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-161, y=112, z=32} class_2338{x=-161, y=112, z=31}
-[19:38:26] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-164, y=117, z=42} class_2338{x=-163, y=116, z=43}
-[19:39:35] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-140, y=112, z=43} class_2338{x=-141, y=112, z=43}
-[19:40:19] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-159, y=116, z=56} class_2338{x=-163, y=116, z=55}
-[19:40:19] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-159, y=116, z=56} class_2338{x=-163, y=116, z=55}
-[19:40:20] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-159, y=116, z=56} class_2338{x=-163, y=116, z=55}
-[19:40:20] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-159, y=116, z=56} class_2338{x=-163, y=116, z=55}
-[19:40:20] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-159, y=116, z=56} class_2338{x=-163, y=116, z=55}
-[19:58:05] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-137, y=108, z=75} class_2338{x=-137, y=107, z=75}
-[19:58:06] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-137, y=108, z=75} class_2338{x=-137, y=107, z=75}
-[19:58:06] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-137, y=108, z=75} class_2338{x=-137, y=107, z=75}
-[19:58:06] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-137, y=108, z=75} class_2338{x=-137, y=107, z=75}
-[19:58:06] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-137, y=108, z=75} class_2338{x=-137, y=107, z=75}
-[19:58:11] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-134, y=108, z=82} class_2338{x=-133, y=108, z=77}
-[20:53:44] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=47, y=117, z=150} class_2338{x=53, y=118, z=133}
-[20:56:22] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=45, y=118, z=107} class_2338{x=37, y=118, z=113}
-[20:58:16] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=33, y=118, z=121} class_2338{x=25, y=118, z=109}
-[20:59:40] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=33, y=118, z=121} class_2338{x=33, y=118, z=149}
-[21:11:48] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=52, y=108, z=140} class_2338{x=52, y=108, z=141}
-[21:11:48] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=52, y=108, z=140} class_2338{x=52, y=108, z=141}
-[21:24:25] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-4, y=118, z=117} class_2338{x=-8, y=118, z=105}
-[21:29:26] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-18, y=118, z=125} class_2338{x=-26, y=118, z=119}
-[21:33:14] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-36, y=118, z=153} class_2338{x=-40, y=118, z=101}
-[21:36:03] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-46, y=118, z=127} class_2338{x=-50, y=118, z=151}
-[21:41:19] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-14, y=105, z=111} class_2338{x=-11, y=103, z=111}
-[21:41:19] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-14, y=105, z=111} class_2338{x=-11, y=103, z=111}
-[21:41:19] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-14, y=105, z=111} class_2338{x=-11, y=103, z=111}
-[21:41:19] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-14, y=105, z=111} class_2338{x=-11, y=103, z=111}
-[21:47:03] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-38, y=107, z=138} class_2338{x=-38, y=106, z=138}
-[21:47:03] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-38, y=105, z=138} class_2338{x=-38, y=106, z=138}
-[21:47:44] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-36, y=104, z=150} class_2338{x=-35, y=103, z=151}
-[21:48:05] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-33, y=110, z=147} class_2338{x=-36, y=102, z=151}
-[21:48:49] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-54, y=106, z=160} class_2338{x=-54, y=104, z=160}
-[21:48:50] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-54, y=103, z=160} class_2338{x=-54, y=102, z=160}
-[21:48:50] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-54, y=101, z=160} class_2338{x=-54, y=102, z=160}
-[21:50:16] [Server thread/WARN]: sykst moved wrongly!
-[22:29:43] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1595, y=50, z=-1882} class_2338{x=1600, y=50, z=-1883}
-[22:29:45] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1602, y=50, z=-1882} class_2338{x=1601, y=50, z=-1883}
-[22:29:45] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1602, y=50, z=-1883} class_2338{x=1601, y=50, z=-1883}
-[22:29:45] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1602, y=50, z=-1882} class_2338{x=1601, y=50, z=-1883}
-[22:29:45] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1602, y=50, z=-1882} class_2338{x=1601, y=50, z=-1883}
-[22:29:45] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1602, y=50, z=-1882} class_2338{x=1601, y=50, z=-1883}
-[22:29:45] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1602, y=50, z=-1882} class_2338{x=1601, y=50, z=-1883}
-[22:29:45] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1602, y=50, z=-1882} class_2338{x=1601, y=50, z=-1883}
-[22:29:57] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1591, y=52, z=-1882} class_2338{x=1591, y=52, z=-1883}
-[22:29:57] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1591, y=53, z=-1883} class_2338{x=1591, y=52, z=-1883}
-[22:30:02] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1590, y=51, z=-1883} class_2338{x=1589, y=50, z=-1883}
-[22:30:02] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1590, y=51, z=-1883} class_2338{x=1589, y=50, z=-1883}
-[22:30:02] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1590, y=51, z=-1883} class_2338{x=1589, y=50, z=-1883}
-[22:30:03] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1590, y=51, z=-1883} class_2338{x=1589, y=50, z=-1883}
-[22:30:03] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1590, y=51, z=-1883} class_2338{x=1589, y=50, z=-1883}
-[22:46:42] [Server thread/INFO]: Villager class_1646['Villager'/121117, l='ServerLevel[faro]', x=1528.15, y=64.02, z=-1714.80] died, message: 'Villager drowned'
-[22:55:22] [Server thread/INFO]: Villager class_1646['Villager'/126764, l='ServerLevel[faro]', x=1529.20, y=64.02, z=-1715.85] died, message: 'Villager drowned'
-[22:56:22] [Server thread/INFO]: sykst lost connection: Disconnected
-[22:56:22] [Server thread/INFO]: sykst left the game
+[01:00:24] [Worker-Main-14/INFO]: Preparing spawn area: 0%
+[01:00:24] [Worker-Main-12/INFO]: Preparing spawn area: 1%
+[01:00:25] [Worker-Main-13/INFO]: Preparing spawn area: 5%
+[01:00:25] [Worker-Main-13/INFO]: Preparing spawn area: 13%
+[01:00:26] [Worker-Main-13/INFO]: Preparing spawn area: 15%
+[01:00:26] [Worker-Main-12/INFO]: Preparing spawn area: 30%
+[01:00:27] [Worker-Main-13/INFO]: Preparing spawn area: 58%
+[01:00:27] [Worker-Main-11/INFO]: Preparing spawn area: 76%
+[01:00:28] [Server thread/INFO]: Time elapsed: 7334 ms
+[01:00:28] [Server thread/INFO]: Done (7.732s)! For help, type "help"
+[01:00:28] [Server thread/INFO]: Starting GS4 status listener
+[01:00:28] [Server thread/INFO]: Thread Query Listener started
+[01:00:28] [Query Listener #1/INFO]: Query running on 0.0.0.0:25565
+[01:00:31] [Server thread/WARN]: UUID of added entity already exists: class_1531['Armor Stand'/95, l='ServerLevel[faro]', x=16562064.50, y=1000.00, z=-22242911.50]
+[17:53:37] [User Authenticator #1/INFO]: UUID of player sykst is 61b3753f-5686-4956-8020-7b6d9ebbab2c
+[17:53:38] [Server thread/INFO]: sykst[/[2a01:4b00:8e19:3b00:17f:f1c2:da3d:8858%0]:55845] logged in with entity id 635 at (1494.0130685696035, 63.0, -1783.1867395844315)
+[17:53:38] [Server thread/INFO]: sykst joined the game
+[18:07:27] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-91, y=118, z=113} class_2338{x=-95, y=118, z=127}
+[18:08:23] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-107, y=114, z=102} class_2338{x=-97, y=118, z=117}
+[18:54:05] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-163, y=118, z=146} class_2338{x=-161, y=118, z=95}
+[19:03:33] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-126, y=118, z=101} class_2338{x=-139, y=118, z=143}
+[19:11:33] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-113, y=117, z=109} class_2338{x=-113, y=118, z=103}
+[19:11:58] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-113, y=117, z=109} class_2338{x=-117, y=118, z=100}
+[19:13:58] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-123, y=118, z=111} class_2338{x=-129, y=118, z=89}
+[19:13:58] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-123, y=118, z=111} class_2338{x=-129, y=118, z=89}
+[19:22:12] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-152, y=108, z=156} class_2338{x=-175, y=111, z=124}
+[19:22:12] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-152, y=108, z=156} class_2338{x=-175, y=111, z=124}
+[19:22:34] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-152, y=108, z=156} class_2338{x=-173, y=109, z=115}
+[19:27:31] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-152, y=108, z=86} class_2338{x=-127, y=107, z=91}
+[19:27:31] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-127, y=106, z=91} class_2338{x=-127, y=107, z=91}
+[19:56:50] [Server thread/INFO]: sykst lost connection: Disconnected
+[19:56:50] [Server thread/INFO]: sykst left the game
+[21:42:21] [User Authenticator #2/INFO]: UUID of player sykst is 61b3753f-5686-4956-8020-7b6d9ebbab2c
+[21:42:21] [Server thread/INFO]: sykst[/[2a01:4b00:8e19:3b00:17f:f1c2:da3d:8858%0]:61923] logged in with entity id 42785 at (52.289930654464015, 236.5, -239.31295405681095)
+[21:42:21] [Server thread/INFO]: sykst joined the game
+[21:59:14] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1521, y=8, z=-1816} class_2338{x=1519, y=8, z=-1815}
+[21:59:14] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1521, y=8, z=-1816} class_2338{x=1519, y=8, z=-1815}
+[21:59:14] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1521, y=8, z=-1816} class_2338{x=1519, y=8, z=-1815}
+[21:59:14] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1521, y=8, z=-1816} class_2338{x=1519, y=8, z=-1815}
+[21:59:14] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1521, y=8, z=-1816} class_2338{x=1519, y=8, z=-1815}
+[22:14:38] [Server thread/INFO]: Villager class_1646['Villager'/62027, l='ServerLevel[faro]', x=1529.13, y=64.02, z=-1715.85] died, message: 'Villager drowned'
+[22:27:12] [Server thread/INFO]: Villager class_1646['Villager'/71924, l='ServerLevel[faro]', x=1529.20, y=64.02, z=-1715.85] died, message: 'Villager drowned'
+[22:51:43] [Server thread/INFO]: sykst lost connection: Disconnected
+[22:51:43] [Server thread/INFO]: sykst left the game
