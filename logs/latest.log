@@ -1,4 +1,4 @@
-[01:00:09] [main/INFO]: Loading for game Minecraft 1.17.1
+[01:00:10] [main/INFO]: Loading for game Minecraft 1.17.1
 [01:00:10] [main/INFO]: [FabricLoader] Loading 49 mods:
 	- fabric@0.37.2+1.17
 	- fabric-api-base@0.3.0+a02b446318
@@ -51,19 +51,19 @@
 	- servux@0.1.0
 [01:00:10] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.2 Source=file:/opt/mscs/server/fabric-server-launch.jar Service=Knot/Fabric Env=SERVER
 [01:00:10] [main/INFO]: Compatibility level set to JAVA_16
-[01:00:10] [main/WARN]: @Mixin target net/minecraft/class_2474$class_5124 is public in fabric-tag-extensions-v0.mixins.json:MixinObjectBuilder and should be specified in value
-[01:00:14] [main/WARN]: @Inject(@At("INVOKE")) Shift.BY=3 on fabric-lifecycle-events-v1.mixins.json:server.WorldChunkMixin::handler$zzh000$onLoadBlockEntity exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
-[01:00:15] [main/INFO]: Applied 0 biome modifications to 0 of 81 new biomes in 3.515 ms
+[01:00:11] [main/WARN]: @Mixin target net/minecraft/class_2474$class_5124 is public in fabric-tag-extensions-v0.mixins.json:MixinObjectBuilder and should be specified in value
+[01:00:15] [main/WARN]: @Inject(@At("INVOKE")) Shift.BY=3 on fabric-lifecycle-events-v1.mixins.json:server.WorldChunkMixin::handler$zzh000$onLoadBlockEntity exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
+[01:00:16] [main/INFO]: Applied 0 biome modifications to 0 of 81 new biomes in 25.56 ms
 [01:00:16] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[01:00:16] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[01:00:16] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[01:00:16] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[01:00:16] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[01:00:16] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[01:00:17] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[01:00:17] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[01:00:17] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[01:00:17] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[01:00:17] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
 [01:00:17] [main/INFO]: Reloading ResourceManager: Default, anti enderman grief v1.1.0.zip, armor statues v2.8.1.zip, coordinates hud v1.2.0.zip, double shulker shells v1.3.0.zip, more mob heads v2.9.1.zip, player head drops v1.1.0.zip, silence mobs v1.1.0.zip, track raw statistics v1.4.0.zip, track statistics v1.1.0.zip, villager workstation highlights v1.1.0.zip, afk display v1.1.0.zip, fast leaf decay v2.0.3.zip, wandering trades v1.5.0.zip, spectator conduit power v1.1.0.zip, spectator night vision v1.1.0.zip, cauldron concrete v2.0.3.zip, Fabric Mods (Fabric Tool Attribute API (v1)), charcoal-to-coal-e3510.zip
-[01:00:18] [Worker-Main-8/INFO]: Loaded 7 recipes
-[01:00:18] [Worker-Main-8/WARN]: Found validation problem in {minecraft:entities/ender_dragon}.pools[0].entries[0]: Unknown loot table called minecraft:entities/reference/extra/ender_dragon
-[01:00:18] [Worker-Main-8/INFO]: Loaded 1157 advancements
+[01:00:18] [Worker-Main-9/INFO]: Loaded 7 recipes
+[01:00:18] [Worker-Main-9/WARN]: Found validation problem in {minecraft:entities/ender_dragon}.pools[0].entries[0]: Unknown loot table called minecraft:entities/reference/extra/ender_dragon
+[01:00:18] [Worker-Main-9/INFO]: Loaded 1157 advancements
 [01:00:21] [Server thread/INFO]: Starting minecraft server version 1.17.1
 [01:00:21] [Server thread/INFO]: Loading properties
 [01:00:21] [Server thread/INFO]: Default game type: SURVIVAL
@@ -72,136 +72,38 @@
 [01:00:21] [Server thread/INFO]: Using epoll channel type
 [01:00:21] [Server thread/INFO]: Preparing level "faro"
 [01:00:22] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[01:00:22] [Worker-Main-12/INFO]: Preparing spawn area: 0%
-[01:00:22] [Worker-Main-12/INFO]: Preparing spawn area: 0%
-[01:00:23] [Worker-Main-8/INFO]: Preparing spawn area: 0%
+[01:00:23] [Worker-Main-11/INFO]: Preparing spawn area: 0%
+[01:00:23] [Worker-Main-14/INFO]: Preparing spawn area: 0%
 [01:00:23] [Worker-Main-10/INFO]: Preparing spawn area: 0%
-[01:00:24] [Worker-Main-12/INFO]: Preparing spawn area: 0%
-[01:00:24] [Worker-Main-14/INFO]: Preparing spawn area: 0%
-[01:00:25] [Worker-Main-10/INFO]: Preparing spawn area: 3%
-[01:00:25] [Worker-Main-12/INFO]: Preparing spawn area: 4%
-[01:00:26] [Worker-Main-8/INFO]: Preparing spawn area: 5%
-[01:00:26] [Worker-Main-9/INFO]: Preparing spawn area: 11%
-[01:00:27] [Worker-Main-13/INFO]: Preparing spawn area: 32%
-[01:00:27] [Worker-Main-11/INFO]: Preparing spawn area: 52%
-[01:00:28] [Worker-Main-10/INFO]: Preparing spawn area: 77%
-[01:00:29] [Server thread/INFO]: Time elapsed: 6998 ms
-[01:00:29] [Server thread/INFO]: Done (7.308s)! For help, type "help"
+[01:00:23] [Worker-Main-14/INFO]: Preparing spawn area: 0%
+[01:00:24] [Worker-Main-8/INFO]: Preparing spawn area: 0%
+[01:00:24] [Worker-Main-11/INFO]: Preparing spawn area: 0%
+[01:00:25] [Worker-Main-13/INFO]: Preparing spawn area: 0%
+[01:00:25] [Worker-Main-9/INFO]: Preparing spawn area: 3%
+[01:00:26] [Worker-Main-11/INFO]: Preparing spawn area: 5%
+[01:00:26] [Worker-Main-12/INFO]: Preparing spawn area: 10%
+[01:00:27] [Worker-Main-13/INFO]: Preparing spawn area: 24%
+[01:00:27] [Worker-Main-9/INFO]: Preparing spawn area: 45%
+[01:00:28] [Worker-Main-11/INFO]: Preparing spawn area: 67%
+[01:00:28] [Worker-Main-8/INFO]: Preparing spawn area: 91%
+[01:00:29] [Server thread/INFO]: Time elapsed: 7236 ms
+[01:00:29] [Server thread/INFO]: Done (7.529s)! For help, type "help"
 [01:00:29] [Server thread/INFO]: Starting GS4 status listener
 [01:00:29] [Server thread/INFO]: Thread Query Listener started
 [01:00:29] [Query Listener #1/INFO]: Query running on 0.0.0.0:25565
-[01:00:31] [Server thread/WARN]: UUID of added entity already exists: class_1531['Armor Stand'/237, l='ServerLevel[faro]', x=16562064.50, y=1000.00, z=-22242911.50]
-[16:48:50] [User Authenticator #1/INFO]: UUID of player sykst is 61b3753f-5686-4956-8020-7b6d9ebbab2c
-[16:48:51] [Server thread/INFO]: sykst[/[2a01:4b00:8e19:3b00:5133:f4e4:666a:2264%0]:63622] logged in with entity id 621 at (50.441994589236344, 252.0625, -242.39087367004538)
-[16:48:51] [Server thread/INFO]: sykst joined the game
-[17:05:53] [User Authenticator #2/INFO]: UUID of player davehlewis is 3dfd1cd3-4bc2-40bd-8e5e-9c28e9a3b850
-[17:05:53] [Server thread/INFO]: davehlewis[/127.0.0.1:41976] logged in with entity id 8758 at (-986.070553747849, 109.0, -1137.8338036779019)
-[17:05:53] [Server thread/INFO]: davehlewis joined the game
-[17:06:33] [Server thread/INFO]: <davehlewis> \o
-[17:07:58] [Server thread/INFO]: davehlewis lost connection: Disconnected
-[17:07:58] [Server thread/INFO]: davehlewis left the game
-[17:12:12] [User Authenticator #3/INFO]: UUID of player davehlewis is 3dfd1cd3-4bc2-40bd-8e5e-9c28e9a3b850
-[17:12:12] [Server thread/INFO]: davehlewis[/127.0.0.1:42014] logged in with entity id 12581 at (-891.1722601816348, 77.5, -1001.107881202112)
-[17:12:12] [Server thread/INFO]: davehlewis joined the game
-[17:14:56] [Server thread/INFO]: davehlewis lost connection: Disconnected
-[17:14:56] [Server thread/INFO]: davehlewis left the game
-[17:21:12] [User Authenticator #4/INFO]: UUID of player davehlewis is 3dfd1cd3-4bc2-40bd-8e5e-9c28e9a3b850
-[17:21:12] [Server thread/INFO]: davehlewis[/127.0.0.1:42040] logged in with entity id 17843 at (-950.6875433814108, 105.0, -1114.4401479347473)
-[17:21:12] [Server thread/INFO]: davehlewis joined the game
-[17:34:39] [Server thread/INFO]: <sykst> o/
-[17:35:25] [Server thread/INFO]: <davehlewis> \o
-[17:36:26] [Server thread/INFO]: <sykst> hows life?
-[17:36:38] [Server thread/INFO]: <davehlewis> ok I guess - you?
-[17:36:51] [Server thread/INFO]: <sykst> it's alright
-[17:37:09] [Server thread/INFO]: <sykst> the job will be slightly different for the next few sprints
-[17:37:18] [Server thread/INFO]: <davehlewis> oh yeah?
-[17:37:34] [Server thread/INFO]: <sykst> it'll likely be working on documentation
-[17:37:47] [Server thread/INFO]: <sykst> from how to do services, to how to do micro-fronteds
-[17:37:49] [Server thread/INFO]: <davehlewis> ah only the funnest things for you
-[17:38:04] [Server thread/INFO]: <sykst> and mobile teams got an ultimatum lol
-[17:38:12] [Server thread/INFO]: <davehlewis> oh?
-[17:38:15] [Server thread/INFO]: <sykst> they either manage to rationalise themselves, or they are gone
-[17:38:23] [Server thread/INFO]: <davehlewis> finally
-[17:38:26] [Server thread/INFO]: <sykst> because ExCo doesn't see any point in them
-[17:38:36] [Server thread/INFO]: <davehlewis> I mean it was their idea to bring them in
-[17:38:39] [Server thread/INFO]: <sykst> our new CTO is doing some good work
-[17:38:46] [Server thread/INFO]: <sykst> well it was Al's idea
-[17:38:53] [Server thread/INFO]: <sykst> "because it looks good to investors"
-[17:38:54] [Server thread/INFO]: <davehlewis> ah well he was a moron
-[17:38:57] [Server thread/INFO]: <sykst> aka "i want it"
-[17:39:20] [Server thread/INFO]: <sykst> yea, so that will be interesting
-[17:39:24] [Server thread/INFO]: <sykst> some cool plans tbf
-[17:39:42] [Server thread/INFO]: <davehlewis> yeah sounds good
-[17:39:45] [Server thread/INFO]: <sykst> one sprint, senior devs are working on how things should look like, and how do we get from now to that
-[17:39:56] [Server thread/INFO]: <sykst> and then the rest of devs are implementing it in one area
-[17:40:18] [Server thread/INFO]: <sykst> so we'll have not just blue prints for how it should work, but also actual migration done
-[17:40:22] [Server thread/INFO]: <sykst> to reference
-[17:40:34] [Server thread/INFO]: <sykst> but, it does mean 2-3 sprints of writing
-[17:40:53] [Server thread/INFO]: <davehlewis> that does sound better though
-[17:41:06] [Server thread/INFO]: <sykst> we are starting with Backend-for-Frontend, which is Apollo Federation and microservices arch
-[17:41:11] [Server thread/INFO]: <sykst> and then Microfrontends
-[17:41:26] [Server thread/INFO]: <davehlewis> makes sense
-[17:41:28] [Server thread/INFO]: <sykst> and then working on create-oodle-app (might finally happen, nearly 2 years after Jack started it lol)
-[17:41:42] [Server thread/INFO]: <davehlewis> finally
-[17:41:47] [Server thread/INFO]: <sykst> oh yea
-[17:41:53] [Server thread/INFO]: <sykst> it makes a lot of sense
-[17:42:11] [Server thread/INFO]: <sykst> i'm just not overly enthiusiastic about it
-[17:42:15] [Server thread/INFO]: <sykst> i'd rather dev lol
-[17:42:21] [Server thread/INFO]: <sykst> but hey, part of becoming more senior
-[17:42:32] [Server thread/INFO]: <sykst> gotta start writing more, and dealing with meetings
-[17:42:44] [Server thread/INFO]: <davehlewis> definitely one of the worst parts of it for some
-[17:43:04] [Server thread/INFO]: <davehlewis> I like that side I guess - I can think quickly, but there are lots are far better devs than me
-[17:43:54] [Server thread/INFO]: <sykst> it depends on the job, but i think a senior dev doesn't necessarily have to be an amazing dev
-[17:44:01] [Server thread/INFO]: <davehlewis> true
-[17:44:13] [Server thread/INFO]: <sykst> the job is more around enabling others, and getting through to the point
-[17:44:24] [Server thread/INFO]: <davehlewis> yeah I think so
-[17:44:35] [Server thread/INFO]: <davehlewis> there are a few different types I guess
-[17:45:14] [Server thread/INFO]: <sykst> in other news, i've been messing around with the latest snapshots
-[17:45:19] [Server thread/INFO]: <sykst> copied this world to local
-[17:45:30] [Server thread/INFO]: <davehlewis> oh yeah? work ok?
-[17:45:33] [Server thread/INFO]: <sykst> not much has changed on the server tbf
-[17:45:38] [Server thread/INFO]: <davehlewis> ah ok
-[17:45:55] [Server thread/INFO]: <sykst> there don't seem to be any new caves below already generated chunks
-[17:46:00] [Server thread/INFO]: <sykst> apart from water/lava lakes
-[17:46:08] [Server thread/INFO]: <davehlewis> ah I dont think there are on that snapshot
-[17:46:29] [Server thread/INFO]: <davehlewis> this is the first pass I think just to fill things in with the correct stuff
-[17:46:44] [Server thread/INFO]: <sykst> i was more worried about that one line change, which said user-created buildings could end up buried
-[17:47:01] [Server thread/INFO]: <davehlewis> oh that doesn't sound good
-[17:47:15] [Server thread/INFO]: <sykst> "Terrain from new chunks will now blend with existing terrain from old chunks. Any player-made structures in these chunks will be either intact, buried, or deteriorated."
-[17:47:24] [Server thread/INFO]: <davehlewis> ah ok
-[17:47:39] [Server thread/INFO]: <sykst> but i haven't noticed anything obvious
-[17:47:43] [Server thread/INFO]: <davehlewis> I assume that is between biomes and things?
-[17:47:45] [Server thread/INFO]: <sykst> maybe it's not implemented yet
-[17:47:56] [Server thread/INFO]: <sykst> no clue, that's from the wiki
-[17:48:01] [Server thread/INFO]: <sykst> https://minecraft.fandom.com/wiki/Java_Edition_1.18
-[17:48:30] [Server thread/INFO]: <sykst> "The old bedrock layer between Y=0 and Y=4 in old chunks gets replaced with deepslate." - that did happen on the snapshot
-[17:54:03] [Server thread/INFO]: <davehlewis> will be interesting to see if they add any cave generation in
-[17:54:06] [Server thread/INFO]: <davehlewis> I hope so
-[17:55:17] [Server thread/INFO]: <sykst> below current chunks?
-[17:55:21] [Server thread/INFO]: <davehlewis> yeah
-[17:55:35] [Server thread/INFO]: <sykst> that'd be interesting
-[17:55:46] [Server thread/INFO]: <sykst> they'd need to do some checks if user has edited it
-[17:55:54] [Server thread/INFO]: <davehlewis> yeah of coures
-[17:56:06] [Server thread/INFO]: <davehlewis> I mean anything negative y though
-[17:56:08] [Server thread/INFO]: <sykst> like, i wouldn't like to find a lava lake in my farms lol
-[17:56:12] [Server thread/INFO]: <davehlewis> so shouldn't be possible
-[17:56:17] [Server thread/INFO]: <sykst> yea, that'd be nice
-[17:56:42] [Server thread/INFO]: <sykst> oki, i'm off
-[17:56:52] [Server thread/INFO]: <sykst> heading to B&Q
-[17:57:00] [Server thread/INFO]: <sykst> got some plumbing to do :-(
-[17:57:02] [Server thread/INFO]: <davehlewis> anything fun?
-[17:57:04] [Server thread/INFO]: <davehlewis> oh
-[17:57:07] [Server thread/INFO]: <sykst> not really lol
-[17:57:19] [Server thread/INFO]: <sykst> i'm leaving mc on, gotta farm that gold
-[17:57:23] [Server thread/INFO]: <sykst> cya
-[17:57:32] [Server thread/INFO]: <davehlewis> haha ok
-[18:23:14] [Server thread/INFO]: davehlewis lost connection: Disconnected
-[18:23:14] [Server thread/INFO]: davehlewis left the game
-[18:47:58] [User Authenticator #5/INFO]: UUID of player davehlewis is 3dfd1cd3-4bc2-40bd-8e5e-9c28e9a3b850
-[18:47:58] [Server thread/INFO]: davehlewis[/127.0.0.1:42572] logged in with entity id 75296 at (-993.832702460089, 79.0, -1123.2538494291698)
-[18:47:58] [Server thread/INFO]: davehlewis joined the game
-[19:22:22] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-975, y=97, z=-1133} class_2338{x=-980, y=97, z=-1136}
-[19:23:34] [Server thread/INFO]: davehlewis lost connection: Disconnected
-[19:23:34] [Server thread/INFO]: davehlewis left the game
-[22:00:07] [Server thread/INFO]: sykst lost connection: Disconnected
-[22:00:07] [Server thread/INFO]: sykst left the game
+[01:00:32] [Server thread/WARN]: UUID of added entity already exists: class_1531['Armor Stand'/238, l='ServerLevel[faro]', x=16562064.50, y=1000.00, z=-22242911.50]
+[03:00:58] [User Authenticator #1/INFO]: UUID of player davehlewis is 3dfd1cd3-4bc2-40bd-8e5e-9c28e9a3b850
+[03:00:58] [Server thread/INFO]: davehlewis[/127.0.0.1:44680] logged in with entity id 288 at (-1011.2396411967678, 76.0625, -1178.946855547257)
+[03:00:58] [Server thread/INFO]: davehlewis joined the game
+[03:03:25] [Server thread/WARN]: davehlewis was kicked for floating too long!
+[03:03:25] [Server thread/INFO]: davehlewis lost connection: Flying is not enabled on this server
+[03:03:25] [Server thread/INFO]: davehlewis left the game
+[03:03:34] [User Authenticator #2/INFO]: UUID of player davehlewis is 3dfd1cd3-4bc2-40bd-8e5e-9c28e9a3b850
+[03:03:34] [Server thread/INFO]: davehlewis[/127.0.0.1:44684] logged in with entity id 1487 at (-941.3031765710214, 141.88523685151452, -1139.3888747625624)
+[03:03:34] [Server thread/INFO]: davehlewis joined the game
+[03:33:33] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-965, y=76, z=-1137} class_2338{x=-958, y=81, z=-1131}
+[03:34:54] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-960, y=63, z=-1141} class_2338{x=-960, y=66, z=-1143}
+[04:02:29] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-950, y=78, z=-1081} class_2338{x=-970, y=107, z=-1125}
+[04:34:31] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-937, y=74, z=-1124} class_2338{x=-934, y=84, z=-1108}
+[04:40:29] [Server thread/INFO]: davehlewis lost connection: Disconnected
+[04:40:29] [Server thread/INFO]: davehlewis left the game
