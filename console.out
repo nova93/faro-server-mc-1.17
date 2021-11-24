@@ -1,5 +1,5 @@
-[01:00:10] [main/INFO]: Loading for game Minecraft 1.17.1
-[01:00:10] [main/INFO]: [FabricLoader] Loading 50 mods:
+[01:01:11] [main/INFO]: Loading for game Minecraft 1.17.1
+[01:01:11] [main/INFO]: [FabricLoader] Loading 50 mods:
 	- fabric@0.37.2+1.17
 	- fabric-api-base@0.3.0+a02b446318
 	- fabric-api-lookup-api-v1@1.2.0+2b5c62d018
@@ -50,52 +50,125 @@
 	- lithium@0.7.5
 	- minecraft@1.17.1
 	- servux@0.1.0
-[01:00:10] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.2 Source=file:/opt/mscs/server/fabric-server-launch.jar Service=Knot/Fabric Env=SERVER
-[01:00:10] [main/INFO]: Compatibility level set to JAVA_16
-[01:00:11] [main/INFO]: Loaded configuration file for Lithium: 87 options available, 0 override(s) found
-[01:00:11] [main/WARN]: @Mixin target net/minecraft/class_3218$class_5526 is public in fabric-lifecycle-events-v1.mixins.json:ServerWorldEntityLoaderMixin and should be specified in value
-[01:00:11] [main/WARN]: @Mixin target net/minecraft/class_3898$class_3208 is public in fabric-networking-api-v1.mixins.json:accessor.EntityTrackerAccessor and should be specified in value
-[01:00:11] [main/WARN]: @Mixin target net/minecraft/class_2474$class_5124 is public in fabric-tag-extensions-v0.mixins.json:MixinObjectBuilder and should be specified in value
-[01:00:15] [main/WARN]: @Inject(@At("INVOKE")) Shift.BY=3 on fabric-lifecycle-events-v1.mixins.json:server.WorldChunkMixin::handler$zzh000$onLoadBlockEntity exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
-[01:00:16] [main/INFO]: Applied 0 biome modifications to 0 of 81 new biomes in 3.152 ms
-[01:00:16] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[01:00:17] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[01:00:17] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[01:00:17] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[01:00:17] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[01:00:17] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[01:00:17] [main/INFO]: Reloading ResourceManager: Default, anti enderman grief v1.1.0.zip, armor statues v2.8.1.zip, coordinates hud v1.2.0.zip, double shulker shells v1.3.0.zip, more mob heads v2.9.1.zip, player head drops v1.1.0.zip, silence mobs v1.1.0.zip, track raw statistics v1.4.0.zip, track statistics v1.1.0.zip, villager workstation highlights v1.1.0.zip, afk display v1.1.0.zip, fast leaf decay v2.0.3.zip, wandering trades v1.5.0.zip, spectator conduit power v1.1.0.zip, spectator night vision v1.1.0.zip, cauldron concrete v2.0.3.zip, Fabric Mods (Fabric Tool Attribute API (v1)), charcoal-to-coal-e3510.zip
-[01:00:18] [Worker-Main-9/INFO]: Loaded 7 recipes
-[01:00:19] [Worker-Main-9/WARN]: Found validation problem in {minecraft:entities/ender_dragon}.pools[0].entries[0]: Unknown loot table called minecraft:entities/reference/extra/ender_dragon
-[01:00:19] [Worker-Main-9/INFO]: Loaded 1157 advancements
-[01:00:21] [Server thread/INFO]: Starting minecraft server version 1.17.1
-[01:00:21] [Server thread/INFO]: Loading properties
-[01:00:21] [Server thread/INFO]: Default game type: SURVIVAL
-[01:00:21] [Server thread/INFO]: Generating keypair
-[01:00:22] [Server thread/INFO]: Starting Minecraft server on *:25565
-[01:00:22] [Server thread/INFO]: Using epoll channel type
-[01:00:22] [Server thread/INFO]: Preparing level "faro"
-[01:00:23] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[01:00:23] [Worker-Main-13/INFO]: Preparing spawn area: 0%
-[01:00:23] [Worker-Main-14/INFO]: Preparing spawn area: 0%
-[01:00:24] [Worker-Main-8/INFO]: Preparing spawn area: 0%
-[01:00:24] [Worker-Main-14/INFO]: Preparing spawn area: 0%
-[01:00:25] [Worker-Main-9/INFO]: Preparing spawn area: 0%
-[01:00:25] [Worker-Main-12/INFO]: Preparing spawn area: 1%
-[01:00:26] [Worker-Main-13/INFO]: Preparing spawn area: 10%
-[01:00:26] [Worker-Main-12/INFO]: Preparing spawn area: 17%
-[01:00:27] [Worker-Main-12/INFO]: Preparing spawn area: 30%
-[01:00:27] [Worker-Main-13/INFO]: Preparing spawn area: 47%
-[01:00:28] [Worker-Main-13/INFO]: Preparing spawn area: 71%
-[01:00:28] [Worker-Main-14/INFO]: Preparing spawn area: 97%
-[01:00:29] [Server thread/INFO]: Time elapsed: 6347 ms
-[01:00:29] [Server thread/INFO]: Done (6.878s)! For help, type "help"
-[01:00:29] [Server thread/INFO]: Starting GS4 status listener
-[01:00:29] [Server thread/INFO]: Thread Query Listener started
-[01:00:29] [Query Listener #1/INFO]: Query running on 0.0.0.0:25565
-[01:00:31] [Server thread/WARN]: UUID of added entity already exists: class_1531['Armor Stand'/154, l='ServerLevel[faro]', x=16562064.50, y=1000.00, z=-22242911.50]
-[18:34:40] [User Authenticator #1/INFO]: UUID of player davehlewis is 3dfd1cd3-4bc2-40bd-8e5e-9c28e9a3b850
-[18:34:40] [Server thread/INFO]: davehlewis[/127.0.0.1:56120] logged in with entity id 432 at (-967.7790720921656, 76.0, -1059.920028253817)
-[18:34:40] [Server thread/INFO]: davehlewis joined the game
-[18:46:44] [Server thread/INFO]: davehlewis lost connection: Disconnected
-[18:46:44] [Server thread/INFO]: davehlewis left the game
+[01:01:11] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.2 Source=file:/opt/mscs/server/fabric-server-launch.jar Service=Knot/Fabric Env=SERVER
+[01:01:11] [main/INFO]: Compatibility level set to JAVA_16
+[01:01:11] [main/INFO]: Loaded configuration file for Lithium: 87 options available, 0 override(s) found
+[01:01:11] [main/WARN]: @Mixin target net/minecraft/class_3218$class_5526 is public in fabric-lifecycle-events-v1.mixins.json:ServerWorldEntityLoaderMixin and should be specified in value
+[01:01:11] [main/WARN]: @Mixin target net/minecraft/class_3898$class_3208 is public in fabric-networking-api-v1.mixins.json:accessor.EntityTrackerAccessor and should be specified in value
+[01:01:11] [main/WARN]: @Mixin target net/minecraft/class_2474$class_5124 is public in fabric-tag-extensions-v0.mixins.json:MixinObjectBuilder and should be specified in value
+[01:01:16] [main/WARN]: @Inject(@At("INVOKE")) Shift.BY=3 on fabric-lifecycle-events-v1.mixins.json:server.WorldChunkMixin::handler$zzh000$onLoadBlockEntity exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
+[01:01:17] [main/INFO]: Applied 0 biome modifications to 0 of 81 new biomes in 2.462 ms
+[01:01:17] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[01:01:18] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[01:01:18] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[01:01:18] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[01:01:18] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[01:01:18] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[01:01:18] [main/INFO]: Reloading ResourceManager: Default, anti enderman grief v1.1.0.zip, armor statues v2.8.1.zip, coordinates hud v1.2.0.zip, double shulker shells v1.3.0.zip, more mob heads v2.9.1.zip, player head drops v1.1.0.zip, silence mobs v1.1.0.zip, track raw statistics v1.4.0.zip, track statistics v1.1.0.zip, villager workstation highlights v1.1.0.zip, afk display v1.1.0.zip, fast leaf decay v2.0.3.zip, wandering trades v1.5.0.zip, spectator conduit power v1.1.0.zip, spectator night vision v1.1.0.zip, cauldron concrete v2.0.3.zip, Fabric Mods (Fabric Tool Attribute API (v1)), charcoal-to-coal-e3510.zip
+[01:01:19] [Worker-Main-8/INFO]: Loaded 7 recipes
+[01:01:20] [Worker-Main-8/WARN]: Found validation problem in {minecraft:entities/ender_dragon}.pools[0].entries[0]: Unknown loot table called minecraft:entities/reference/extra/ender_dragon
+[01:01:20] [Worker-Main-8/INFO]: Loaded 1157 advancements
+[01:01:22] [Server thread/INFO]: Starting minecraft server version 1.17.1
+[01:01:22] [Server thread/INFO]: Loading properties
+[01:01:22] [Server thread/INFO]: Default game type: SURVIVAL
+[01:01:22] [Server thread/INFO]: Generating keypair
+[01:01:23] [Server thread/INFO]: Starting Minecraft server on *:25565
+[01:01:23] [Server thread/INFO]: Using epoll channel type
+[01:01:23] [Server thread/INFO]: Preparing level "faro"
+[01:01:24] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[01:01:24] [Worker-Main-12/INFO]: Preparing spawn area: 0%
+[01:01:25] [Worker-Main-9/INFO]: Preparing spawn area: 0%
+[01:01:25] [Worker-Main-14/INFO]: Preparing spawn area: 0%
+[01:01:25] [Worker-Main-10/INFO]: Preparing spawn area: 0%
+[01:01:26] [Worker-Main-8/INFO]: Preparing spawn area: 0%
+[01:01:26] [Worker-Main-9/INFO]: Preparing spawn area: 0%
+[01:01:27] [Worker-Main-9/INFO]: Preparing spawn area: 3%
+[01:01:27] [Worker-Main-14/INFO]: Preparing spawn area: 4%
+[01:01:28] [Worker-Main-8/INFO]: Preparing spawn area: 10%
+[01:01:28] [Worker-Main-10/INFO]: Preparing spawn area: 24%
+[01:01:29] [Worker-Main-10/INFO]: Preparing spawn area: 54%
+[01:01:30] [Server thread/INFO]: Time elapsed: 6289 ms
+[01:01:30] [Server thread/INFO]: Done (6.744s)! For help, type "help"
+[01:01:30] [Server thread/INFO]: Starting GS4 status listener
+[01:01:30] [Server thread/INFO]: Thread Query Listener started
+[01:01:30] [Query Listener #1/INFO]: Query running on 0.0.0.0:25565
+[01:01:32] [Server thread/WARN]: UUID of added entity already exists: class_1531['Armor Stand'/154, l='ServerLevel[faro]', x=16562064.50, y=1000.00, z=-22242911.50]
+[01:02:31] [User Authenticator #1/INFO]: UUID of player davehlewis is 3dfd1cd3-4bc2-40bd-8e5e-9c28e9a3b850
+[01:02:31] [Server thread/INFO]: davehlewis[/127.0.0.1:57906] logged in with entity id 156 at (-927.2900248262781, 86.0, -1089.3885360385727)
+[01:02:31] [Server thread/INFO]: davehlewis joined the game
+[01:16:34] [Server thread/INFO]: davehlewis lost connection: Disconnected
+[01:16:34] [Server thread/INFO]: davehlewis left the game
+[16:13:03] [User Authenticator #2/INFO]: UUID of player davehlewis is 3dfd1cd3-4bc2-40bd-8e5e-9c28e9a3b850
+[16:13:04] [Server thread/INFO]: davehlewis[/127.0.0.1:33908] logged in with entity id 3784 at (-975.6371465748871, 76.0, -1095.5290990578465)
+[16:13:04] [Server thread/INFO]: davehlewis joined the game
+[17:49:29] [User Authenticator #3/INFO]: UUID of player sykst is 61b3753f-5686-4956-8020-7b6d9ebbab2c
+[17:49:30] [Server thread/INFO]: sykst[/[2a01:4b00:8e19:3b00:cc33:872c:2a3:2d49%0]:60335] logged in with entity id 23963 at (1529.6648047818358, 63.0, -1818.2513567631745)
+[17:49:30] [Server thread/INFO]: sykst joined the game
+[17:49:36] [Server thread/INFO]: <sykst> o/
+[17:49:40] [Server thread/INFO]: <davehlewis> \o
+[17:52:18] [Server thread/INFO]: <davehlewis> another chunk of mountain complete
+[17:55:22] [Server thread/INFO]: <sykst> oooo nice
+[17:55:35] [Server thread/INFO]: <sykst> sorry, was looking for how to make miniHUD render a square shape
+[17:55:42] [Server thread/INFO]: <davehlewis> no worries
+[17:56:57] [Server thread/INFO]: <sykst> nice
+[17:57:28] [Server thread/INFO]: <sykst> how are you building it?
+[17:57:31] [Server thread/INFO]: <davehlewis> got the framework in place for the whole thing
+[17:57:42] [Server thread/INFO]: <davehlewis> mainly in layers now I have the hang of it
+[17:57:56] [Server thread/INFO]: <davehlewis> get the outlines and fill it in
+[17:58:05] [Server thread/INFO]: <davehlewis> doing bigger chunks over time
+[17:58:11] [Server thread/INFO]: <sykst> nice
+[17:58:16] [Server thread/INFO]: <sykst> no creative testing?
+[17:58:28] [Server thread/INFO]: <davehlewis> nope all just worked out on here
+[17:58:46] [Server thread/INFO]: <sykst> awesome
+[17:59:20] [Server thread/INFO]: <davehlewis> not quite sure how this bit is going to work
+[17:59:26] [Server thread/INFO]: <davehlewis> also flattened the inside
+[17:59:50] [Server thread/INFO]: <sykst> that is flat
+[18:00:00] [Server thread/INFO]: <davehlewis> not sure why really
+[18:01:12] [Server thread/INFO]: <sykst> sometimes you just want to flatten things
+[18:01:30] [Server thread/INFO]: <sykst> i remember a few years ago, on a pocket edition, i just dug out the whole map
+[18:01:36] [Server thread/INFO]: <davehlewis> haha
+[18:01:46] [Server thread/INFO]: <davehlewis> know that feeling
+[18:02:46] [Server thread/INFO]: <sykst> this is seriously cool
+[18:02:55] [Server thread/INFO]: <sykst> can't wait to see the mountain finished
+[18:03:01] [Server thread/INFO]: <davehlewis> same
+[18:03:03] [Server thread/INFO]: <davehlewis> thanks
+[18:03:14] [Server thread/INFO]: <sykst> might try to play with the distance settings
+[18:03:25] [Server thread/INFO]: <sykst> see if I can get my hands on that script they have on hc
+[18:03:37] [Server thread/INFO]: <davehlewis> ah yeah
+[18:03:38] [Server thread/INFO]: <sykst> which changes it to keep the tick speed good
+[18:04:08] [Server thread/INFO]: <sykst> actually
+[18:04:10] [Server thread/INFO]: <davehlewis> did you see doc's farm in the end?
+[18:04:13] [Server thread/INFO]: <sykst> i might not need to
+[18:04:25] [Server thread/INFO]: <sykst> ah not yet, got like 50% of the way through the video
+[18:04:34] [Server thread/INFO]: <sykst> before work required my attention :-(
+[18:04:38] [Server thread/INFO]: <davehlewis> ah ok
+[18:05:00] [Server thread/INFO]: <sykst> i did get to the point of him complaining about the grind
+[18:05:07] [Server thread/INFO]: <davehlewis> ah ok
+[18:05:08] [Server thread/INFO]: <sykst> and how much obsidian he needed
+[18:05:25] [Server thread/INFO]: <davehlewis> he has a farm though?
+[18:05:31] [Server thread/INFO]: <sykst> actually, lemme put it on
+[18:05:52] [Server thread/INFO]: <davehlewis> I need to stop for food - back later maybe
+[18:05:57] [Server thread/INFO]: davehlewis lost connection: Disconnected
+[18:05:57] [Server thread/INFO]: davehlewis left the game
+[18:10:51] [Server thread/INFO]: sykst lost connection: Disconnected
+[18:10:51] [Server thread/INFO]: sykst left the game
+[19:07:33] [User Authenticator #4/INFO]: UUID of player sykst is 61b3753f-5686-4956-8020-7b6d9ebbab2c
+[19:07:34] [Server thread/INFO]: sykst[/[2a01:4b00:8e19:3b00:cc33:872c:2a3:2d49%0]:49787] logged in with entity id 35811 at (1496.537507062761, 63.0625, -1785.6902288241515)
+[19:07:34] [Server thread/INFO]: sykst joined the game
+[19:25:05] [Server thread/INFO]: Villager class_1646['Villager'/44003, l='ServerLevel[faro]', x=1529.17, y=64.02, z=-1715.85] died, message: 'Villager drowned'
+[19:37:44] [Server thread/INFO]: Villager class_1646['Villager'/52662, l='ServerLevel[faro]', x=1528.15, y=64.02, z=-1714.86] died, message: 'Villager drowned'
+[20:05:26] [Server thread/INFO]: Villager class_1646['Villager'/71100, l='ServerLevel[faro]', x=1529.19, y=64.02, z=-1715.85] died, message: 'Villager drowned'
+[20:19:05] [Server thread/INFO]: Villager class_1646['Villager'/78861, l='ServerLevel[faro]', x=1529.15, y=64.02, z=-1715.85] died, message: 'Villager drowned'
+[20:25:18] [Server thread/INFO]: Villager class_1646['Villager'/83941, l='ServerLevel[faro]', x=1529.19, y=64.02, z=-1715.85] died, message: 'Villager drowned'
+[20:44:49] [Server thread/INFO]: Villager class_1646['Villager'/96565, l='ServerLevel[faro]', x=1529.18, y=64.02, z=-1715.85] died, message: 'Villager drowned'
+[21:05:32] [Server thread/INFO]: Villager class_1646['Villager'/113989, l='ServerLevel[faro]', x=1529.19, y=64.02, z=-1715.85] died, message: 'Villager drowned'
+[21:25:55] [Server thread/INFO]: Villager class_1646['Villager'/127843, l='ServerLevel[faro]', x=1528.15, y=64.02, z=-1714.83] died, message: 'Villager drowned'
+[21:47:02] [Server thread/INFO]: Villager class_1646['Villager'/141293, l='ServerLevel[faro]', x=1529.13, y=64.02, z=-1715.85] died, message: 'Villager drowned'
+[22:05:35] [Server thread/INFO]: Villager class_1646['Villager'/155039, l='ServerLevel[faro]', x=1529.19, y=64.02, z=-1715.85] died, message: 'Villager drowned'
+[22:17:40] [Server thread/INFO]: Villager class_1646['Villager'/164540, l='ServerLevel[faro]', x=1529.10, y=64.02, z=-1715.85] died, message: 'Villager drowned'
+[22:45:11] [Server thread/INFO]: Villager class_1646['Villager'/184917, l='ServerLevel[faro]', x=1528.15, y=64.02, z=-1714.85] died, message: 'Villager drowned'
+[22:58:09] [Server thread/INFO]: Villager class_1646['Villager'/195270, l='ServerLevel[faro]', x=1529.14, y=64.02, z=-1715.85] died, message: 'Villager drowned'
+[23:25:25] [Server thread/INFO]: Villager class_1646['Villager'/216376, l='ServerLevel[faro]', x=1528.15, y=64.02, z=-1714.81] died, message: 'Villager drowned'
+[23:46:02] [Server thread/INFO]: Villager class_1646['Villager'/232796, l='ServerLevel[faro]', x=1529.20, y=64.02, z=-1715.85] died, message: 'Villager drowned'
+[23:58:07] [Server thread/INFO]: sykst lost connection: Disconnected
+[23:58:07] [Server thread/INFO]: sykst left the game
