@@ -1,5 +1,5 @@
 [01:00:10] [main/INFO]: Loading for game Minecraft 1.17.1
-[01:00:11] [main/INFO]: [FabricLoader] Loading 50 mods:
+[01:00:10] [main/INFO]: [FabricLoader] Loading 50 mods:
 	- fabric@0.37.2+1.17
 	- fabric-api-base@0.3.0+a02b446318
 	- fabric-api-lookup-api-v1@1.2.0+2b5c62d018
@@ -50,14 +50,14 @@
 	- lithium@0.7.5
 	- minecraft@1.17.1
 	- servux@0.1.0
-[01:00:11] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.2 Source=file:/opt/mscs/server/fabric-server-launch.jar Service=Knot/Fabric Env=SERVER
+[01:00:10] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.2 Source=file:/opt/mscs/server/fabric-server-launch.jar Service=Knot/Fabric Env=SERVER
 [01:00:11] [main/INFO]: Compatibility level set to JAVA_16
 [01:00:11] [main/INFO]: Loaded configuration file for Lithium: 87 options available, 0 override(s) found
 [01:00:11] [main/WARN]: @Mixin target net/minecraft/class_3218$class_5526 is public in fabric-lifecycle-events-v1.mixins.json:ServerWorldEntityLoaderMixin and should be specified in value
 [01:00:11] [main/WARN]: @Mixin target net/minecraft/class_3898$class_3208 is public in fabric-networking-api-v1.mixins.json:accessor.EntityTrackerAccessor and should be specified in value
 [01:00:11] [main/WARN]: @Mixin target net/minecraft/class_2474$class_5124 is public in fabric-tag-extensions-v0.mixins.json:MixinObjectBuilder and should be specified in value
 [01:00:15] [main/WARN]: @Inject(@At("INVOKE")) Shift.BY=3 on fabric-lifecycle-events-v1.mixins.json:server.WorldChunkMixin::handler$zzh000$onLoadBlockEntity exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
-[01:00:17] [main/INFO]: Applied 0 biome modifications to 0 of 81 new biomes in 3.628 ms
+[01:00:17] [main/INFO]: Applied 0 biome modifications to 0 of 81 new biomes in 20.74 ms
 [01:00:17] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
 [01:00:18] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
 [01:00:18] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
@@ -65,31 +65,43 @@
 [01:00:18] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
 [01:00:18] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
 [01:00:18] [main/INFO]: Reloading ResourceManager: Default, anti enderman grief v1.1.0.zip, armor statues v2.8.1.zip, coordinates hud v1.2.0.zip, double shulker shells v1.3.0.zip, more mob heads v2.9.1.zip, player head drops v1.1.0.zip, silence mobs v1.1.0.zip, track raw statistics v1.4.0.zip, track statistics v1.1.0.zip, villager workstation highlights v1.1.0.zip, afk display v1.1.0.zip, fast leaf decay v2.0.3.zip, wandering trades v1.5.0.zip, spectator conduit power v1.1.0.zip, spectator night vision v1.1.0.zip, cauldron concrete v2.0.3.zip, Fabric Mods (Fabric Tool Attribute API (v1)), charcoal-to-coal-e3510.zip
-[01:00:19] [Worker-Main-9/INFO]: Loaded 7 recipes
-[01:00:19] [Worker-Main-9/WARN]: Found validation problem in {minecraft:entities/ender_dragon}.pools[0].entries[0]: Unknown loot table called minecraft:entities/reference/extra/ender_dragon
-[01:00:20] [Worker-Main-9/INFO]: Loaded 1157 advancements
+[01:00:19] [Worker-Main-10/INFO]: Loaded 7 recipes
+[01:00:19] [Worker-Main-10/WARN]: Found validation problem in {minecraft:entities/ender_dragon}.pools[0].entries[0]: Unknown loot table called minecraft:entities/reference/extra/ender_dragon
+[01:00:19] [Worker-Main-10/INFO]: Loaded 1157 advancements
 [01:00:22] [Server thread/INFO]: Starting minecraft server version 1.17.1
 [01:00:22] [Server thread/INFO]: Loading properties
 [01:00:22] [Server thread/INFO]: Default game type: SURVIVAL
 [01:00:22] [Server thread/INFO]: Generating keypair
 [01:00:22] [Server thread/INFO]: Starting Minecraft server on *:25565
 [01:00:22] [Server thread/INFO]: Using epoll channel type
-[01:00:23] [Server thread/INFO]: Preparing level "faro"
+[01:00:22] [Server thread/INFO]: Preparing level "faro"
 [01:00:23] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[01:00:24] [Worker-Main-8/INFO]: Preparing spawn area: 0%
+[01:00:24] [Worker-Main-12/INFO]: Preparing spawn area: 0%
+[01:00:24] [Worker-Main-14/INFO]: Preparing spawn area: 0%
+[01:00:24] [Worker-Main-14/INFO]: Preparing spawn area: 0%
 [01:00:24] [Worker-Main-13/INFO]: Preparing spawn area: 0%
-[01:00:24] [Worker-Main-8/INFO]: Preparing spawn area: 0%
-[01:00:25] [Worker-Main-14/INFO]: Preparing spawn area: 0%
-[01:00:25] [Worker-Main-14/INFO]: Preparing spawn area: 0%
-[01:00:26] [Worker-Main-13/INFO]: Preparing spawn area: 0%
-[01:00:26] [Worker-Main-14/INFO]: Preparing spawn area: 2%
-[01:00:27] [Worker-Main-12/INFO]: Preparing spawn area: 12%
-[01:00:27] [Worker-Main-9/INFO]: Preparing spawn area: 31%
-[01:00:28] [Worker-Main-10/INFO]: Preparing spawn area: 51%
-[01:00:28] [Worker-Main-12/INFO]: Preparing spawn area: 67%
-[01:00:29] [Server thread/INFO]: Time elapsed: 6307 ms
-[01:00:29] [Server thread/INFO]: Done (6.656s)! For help, type "help"
+[01:00:25] [Worker-Main-11/INFO]: Preparing spawn area: 0%
+[01:00:25] [Worker-Main-11/INFO]: Preparing spawn area: 0%
+[01:00:26] [Worker-Main-14/INFO]: Preparing spawn area: 4%
+[01:00:26] [Worker-Main-13/INFO]: Preparing spawn area: 4%
+[01:00:27] [Worker-Main-8/INFO]: Preparing spawn area: 14%
+[01:00:27] [Worker-Main-14/INFO]: Preparing spawn area: 24%
+[01:00:28] [Worker-Main-8/INFO]: Preparing spawn area: 36%
+[01:00:28] [Worker-Main-13/INFO]: Preparing spawn area: 62%
+[01:00:29] [Worker-Main-11/INFO]: Preparing spawn area: 99%
+[01:00:29] [Server thread/INFO]: Time elapsed: 6676 ms
+[01:00:29] [Server thread/INFO]: Done (7.142s)! For help, type "help"
 [01:00:29] [Server thread/INFO]: Starting GS4 status listener
 [01:00:29] [Server thread/INFO]: Thread Query Listener started
 [01:00:29] [Query Listener #1/INFO]: Query running on 0.0.0.0:25565
-[01:00:32] [Server thread/WARN]: UUID of added entity already exists: class_1531['Armor Stand'/158, l='ServerLevel[faro]', x=16562064.50, y=1000.00, z=-22242911.50]
+[01:00:32] [Server thread/WARN]: UUID of added entity already exists: class_1531['Armor Stand'/160, l='ServerLevel[faro]', x=16562064.50, y=1000.00, z=-22242911.50]
+[16:28:42] [User Authenticator #1/INFO]: UUID of player davehlewis is 3dfd1cd3-4bc2-40bd-8e5e-9c28e9a3b850
+[16:28:42] [Server thread/INFO]: davehlewis[/127.0.0.1:39588] logged in with entity id 409 at (-1009.7559910008819, 76.0, -1182.826592450253)
+[16:28:43] [Server thread/INFO]: davehlewis joined the game
+[16:42:26] [Server thread/INFO]: davehlewis lost connection: Disconnected
+[16:42:26] [Server thread/INFO]: davehlewis left the game
+[18:29:05] [User Authenticator #2/INFO]: UUID of player davehlewis is 3dfd1cd3-4bc2-40bd-8e5e-9c28e9a3b850
+[18:29:05] [Server thread/INFO]: davehlewis[/127.0.0.1:40180] logged in with entity id 5460 at (-1014.3573210158274, 80.0, -902.4201721435604)
+[18:29:05] [Server thread/INFO]: davehlewis joined the game
+[19:16:24] [Server thread/INFO]: davehlewis lost connection: Disconnected
+[19:16:24] [Server thread/INFO]: davehlewis left the game
