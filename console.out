@@ -1,96 +1,29 @@
-[01:00:09] [main/INFO]: Loading for game Minecraft 1.17.1
-[01:00:09] [main/INFO]: [FabricLoader] Loading 50 mods:
-	- fabric@0.37.2+1.17
-	- fabric-api-base@0.3.0+a02b446318
-	- fabric-api-lookup-api-v1@1.2.0+2b5c62d018
-	- fabric-biome-api-v1@3.1.11+c345aea818
-	- fabric-blockrenderlayer-v1@1.1.5+a02b446318
-	- fabric-command-api-v1@1.1.3+5ab9934c18
-	- fabric-commands-v0@0.2.2+92519afa18
-	- fabric-containers-v0@0.1.12+a02b446318
-	- fabric-content-registries-v0@0.2.4+2e8bd82f18
-	- fabric-crash-report-info-v1@0.1.5+be9da31018
-	- fabric-dimensions-v1@2.0.11+6cefd57718
-	- fabric-entity-events-v1@1.1.0+a02b446318
-	- fabric-events-interaction-v0@0.4.9+a722d8c018
-	- fabric-events-lifecycle-v0@0.2.1+92519afa18
-	- fabric-game-rule-api-v1@1.0.7+6cefd57718
-	- fabric-item-api-v1@1.2.4+a02b446318
-	- fabric-item-groups-v0@0.2.10+b7ab612118
-	- fabric-key-binding-api-v1@1.0.4+a02b446318
-	- fabric-keybindings-v0@0.2.2+36b77c3e18
-	- fabric-lifecycle-events-v1@1.4.4+a02b446318
-	- fabric-loot-tables-v1@1.0.4+a02b446318
-	- fabric-mining-levels-v0@0.1.3+92519afa18
-	- fabric-models-v0@0.3.0+a02b446318
-	- fabric-networking-api-v1@1.0.13+2e8bd82f18
-	- fabric-networking-blockentity-v0@0.2.11+a02b446318
-	- fabric-networking-v0@0.3.2+92519afa18
-	- fabric-object-builder-api-v1@1.10.9+b7ab612118
-	- fabric-object-builders-v0@0.7.3+a02b446318
-	- fabric-particles-v1@0.2.4+a02b446318
-	- fabric-registry-sync-v0@0.7.10+e2961fee18
-	- fabric-renderer-api-v1@0.4.4+5f02c96918
-	- fabric-renderer-indigo@0.4.8+a02b446318
-	- fabric-renderer-registries-v1@3.2.0+a02b446318
-	- fabric-rendering-data-attachment-v1@0.1.5+a02b446318
-	- fabric-rendering-fluids-v1@0.1.13+a02b446318
-	- fabric-rendering-v0@1.1.2+92519afa18
-	- fabric-rendering-v1@1.7.0+2e8bd82f18
-	- fabric-resource-loader-v0@0.4.8+a00e834b18
-	- fabric-screen-api-v1@1.0.4+155f865c18
-	- fabric-screen-handler-api-v1@1.1.8+a02b446318
-	- fabric-structure-api-v1@1.1.13+5ab9934c18
-	- fabric-tag-extensions-v0@1.1.4+a02b446318
-	- fabric-textures-v0@1.0.6+a02b446318
-	- fabric-tool-attribute-api-v1@1.2.12+b7ab612118
-	- fabric-transfer-api-v1@1.0.0+3fe3c3f518
-	- fabricloader@0.11.6
-	- java@16
-	- lithium@0.7.5
-	- minecraft@1.17.1
-	- servux@0.1.0
-[01:00:10] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.2 Source=file:/opt/mscs/server/fabric-server-launch.jar Service=Knot/Fabric Env=SERVER
-[01:00:10] [main/INFO]: Compatibility level set to JAVA_16
-[01:00:10] [main/INFO]: Loaded configuration file for Lithium: 87 options available, 0 override(s) found
-[01:00:10] [main/WARN]: @Mixin target net/minecraft/class_3218$class_5526 is public in fabric-lifecycle-events-v1.mixins.json:ServerWorldEntityLoaderMixin and should be specified in value
-[01:00:10] [main/WARN]: @Mixin target net/minecraft/class_3898$class_3208 is public in fabric-networking-api-v1.mixins.json:accessor.EntityTrackerAccessor and should be specified in value
-[01:00:10] [main/WARN]: @Mixin target net/minecraft/class_2474$class_5124 is public in fabric-tag-extensions-v0.mixins.json:MixinObjectBuilder and should be specified in value
-[01:00:14] [main/WARN]: @Inject(@At("INVOKE")) Shift.BY=3 on fabric-lifecycle-events-v1.mixins.json:server.WorldChunkMixin::handler$zzh000$onLoadBlockEntity exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
-[01:00:15] [main/INFO]: Applied 0 biome modifications to 0 of 81 new biomes in 2.999 ms
-[01:00:15] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[01:00:16] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[01:00:16] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[01:00:16] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[01:00:16] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[01:00:16] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[01:00:16] [main/INFO]: Reloading ResourceManager: Default, anti enderman grief v1.1.0.zip, armor statues v2.8.1.zip, coordinates hud v1.2.0.zip, double shulker shells v1.3.0.zip, more mob heads v2.9.1.zip, player head drops v1.1.0.zip, silence mobs v1.1.0.zip, track raw statistics v1.4.0.zip, track statistics v1.1.0.zip, villager workstation highlights v1.1.0.zip, afk display v1.1.0.zip, fast leaf decay v2.0.3.zip, wandering trades v1.5.0.zip, spectator conduit power v1.1.0.zip, spectator night vision v1.1.0.zip, cauldron concrete v2.0.3.zip, Fabric Mods (Fabric Tool Attribute API (v1)), charcoal-to-coal-e3510.zip
-[01:00:17] [Worker-Main-11/INFO]: Loaded 7 recipes
-[01:00:18] [Worker-Main-11/WARN]: Found validation problem in {minecraft:entities/ender_dragon}.pools[0].entries[0]: Unknown loot table called minecraft:entities/reference/extra/ender_dragon
-[01:00:18] [Worker-Main-11/INFO]: Loaded 1157 advancements
-[01:00:20] [Server thread/INFO]: Starting minecraft server version 1.17.1
-[01:00:20] [Server thread/INFO]: Loading properties
-[01:00:20] [Server thread/INFO]: Default game type: SURVIVAL
-[01:00:20] [Server thread/INFO]: Generating keypair
-[01:00:21] [Server thread/INFO]: Starting Minecraft server on *:25565
-[01:00:21] [Server thread/INFO]: Using epoll channel type
-[01:00:21] [Server thread/INFO]: Preparing level "faro"
-[01:00:22] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[01:00:22] [Worker-Main-11/INFO]: Preparing spawn area: 0%
-[01:00:22] [Worker-Main-14/INFO]: Preparing spawn area: 0%
-[01:00:23] [Worker-Main-12/INFO]: Preparing spawn area: 0%
-[01:00:23] [Worker-Main-9/INFO]: Preparing spawn area: 0%
-[01:00:24] [Worker-Main-13/INFO]: Preparing spawn area: 0%
-[01:00:24] [Worker-Main-13/INFO]: Preparing spawn area: 0%
-[01:00:25] [Worker-Main-14/INFO]: Preparing spawn area: 6%
-[01:00:25] [Worker-Main-10/INFO]: Preparing spawn area: 14%
-[01:00:26] [Worker-Main-10/INFO]: Preparing spawn area: 21%
-[01:00:26] [Worker-Main-11/INFO]: Preparing spawn area: 34%
-[01:00:27] [Worker-Main-13/INFO]: Preparing spawn area: 70%
-[01:00:27] [Worker-Main-11/INFO]: Preparing spawn area: 95%
-[01:00:28] [Server thread/INFO]: Time elapsed: 6377 ms
-[01:00:28] [Server thread/INFO]: Done (6.853s)! For help, type "help"
-[01:00:28] [Server thread/INFO]: Starting GS4 status listener
-[01:00:28] [Server thread/INFO]: Thread Query Listener started
-[01:00:28] [Query Listener #1/INFO]: Query running on 0.0.0.0:25565
-[01:00:30] [Server thread/WARN]: UUID of added entity already exists: class_1531['Armor Stand'/154, l='ServerLevel[faro]', x=16562064.50, y=1000.00, z=-22242911.50]
+[23:58:56] [ERROR] [FabricLoader/]: Uncaught exception in thread "main"
+java.lang.RuntimeException: An exception occurred when launching the server!
+	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:68)
+	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:64)
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:66)
+	... 1 more
+Caused by: java.lang.RuntimeException: Error invoking MC server bundler: java.lang.UnsupportedClassVersionError: net/minecraft/bundler/Main has been compiled by a more recent version of the Java Runtime (class file version 61.0), this version of the Java Runtime only recognizes class file versions up to 60.0
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.processBundlerJar(MinecraftGameProvider.java:321)
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.locateGame(MinecraftGameProvider.java:206)
+	at net.fabricmc.loader.impl.launch.knot.Knot.createGameProvider(Knot.java:172)
+	at net.fabricmc.loader.impl.launch.knot.Knot.init(Knot.java:125)
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:71)
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23)
+	... 6 more
+Caused by: java.lang.UnsupportedClassVersionError: net/minecraft/bundler/Main has been compiled by a more recent version of the Java Runtime (class file version 61.0), this version of the Java Runtime only recognizes class file versions up to 60.0
+	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1010)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:872)
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider$1.loadClass(MinecraftGameProvider.java:277)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:519)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:466)
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.processBundlerJar(MinecraftGameProvider.java:297)
+	... 11 more
