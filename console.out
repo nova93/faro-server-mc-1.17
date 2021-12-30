@@ -1,29 +1,168 @@
-[23:58:56] [ERROR] [FabricLoader/]: Uncaught exception in thread "main"
-java.lang.RuntimeException: An exception occurred when launching the server!
-	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:68)
-	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:64)
-Caused by: java.lang.reflect.InvocationTargetException
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
-	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:66)
-	... 1 more
-Caused by: java.lang.RuntimeException: Error invoking MC server bundler: java.lang.UnsupportedClassVersionError: net/minecraft/bundler/Main has been compiled by a more recent version of the Java Runtime (class file version 61.0), this version of the Java Runtime only recognizes class file versions up to 60.0
-	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.processBundlerJar(MinecraftGameProvider.java:321)
-	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.locateGame(MinecraftGameProvider.java:206)
-	at net.fabricmc.loader.impl.launch.knot.Knot.createGameProvider(Knot.java:172)
-	at net.fabricmc.loader.impl.launch.knot.Knot.init(Knot.java:125)
-	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:71)
-	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23)
-	... 6 more
-Caused by: java.lang.UnsupportedClassVersionError: net/minecraft/bundler/Main has been compiled by a more recent version of the Java Runtime (class file version 61.0), this version of the Java Runtime only recognizes class file versions up to 60.0
-	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
-	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1010)
-	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:872)
-	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider$1.loadClass(MinecraftGameProvider.java:277)
-	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:519)
-	at java.base/java.lang.Class.forName0(Native Method)
-	at java.base/java.lang.Class.forName(Class.java:466)
-	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.processBundlerJar(MinecraftGameProvider.java:297)
-	... 11 more
+Starting net.fabricmc.loader.impl.game.minecraft.BundlerClassPathCapture
+[01:00:10] [INFO] [FabricLoader/GameProvider]: Loading Minecraft 1.18.1 with Fabric Loader 0.12.12
+[01:00:10] [main/INFO]: Loading Minecraft 1.18.1 with Fabric Loader 0.12.12
+[01:00:10] [main/WARN]: Warnings were found!
+ - Mod 'Fabric Rendering Fluids (v1)' (fabric-rendering-fluids-v1) 0.1.18+3ac43d9565 recommends any version of fabric-textures-v0, which is disabled for this environment (client/server only)!
+	 - You should install any version of fabric-textures-v0 for the optimal experience.
+[01:00:10] [main/INFO]: Loading 39 mods:
+	- fabric 0.45.0+1.18
+	- fabric-api-base 0.4.1+b4f4f6cd65 via fabric
+	- fabric-api-lookup-api-v1 1.5.0+17be577f65 via fabric
+	- fabric-biome-api-v1 6.0.1+ded849a965 via fabric
+	- fabric-command-api-v1 1.1.6+3ac43d9565 via fabric
+	- fabric-commands-v0 0.2.5+b4f4f6cd65 via fabric
+	- fabric-containers-v0 0.1.18+d154e2c665 via fabric
+	- fabric-content-registries-v0 0.4.5+6f53a73d65 via fabric
+	- fabric-crash-report-info-v1 0.1.8+3ac43d9565 via fabric
+	- fabric-dimensions-v1 2.1.7+43d2957165 via fabric
+	- fabric-entity-events-v1 1.4.5+6b21378a65 via fabric
+	- fabric-events-interaction-v0 0.4.16+bfa23f1765 via fabric
+	- fabric-events-lifecycle-v0 0.2.6+b4f4f6cd65 via fabric
+	- fabric-game-rule-api-v1 1.0.10+3ac43d9565 via fabric
+	- fabric-item-api-v1 1.3.0+691a79b565 via fabric
+	- fabric-item-groups-v0 0.3.3+3ac43d9565 via fabric
+	- fabric-lifecycle-events-v1 1.4.10+c15ca33565 via fabric
+	- fabric-loot-tables-v1 1.0.8+3ac43d9565 via fabric
+	- fabric-mining-level-api-v1 1.0.3+3ac43d9565 via fabric
+	- fabric-mining-levels-v0 0.1.7+b4f4f6cd65 via fabric
+	- fabric-networking-api-v1 1.0.18+3ac43d9565 via fabric
+	- fabric-networking-v0 0.3.5+b4f4f6cd65 via fabric
+	- fabric-object-builder-api-v1 1.11.0+3b82842e65 via fabric
+	- fabric-object-builders-v0 0.7.8+3ac43d9565 via fabric
+	- fabric-particles-v1 0.2.9+526dc1ac65 via fabric
+	- fabric-registry-sync-v0 0.8.6+533be9ba65 via fabric
+	- fabric-rendering-data-attachment-v1 0.3.4+7242e9d765 via fabric
+	- fabric-rendering-fluids-v1 0.1.18+3ac43d9565 via fabric
+	- fabric-resource-loader-v0 0.4.11+3ac43d9565 via fabric
+	- fabric-screen-handler-api-v1 1.1.11+3ac43d9565 via fabric
+	- fabric-structure-api-v1 2.0.8+295197a765 via fabric
+	- fabric-tag-extensions-v0 1.2.5+3ac43d9565 via fabric
+	- fabric-tool-attribute-api-v1 1.3.4+7de09f5565 via fabric
+	- fabric-transfer-api-v1 1.5.6+b4f4f6cd65 via fabric
+	- fabricloader 0.12.12
+	- java 17
+	- lithium 0.7.6
+	- minecraft 1.18.1
+	- servux 0.1.0
+[01:00:10] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.4 Source=file:/opt/mscs/worlds/faro/libraries/net/fabricmc/sponge-mixin/0.10.7+mixin.0.8.4/sponge-mixin-0.10.7+mixin.0.8.4.jar Service=Knot/Fabric Env=SERVER
+[01:00:10] [main/INFO]: Compatibility level set to JAVA_16
+[01:00:11] [main/INFO]: Loaded configuration file for Lithium: 87 options available, 0 override(s) found
+[01:00:14] [main/WARN]: @Inject(@At("INVOKE")) Shift.BY=3 on fabric-lifecycle-events-v1.mixins.json:server.WorldChunkMixin::handler$zca000$onLoadBlockEntity exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
+[01:00:16] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[01:00:18] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[01:00:18] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[01:00:18] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[01:00:18] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[01:00:18] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[01:00:18] [main/INFO]: Reloading ResourceManager: Default, anti enderman grief v1.1.0.zip, armor statues v2.8.1.zip, coordinates hud v1.2.0.zip, double shulker shells v1.3.0.zip, more mob heads v2.9.1.zip, player head drops v1.1.0.zip, silence mobs v1.1.0.zip, track raw statistics v1.4.0.zip, track statistics v1.1.0.zip, villager workstation highlights v1.1.0.zip, afk display v1.1.0.zip, fast leaf decay v2.0.3.zip, wandering trades v1.5.0.zip, spectator conduit power v1.1.0.zip, spectator night vision v1.1.0.zip, cauldron concrete v2.0.3.zip, charcoal-to-coal-e3510.zip, Fabric Mods (Fabric Tool Attribute API (v1))
+[01:00:18] [Worker-Main-11/INFO]: Loaded 7 recipes
+[01:00:19] [Worker-Main-11/WARN]: Found validation problem in {minecraft:entities/ender_dragon}.pools[0].entries[0]: Unknown loot table called minecraft:entities/reference/extra/ender_dragon
+[01:00:19] [Worker-Main-11/INFO]: Loaded 1161 advancements
+[01:00:20] [main/INFO]: Applied 0 biome modifications to 0 of 61 new biomes in 3.669 ms
+[01:00:22] [Server thread/INFO]: Starting minecraft server version 1.18.1
+[01:00:22] [Server thread/INFO]: Loading properties
+[01:00:22] [Server thread/INFO]: Default game type: SURVIVAL
+[01:00:22] [Server thread/INFO]: Generating keypair
+[01:00:22] [Server thread/INFO]: Starting Minecraft server on *:25565
+[01:00:22] [Server thread/INFO]: Using epoll channel type
+[01:00:22] [Server thread/INFO]: Preparing level "faro"
+[01:00:23] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[01:00:25] [Worker-Main-13/INFO]: Preparing spawn area: 0%
+[01:00:30] [Worker-Main-10/INFO]: Preparing spawn area: 0%
+[01:00:30] [Worker-Main-12/INFO]: Preparing spawn area: 0%
+[01:00:30] [Worker-Main-10/INFO]: Preparing spawn area: 0%
+[01:00:30] [Worker-Main-12/INFO]: Preparing spawn area: 0%
+[01:00:30] [Worker-Main-12/INFO]: Preparing spawn area: 0%
+[01:00:30] [Worker-Main-12/INFO]: Preparing spawn area: 0%
+[01:00:30] [Worker-Main-12/INFO]: Preparing spawn area: 0%
+[01:00:30] [Worker-Main-12/INFO]: Preparing spawn area: 0%
+[01:00:30] [Worker-Main-12/INFO]: Preparing spawn area: 0%
+[01:00:30] [Worker-Main-14/INFO]: Preparing spawn area: 0%
+[01:00:30] [Worker-Main-14/INFO]: Preparing spawn area: 0%
+[01:00:30] [Worker-Main-14/INFO]: Preparing spawn area: 0%
+[01:00:30] [Worker-Main-14/INFO]: Preparing spawn area: 0%
+[01:00:30] [Worker-Main-14/INFO]: Preparing spawn area: 0%
+[01:00:31] [Worker-Main-11/INFO]: Preparing spawn area: 0%
+[01:00:31] [Worker-Main-10/INFO]: Preparing spawn area: 0%
+[01:00:32] [Worker-Main-10/INFO]: Preparing spawn area: 0%
+[01:00:32] [Worker-Main-11/INFO]: Preparing spawn area: 0%
+[01:00:33] [Worker-Main-14/INFO]: Preparing spawn area: 0%
+[01:00:34] [Worker-Main-8/INFO]: Preparing spawn area: 0%
+[01:00:34] [Worker-Main-8/INFO]: Preparing spawn area: 0%
+[01:00:34] [Worker-Main-11/INFO]: Preparing spawn area: 0%
+[01:00:35] [Worker-Main-14/INFO]: Preparing spawn area: 0%
+[01:00:35] [Worker-Main-12/INFO]: Preparing spawn area: 0%
+[01:00:36] [Worker-Main-12/INFO]: Preparing spawn area: 0%
+[01:00:36] [Worker-Main-12/INFO]: Preparing spawn area: 0%
+[01:00:37] [Worker-Main-13/INFO]: Preparing spawn area: 0%
+[01:00:37] [Worker-Main-13/INFO]: Preparing spawn area: 0%
+[01:00:38] [Worker-Main-11/INFO]: Preparing spawn area: 0%
+[01:00:38] [Worker-Main-13/INFO]: Preparing spawn area: 1%
+[01:00:39] [Worker-Main-12/INFO]: Preparing spawn area: 1%
+[01:00:39] [Worker-Main-13/INFO]: Preparing spawn area: 1%
+[01:00:40] [Worker-Main-8/INFO]: Preparing spawn area: 2%
+[01:00:40] [Worker-Main-9/INFO]: Preparing spawn area: 3%
+[01:00:41] [Worker-Main-12/INFO]: Preparing spawn area: 3%
+[01:00:41] [Worker-Main-14/INFO]: Preparing spawn area: 4%
+[01:00:41] [Worker-Main-12/INFO]: Preparing spawn area: 4%
+[01:00:42] [Worker-Main-14/INFO]: Preparing spawn area: 4%
+[01:00:42] [Worker-Main-9/INFO]: Preparing spawn area: 4%
+[01:00:43] [Worker-Main-10/INFO]: Preparing spawn area: 4%
+[01:00:44] [Worker-Main-10/INFO]: Preparing spawn area: 4%
+[01:00:44] [Worker-Main-9/INFO]: Preparing spawn area: 4%
+[01:00:44] [Worker-Main-8/INFO]: Preparing spawn area: 4%
+[01:00:45] [Worker-Main-13/INFO]: Preparing spawn area: 4%
+[01:00:46] [Worker-Main-13/INFO]: Preparing spawn area: 4%
+[01:00:46] [Worker-Main-12/INFO]: Preparing spawn area: 4%
+[01:00:47] [Worker-Main-10/INFO]: Preparing spawn area: 5%
+[01:00:47] [Worker-Main-9/INFO]: Preparing spawn area: 5%
+[01:00:48] [Worker-Main-14/INFO]: Preparing spawn area: 6%
+[01:00:48] [Worker-Main-14/INFO]: Preparing spawn area: 6%
+[01:00:49] [Worker-Main-8/INFO]: Preparing spawn area: 7%
+[01:00:49] [Worker-Main-12/INFO]: Preparing spawn area: 8%
+[01:00:50] [Worker-Main-14/INFO]: Preparing spawn area: 12%
+[01:00:50] [Worker-Main-8/INFO]: Preparing spawn area: 12%
+[01:00:51] [Worker-Main-11/INFO]: Preparing spawn area: 13%
+[01:00:51] [Worker-Main-12/INFO]: Preparing spawn area: 13%
+[01:00:51] [Worker-Main-9/INFO]: Preparing spawn area: 14%
+[01:00:52] [Worker-Main-8/INFO]: Preparing spawn area: 16%
+[01:00:53] [Worker-Main-9/INFO]: Preparing spawn area: 19%
+[01:00:53] [Worker-Main-9/INFO]: Preparing spawn area: 19%
+[01:00:53] [Worker-Main-8/INFO]: Preparing spawn area: 21%
+[01:00:54] [Worker-Main-10/INFO]: Preparing spawn area: 22%
+[01:00:55] [Worker-Main-11/INFO]: Preparing spawn area: 22%
+[01:00:55] [Worker-Main-12/INFO]: Preparing spawn area: 24%
+[01:00:56] [Worker-Main-14/INFO]: Preparing spawn area: 35%
+[01:00:56] [Worker-Main-14/INFO]: Preparing spawn area: 37%
+[01:00:57] [Worker-Main-13/INFO]: Preparing spawn area: 41%
+[01:00:57] [Worker-Main-10/INFO]: Preparing spawn area: 42%
+[01:00:58] [Worker-Main-14/INFO]: Preparing spawn area: 49%
+[01:00:58] [Worker-Main-13/INFO]: Preparing spawn area: 53%
+[01:00:59] [Worker-Main-11/INFO]: Preparing spawn area: 55%
+[01:00:59] [Worker-Main-11/INFO]: Preparing spawn area: 67%
+[01:00:59] [Worker-Main-11/INFO]: Preparing spawn area: 77%
+[01:01:00] [Worker-Main-14/INFO]: Preparing spawn area: 82%
+[01:01:00] [Worker-Main-9/INFO]: Preparing spawn area: 91%
+[01:01:01] [Worker-Main-8/INFO]: Preparing spawn area: 97%
+[01:01:01] [Server thread/INFO]: Time elapsed: 38347 ms
+[01:01:01] [Server thread/INFO]: Done (38.909s)! For help, type "help"
+[01:01:01] [Server thread/INFO]: Starting GS4 status listener
+[01:01:01] [Server thread/INFO]: Thread Query Listener started
+[01:01:01] [Query Listener #1/INFO]: Query running on 0.0.0.0:25565
+[01:01:05] [Server thread/WARN]: UUID of added entity already exists: class_1531['Armor Stand'/159, l='ServerLevel[faro]', x=16562064.50, y=1000.00, z=-22242911.50]
+[02:38:54] [User Authenticator #1/INFO]: UUID of player davehlewis is 3dfd1cd3-4bc2-40bd-8e5e-9c28e9a3b850
+[02:38:54] [Server thread/INFO]: davehlewis[/127.0.0.1:58738] logged in with entity id 186 at (-957.6999999880791, 67.0, -883.7616266045903)
+[02:38:54] [Server thread/INFO]: davehlewis joined the game
+[02:39:01] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7076ms or 141 ticks behind
+[03:05:33] [Server thread/INFO]: davehlewis lost connection: Disconnected
+[03:05:33] [Server thread/INFO]: davehlewis left the game
+[14:00:23] [User Authenticator #2/INFO]: UUID of player davehlewis is 3dfd1cd3-4bc2-40bd-8e5e-9c28e9a3b850
+[14:00:23] [Server thread/INFO]: davehlewis[/127.0.0.1:33876] logged in with entity id 12587 at (-868.9311831807352, 63.0, -1107.5155274863841)
+[14:00:23] [Server thread/INFO]: davehlewis joined the game
+[14:07:03] [Server thread/INFO]: davehlewis lost connection: Disconnected
+[14:07:03] [Server thread/INFO]: davehlewis left the game
+[16:04:39] [User Authenticator #3/INFO]: UUID of player davehlewis is 3dfd1cd3-4bc2-40bd-8e5e-9c28e9a3b850
+[16:04:39] [Server thread/INFO]: davehlewis[/127.0.0.1:34484] logged in with entity id 14246 at (-899.5, 66.0, -1075.5)
+[16:04:39] [Server thread/INFO]: davehlewis joined the game
+[16:33:36] [Server thread/INFO]: davehlewis lost connection: Disconnected
+[16:33:36] [Server thread/INFO]: davehlewis left the game
