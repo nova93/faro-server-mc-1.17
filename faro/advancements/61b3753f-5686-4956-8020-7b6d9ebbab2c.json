@@ -929,6 +929,12 @@
     },
     "done": true
   },
+  "vanillatweaks:count_mob_deaths": {
+    "criteria": {
+      "tick": "2022-01-17 10:51:20 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/acacia_pressure_plate": {
     "criteria": {
       "has_planks": "2021-06-20 15:17:32 +0000"
@@ -4514,6 +4520,7 @@
       "minecraft:swamp": "2021-06-11 17:33:32 +0000",
       "minecraft:cold_ocean": "2021-06-19 15:42:10 +0000",
       "minecraft:forest": "2021-06-11 17:34:13 +0000",
+      "minecraft:lush_caves": "2022-01-17 10:56:45 +0000",
       "minecraft:deep_cold_ocean": "2021-06-20 14:17:32 +0000",
       "minecraft:frozen_ocean": "2022-01-01 19:05:22 +0000",
       "minecraft:desert": "2021-06-15 20:53:32 +0000",
