@@ -1,8 +1,8 @@
 [01:00:10] [main/INFO]: Loading Minecraft 1.18.1 with Fabric Loader 0.12.12
-[01:00:11] [main/WARN]: Warnings were found!
+[01:00:10] [main/WARN]: Warnings were found!
  - Mod 'Fabric Rendering Fluids (v1)' (fabric-rendering-fluids-v1) 0.1.18+3ac43d9565 recommends any version of fabric-textures-v0, which is disabled for this environment (client/server only)!
 	 - You should install any version of fabric-textures-v0 for the optimal experience.
-[01:00:11] [main/INFO]: Loading 39 mods:
+[01:00:10] [main/INFO]: Loading 39 mods:
 	- fabric 0.45.0+1.18
 	- fabric-api-base 0.4.1+b4f4f6cd65 via fabric
 	- fabric-api-lookup-api-v1 1.5.0+17be577f65 via fabric
@@ -42,164 +42,111 @@
 	- lithium 0.7.6
 	- minecraft 1.18.1
 	- servux 0.1.0
-[01:00:11] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.4 Source=file:/opt/mscs/worlds/faro/libraries/net/fabricmc/sponge-mixin/0.10.7+mixin.0.8.4/sponge-mixin-0.10.7+mixin.0.8.4.jar Service=Knot/Fabric Env=SERVER
-[01:00:11] [main/INFO]: Compatibility level set to JAVA_16
-[01:00:11] [main/INFO]: Loaded configuration file for Lithium: 87 options available, 0 override(s) found
+[01:00:10] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.4 Source=file:/opt/mscs/worlds/faro/libraries/net/fabricmc/sponge-mixin/0.10.7+mixin.0.8.4/sponge-mixin-0.10.7+mixin.0.8.4.jar Service=Knot/Fabric Env=SERVER
+[01:00:10] [main/INFO]: Compatibility level set to JAVA_16
+[01:00:10] [main/INFO]: Loaded configuration file for Lithium: 87 options available, 0 override(s) found
 [01:00:14] [main/WARN]: @Inject(@At("INVOKE")) Shift.BY=3 on fabric-lifecycle-events-v1.mixins.json:server.WorldChunkMixin::handler$zca000$onLoadBlockEntity exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
-[01:00:17] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[01:00:18] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[01:00:18] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[01:00:18] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[01:00:18] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[01:00:18] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[01:00:18] [main/INFO]: Reloading ResourceManager: Default, anti enderman grief v1.1.0.zip, armor statues v2.8.1.zip, coordinates hud v1.2.0.zip, double shulker shells v1.3.0.zip, more mob heads v2.9.1.zip, player head drops v1.1.0.zip, silence mobs v1.1.0.zip, track raw statistics v1.4.0.zip, track statistics v1.1.0.zip, villager workstation highlights v1.1.0.zip, afk display v1.1.0.zip, fast leaf decay v2.0.3.zip, wandering trades v1.5.0.zip, spectator conduit power v1.1.0.zip, spectator night vision v1.1.0.zip, cauldron concrete v2.0.3.zip, charcoal-to-coal-e3510.zip, Fabric Mods (Fabric Tool Attribute API (v1))
-[01:00:19] [Worker-Main-12/INFO]: Loaded 7 recipes
-[01:00:19] [Worker-Main-12/WARN]: Found validation problem in {minecraft:entities/ender_dragon}.pools[0].entries[0]: Unknown loot table called minecraft:entities/reference/extra/ender_dragon
-[01:00:20] [Worker-Main-12/INFO]: Loaded 1161 advancements
-[01:00:21] [main/INFO]: Applied 0 biome modifications to 0 of 61 new biomes in 3.567 ms
-[01:00:22] [Server thread/INFO]: Starting minecraft server version 1.18.1
-[01:00:22] [Server thread/INFO]: Loading properties
-[01:00:22] [Server thread/INFO]: Default game type: SURVIVAL
-[01:00:22] [Server thread/INFO]: Generating keypair
-[01:00:23] [Server thread/INFO]: Starting Minecraft server on *:25565
-[01:00:23] [Server thread/INFO]: Using epoll channel type
-[01:00:23] [Server thread/INFO]: Preparing level "faro"
-[01:00:24] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[01:00:26] [Worker-Main-11/INFO]: Preparing spawn area: 0%
-[01:00:26] [Worker-Main-13/INFO]: Preparing spawn area: 0%
-[01:00:26] [Worker-Main-12/INFO]: Preparing spawn area: 0%
-[01:00:26] [Worker-Main-12/INFO]: Preparing spawn area: 0%
-[01:00:26] [Worker-Main-12/INFO]: Preparing spawn area: 0%
-[01:00:26] [Worker-Main-10/INFO]: Preparing spawn area: 0%
+[01:00:16] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[01:00:17] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[01:00:17] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[01:00:17] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[01:00:17] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[01:00:17] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[01:00:17] [main/INFO]: Reloading ResourceManager: Default, Fabric Mods (Fabric Tool Attribute API (v1)), afk display v1.1.2.zip, anti enderman grief v1.1.2.zip, armor statues v2.8.3.zip, cauldron concrete v2.0.5.zip, coordinates hud v1.2.2.zip, count mob deaths v1.1.2.zip, double shulker shells v1.3.2.zip, fast leaf decay v2.0.5.zip, more mob heads v2.9.4.zip, player head drops v1.1.2.zip, silence mobs v1.1.2.zip, spectator conduit power v1.1.2.zip, spectator night vision v1.1.2.zip, track raw statistics v1.5.2.zip, track statistics v1.1.3.zip, villager workstation highlights v1.1.2.zip, wandering trades v1.5.1.zip
+[01:00:18] [Worker-Main-10/INFO]: Loaded 7 recipes
+[01:00:18] [Worker-Main-10/WARN]: Found validation problem in {minecraft:entities/ender_dragon}.pools[0].entries[0]: Unknown loot table called minecraft:entities/reference/extra/ender_dragon
+[01:00:19] [Worker-Main-10/INFO]: Loaded 1162 advancements
+[01:00:20] [main/INFO]: Applied 0 biome modifications to 0 of 61 new biomes in 9.323 ms
+[01:00:21] [Server thread/INFO]: Starting minecraft server version 1.18.1
+[01:00:21] [Server thread/INFO]: Loading properties
+[01:00:21] [Server thread/INFO]: Default game type: SURVIVAL
+[01:00:21] [Server thread/INFO]: Generating keypair
+[01:00:21] [Server thread/INFO]: Starting Minecraft server on *:25565
+[01:00:22] [Server thread/INFO]: Using epoll channel type
+[01:00:22] [Server thread/INFO]: Preparing level "faro"
+[01:00:22] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[01:00:24] [Worker-Main-12/INFO]: Preparing spawn area: 0%
+[01:00:30] [Worker-Main-14/INFO]: Preparing spawn area: 0%
+[01:00:30] [Worker-Main-8/INFO]: Preparing spawn area: 0%
+[01:00:30] [Worker-Main-8/INFO]: Preparing spawn area: 0%
+[01:00:30] [Worker-Main-8/INFO]: Preparing spawn area: 0%
+[01:00:30] [Worker-Main-8/INFO]: Preparing spawn area: 0%
+[01:00:30] [Worker-Main-8/INFO]: Preparing spawn area: 0%
+[01:00:30] [Worker-Main-8/INFO]: Preparing spawn area: 0%
+[01:00:30] [Worker-Main-8/INFO]: Preparing spawn area: 0%
+[01:00:30] [Worker-Main-8/INFO]: Preparing spawn area: 0%
+[01:00:30] [Worker-Main-8/INFO]: Preparing spawn area: 0%
+[01:00:30] [Worker-Main-8/INFO]: Preparing spawn area: 0%
+[01:00:30] [Worker-Main-8/INFO]: Preparing spawn area: 0%
+[01:00:30] [Worker-Main-13/INFO]: Preparing spawn area: 0%
+[01:00:30] [Worker-Main-14/INFO]: Preparing spawn area: 0%
+[01:00:30] [Worker-Main-9/INFO]: Preparing spawn area: 0%
+[01:00:31] [Worker-Main-11/INFO]: Preparing spawn area: 0%
+[01:00:31] [Worker-Main-13/INFO]: Preparing spawn area: 0%
+[01:00:31] [Worker-Main-12/INFO]: Preparing spawn area: 0%
 [01:00:32] [Worker-Main-14/INFO]: Preparing spawn area: 0%
-[01:00:32] [Worker-Main-13/INFO]: Preparing spawn area: 0%
 [01:00:32] [Worker-Main-9/INFO]: Preparing spawn area: 0%
-[01:00:32] [Worker-Main-14/INFO]: Preparing spawn area: 0%
-[01:00:32] [Worker-Main-9/INFO]: Preparing spawn area: 0%
-[01:00:32] [Worker-Main-9/INFO]: Preparing spawn area: 0%
-[01:00:32] [Worker-Main-12/INFO]: Preparing spawn area: 0%
-[01:00:32] [Worker-Main-14/INFO]: Preparing spawn area: 0%
-[01:00:32] [Worker-Main-12/INFO]: Preparing spawn area: 0%
-[01:00:32] [Worker-Main-12/INFO]: Preparing spawn area: 0%
-[01:00:32] [Worker-Main-10/INFO]: Preparing spawn area: 0%
-[01:00:32] [Worker-Main-10/INFO]: Preparing spawn area: 0%
-[01:00:33] [Worker-Main-10/INFO]: Preparing spawn area: 0%
-[01:00:33] [Worker-Main-10/INFO]: Preparing spawn area: 0%
-[01:00:34] [Worker-Main-9/INFO]: Preparing spawn area: 0%
-[01:00:34] [Worker-Main-14/INFO]: Preparing spawn area: 0%
-[01:00:35] [Worker-Main-8/INFO]: Preparing spawn area: 0%
+[01:00:33] [Worker-Main-13/INFO]: Preparing spawn area: 0%
+[01:00:33] [Worker-Main-11/INFO]: Preparing spawn area: 0%
+[01:00:35] [Worker-Main-9/INFO]: Preparing spawn area: 0%
+[01:00:35] [Worker-Main-12/INFO]: Preparing spawn area: 0%
+[01:00:35] [Worker-Main-11/INFO]: Preparing spawn area: 0%
 [01:00:35] [Worker-Main-14/INFO]: Preparing spawn area: 0%
-[01:00:36] [Worker-Main-10/INFO]: Preparing spawn area: 0%
-[01:00:36] [Worker-Main-9/INFO]: Preparing spawn area: 0%
-[01:00:37] [Worker-Main-10/INFO]: Preparing spawn area: 0%
-[01:00:37] [Worker-Main-10/INFO]: Preparing spawn area: 0%
-[01:00:38] [Worker-Main-14/INFO]: Preparing spawn area: 1%
-[01:00:40] [Worker-Main-12/INFO]: Preparing spawn area: 1%
-[01:00:40] [Worker-Main-12/INFO]: Preparing spawn area: 1%
-[01:00:40] [Worker-Main-10/INFO]: Preparing spawn area: 1%
-[01:00:40] [Worker-Main-12/INFO]: Preparing spawn area: 1%
-[01:00:40] [Worker-Main-8/INFO]: Preparing spawn area: 3%
+[01:00:36] [Worker-Main-8/INFO]: Preparing spawn area: 0%
+[01:00:36] [Worker-Main-9/INFO]: Preparing spawn area: 1%
+[01:00:37] [Worker-Main-11/INFO]: Preparing spawn area: 1%
+[01:00:37] [Worker-Main-8/INFO]: Preparing spawn area: 3%
+[01:00:38] [Worker-Main-12/INFO]: Preparing spawn area: 3%
+[01:00:38] [Worker-Main-10/INFO]: Preparing spawn area: 4%
+[01:00:39] [Worker-Main-8/INFO]: Preparing spawn area: 4%
+[01:00:39] [Worker-Main-13/INFO]: Preparing spawn area: 4%
+[01:00:40] [Worker-Main-14/INFO]: Preparing spawn area: 4%
+[01:00:40] [Worker-Main-14/INFO]: Preparing spawn area: 4%
 [01:00:41] [Worker-Main-10/INFO]: Preparing spawn area: 4%
-[01:00:41] [Worker-Main-10/INFO]: Preparing spawn area: 4%
-[01:00:42] [Worker-Main-14/INFO]: Preparing spawn area: 7%
-[01:00:42] [Worker-Main-11/INFO]: Preparing spawn area: 7%
-[01:00:43] [Worker-Main-8/INFO]: Preparing spawn area: 9%
-[01:00:43] [Worker-Main-14/INFO]: Preparing spawn area: 11%
-[01:00:44] [Worker-Main-14/INFO]: Preparing spawn area: 14%
-[01:00:44] [Worker-Main-8/INFO]: Preparing spawn area: 16%
-[01:00:45] [Worker-Main-9/INFO]: Preparing spawn area: 17%
-[01:00:45] [Worker-Main-11/INFO]: Preparing spawn area: 18%
-[01:00:46] [Worker-Main-8/INFO]: Preparing spawn area: 19%
-[01:00:46] [Worker-Main-14/INFO]: Preparing spawn area: 20%
-[01:00:47] [Worker-Main-14/INFO]: Preparing spawn area: 25%
-[01:00:47] [Worker-Main-9/INFO]: Preparing spawn area: 28%
-[01:00:48] [Worker-Main-14/INFO]: Preparing spawn area: 30%
-[01:00:48] [Worker-Main-10/INFO]: Preparing spawn area: 30%
-[01:00:49] [Worker-Main-14/INFO]: Preparing spawn area: 30%
-[01:00:49] [Worker-Main-10/INFO]: Preparing spawn area: 30%
-[01:00:50] [Worker-Main-14/INFO]: Preparing spawn area: 30%
-[01:00:50] [Worker-Main-11/INFO]: Preparing spawn area: 30%
-[01:00:51] [Worker-Main-9/INFO]: Preparing spawn area: 31%
-[01:00:51] [Worker-Main-8/INFO]: Preparing spawn area: 32%
-[01:00:52] [Worker-Main-14/INFO]: Preparing spawn area: 34%
-[01:00:52] [Worker-Main-14/INFO]: Preparing spawn area: 36%
-[01:00:53] [Worker-Main-9/INFO]: Preparing spawn area: 37%
-[01:00:53] [Worker-Main-8/INFO]: Preparing spawn area: 37%
-[01:00:54] [Worker-Main-14/INFO]: Preparing spawn area: 38%
-[01:00:54] [Worker-Main-13/INFO]: Preparing spawn area: 39%
-[01:00:55] [Worker-Main-8/INFO]: Preparing spawn area: 41%
-[01:00:55] [Worker-Main-14/INFO]: Preparing spawn area: 42%
-[01:00:56] [Worker-Main-8/INFO]: Preparing spawn area: 45%
+[01:00:41] [Worker-Main-14/INFO]: Preparing spawn area: 4%
+[01:00:42] [Worker-Main-8/INFO]: Preparing spawn area: 4%
+[01:00:42] [Worker-Main-11/INFO]: Preparing spawn area: 4%
+[01:00:43] [Worker-Main-13/INFO]: Preparing spawn area: 4%
+[01:00:43] [Worker-Main-9/INFO]: Preparing spawn area: 7%
+[01:00:44] [Worker-Main-9/INFO]: Preparing spawn area: 7%
+[01:00:44] [Worker-Main-12/INFO]: Preparing spawn area: 7%
+[01:00:45] [Worker-Main-11/INFO]: Preparing spawn area: 7%
+[01:00:46] [Worker-Main-11/INFO]: Preparing spawn area: 7%
+[01:00:46] [Worker-Main-10/INFO]: Preparing spawn area: 7%
+[01:00:46] [Worker-Main-14/INFO]: Preparing spawn area: 7%
+[01:00:47] [Worker-Main-14/INFO]: Preparing spawn area: 7%
+[01:00:47] [Worker-Main-14/INFO]: Preparing spawn area: 7%
+[01:00:48] [Worker-Main-10/INFO]: Preparing spawn area: 7%
+[01:00:48] [Worker-Main-13/INFO]: Preparing spawn area: 7%
+[01:00:49] [Worker-Main-12/INFO]: Preparing spawn area: 7%
+[01:00:49] [Worker-Main-11/INFO]: Preparing spawn area: 7%
+[01:00:50] [Worker-Main-9/INFO]: Preparing spawn area: 7%
+[01:00:50] [Worker-Main-10/INFO]: Preparing spawn area: 7%
+[01:00:51] [Worker-Main-13/INFO]: Preparing spawn area: 7%
+[01:00:51] [Worker-Main-13/INFO]: Preparing spawn area: 16%
+[01:00:52] [Worker-Main-9/INFO]: Preparing spawn area: 21%
+[01:00:53] [Worker-Main-13/INFO]: Preparing spawn area: 22%
+[01:00:53] [Worker-Main-8/INFO]: Preparing spawn area: 28%
+[01:00:53] [Worker-Main-13/INFO]: Preparing spawn area: 29%
+[01:00:54] [Worker-Main-10/INFO]: Preparing spawn area: 30%
+[01:00:55] [Worker-Main-9/INFO]: Preparing spawn area: 40%
+[01:00:55] [Worker-Main-14/INFO]: Preparing spawn area: 44%
+[01:00:55] [Worker-Main-13/INFO]: Preparing spawn area: 48%
 [01:00:56] [Worker-Main-14/INFO]: Preparing spawn area: 51%
-[01:00:57] [Worker-Main-14/INFO]: Preparing spawn area: 57%
-[01:00:57] [Worker-Main-11/INFO]: Preparing spawn area: 60%
-[01:00:58] [Worker-Main-10/INFO]: Preparing spawn area: 61%
-[01:00:58] [Worker-Main-9/INFO]: Preparing spawn area: 62%
-[01:00:59] [Worker-Main-11/INFO]: Preparing spawn area: 62%
-[01:00:59] [Worker-Main-13/INFO]: Preparing spawn area: 67%
-[01:01:00] [Worker-Main-10/INFO]: Preparing spawn area: 68%
-[01:01:00] [Worker-Main-12/INFO]: Preparing spawn area: 74%
-[01:01:01] [Worker-Main-9/INFO]: Preparing spawn area: 76%
-[01:01:01] [Worker-Main-8/INFO]: Preparing spawn area: 85%
-[01:01:02] [Worker-Main-14/INFO]: Preparing spawn area: 93%
-[01:01:02] [Server thread/INFO]: Time elapsed: 38673 ms
-[01:01:02] [Server thread/INFO]: Done (39.103s)! For help, type "help"
+[01:00:58] [Worker-Main-14/INFO]: Preparing spawn area: 53%
+[01:00:58] [Worker-Main-8/INFO]: Preparing spawn area: 53%
+[01:00:58] [Worker-Main-13/INFO]: Preparing spawn area: 53%
+[01:00:58] [Worker-Main-12/INFO]: Preparing spawn area: 64%
+[01:00:59] [Worker-Main-8/INFO]: Preparing spawn area: 66%
+[01:00:59] [Worker-Main-9/INFO]: Preparing spawn area: 70%
+[01:00:59] [Worker-Main-8/INFO]: Preparing spawn area: 74%
+[01:01:00] [Worker-Main-11/INFO]: Preparing spawn area: 81%
+[01:01:01] [Worker-Main-12/INFO]: Preparing spawn area: 88%
+[01:01:01] [Worker-Main-10/INFO]: Preparing spawn area: 90%
+[01:01:01] [Worker-Main-10/INFO]: Preparing spawn area: 99%
+[01:01:02] [Server thread/INFO]: Time elapsed: 39319 ms
+[01:01:02] [Server thread/INFO]: Done (39.791s)! For help, type "help"
 [01:01:02] [Server thread/INFO]: Starting GS4 status listener
 [01:01:02] [Server thread/INFO]: Thread Query Listener started
 [01:01:02] [Query Listener #1/INFO]: Query running on 0.0.0.0:25565
-[01:01:06] [Server thread/WARN]: UUID of added entity already exists: class_1531['Armor Stand'/155, l='ServerLevel[faro]', x=16562064.50, y=1000.00, z=-22242911.50]
-[10:41:48] [User Authenticator #1/INFO]: UUID of player sykst is 61b3753f-5686-4956-8020-7b6d9ebbab2c
-[10:41:48] [Server thread/INFO]: sykst[/[2a01:4b00:8e19:3b00:90fc:ce98:514f:867b%0]:63419] logged in with entity id 312 at (1510.1209034343622, 64.0, -1780.695563204449)
-[10:41:48] [Server thread/INFO]: sykst joined the game
-[10:51:19] [Server thread/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[10:51:19] [Server thread/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[10:51:19] [Server thread/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[10:51:19] [Server thread/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[10:51:19] [Server thread/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[10:51:19] [Server thread/INFO]: Reloading ResourceManager: Default, Fabric Mods (Fabric Tool Attribute API (v1)), afk display v1.1.2.zip, anti enderman grief v1.1.2.zip, armor statues v2.8.3.zip, cauldron concrete v2.0.5.zip, coordinates hud v1.2.2.zip, count mob deaths v1.1.2.zip, double shulker shells v1.3.2.zip, fast leaf decay v2.0.5.zip, more mob heads v2.9.4.zip, player head drops v1.1.2.zip, silence mobs v1.1.2.zip, spectator conduit power v1.1.2.zip, spectator night vision v1.1.2.zip, track raw statistics v1.5.2.zip, track statistics v1.1.3.zip, villager workstation highlights v1.1.2.zip, wandering trades v1.5.1.zip
-[10:51:19] [Server thread/INFO]: Loaded 7 recipes
-[10:51:19] [Server thread/WARN]: Found validation problem in {minecraft:entities/ender_dragon}.pools[0].entries[0]: Unknown loot table called minecraft:entities/reference/extra/ender_dragon
-[10:51:19] [Server thread/INFO]: Loaded 1162 advancements
-[10:58:00] [Server thread/INFO]: Villager class_1646['Villager'/6222, l='ServerLevel[faro]', x=1529.19, y=64.02, z=-1715.85] died, message: 'Villager drowned'
-[10:58:33] [Server thread/INFO]: sykst lost connection: Disconnected
-[10:58:33] [Server thread/INFO]: sykst left the game
-[11:03:47] [User Authenticator #2/INFO]: UUID of player davehlewis is 3dfd1cd3-4bc2-40bd-8e5e-9c28e9a3b850
-[11:03:47] [Server thread/ERROR]: Tried to load unrecognized recipe: charcoal_to_coal:charcoal_to_coal removed now.
-[11:03:47] [Server thread/INFO]: davehlewis[/127.0.0.1:36298] logged in with entity id 6920 at (-931.6810230802429, 65.0, -1010.4948244214204)
-[11:03:47] [Server thread/INFO]: davehlewis joined the game
-[11:06:56] [User Authenticator #3/INFO]: UUID of player sykst is 61b3753f-5686-4956-8020-7b6d9ebbab2c
-[11:06:56] [Server thread/ERROR]: Tried to load unrecognized recipe: charcoal_to_coal:charcoal_to_coal removed now.
-[11:06:56] [Server thread/INFO]: sykst[/[2a01:4b00:8e19:3b00:90fc:ce98:514f:867b%0]:54129] logged in with entity id 8452 at (1494.2321393348404, 63.0625, -1784.841821093501)
-[11:06:56] [Server thread/INFO]: sykst joined the game
-[11:07:02] [Server thread/INFO]: <sykst> o/
-[11:07:04] [Server thread/INFO]: <davehlewis> \o
-[11:07:22] [Server thread/INFO]: <sykst> i've been trying to fix the lighting issues
-[11:07:26] [Server thread/INFO]: <davehlewis> ah ok
-[11:07:27] [Server thread/INFO]: <sykst> are they any better now?
-[11:07:42] [Server thread/INFO]: <davehlewis> no difference but I fixed my area
-[11:07:49] [Server thread/INFO]: <sykst> mmmmmm
-[11:08:01] [Server thread/INFO]: <davehlewis> might be better but hard to know
-[11:08:10] [Server thread/INFO]: <sykst> fairs
-[11:08:32] [Server thread/INFO]: <sykst> i've also updated datapacks to 1.18
-[11:08:37] [Server thread/INFO]: <davehlewis> ah cool
-[11:08:46] [Server thread/INFO]: <sykst> they seemed to work but better to update lol
-[11:15:54] [Server thread/INFO]: <davehlewis> everything feels a lot safer with new spawning stuff
-[11:16:14] [Server thread/INFO]: <sykst> overworld yea
-[11:16:24] [Server thread/INFO]: <sykst> but the caves.....
-[11:16:29] [Server thread/INFO]: <davehlewis> ah yeah
-[11:16:31] [Server thread/INFO]: <sykst> they are way more dangerous now
-[11:22:23] [Server thread/INFO]: <sykst> gotta get back to work lol
-[11:22:24] [Server thread/INFO]: <sykst> cya!
-[11:22:28] [Server thread/INFO]: <davehlewis> haha have fun
-[11:22:29] [Server thread/INFO]: sykst lost connection: Disconnected
-[11:22:29] [Server thread/INFO]: sykst left the game
-[11:22:31] [Server thread/INFO]: davehlewis lost connection: Disconnected
-[11:22:31] [Server thread/INFO]: davehlewis left the game
-[19:42:17] [User Authenticator #4/INFO]: UUID of player sykst is 61b3753f-5686-4956-8020-7b6d9ebbab2c
-[19:42:17] [Server thread/INFO]: sykst[/[2a01:4b00:8e19:3b00:90fc:ce98:514f:867b%0]:55471] logged in with entity id 18556 at (1526.2473938667265, 64.0, -1842.914272124328)
-[19:42:17] [Server thread/INFO]: sykst joined the game
-[19:46:11] [Server thread/WARN]: sykst moved too quickly! -31.978993662077755,0.0,29.120999797674358
-[19:46:11] [Server thread/WARN]: sykst moved too quickly! -31.978993662077755,0.0,29.120999797674358
-[19:47:05] [Server thread/INFO]: Villager class_1646['Villager'/21217, l='ServerLevel[faro]', x=1529.17, y=64.02, z=-1715.85] died, message: 'Villager drowned'
-[19:50:01] [Server thread/INFO]: sykst lost connection: Disconnected
-[19:50:01] [Server thread/INFO]: sykst left the game
+[01:01:05] [Server thread/WARN]: UUID of added entity already exists: class_1531['Armor Stand'/155, l='ServerLevel[faro]', x=16562064.50, y=1000.00, z=-22242911.50]
