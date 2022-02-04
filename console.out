@@ -1,5 +1,5 @@
 Starting net.fabricmc.loader.impl.game.minecraft.BundlerClassPathCapture
-[01:00:08] [INFO] [FabricLoader/GameProvider]: Loading Minecraft 1.18.1 with Fabric Loader 0.12.12
+[01:00:09] [INFO] [FabricLoader/GameProvider]: Loading Minecraft 1.18.1 with Fabric Loader 0.12.12
 [01:00:09] [main/INFO]: Loading Minecraft 1.18.1 with Fabric Loader 0.12.12
 [01:00:09] [main/WARN]: Warnings were found!
  - Mod 'Fabric Rendering Fluids (v1)' (fabric-rendering-fluids-v1) 0.1.18+3ac43d9565 recommends any version of fabric-textures-v0, which is disabled for this environment (client/server only)!
@@ -45,9 +45,9 @@ Starting net.fabricmc.loader.impl.game.minecraft.BundlerClassPathCapture
 	- minecraft 1.18.1
 	- servux 0.1.0
 [01:00:09] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.4 Source=file:/opt/mscs/worlds/faro/libraries/net/fabricmc/sponge-mixin/0.10.7+mixin.0.8.4/sponge-mixin-0.10.7+mixin.0.8.4.jar Service=Knot/Fabric Env=SERVER
-[01:00:09] [main/INFO]: Compatibility level set to JAVA_16
-[01:00:09] [main/INFO]: Loaded configuration file for Lithium: 87 options available, 0 override(s) found
-[01:00:14] [main/WARN]: @Inject(@At("INVOKE")) Shift.BY=3 on fabric-lifecycle-events-v1.mixins.json:server.WorldChunkMixin::handler$zca000$onLoadBlockEntity exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
+[01:00:10] [main/INFO]: Compatibility level set to JAVA_16
+[01:00:10] [main/INFO]: Loaded configuration file for Lithium: 87 options available, 0 override(s) found
+[01:00:15] [main/WARN]: @Inject(@At("INVOKE")) Shift.BY=3 on fabric-lifecycle-events-v1.mixins.json:server.WorldChunkMixin::handler$zca000$onLoadBlockEntity exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
 [01:00:18] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
 [01:00:19] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
 [01:00:19] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
@@ -55,146 +55,108 @@ Starting net.fabricmc.loader.impl.game.minecraft.BundlerClassPathCapture
 [01:00:19] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
 [01:00:19] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
 [01:00:19] [main/INFO]: Reloading ResourceManager: Default, Fabric Mods (Fabric Tool Attribute API (v1)), afk display v1.1.2.zip, anti enderman grief v1.1.2.zip, armor statues v2.8.3.zip, cauldron concrete v2.0.5.zip, coordinates hud v1.2.2.zip, count mob deaths v1.1.2.zip, double shulker shells v1.3.2.zip, fast leaf decay v2.0.5.zip, more mob heads v2.9.4.zip, player head drops v1.1.2.zip, silence mobs v1.1.2.zip, spectator conduit power v1.1.2.zip, spectator night vision v1.1.2.zip, track raw statistics v1.5.2.zip, track statistics v1.1.3.zip, villager workstation highlights v1.1.2.zip, wandering trades v1.5.1.zip
-[01:00:20] [Worker-Main-8/INFO]: Loaded 7 recipes
-[01:00:20] [Worker-Main-8/WARN]: Found validation problem in {minecraft:entities/ender_dragon}.pools[0].entries[0]: Unknown loot table called minecraft:entities/reference/extra/ender_dragon
-[01:00:21] [Worker-Main-8/INFO]: Loaded 1162 advancements
-[01:00:22] [main/INFO]: Applied 0 biome modifications to 0 of 61 new biomes in 10.16 ms
+[01:00:20] [Worker-Main-12/INFO]: Loaded 7 recipes
+[01:00:20] [Worker-Main-12/WARN]: Found validation problem in {minecraft:entities/ender_dragon}.pools[0].entries[0]: Unknown loot table called minecraft:entities/reference/extra/ender_dragon
+[01:00:21] [Worker-Main-12/INFO]: Loaded 1162 advancements
+[01:00:23] [main/INFO]: Applied 0 biome modifications to 0 of 61 new biomes in 7.510 ms
 [01:00:25] [Server thread/INFO]: Starting minecraft server version 1.18.1
 [01:00:25] [Server thread/INFO]: Loading properties
 [01:00:25] [Server thread/INFO]: Default game type: SURVIVAL
 [01:00:25] [Server thread/INFO]: Generating keypair
 [01:00:25] [Server thread/INFO]: Starting Minecraft server on *:25565
 [01:00:25] [Server thread/INFO]: Using epoll channel type
-[01:00:27] [Server thread/INFO]: Preparing level "faro"
-[01:00:28] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[01:00:30] [Worker-Main-12/INFO]: Preparing spawn area: 0%
-[01:00:36] [Worker-Main-14/INFO]: Preparing spawn area: 0%
-[01:00:36] [Worker-Main-13/INFO]: Preparing spawn area: 0%
-[01:00:36] [Worker-Main-13/INFO]: Preparing spawn area: 0%
+[01:00:25] [Server thread/INFO]: Preparing level "faro"
+[01:00:26] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[01:00:29] [Worker-Main-10/INFO]: Preparing spawn area: 0%
 [01:00:36] [Worker-Main-12/INFO]: Preparing spawn area: 0%
 [01:00:36] [Worker-Main-12/INFO]: Preparing spawn area: 0%
+[01:00:36] [Worker-Main-11/INFO]: Preparing spawn area: 0%
 [01:00:36] [Worker-Main-12/INFO]: Preparing spawn area: 0%
+[01:00:36] [Worker-Main-11/INFO]: Preparing spawn area: 0%
 [01:00:36] [Worker-Main-12/INFO]: Preparing spawn area: 0%
-[01:00:36] [Worker-Main-14/INFO]: Preparing spawn area: 0%
+[01:00:36] [Worker-Main-11/INFO]: Preparing spawn area: 0%
+[01:00:36] [Worker-Main-12/INFO]: Preparing spawn area: 0%
+[01:00:36] [Worker-Main-11/INFO]: Preparing spawn area: 0%
+[01:00:36] [Worker-Main-12/INFO]: Preparing spawn area: 0%
+[01:00:36] [Worker-Main-11/INFO]: Preparing spawn area: 0%
+[01:00:36] [Worker-Main-12/INFO]: Preparing spawn area: 0%
+[01:00:36] [Worker-Main-11/INFO]: Preparing spawn area: 0%
+[01:00:36] [Worker-Main-12/INFO]: Preparing spawn area: 0%
+[01:00:36] [Worker-Main-11/INFO]: Preparing spawn area: 0%
+[01:00:36] [Worker-Main-12/INFO]: Preparing spawn area: 0%
+[01:00:36] [Worker-Main-11/INFO]: Preparing spawn area: 0%
+[01:00:36] [Worker-Main-12/INFO]: Preparing spawn area: 0%
+[01:00:36] [Worker-Main-11/INFO]: Preparing spawn area: 0%
 [01:00:36] [Worker-Main-9/INFO]: Preparing spawn area: 0%
-[01:00:36] [Worker-Main-11/INFO]: Preparing spawn area: 0%
-[01:00:36] [Worker-Main-11/INFO]: Preparing spawn area: 0%
-[01:00:36] [Worker-Main-11/INFO]: Preparing spawn area: 0%
-[01:00:36] [Worker-Main-11/INFO]: Preparing spawn area: 0%
-[01:00:36] [Worker-Main-14/INFO]: Preparing spawn area: 0%
-[01:00:36] [Worker-Main-9/INFO]: Preparing spawn area: 0%
-[01:00:36] [Worker-Main-9/INFO]: Preparing spawn area: 0%
-[01:00:36] [Worker-Main-14/INFO]: Preparing spawn area: 0%
-[01:00:37] [Worker-Main-11/INFO]: Preparing spawn area: 0%
+[01:00:37] [Worker-Main-10/INFO]: Preparing spawn area: 0%
 [01:00:37] [Worker-Main-12/INFO]: Preparing spawn area: 0%
-[01:00:38] [Worker-Main-10/INFO]: Preparing spawn area: 0%
 [01:00:38] [Worker-Main-11/INFO]: Preparing spawn area: 0%
-[01:00:39] [Worker-Main-13/INFO]: Preparing spawn area: 0%
-[01:00:39] [Worker-Main-11/INFO]: Preparing spawn area: 0%
-[01:00:40] [Worker-Main-8/INFO]: Preparing spawn area: 0%
+[01:00:38] [Worker-Main-14/INFO]: Preparing spawn area: 0%
+[01:00:39] [Worker-Main-14/INFO]: Preparing spawn area: 0%
+[01:00:39] [Worker-Main-14/INFO]: Preparing spawn area: 0%
+[01:00:40] [Worker-Main-14/INFO]: Preparing spawn area: 0%
 [01:00:40] [Worker-Main-11/INFO]: Preparing spawn area: 0%
-[01:00:41] [Worker-Main-14/INFO]: Preparing spawn area: 0%
-[01:00:41] [Worker-Main-13/INFO]: Preparing spawn area: 0%
-[01:00:42] [Worker-Main-12/INFO]: Preparing spawn area: 0%
+[01:00:41] [Worker-Main-8/INFO]: Preparing spawn area: 0%
+[01:00:41] [Worker-Main-12/INFO]: Preparing spawn area: 0%
 [01:00:42] [Worker-Main-8/INFO]: Preparing spawn area: 0%
-[01:00:43] [Worker-Main-8/INFO]: Preparing spawn area: 0%
-[01:00:43] [Worker-Main-12/INFO]: Preparing spawn area: 0%
-[01:00:44] [Worker-Main-8/INFO]: Preparing spawn area: 0%
-[01:00:44] [Worker-Main-13/INFO]: Preparing spawn area: 0%
-[01:00:45] [Worker-Main-12/INFO]: Preparing spawn area: 0%
-[01:00:45] [Worker-Main-14/INFO]: Preparing spawn area: 0%
-[01:00:46] [Worker-Main-13/INFO]: Preparing spawn area: 1%
-[01:00:46] [Worker-Main-9/INFO]: Preparing spawn area: 1%
-[01:00:47] [Worker-Main-11/INFO]: Preparing spawn area: 1%
-[01:00:47] [Worker-Main-9/INFO]: Preparing spawn area: 3%
-[01:00:48] [Worker-Main-9/INFO]: Preparing spawn area: 4%
-[01:00:48] [Worker-Main-12/INFO]: Preparing spawn area: 6%
-[01:00:49] [Worker-Main-8/INFO]: Preparing spawn area: 6%
-[01:00:49] [Worker-Main-12/INFO]: Preparing spawn area: 6%
-[01:00:50] [Worker-Main-14/INFO]: Preparing spawn area: 6%
-[01:00:50] [Worker-Main-14/INFO]: Preparing spawn area: 6%
-[01:00:51] [Worker-Main-9/INFO]: Preparing spawn area: 6%
-[01:00:51] [Worker-Main-10/INFO]: Preparing spawn area: 6%
-[01:00:52] [Worker-Main-10/INFO]: Preparing spawn area: 6%
-[01:00:52] [Worker-Main-10/INFO]: Preparing spawn area: 6%
-[01:00:53] [Worker-Main-12/INFO]: Preparing spawn area: 6%
-[01:00:53] [Worker-Main-12/INFO]: Preparing spawn area: 7%
-[01:00:54] [Worker-Main-11/INFO]: Preparing spawn area: 7%
-[01:00:54] [Worker-Main-14/INFO]: Preparing spawn area: 10%
-[01:00:55] [Worker-Main-10/INFO]: Preparing spawn area: 11%
-[01:00:55] [Worker-Main-11/INFO]: Preparing spawn area: 11%
-[01:00:56] [Worker-Main-8/INFO]: Preparing spawn area: 11%
-[01:00:56] [Worker-Main-9/INFO]: Preparing spawn area: 11%
-[01:00:57] [Worker-Main-12/INFO]: Preparing spawn area: 11%
-[01:00:57] [Worker-Main-10/INFO]: Preparing spawn area: 11%
-[01:00:58] [Worker-Main-13/INFO]: Preparing spawn area: 12%
-[01:00:58] [Worker-Main-13/INFO]: Preparing spawn area: 14%
-[01:00:59] [Worker-Main-14/INFO]: Preparing spawn area: 17%
-[01:00:59] [Worker-Main-10/INFO]: Preparing spawn area: 21%
-[01:01:00] [Worker-Main-9/INFO]: Preparing spawn area: 24%
-[01:01:00] [Worker-Main-9/INFO]: Preparing spawn area: 24%
-[01:01:01] [Worker-Main-12/INFO]: Preparing spawn area: 28%
-[01:01:01] [Worker-Main-12/INFO]: Preparing spawn area: 33%
-[01:01:02] [Worker-Main-10/INFO]: Preparing spawn area: 37%
-[01:01:02] [Worker-Main-8/INFO]: Preparing spawn area: 39%
-[01:01:03] [Worker-Main-9/INFO]: Preparing spawn area: 42%
-[01:01:03] [Worker-Main-13/INFO]: Preparing spawn area: 48%
-[01:01:04] [Worker-Main-12/INFO]: Preparing spawn area: 52%
-[01:01:04] [Worker-Main-9/INFO]: Preparing spawn area: 54%
-[01:01:05] [Worker-Main-9/INFO]: Preparing spawn area: 56%
-[01:01:05] [Worker-Main-11/INFO]: Preparing spawn area: 58%
-[01:01:06] [Worker-Main-9/INFO]: Preparing spawn area: 59%
-[01:01:06] [Worker-Main-9/INFO]: Preparing spawn area: 62%
-[01:01:07] [Worker-Main-8/INFO]: Preparing spawn area: 71%
-[01:01:07] [Worker-Main-11/INFO]: Preparing spawn area: 73%
-[01:01:08] [Worker-Main-14/INFO]: Preparing spawn area: 76%
-[01:01:08] [Worker-Main-9/INFO]: Preparing spawn area: 84%
-[01:01:09] [Worker-Main-13/INFO]: Preparing spawn area: 96%
-[01:01:09] [Server thread/INFO]: Time elapsed: 41599 ms
-[01:01:09] [Server thread/INFO]: Done (42.071s)! For help, type "help"
-[01:01:09] [Server thread/INFO]: Starting GS4 status listener
-[01:01:09] [Server thread/INFO]: Thread Query Listener started
-[01:01:09] [Query Listener #1/INFO]: Query running on 0.0.0.0:25565
-[01:01:13] [Server thread/WARN]: UUID of added entity already exists: class_1531['Armor Stand'/155, l='ServerLevel[faro]', x=16562064.50, y=1000.00, z=-22242911.50]
-[01:11:11] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2106ms or 42 ticks behind
-[01:31:14] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2546ms or 50 ticks behind
-[01:56:16] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2358ms or 47 ticks behind
-[02:26:19] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2734ms or 54 ticks behind
-[05:01:21] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2347ms or 46 ticks behind
-[06:31:24] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2282ms or 45 ticks behind
-[06:55:07] [User Authenticator #1/INFO]: UUID of player davehlewis is 3dfd1cd3-4bc2-40bd-8e5e-9c28e9a3b850
-[06:55:07] [Server thread/INFO]: davehlewis[/127.0.0.1:34400] logged in with entity id 253 at (498.5482479079413, 68.0, 142.89286660812454)
-[06:55:07] [Server thread/INFO]: davehlewis joined the game
-[06:55:12] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2495ms or 49 ticks behind
-[06:55:30] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2635ms or 52 ticks behind
-[06:56:08] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2431ms or 48 ticks behind
-[06:56:20] [Server thread/WARN]: davehlewis moved too quickly! 9.752938103825727,1.8016000086069113,1.8507100106369307
-[06:56:25] [Server thread/WARN]: davehlewis moved too quickly! 6.460342624379791,-4.940486886095101,-15.80152824755578
-[06:56:26] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2195ms or 43 ticks behind
-[06:58:07] [Server thread/WARN]: davehlewis moved too quickly! 4.229262001795178,2.9506875852314707,8.729579045704213
-[06:58:12] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2121ms or 42 ticks behind
-[06:58:12] [Server thread/WARN]: davehlewis moved too quickly! -7.018740161602182,4.687940984705058,6.121196742574057
-[06:58:16] [Server thread/WARN]: davehlewis moved too quickly! 5.484918438666682,-8.31722800581192,3.2205132841554587
-[06:58:22] [Server thread/WARN]: davehlewis moved too quickly! 3.8491373527886026,0.0,9.333925132156537
-[06:58:27] [Server thread/WARN]: davehlewis moved too quickly! -5.158730876864411,-7.115553018459984,5.2541425121171415
-[07:03:17] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2475ms or 49 ticks behind
-[07:03:17] [Server thread/WARN]: davehlewis moved too quickly! -5.842667627827566,6.556831556509991,4.954845621536947
-[07:04:14] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3895ms or 77 ticks behind
-[07:04:14] [Server thread/WARN]: davehlewis moved too quickly! -5.450718296107993,-4.954477462352557,15.820226823079338
-[07:04:18] [Server thread/WARN]: davehlewis moved too quickly! -2.373532496478788,-5.305241240164108,16.50128628092466
-[07:05:10] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3279ms or 65 ticks behind
-[07:05:10] [Server thread/WARN]: davehlewis moved too quickly! 17.113386538472014,-2.691416963778721,1.6024520010441847
-[07:05:14] [Server thread/WARN]: davehlewis moved too quickly! 16.462506720834142,-5.601852713018744,2.868444757612906
-[07:09:17] [Server thread/WARN]: davehlewis moved too quickly! -3.101674592095833,0.3286209779308251,9.852856917607824
-[07:09:18] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2075ms or 41 ticks behind
-[07:11:13] [Server thread/WARN]: davehlewis moved too quickly! -0.06306394692751383,6.375000253319662,-8.215638239201326
-[07:11:13] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2162ms or 43 ticks behind
-[07:13:03] [Server thread/INFO]: davehlewis lost connection: Disconnected
-[07:13:03] [Server thread/INFO]: davehlewis left the game
-[12:42:11] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2206ms or 44 ticks behind
-[16:47:16] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2235ms or 44 ticks behind
-[21:29:03] [User Authenticator #2/INFO]: UUID of player davehlewis is 3dfd1cd3-4bc2-40bd-8e5e-9c28e9a3b850
-[21:29:04] [Server thread/INFO]: davehlewis[/127.0.0.1:45090] logged in with entity id 11946 at (-1012.3392821834418, 76.0, -1179.401313057914)
-[21:29:04] [Server thread/INFO]: davehlewis joined the game
-[21:34:41] [Server thread/INFO]: davehlewis lost connection: Disconnected
-[21:34:41] [Server thread/INFO]: davehlewis left the game
+[01:00:42] [Worker-Main-13/INFO]: Preparing spawn area: 0%
+[01:00:43] [Worker-Main-9/INFO]: Preparing spawn area: 0%
+[01:00:43] [Worker-Main-13/INFO]: Preparing spawn area: 0%
+[01:00:44] [Worker-Main-14/INFO]: Preparing spawn area: 1%
+[01:00:44] [Worker-Main-9/INFO]: Preparing spawn area: 1%
+[01:00:45] [Worker-Main-8/INFO]: Preparing spawn area: 1%
+[01:00:45] [Worker-Main-8/INFO]: Preparing spawn area: 1%
+[01:00:46] [Worker-Main-11/INFO]: Preparing spawn area: 1%
+[01:00:46] [Worker-Main-14/INFO]: Preparing spawn area: 1%
+[01:00:47] [Worker-Main-12/INFO]: Preparing spawn area: 1%
+[01:00:47] [Worker-Main-14/INFO]: Preparing spawn area: 1%
+[01:00:48] [Worker-Main-8/INFO]: Preparing spawn area: 2%
+[01:00:48] [Worker-Main-9/INFO]: Preparing spawn area: 3%
+[01:00:49] [Worker-Main-10/INFO]: Preparing spawn area: 4%
+[01:00:49] [Worker-Main-14/INFO]: Preparing spawn area: 6%
+[01:00:50] [Worker-Main-13/INFO]: Preparing spawn area: 12%
+[01:00:50] [Worker-Main-8/INFO]: Preparing spawn area: 15%
+[01:00:51] [Worker-Main-12/INFO]: Preparing spawn area: 16%
+[01:00:51] [Worker-Main-9/INFO]: Preparing spawn area: 16%
+[01:00:52] [Worker-Main-10/INFO]: Preparing spawn area: 16%
+[01:00:52] [Worker-Main-11/INFO]: Preparing spawn area: 16%
+[01:00:53] [Worker-Main-13/INFO]: Preparing spawn area: 18%
+[01:00:53] [Worker-Main-11/INFO]: Preparing spawn area: 20%
+[01:00:54] [Worker-Main-9/INFO]: Preparing spawn area: 20%
+[01:00:54] [Worker-Main-11/INFO]: Preparing spawn area: 20%
+[01:00:55] [Worker-Main-13/INFO]: Preparing spawn area: 34%
+[01:00:55] [Worker-Main-10/INFO]: Preparing spawn area: 36%
+[01:00:56] [Worker-Main-14/INFO]: Preparing spawn area: 38%
+[01:00:56] [Worker-Main-14/INFO]: Preparing spawn area: 44%
+[01:00:57] [Worker-Main-9/INFO]: Preparing spawn area: 45%
+[01:00:57] [Worker-Main-13/INFO]: Preparing spawn area: 47%
+[01:00:58] [Worker-Main-11/INFO]: Preparing spawn area: 49%
+[01:00:58] [Worker-Main-13/INFO]: Preparing spawn area: 49%
+[01:00:59] [Worker-Main-13/INFO]: Preparing spawn area: 55%
+[01:00:59] [Worker-Main-12/INFO]: Preparing spawn area: 57%
+[01:01:00] [Worker-Main-14/INFO]: Preparing spawn area: 61%
+[01:01:00] [Worker-Main-12/INFO]: Preparing spawn area: 64%
+[01:01:01] [Worker-Main-8/INFO]: Preparing spawn area: 69%
+[01:01:01] [Worker-Main-13/INFO]: Preparing spawn area: 74%
+[01:01:02] [Worker-Main-11/INFO]: Preparing spawn area: 78%
+[01:01:02] [Worker-Main-8/INFO]: Preparing spawn area: 82%
+[01:01:03] [Worker-Main-11/INFO]: Preparing spawn area: 86%
+[01:01:03] [Worker-Main-12/INFO]: Preparing spawn area: 90%
+[01:01:04] [Worker-Main-13/INFO]: Preparing spawn area: 95%
+[01:01:04] [Worker-Main-12/INFO]: Preparing spawn area: 97%
+[01:01:05] [Server thread/INFO]: Time elapsed: 39256 ms
+[01:01:05] [Server thread/INFO]: Done (40.100s)! For help, type "help"
+[01:01:05] [Server thread/INFO]: Starting GS4 status listener
+[01:01:05] [Server thread/INFO]: Thread Query Listener started
+[01:01:05] [Query Listener #1/INFO]: Query running on 0.0.0.0:25565
+[01:01:10] [Server thread/WARN]: UUID of added entity already exists: class_1531['Armor Stand'/154, l='ServerLevel[faro]', x=16562064.50, y=1000.00, z=-22242911.50]
+[01:11:08] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2768ms or 55 ticks behind
+[01:51:11] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2602ms or 52 ticks behind
+[02:36:14] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3114ms or 62 ticks behind
+[03:41:16] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2240ms or 44 ticks behind
+[05:26:21] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4422ms or 88 ticks behind
+[10:46:24] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3577ms or 71 ticks behind
+[11:26:31] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6690ms or 133 ticks behind
+[13:16:33] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2629ms or 52 ticks behind
+[22:52:19] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2461ms or 49 ticks behind
+[23:39:12] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2075ms or 41 ticks behind
