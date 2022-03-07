@@ -1,10 +1,10 @@
 Starting net.fabricmc.loader.impl.game.minecraft.BundlerClassPathCapture
-[01:00:16] [INFO] [FabricLoader/GameProvider]: Loading Minecraft 1.18.1 with Fabric Loader 0.12.12
-[01:00:17] [main/INFO]: Loading Minecraft 1.18.1 with Fabric Loader 0.12.12
-[01:00:17] [main/WARN]: Warnings were found!
+[01:00:09] [INFO] [FabricLoader/GameProvider]: Loading Minecraft 1.18.1 with Fabric Loader 0.12.12
+[01:00:10] [main/INFO]: Loading Minecraft 1.18.1 with Fabric Loader 0.12.12
+[01:00:10] [main/WARN]: Warnings were found!
  - Mod 'Fabric Rendering Fluids (v1)' (fabric-rendering-fluids-v1) 0.1.18+3ac43d9565 recommends any version of fabric-textures-v0, which is disabled for this environment (client/server only)!
 	 - You should install any version of fabric-textures-v0 for the optimal experience.
-[01:00:17] [main/INFO]: Loading 39 mods:
+[01:00:10] [main/INFO]: Loading 39 mods:
 	- fabric 0.45.0+1.18
 	- fabric-api-base 0.4.1+b4f4f6cd65 via fabric
 	- fabric-api-lookup-api-v1 1.5.0+17be577f65 via fabric
@@ -44,193 +44,101 @@ Starting net.fabricmc.loader.impl.game.minecraft.BundlerClassPathCapture
 	- lithium 0.7.6
 	- minecraft 1.18.1
 	- servux 0.1.0
-[01:00:17] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.4 Source=file:/opt/mscs/worlds/faro/libraries/net/fabricmc/sponge-mixin/0.10.7+mixin.0.8.4/sponge-mixin-0.10.7+mixin.0.8.4.jar Service=Knot/Fabric Env=SERVER
-[01:00:17] [main/INFO]: Compatibility level set to JAVA_16
-[01:00:17] [main/INFO]: Loaded configuration file for Lithium: 87 options available, 0 override(s) found
-[01:00:23] [main/WARN]: @Inject(@At("INVOKE")) Shift.BY=3 on fabric-lifecycle-events-v1.mixins.json:server.WorldChunkMixin::handler$zca000$onLoadBlockEntity exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
-[01:00:26] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[01:00:28] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[01:00:28] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[01:00:28] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[01:00:28] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[01:00:28] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[01:00:28] [main/INFO]: Reloading ResourceManager: Default, Fabric Mods (Fabric Tool Attribute API (v1)), afk display v1.1.2.zip, anti enderman grief v1.1.2.zip, armor statues v2.8.3.zip, cauldron concrete v2.0.5.zip, coordinates hud v1.2.2.zip, count mob deaths v1.1.2.zip, double shulker shells v1.3.2.zip, fast leaf decay v2.0.5.zip, more mob heads v2.9.4.zip, player head drops v1.1.2.zip, silence mobs v1.1.2.zip, spectator conduit power v1.1.2.zip, spectator night vision v1.1.2.zip, track raw statistics v1.5.2.zip, track statistics v1.1.3.zip, villager workstation highlights v1.1.2.zip, wandering trades v1.5.1.zip
-[01:00:29] [Worker-Main-12/INFO]: Loaded 7 recipes
-[01:00:29] [Worker-Main-12/WARN]: Found validation problem in {minecraft:entities/ender_dragon}.pools[0].entries[0]: Unknown loot table called minecraft:entities/reference/extra/ender_dragon
-[01:00:29] [Worker-Main-12/INFO]: Loaded 1162 advancements
-[01:00:31] [main/INFO]: Applied 0 biome modifications to 0 of 61 new biomes in 1.996 ms
-[01:00:33] [Server thread/INFO]: Starting minecraft server version 1.18.1
-[01:00:33] [Server thread/INFO]: Loading properties
-[01:00:33] [Server thread/INFO]: Default game type: SURVIVAL
-[01:00:33] [Server thread/INFO]: Generating keypair
-[01:00:33] [Server thread/INFO]: Starting Minecraft server on *:25565
-[01:00:33] [Server thread/INFO]: Using epoll channel type
-[01:00:34] [Server thread/INFO]: Preparing level "faro"
-[01:00:34] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[01:00:36] [Worker-Main-14/INFO]: Preparing spawn area: 0%
-[01:00:36] [Worker-Main-10/INFO]: Preparing spawn area: 0%
-[01:00:36] [Worker-Main-10/INFO]: Preparing spawn area: 0%
-[01:00:36] [Worker-Main-8/INFO]: Preparing spawn area: 0%
-[01:00:36] [Worker-Main-11/INFO]: Preparing spawn area: 0%
-[01:00:37] [Worker-Main-12/INFO]: Preparing spawn area: 0%
-[01:00:37] [Worker-Main-13/INFO]: Preparing spawn area: 0%
-[01:00:38] [Worker-Main-8/INFO]: Preparing spawn area: 0%
-[01:00:38] [Worker-Main-12/INFO]: Preparing spawn area: 0%
-[01:00:39] [Worker-Main-9/INFO]: Preparing spawn area: 0%
-[01:00:39] [Worker-Main-14/INFO]: Preparing spawn area: 0%
-[01:00:40] [Worker-Main-10/INFO]: Preparing spawn area: 0%
-[01:00:47] [Worker-Main-13/INFO]: Preparing spawn area: 0%
-[01:00:47] [Worker-Main-14/INFO]: Preparing spawn area: 0%
-[01:00:47] [Worker-Main-14/INFO]: Preparing spawn area: 0%
-[01:00:47] [Worker-Main-14/INFO]: Preparing spawn area: 0%
-[01:00:47] [Worker-Main-14/INFO]: Preparing spawn area: 0%
-[01:00:47] [Worker-Main-10/INFO]: Preparing spawn area: 0%
-[01:00:47] [Worker-Main-10/INFO]: Preparing spawn area: 0%
-[01:00:47] [Worker-Main-10/INFO]: Preparing spawn area: 0%
-[01:00:47] [Worker-Main-10/INFO]: Preparing spawn area: 0%
-[01:00:47] [Worker-Main-10/INFO]: Preparing spawn area: 0%
-[01:00:47] [Worker-Main-10/INFO]: Preparing spawn area: 0%
-[01:00:47] [Worker-Main-8/INFO]: Preparing spawn area: 0%
-[01:00:47] [Worker-Main-8/INFO]: Preparing spawn area: 0%
-[01:00:47] [Worker-Main-10/INFO]: Preparing spawn area: 0%
-[01:00:47] [Worker-Main-8/INFO]: Preparing spawn area: 0%
-[01:00:48] [Worker-Main-12/INFO]: Preparing spawn area: 14%
-[01:00:49] [Worker-Main-8/INFO]: Preparing spawn area: 14%
-[01:00:49] [Worker-Main-11/INFO]: Preparing spawn area: 15%
-[01:00:49] [Worker-Main-13/INFO]: Preparing spawn area: 18%
-[01:00:50] [Worker-Main-10/INFO]: Preparing spawn area: 18%
-[01:00:50] [Worker-Main-14/INFO]: Preparing spawn area: 18%
-[01:00:51] [Worker-Main-14/INFO]: Preparing spawn area: 19%
-[01:00:51] [Worker-Main-11/INFO]: Preparing spawn area: 20%
-[01:00:52] [Worker-Main-11/INFO]: Preparing spawn area: 20%
-[01:00:52] [Worker-Main-9/INFO]: Preparing spawn area: 28%
+[01:00:10] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.4 Source=file:/opt/mscs/worlds/faro/libraries/net/fabricmc/sponge-mixin/0.10.7+mixin.0.8.4/sponge-mixin-0.10.7+mixin.0.8.4.jar Service=Knot/Fabric Env=SERVER
+[01:00:10] [main/INFO]: Compatibility level set to JAVA_16
+[01:00:10] [main/INFO]: Loaded configuration file for Lithium: 87 options available, 0 override(s) found
+[01:00:19] [main/WARN]: @Inject(@At("INVOKE")) Shift.BY=3 on fabric-lifecycle-events-v1.mixins.json:server.WorldChunkMixin::handler$zca000$onLoadBlockEntity exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
+[01:00:23] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[01:00:24] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[01:00:24] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[01:00:24] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[01:00:24] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[01:00:24] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[01:00:24] [main/INFO]: Reloading ResourceManager: Default, Fabric Mods (Fabric Tool Attribute API (v1)), afk display v1.1.2.zip, anti enderman grief v1.1.2.zip, armor statues v2.8.3.zip, cauldron concrete v2.0.5.zip, coordinates hud v1.2.2.zip, count mob deaths v1.1.2.zip, double shulker shells v1.3.2.zip, fast leaf decay v2.0.5.zip, more mob heads v2.9.4.zip, player head drops v1.1.2.zip, silence mobs v1.1.2.zip, spectator conduit power v1.1.2.zip, spectator night vision v1.1.2.zip, track raw statistics v1.5.2.zip, track statistics v1.1.3.zip, villager workstation highlights v1.1.2.zip, wandering trades v1.5.1.zip
+[01:00:25] [Worker-Main-14/INFO]: Loaded 7 recipes
+[01:00:26] [Worker-Main-14/WARN]: Found validation problem in {minecraft:entities/ender_dragon}.pools[0].entries[0]: Unknown loot table called minecraft:entities/reference/extra/ender_dragon
+[01:00:26] [Worker-Main-14/INFO]: Loaded 1162 advancements
+[01:00:28] [main/INFO]: Applied 0 biome modifications to 0 of 61 new biomes in 2.468 ms
+[01:00:29] [Server thread/INFO]: Starting minecraft server version 1.18.1
+[01:00:29] [Server thread/INFO]: Loading properties
+[01:00:29] [Server thread/INFO]: Default game type: SURVIVAL
+[01:00:29] [Server thread/INFO]: Generating keypair
+[01:00:30] [Server thread/INFO]: Starting Minecraft server on *:25565
+[01:00:30] [Server thread/INFO]: Using epoll channel type
+[01:00:30] [Server thread/INFO]: Preparing level "faro"
+[01:00:31] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[01:00:33] [Worker-Main-8/INFO]: Preparing spawn area: 0%
+[01:00:33] [Worker-Main-14/INFO]: Preparing spawn area: 0%
+[01:00:33] [Worker-Main-8/INFO]: Preparing spawn area: 0%
+[01:00:33] [Worker-Main-13/INFO]: Preparing spawn area: 0%
+[01:00:33] [Worker-Main-8/INFO]: Preparing spawn area: 0%
+[01:00:34] [Worker-Main-9/INFO]: Preparing spawn area: 0%
+[01:00:34] [Worker-Main-14/INFO]: Preparing spawn area: 0%
+[01:00:34] [Worker-Main-13/INFO]: Preparing spawn area: 0%
+[01:00:35] [Worker-Main-8/INFO]: Preparing spawn area: 0%
+[01:00:35] [Worker-Main-11/INFO]: Preparing spawn area: 0%
+[01:00:36] [Worker-Main-13/INFO]: Preparing spawn area: 0%
+[01:00:42] [Worker-Main-11/INFO]: Preparing spawn area: 0%
+[01:00:42] [Worker-Main-8/INFO]: Preparing spawn area: 0%
+[01:00:42] [Worker-Main-11/INFO]: Preparing spawn area: 0%
+[01:00:42] [Worker-Main-8/INFO]: Preparing spawn area: 0%
+[01:00:42] [Worker-Main-10/INFO]: Preparing spawn area: 0%
+[01:00:42] [Worker-Main-11/INFO]: Preparing spawn area: 0%
+[01:00:42] [Worker-Main-14/INFO]: Preparing spawn area: 0%
+[01:00:42] [Worker-Main-14/INFO]: Preparing spawn area: 0%
+[01:00:42] [Worker-Main-14/INFO]: Preparing spawn area: 0%
+[01:00:42] [Worker-Main-11/INFO]: Preparing spawn area: 0%
+[01:00:42] [Worker-Main-10/INFO]: Preparing spawn area: 0%
+[01:00:42] [Worker-Main-13/INFO]: Preparing spawn area: 0%
+[01:00:42] [Worker-Main-12/INFO]: Preparing spawn area: 4%
+[01:00:43] [Worker-Main-8/INFO]: Preparing spawn area: 4%
+[01:00:43] [Worker-Main-14/INFO]: Preparing spawn area: 4%
+[01:00:44] [Worker-Main-14/INFO]: Preparing spawn area: 4%
+[01:00:44] [Worker-Main-9/INFO]: Preparing spawn area: 4%
+[01:00:45] [Worker-Main-10/INFO]: Preparing spawn area: 4%
+[01:00:45] [Worker-Main-12/INFO]: Preparing spawn area: 4%
+[01:00:46] [Worker-Main-10/INFO]: Preparing spawn area: 4%
+[01:00:46] [Worker-Main-8/INFO]: Preparing spawn area: 4%
+[01:00:47] [Worker-Main-8/INFO]: Preparing spawn area: 4%
+[01:00:47] [Worker-Main-13/INFO]: Preparing spawn area: 4%
+[01:00:48] [Worker-Main-11/INFO]: Preparing spawn area: 6%
+[01:00:48] [Worker-Main-12/INFO]: Preparing spawn area: 6%
+[01:00:49] [Worker-Main-14/INFO]: Preparing spawn area: 7%
+[01:00:50] [Worker-Main-11/INFO]: Preparing spawn area: 12%
+[01:00:50] [Worker-Main-11/INFO]: Preparing spawn area: 16%
+[01:00:50] [Worker-Main-8/INFO]: Preparing spawn area: 19%
+[01:00:51] [Worker-Main-9/INFO]: Preparing spawn area: 26%
+[01:00:51] [Worker-Main-13/INFO]: Preparing spawn area: 28%
+[01:00:52] [Worker-Main-14/INFO]: Preparing spawn area: 31%
+[01:00:52] [Worker-Main-9/INFO]: Preparing spawn area: 33%
 [01:00:53] [Worker-Main-13/INFO]: Preparing spawn area: 35%
-[01:00:53] [Worker-Main-12/INFO]: Preparing spawn area: 37%
-[01:00:54] [Worker-Main-9/INFO]: Preparing spawn area: 38%
-[01:00:54] [Worker-Main-13/INFO]: Preparing spawn area: 40%
-[01:00:55] [Worker-Main-13/INFO]: Preparing spawn area: 48%
-[01:00:55] [Worker-Main-12/INFO]: Preparing spawn area: 52%
-[01:00:56] [Worker-Main-9/INFO]: Preparing spawn area: 55%
-[01:00:56] [Worker-Main-8/INFO]: Preparing spawn area: 55%
-[01:00:57] [Worker-Main-8/INFO]: Preparing spawn area: 58%
-[01:00:57] [Worker-Main-14/INFO]: Preparing spawn area: 58%
-[01:00:58] [Worker-Main-9/INFO]: Preparing spawn area: 63%
-[01:00:58] [Worker-Main-8/INFO]: Preparing spawn area: 63%
-[01:00:59] [Worker-Main-8/INFO]: Preparing spawn area: 64%
-[01:00:59] [Worker-Main-8/INFO]: Preparing spawn area: 65%
-[01:01:00] [Worker-Main-12/INFO]: Preparing spawn area: 66%
-[01:01:00] [Worker-Main-8/INFO]: Preparing spawn area: 71%
-[01:01:01] [Worker-Main-14/INFO]: Preparing spawn area: 75%
-[01:01:01] [Worker-Main-9/INFO]: Preparing spawn area: 79%
-[01:01:02] [Worker-Main-13/INFO]: Preparing spawn area: 83%
-[01:01:02] [Worker-Main-13/INFO]: Preparing spawn area: 86%
-[01:01:03] [Worker-Main-11/INFO]: Preparing spawn area: 88%
-[01:01:03] [Worker-Main-8/INFO]: Preparing spawn area: 91%
-[01:01:04] [Worker-Main-10/INFO]: Preparing spawn area: 93%
-[01:01:04] [Worker-Main-14/INFO]: Preparing spawn area: 95%
-[01:01:05] [Server thread/INFO]: Time elapsed: 31104 ms
-[01:01:05] [Server thread/INFO]: Done (31.666s)! For help, type "help"
-[01:01:05] [Server thread/INFO]: Starting GS4 status listener
-[01:01:05] [Server thread/INFO]: Thread Query Listener started
-[01:01:05] [Query Listener #1/INFO]: Query running on 0.0.0.0:25565
-[01:01:09] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2007ms or 40 ticks behind
-[01:01:17] [Server thread/WARN]: UUID of added entity already exists: class_1531['Armor Stand'/152, l='ServerLevel[faro]', x=16562064.50, y=1000.00, z=-22242911.50]
-[01:06:12] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4286ms or 85 ticks behind
-[01:11:15] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3659ms or 73 ticks behind
-[01:26:22] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6252ms or 125 ticks behind
-[02:24:52] [User Authenticator #1/INFO]: UUID of player Dr_Axe is 0424b0ed-ade1-4d75-84c9-3c24168041cf
-[02:24:53] [Server thread/INFO]: Dr_Axe[/127.0.0.1:48050] logged in with entity id 179 at (-3690.7179478136354, 64.0, 46.03205760333548)
-[02:24:53] [Server thread/INFO]: Dr_Axe joined the game
-[02:26:25] [Server thread/WARN]: Boat (vehicle of Dr_Axe) moved too quickly! 9.99837661345964,0.0,-0.20431464352342488
-[02:26:25] [Server thread/WARN]: Boat (vehicle of Dr_Axe) moved too quickly! 10.352236789258313,0.0,-0.07622483477464925
-[02:26:25] [Server thread/WARN]: Boat (vehicle of Dr_Axe) moved too quickly! 10.69435060868227,0.0,0.07132082617787816
-[02:26:25] [Server thread/WARN]: Boat (vehicle of Dr_Axe) moved too quickly! 11.022155537400067,0.0,0.23880713304063406
-[02:26:25] [Server thread/WARN]: Boat (vehicle of Dr_Axe) moved too quickly! 11.332865594530176,0.0,0.42633950867770665
-[02:26:25] [Server thread/WARN]: Boat (vehicle of Dr_Axe) moved too quickly! 11.6235385702862,0.0,0.6335656311903897
-[02:26:25] [Server thread/WARN]: Boat (vehicle of Dr_Axe) moved too quickly! 11.891157572074462,0.0,0.8596139721978311
-[02:26:25] [Server thread/WARN]: Boat (vehicle of Dr_Axe) moved too quickly! 12.132724096220954,0.0,1.1030511137505066
-[02:26:25] [Server thread/WARN]: Boat (vehicle of Dr_Axe) moved too quickly! 12.346060646427759,0.0,1.3619365961959708
-[02:26:25] [Server thread/WARN]: Boat (vehicle of Dr_Axe) moved too quickly! 12.529726564082011,0.0,1.6340550626252295
-[02:26:25] [Server thread/WARN]: Boat (vehicle of Dr_Axe) moved too quickly! 12.682938336509324,0.0,1.9170916016515953
-[02:26:25] [Server thread/WARN]: Boat (vehicle of Dr_Axe) moved too quickly! 12.80545783917114,0.0,2.2087531896236037
-[02:26:25] [Server thread/WARN]: Boat (vehicle of Dr_Axe) moved too quickly! 12.897501559078137,0.0,2.5068560839067686
-[02:26:25] [Server thread/WARN]: Boat (vehicle of Dr_Axe) moved too quickly! 12.959645373059175,0.0,2.809378709002093
-[02:26:25] [Server thread/WARN]: Boat (vehicle of Dr_Axe) moved too quickly! 12.992743574667657,0.0,3.1144931645226706
-[02:26:25] [Server thread/WARN]: Boat (vehicle of Dr_Axe) moved too quickly! 12.997856235886047,0.0,3.42057804791132
-[02:26:25] [Server thread/WARN]: Boat (vehicle of Dr_Axe) moved too quickly! 12.976188718381309,0.0,3.7262197168102382
-[02:26:25] [Server thread/WARN]: Boat (vehicle of Dr_Axe) moved too quickly! 12.929048061191224,0.0,4.030211504806484
-[02:26:25] [Server thread/WARN]: Boat (vehicle of Dr_Axe) moved too quickly! 12.857797430177925,0.0,4.331538105128526
-[02:26:25] [Server thread/WARN]: Boat (vehicle of Dr_Axe) moved too quickly! 12.763826106554916,0.0,4.629363427047437
-[02:26:25] [Server thread/WARN]: Boat (vehicle of Dr_Axe) moved too quickly! 12.64852212638516,0.0,4.923012458201512
-[02:26:25] [Server thread/WARN]: Boat (vehicle of Dr_Axe) moved too quickly! 12.513252476655907,0.0,5.211954186317595
-[02:26:25] [Server thread/WARN]: Boat (vehicle of Dr_Axe) moved too quickly! 12.35976943888818,0.0,5.496344077944332
-[02:26:25] [Server thread/WARN]: Boat (vehicle of Dr_Axe) moved too quickly! 12.190103210720281,0.0,5.776907258824796
-[02:26:25] [Server thread/WARN]: Boat (vehicle of Dr_Axe) moved too quickly! 12.006497792710434,0.0,6.054807628890693
-[02:26:25] [Server thread/WARN]: Boat (vehicle of Dr_Axe) moved too quickly! 11.811389298839458,0.0,6.33152930580108
-[02:26:25] [Server thread/WARN]: Boat (vehicle of Dr_Axe) moved too quickly! 11.607393724495978,0.0,6.608748956333585
-[02:26:25] [Server thread/WARN]: Boat (vehicle of Dr_Axe) moved too quickly! 11.397306828548608,0.0,6.888217171211885
-[02:26:25] [Server thread/WARN]: Boat (vehicle of Dr_Axe) moved too quickly! 11.18410596249987,0.0,7.171646190886278
-[02:26:25] [Server thread/WARN]: Boat (vehicle of Dr_Axe) moved too quickly! 10.970942051458678,0.0,7.460600104306682
-[02:26:25] [Server thread/WARN]: Boat (vehicle of Dr_Axe) moved too quickly! 10.761123786495318,0.0,7.7563944874133846
-[02:26:25] [Server thread/WARN]: Boat (vehicle of Dr_Axe) moved too quickly! 10.570512053366201,0.0,8.027283642820834
-[02:26:25] [Server thread/WARN]: Boat (vehicle of Dr_Axe) moved too quickly! 10.39896149809465,0.0,8.271083876229035
-[02:26:25] [Server thread/WARN]: Boat (vehicle of Dr_Axe) moved too quickly! 10.244566002440024,0.0,8.490504080483767
-[02:26:25] [Server thread/WARN]: Boat (vehicle of Dr_Axe) moved too quickly! 10.105610060032177,0.0,8.687982259081643
-[02:26:25] [Server thread/WARN]: Boat (vehicle of Dr_Axe) moved too quickly! 9.980549715177858,0.0,8.865712615111484
-[02:26:25] [Server thread/WARN]: Boat (vehicle of Dr_Axe) moved too quickly! 9.867995407790659,0.0,9.025669931300918
-[02:26:25] [Server thread/WARN]: Boat (vehicle of Dr_Axe) moved too quickly! 9.76669653382578,0.0,9.169631512057727
-[02:26:25] [Server thread/WARN]: Boat (vehicle of Dr_Axe) moved too quickly! 9.675527549672552,0.0,9.299196931306547
-[02:26:25] [Server thread/WARN]: Boat (vehicle of Dr_Axe) moved too quickly! 9.59347546610843,0.0,9.415805805541403
-[02:26:25] [Server thread/WARN]: Boat (vehicle of Dr_Axe) moved too quickly! 9.519628592856861,0.0,9.520753789572602
-[02:26:25] [Server thread/WARN]: Boat (vehicle of Dr_Axe) moved too quickly! 9.453166408691231,0.0,9.615206972698523
-[02:26:25] [Server thread/WARN]: Boat (vehicle of Dr_Axe) moved too quickly! 9.393350444526732,0.0,9.700214835259914
-[02:26:25] [Server thread/WARN]: Boat (vehicle of Dr_Axe) moved too quickly! 9.339516078204724,0.0,9.776721909538423
-[02:26:25] [Server thread/WARN]: Boat (vehicle of Dr_Axe) moved too quickly! 9.291065149798214,0.0,9.845578274565007
-[02:26:25] [Server thread/WARN]: Boat (vehicle of Dr_Axe) moved too quickly! 9.247459315387914,0.0,9.907549001447272
-[02:26:25] [Server thread/WARN]: Boat (vehicle of Dr_Axe) moved too quickly! 9.208214065457923,0.0,9.963322654163811
-[02:26:25] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3524ms or 70 ticks behind
-[02:26:25] [Server thread/WARN]: Boat (vehicle of Dr_Axe) moved too quickly! -0.4621681352059568,0.0,10.327241609414155
-[03:32:12] [Server thread/INFO]: Dr_Axe lost connection: Disconnected
-[03:32:12] [Server thread/INFO]: Dr_Axe left the game
-[03:32:15] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3005ms or 60 ticks behind
-[03:56:30] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2002ms or 40 ticks behind
-[04:46:32] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2432ms or 48 ticks behind
-[05:56:35] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2234ms or 44 ticks behind
-[13:06:37] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2594ms or 51 ticks behind
-[14:17:43] [User Authenticator #2/INFO]: UUID of player Dr_Axe is 0424b0ed-ade1-4d75-84c9-3c24168041cf
-[14:17:43] [Server thread/INFO]: Dr_Axe[/127.0.0.1:46600] logged in with entity id 12457 at (-3711.307578674052, 64.0, 45.697548640525625)
-[14:17:43] [Server thread/INFO]: Dr_Axe joined the game
-[14:20:21] [Server thread/INFO]: Dr_Axe has made the advancement [Enchanter]
-[14:22:23] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4050ms or 81 ticks behind
-[14:22:23] [Server thread/WARN]: Boat (vehicle of Dr_Axe) moved too quickly! 10.09490152257331,0.0,-1.2141712907206283
-[14:22:23] [Server thread/WARN]: Boat (vehicle of Dr_Axe) moved too quickly! 9.746161225908963,0.0,-3.510759987931081
-[14:22:23] [Server thread/WARN]: Boat (vehicle of Dr_Axe) moved too quickly! 10.11552193684065,0.0,-3.662818168888606
-[14:22:23] [Server thread/WARN]: Boat (vehicle of Dr_Axe) moved too quickly! 10.482584387848874,0.0,-3.819676063459383
-[14:22:23] [Server thread/WARN]: Boat (vehicle of Dr_Axe) moved too quickly! 10.846783878790575,0.0,-3.982170253149377
-[14:22:23] [Server thread/WARN]: Boat (vehicle of Dr_Axe) moved too quickly! 11.20765077355918,0.0,-4.150892264954493
-[14:22:23] [Server thread/WARN]: Boat (vehicle of Dr_Axe) moved too quickly! 11.564802014405814,0.0,-4.3262392060035495
-[14:22:23] [Server thread/WARN]: Boat (vehicle of Dr_Axe) moved too quickly! 11.917936424087202,0.0,-4.508448531393924
-[14:22:23] [Server thread/WARN]: Boat (vehicle of Dr_Axe) moved too quickly! 12.26683050759766,0.0,-4.697625427413257
-[14:22:23] [Server thread/WARN]: Boat (vehicle of Dr_Axe) moved too quickly! 12.611330471602741,0.0,-4.893769697200483
-[14:22:23] [Server thread/WARN]: Boat (vehicle of Dr_Axe) moved too quickly! 12.951338263762409,0.0,-5.096804783953644
-[14:22:23] [Server thread/WARN]: Boat (vehicle of Dr_Axe) moved too quickly! 13.286812745131556,0.0,-5.306585714262283
-[14:22:23] [Server thread/WARN]: Boat (vehicle of Dr_Axe) moved too quickly! 13.617754570109355,0.0,-5.52292291405513
-[14:22:23] [Server thread/WARN]: Boat (vehicle of Dr_Axe) moved too quickly! 13.944204642746627,0.0,-5.745588872176484
-[14:22:23] [Server thread/WARN]: Boat (vehicle of Dr_Axe) moved too quickly! 14.266234250524576,0.0,-5.974332094824845
-[14:22:23] [Server thread/WARN]: Boat (vehicle of Dr_Axe) moved too quickly! 14.583940992242788,0.0,-6.208883733885187
-[14:22:23] [Server thread/WARN]: Boat (vehicle of Dr_Axe) moved too quickly! 14.897444783431183,0.0,-6.448963304696093
-[14:22:23] [Server thread/WARN]: Boat (vehicle of Dr_Axe) moved too quickly! 15.206881176678507,0.0,-6.694286210637813
-[14:22:23] [Server thread/WARN]: Boat (vehicle of Dr_Axe) moved too quickly! 15.512397845875967,0.0,-6.944567624436118
-[14:22:23] [Server thread/WARN]: Boat (vehicle of Dr_Axe) moved too quickly! 15.814154083751873,0.0,-7.199523233934087
-[14:22:23] [Server thread/WARN]: Boat (vehicle of Dr_Axe) moved too quickly! 16.112311666006462,0.0,-7.45887749425242
-[14:22:23] [Server thread/WARN]: Boat (vehicle of Dr_Axe) moved too quickly! 16.40703788685596,0.0,-7.722360640684528
-[14:22:23] [Server thread/WARN]: Boat (vehicle of Dr_Axe) moved too quickly! 16.69850250378704,0.0,-7.989711061109034
-[14:22:23] [Server thread/WARN]: Boat (vehicle of Dr_Axe) moved too quickly! 16.986874892839296,0.0,-8.260677319402262
-[14:22:23] [Server thread/WARN]: Boat (vehicle of Dr_Axe) moved too quickly! 17.27232140640308,0.0,-8.535019896415704
-[14:22:23] [Server thread/WARN]: Boat (vehicle of Dr_Axe) moved too quickly! 17.55500585626214,0.0,-8.812510195718573
-[14:22:23] [Server thread/WARN]: Boat (vehicle of Dr_Axe) moved too quickly! 17.835089918527956,0.0,-9.092929632002395
-[14:22:23] [Server thread/WARN]: Boat (vehicle of Dr_Axe) moved too quickly! 18.112727595358592,0.0,-9.376073701951242
-[14:41:35] [Server thread/INFO]: Dr_Axe lost connection: Disconnected
-[14:41:35] [Server thread/INFO]: Dr_Axe left the game
-[16:45:17] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2521ms or 50 ticks behind
-[22:20:17] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2299ms or 45 ticks behind
+[01:00:53] [Worker-Main-11/INFO]: Preparing spawn area: 41%
+[01:00:54] [Worker-Main-11/INFO]: Preparing spawn area: 45%
+[01:00:54] [Worker-Main-13/INFO]: Preparing spawn area: 49%
+[01:00:55] [Worker-Main-13/INFO]: Preparing spawn area: 53%
+[01:00:56] [Worker-Main-8/INFO]: Preparing spawn area: 57%
+[01:00:56] [Worker-Main-12/INFO]: Preparing spawn area: 57%
+[01:00:56] [Worker-Main-10/INFO]: Preparing spawn area: 60%
+[01:00:57] [Worker-Main-9/INFO]: Preparing spawn area: 65%
+[01:00:57] [Worker-Main-9/INFO]: Preparing spawn area: 65%
+[01:00:58] [Worker-Main-10/INFO]: Preparing spawn area: 67%
+[01:00:58] [Worker-Main-13/INFO]: Preparing spawn area: 68%
+[01:00:59] [Worker-Main-12/INFO]: Preparing spawn area: 95%
+[01:01:00] [Server thread/INFO]: Time elapsed: 29484 ms
+[01:01:00] [Server thread/INFO]: Done (30.108s)! For help, type "help"
+[01:01:00] [Server thread/INFO]: Starting GS4 status listener
+[01:01:00] [Server thread/INFO]: Thread Query Listener started
+[01:01:00] [Query Listener #1/INFO]: Query running on 0.0.0.0:25565
+[01:01:07] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2006ms or 40 ticks behind
+[01:01:09] [Server thread/WARN]: UUID of added entity already exists: class_1531['Armor Stand'/155, l='ServerLevel[faro]', x=16562064.50, y=1000.00, z=-22242911.50]
+[05:10:11] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2219ms or 44 ticks behind
+[07:01:12] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7064ms or 141 ticks behind
+[07:11:15] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3356ms or 67 ticks behind
+[08:06:21] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6385ms or 127 ticks behind
+[08:21:24] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2166ms or 43 ticks behind
+[09:11:26] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2225ms or 44 ticks behind
+[09:39:09] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2661ms or 53 ticks behind
+[10:38:08] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2791ms or 55 ticks behind
+[11:51:35] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3819ms or 76 ticks behind
+[12:16:22] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2164ms or 43 ticks behind
+[16:08:22] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2419ms or 48 ticks behind
