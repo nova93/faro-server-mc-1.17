@@ -167,6 +167,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/popped_chorus_fruit": {
+    "criteria": {
+      "has_chorus_fruit": "2022-03-13 23:00:48 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/shears": {
     "criteria": {
       "has_iron_ingot": "2022-03-04 01:10:55 +0000"
@@ -431,6 +437,12 @@
     },
     "done": true
   },
+  "minecraft:story/lava_bucket": {
+    "criteria": {
+      "lava_bucket": "2022-03-13 22:13:36 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/cobblestone_slab_from_cobblestone_stonecutting": {
     "criteria": {
       "has_cobblestone": "2022-03-04 00:56:07 +0000"
@@ -533,7 +545,9 @@
       "minecraft:spider": "2022-03-04 02:50:53 +0000",
       "minecraft:creeper": "2022-03-04 04:02:49 +0000",
       "minecraft:phantom": "2022-03-04 02:45:20 +0000",
+      "minecraft:zombified_piglin": "2022-03-13 21:42:07 +0000",
       "minecraft:witch": "2022-03-04 04:32:05 +0000",
+      "minecraft:enderman": "2022-03-13 22:56:29 +0000",
       "minecraft:zombie": "2022-03-04 01:50:32 +0000",
       "minecraft:drowned": "2022-03-04 19:38:57 +0000"
     },
@@ -671,6 +685,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/cooked_cod_from_campfire_cooking": {
+    "criteria": {
+      "has_cod": "2022-03-13 22:44:12 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/follow_ender_eye": {
+    "criteria": {
+      "in_stronghold": "2022-03-13 22:53:31 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/cooked_porkchop": {
     "criteria": {
       "has_porkchop": "2022-03-04 01:12:57 +0000"
@@ -722,6 +748,12 @@
   "minecraft:recipes/building_blocks/granite_stairs": {
     "criteria": {
       "has_granite": "2022-03-04 01:07:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:end/root": {
+    "criteria": {
+      "entered_end": "2022-03-13 22:54:18 +0000"
     },
     "done": true
   },
@@ -1103,6 +1135,7 @@
       "minecraft:deep_cold_ocean": "2022-03-04 01:59:28 +0000",
       "minecraft:frozen_ocean": "2022-03-04 18:52:29 +0000",
       "minecraft:windswept_forest": "2022-03-04 02:10:41 +0000",
+      "minecraft:deep_frozen_ocean": "2022-03-13 22:47:33 +0000",
       "minecraft:ocean": "2022-03-04 02:13:38 +0000",
       "minecraft:deep_lukewarm_ocean": "2022-03-04 19:19:14 +0000",
       "minecraft:windswept_gravelly_hills": "2022-03-04 02:11:05 +0000",
@@ -1236,6 +1269,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/cooked_cod_from_smoking": {
+    "criteria": {
+      "has_cod": "2022-03-13 22:44:12 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/deepslate_tile_slab_from_deepslate_bricks_stonecutting": {
     "criteria": {
       "has_deepslate_bricks": "2022-03-04 01:30:44 +0000"
@@ -1251,6 +1290,16 @@
   "minecraft:recipes/misc/stick_from_bamboo_item": {
     "criteria": {
       "has_bamboo": "2022-03-04 02:18:55 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/explore_nether": {
+    "criteria": {
+      "minecraft:crimson_forest": "2022-03-13 21:47:02 +0000",
+      "minecraft:nether_wastes": "2022-03-13 21:30:59 +0000",
+      "minecraft:soul_sand_valley": "2022-03-13 22:52:56 +0000",
+      "minecraft:warped_forest": "2022-03-13 21:30:30 +0000",
+      "minecraft:basalt_deltas": "2022-03-13 21:29:42 +0000"
     },
     "done": true
   },
@@ -1377,6 +1426,12 @@
   "minecraft:recipes/building_blocks/stone_brick_slab_from_stone_bricks_stonecutting": {
     "criteria": {
       "has_stone_bricks": "2022-03-04 03:02:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/root": {
+    "criteria": {
+      "entered_nether": "2022-03-13 21:29:42 +0000"
     },
     "done": true
   },
@@ -1546,11 +1601,13 @@
     "criteria": {
       "cooked_porkchop": "2022-03-04 03:18:01 +0000",
       "cooked_beef": "2022-03-04 00:59:59 +0000",
+      "chorus_fruit": "2022-03-13 23:01:02 +0000",
       "baked_potato": "2022-03-04 18:22:14 +0000",
       "bread": "2022-03-04 21:21:47 +0000",
       "suspicious_stew": "2022-03-04 02:38:25 +0000",
       "cooked_chicken": "2022-03-04 01:17:55 +0000",
       "mushroom_stew": "2022-03-04 03:37:43 +0000",
+      "cod": "2022-03-13 23:00:27 +0000",
       "cooked_salmon": "2022-03-04 20:17:28 +0000",
       "carrot": "2022-03-04 05:24:11 +0000"
     },
@@ -1559,6 +1616,12 @@
   "minecraft:recipes/tools/wooden_hoe": {
     "criteria": {
       "has_stick": "2022-03-04 00:51:30 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_cod": {
+    "criteria": {
+      "has_cod": "2022-03-13 22:44:12 +0000"
     },
     "done": true
   },
@@ -1940,6 +2003,12 @@
     },
     "done": true
   },
+  "minecraft:story/enter_the_nether": {
+    "criteria": {
+      "entered_nether": "2022-03-13 21:29:42 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/green_bed_from_white_bed": {
     "criteria": {
       "has_bed": "2022-03-04 03:02:20 +0000"
@@ -2159,6 +2228,12 @@
   "minecraft:recipes/building_blocks/mossy_cobblestone_from_moss_block": {
     "criteria": {
       "has_moss_block": "2022-03-04 20:30:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/nether_brick": {
+    "criteria": {
+      "has_netherrack": "2022-03-13 21:36:14 +0000"
     },
     "done": true
   },
@@ -2396,6 +2471,12 @@
     },
     "done": true
   },
+  "minecraft:adventure/shoot_arrow": {
+    "criteria": {
+      "shot_arrow": "2022-03-13 21:41:56 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/birch_stairs": {
     "criteria": {
       "has_planks": "2022-03-04 03:38:30 +0000"
@@ -2447,6 +2528,12 @@
   "minecraft:recipes/decorations/brown_bed_from_white_bed": {
     "criteria": {
       "has_bed": "2022-03-04 03:02:20 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_end": {
+    "criteria": {
+      "entered_end": "2022-03-13 22:54:18 +0000"
     },
     "done": true
   },
